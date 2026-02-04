@@ -1,0 +1,37 @@
+# Compile of c1908_netlist.v was successful.
+# Compile of mycells.v was successful.
+# Compile of SerialFS_TB.sv was successful.
+# 3 compiles, 0 failed with no errors.
+# Compile of SerialFS_TB.sv was successful.
+domudo.do
+# invalid command name "domudo.do"
+do mydo.do
+# The DO file requires two arguments: 
+# 1. TB_Name and 2. Process_Name in which the wireName & stuckAtVal variables are defined. 
+# Please try again with the following syntax: 
+# do doFileName.do TB_Name Process_Name
+# In my case is:   do mydo.do SerialFS_TB
+do mydo.do SerialFS_TB
+# Compile of c1908_netlist.v was successful.
+# Compile of mycells.v was successful.
+# Compile of SerialFS_TB.sv was successful.
+# 3 compiles, 0 failed with no errors.
+# vsim work.SerialFS_TB 
+# Start time: 12:00:50 on Jul 18,2024
+# Loading sv_std.std
+# Loading work.SerialFS_TB
+# Loading work.c1908
+# Loading work.NOT
+# Loading work.NOR
+# Loading work.NAND
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Collapsed Faults =       3399
+#  , Detected Faults =       3209
+# 
+# coverage = 0.944101
+# 
+# ** Note: $stop    : C:/Users/apple/Documents/UT/Master Thesis/c1908/SerialFS_TB.sv(92)
+#    Time: 40084290 ns  Iteration: 0  Instance: /SerialFS_TB
+# Break in Module SerialFS_TB at C:/Users/apple/Documents/UT/Master Thesis/c1908/SerialFS_TB.sv line 92
+# End time: 12:42:05 on Jul 18,2024, Elapsed time: 0:41:15
+# Errors: 0, Warnings: 1

@@ -1,0 +1,156 @@
+m255
+K4
+z2
+!s11f vlog 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dC:/Users/apple/Documents/UT/Master Thesis/c2670_v2/sim
+vDFF
+Z0 !s110 1725016846
+!i10b 1
+!s100 TcOT6lXmf28fW[^`=Q=Gj0
+Z1 !s11b Dg1SIo80bB@j0V0VzS_@n1
+I<a9>[cHfhLRb>VQ224R4l1
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+Z3 dC:/Users/apple/Documents/UT/Master Thesis/mine/sim
+Z4 w1609697604
+Z5 8C:/Users/apple/Documents/UT/Master Thesis/mine/mycells.v
+Z6 FC:/Users/apple/Documents/UT/Master Thesis/mine/mycells.v
+!i122 29
+L0 20 6
+Z7 OV;L;2020.1;71
+r1
+!s85 0
+31
+Z8 !s108 1725016846.000000
+Z9 !s107 C:/Users/apple/Documents/UT/Master Thesis/mine/mycells.v|
+Z10 !s90 -reportprogress|300|-work|work|-stats=none|C:/Users/apple/Documents/UT/Master Thesis/mine/mycells.v|
+!i113 1
+Z11 o-work work
+Z12 tCvgOpt 0
+n@d@f@f
+vmine
+R0
+!i10b 1
+!s100 QF=VJGMZYe66=az>Ub[?S2
+R1
+IbYhEJCSN04b]^28XbJ1>N0
+R2
+R3
+w1725003552
+8C:/Users/apple/Documents/UT/Master Thesis/mine/mine_netlist.v
+FC:/Users/apple/Documents/UT/Master Thesis/mine/mine_netlist.v
+!i122 28
+L0 3 82
+R7
+r1
+!s85 0
+31
+R8
+!s107 C:/Users/apple/Documents/UT/Master Thesis/mine/mine_netlist.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/apple/Documents/UT/Master Thesis/mine/mine_netlist.v|
+!i113 1
+R11
+R12
+vNAND
+R0
+!i10b 1
+!s100 `Y:1XfRB[P7D@kUkB^zYo0
+R1
+Il>T;XVJ1E>kjz?V1oX73f3
+R2
+R3
+R4
+R5
+R6
+!i122 29
+L0 8 5
+R7
+r1
+!s85 0
+31
+R8
+R9
+R10
+!i113 1
+R11
+R12
+n@n@a@n@d
+vNOR
+R0
+!i10b 1
+!s100 [^mN^cH<5@4Ch59ec@GFN3
+R1
+I=37z:<L0E@feU?Ffi?oR90
+R2
+R3
+R4
+R5
+R6
+!i122 29
+L0 14 5
+R7
+r1
+!s85 0
+31
+R8
+R9
+R10
+!i113 1
+R11
+R12
+n@n@o@r
+vNOT
+R0
+!i10b 1
+!s100 6imPiVbaJg0f_oC;Un^in0
+R1
+IJ0R2[24^XIBh5d[zXm8TA2
+R2
+R3
+R4
+R5
+R6
+!i122 29
+L0 2 5
+R7
+r1
+!s85 0
+31
+R8
+R9
+R10
+!i113 1
+R11
+R12
+n@n@o@t
+vSerialFS_TB
+DXx6 sv_std 3 std 0 22 VYECXdT12H8WgbUP_5Y6:3
+R0
+!i10b 1
+!s100 =`>h1^UVigEeX`JohN;Gk3
+R1
+IVlgSFQ^3Va?N^he:nl8WF1
+R2
+S1
+R3
+w1725016843
+8C:/Users/apple/Documents/UT/Master Thesis/mine/SerialFS_TB.sv
+FC:/Users/apple/Documents/UT/Master Thesis/mine/SerialFS_TB.sv
+!i122 30
+L0 2 103
+R7
+r1
+!s85 0
+31
+R8
+!s107 C:/Users/apple/Documents/UT/Master Thesis/mine/SerialFS_TB.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/apple/Documents/UT/Master Thesis/mine/SerialFS_TB.sv|
+!i113 1
+o-work work -sv
+R12
+n@serial@f@s_@t@b

@@ -1,0 +1,1 @@
+WARNING: Default time step is used for VCD tracing.

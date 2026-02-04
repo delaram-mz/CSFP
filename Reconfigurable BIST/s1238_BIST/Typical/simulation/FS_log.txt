@@ -1,0 +1,8 @@
+
+
+==========> # Group Value: 47.000000 
+==========> # of Detected Faults: 1066.000000 
+==========> # of Injected Faults: 1204.000000 
+==========> Fault Coverage Typical: 0.885382 
+==========> Fault Simulation Time:         186186660000 
+==========> BIST Run Time:            154630000 

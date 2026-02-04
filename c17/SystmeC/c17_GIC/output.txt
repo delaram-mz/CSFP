@@ -1,0 +1,2 @@
+all gates are instantiated 6
+WARNING: Default time step is used for VCD tracing.

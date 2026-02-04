@@ -1,0 +1,64 @@
+$date
+	Tue Aug 20 16:22:40 2024
+$end
+$version
+	ModelSim Version 2020.1
+$end
+$timescale
+	1ps
+$end
+
+$scope module SerialFS_TB $end
+
+$scope module GUT $end
+$var wire 1 ! N1 $end
+$var wire 1 " N2 $end
+$var wire 1 # N3 $end
+$var wire 1 $ N6 $end
+$var wire 1 % N7 $end
+$var wire 1 & N22 $end
+$var wire 1 ' N23 $end
+$var wire 1 ( n7 $end
+$var wire 1 ) n8 $end
+$var wire 1 * n9 $end
+$var wire 1 + n10 $end
+
+$scope module U7 $end
+$var wire 1 * A $end
+$var wire 1 ( B1 $end
+$var wire 1 ) B2 $end
+$var wire 1 ' ZN $end
+$var wire 1 , i_8 $end
+$var wire 1 - i_9 $end
+$upscope $end
+
+$scope module U8 $end
+$var wire 1 % A $end
+$var wire 1 ) ZN $end
+$upscope $end
+
+$scope module U9 $end
+$var wire 1 + A $end
+$var wire 1 * B1 $end
+$var wire 1 ( B2 $end
+$var wire 1 & ZN $end
+$var wire 1 . i_8 $end
+$var wire 1 / i_9 $end
+$upscope $end
+
+$scope module U10 $end
+$var wire 1 ! A1 $end
+$var wire 1 # A2 $end
+$var wire 1 + ZN $end
+$var wire 1 0 i_10 $end
+$upscope $end
+
+$scope module U11 $end
+$var wire 1 " A $end
+$var wire 1 ( ZN $end
+$upscope $end
+
+$scope module U12 $end
+$var wire 1 $ A1 $end
+$var wire 1 # A2 $end
+$var wire 1 * ZN $end

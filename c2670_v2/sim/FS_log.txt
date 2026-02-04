@@ -1,0 +1,690 @@
+==========> Fault Simulation Begins at                    0 
+Test Vector number           0 is:  100001110000010101101110100101010011 
+Detected fault : s@0  SerialFS_TB.FUT._1311_.Y
+Detected fault : s@0  SerialFS_TB.FUT._1312_.Y
+Detected fault : s@1  SerialFS_TB.FUT._1313_.Y
+Detected fault : s@1  SerialFS_TB.FUT._1314_.Y
+Detected fault : s@0  SerialFS_TB.FUT._1315_.Y
+Detected fault : s@0  SerialFS_TB.FUT._1316_.Y
+Detected fault : s@0  SerialFS_TB.FUT._1317_.Y
+Detected fault : s@0  SerialFS_TB.FUT._1318_.Y
+Detected fault : s@0  SerialFS_TB.FUT._1325_.Y
+Detected fault : s@0  SerialFS_TB.FUT._1329_.Y
+Detected fault : s@0  SerialFS_TB.FUT._1330_.Y
+Detected fault : s@0  SerialFS_TB.FUT._1332_.Y
+Detected fault : s@1  SerialFS_TB.FUT._1332_.B
+Detected fault : s@0  SerialFS_TB.FUT._1333_.Y
+Detected fault : s@1  SerialFS_TB.FUT._1333_.B
+Detected fault : s@0  SerialFS_TB.FUT._1334_.B
+Detected fault : s@0  SerialFS_TB.FUT._1335_.B
+Detected fault : s@0  SerialFS_TB.FUT._1337_.A
+Detected fault : s@0  SerialFS_TB.FUT._1337_.B
+Detected fault : s@0  SerialFS_TB.FUT._1338_.A
+Detected fault : s@0  SerialFS_TB.FUT._1338_.B
+Detected fault : s@1  SerialFS_TB.FUT._1340_.Y
+Detected fault : s@0  SerialFS_TB.FUT._1341_.Y
+Detected fault : s@1  SerialFS_TB.FUT._1343_.B
+Detected fault : s@0  SerialFS_TB.FUT._1348_.Y
+Detected fault : s@0  SerialFS_TB.FUT._1349_.A
+Detected fault : s@1  SerialFS_TB.FUT._1351_.Y
+Detected fault : s@0  SerialFS_TB.FUT._1351_.A
+Detected fault : s@1  SerialFS_TB.FUT._1352_.A
+Detected fault : s@0  SerialFS_TB.FUT._1354_.Y
+Detected fault : s@1  SerialFS_TB.FUT._1358_.A
+Detected fault : s@0  SerialFS_TB.FUT._1361_.Y
+Detected fault : s@1  SerialFS_TB.FUT._1362_.B
+Detected fault : s@1  SerialFS_TB.FUT._1366_.A
+Detected fault : s@0  SerialFS_TB.FUT._1368_.Y
+Detected fault : s@0  SerialFS_TB.FUT._1370_.Y
+Detected fault : s@1  SerialFS_TB.FUT._1370_.B
+Detected fault : s@1  SerialFS_TB.FUT._1371_.Y
+Detected fault : s@1  SerialFS_TB.FUT._1372_.A
+Detected fault : s@1  SerialFS_TB.FUT._1374_.A
+Detected fault : s@0  SerialFS_TB.FUT._1378_.Y
+Detected fault : s@0  SerialFS_TB.FUT._1380_.Y
+Detected fault : s@1  SerialFS_TB.FUT._1380_.A
+Detected fault : s@1  SerialFS_TB.FUT._1380_.B
+Detected fault : s@0  SerialFS_TB.FUT._1384_.Y
+Detected fault : s@1  SerialFS_TB.FUT._1385_.Y
+Detected fault : s@0  SerialFS_TB.FUT._1387_.Y
+Detected fault : s@0  SerialFS_TB.FUT._1390_.A
+Detected fault : s@1  SerialFS_TB.FUT._1395_.Y
+Detected fault : s@0  SerialFS_TB.FUT._1396_.Y
+Detected fault : s@0  SerialFS_TB.FUT._1401_.A
+Detected fault : s@0  SerialFS_TB.FUT._1406_.Y
+Detected fault : s@1  SerialFS_TB.FUT._1407_.Y
+Detected fault : s@1  SerialFS_TB.FUT._1408_.B
+Detected fault : s@1  SerialFS_TB.FUT._1409_.B
+Detected fault : s@1  SerialFS_TB.FUT._1410_.Y
+Detected fault : s@0  SerialFS_TB.FUT._1411_.Y
+Detected fault : s@0  SerialFS_TB.FUT._1412_.Y
+Detected fault : s@1  SerialFS_TB.FUT._1413_.Y
+Detected fault : s@0  SerialFS_TB.FUT._1414_.Y
+Detected fault : s@1  SerialFS_TB.FUT._1414_.A
+Detected fault : s@0  SerialFS_TB.FUT._1416_.Y
+Detected fault : s@1  SerialFS_TB.FUT._1416_.B
+Detected fault : s@0  SerialFS_TB.FUT._1418_.A
+Detected fault : s@0  SerialFS_TB.FUT._1420_.Y
+Detected fault : s@1  SerialFS_TB.FUT._1421_.Y
+Detected fault : s@0  SerialFS_TB.FUT._1423_.A
+Detected fault : s@0  SerialFS_TB.FUT._1427_.Y
+Detected fault : s@1  SerialFS_TB.FUT._1429_.B
+Detected fault : s@1  SerialFS_TB.FUT._1434_.Y
+Detected fault : s@1  SerialFS_TB.FUT._1435_.A
+Detected fault : s@1  SerialFS_TB.FUT._1438_.Y
+Detected fault : s@0  SerialFS_TB.FUT._1440_.Y
+Detected fault : s@1  SerialFS_TB.FUT._1441_.Y
+Detected fault : s@0  SerialFS_TB.FUT._1442_.Y
+Detected fault : s@1  SerialFS_TB.FUT._1443_.A
+Detected fault : s@0  SerialFS_TB.FUT._1449_.Y
+Detected fault : s@1  SerialFS_TB.FUT._1450_.Y
+Detected fault : s@0  SerialFS_TB.FUT._1451_.Y
+Detected fault : s@0  SerialFS_TB.FUT._1453_.Y
+Detected fault : s@0  SerialFS_TB.FUT._1455_.Y
+Detected fault : s@0  SerialFS_TB.FUT._1460_.Y
+Detected fault : s@1  SerialFS_TB.FUT._1461_.Y
+Detected fault : s@0  SerialFS_TB.FUT._1462_.Y
+Detected fault : s@0  SerialFS_TB.FUT._1464_.B
+Detected fault : s@0  SerialFS_TB.FUT._1465_.Y
+Detected fault : s@0  SerialFS_TB.FUT._1466_.Y
+Detected fault : s@0  SerialFS_TB.FUT._1467_.B
+Detected fault : s@0  SerialFS_TB.FUT._1468_.Y
+Detected fault : s@0  SerialFS_TB.FUT._1469_.A
+Detected fault : s@0  SerialFS_TB.FUT._1470_.Y
+Detected fault : s@0  SerialFS_TB.FUT._1474_.Y
+Detected fault : s@0  SerialFS_TB.FUT._1476_.Y
+Detected fault : s@0  SerialFS_TB.FUT._1477_.A
+Detected fault : s@0  SerialFS_TB.FUT._1477_.B
+Detected fault : s@0  SerialFS_TB.FUT._1479_.Y
+Detected fault : s@1  SerialFS_TB.FUT._1480_.Y
+Detected fault : s@0  SerialFS_TB.FUT._1484_.Y
+Detected fault : s@0  SerialFS_TB.FUT._1486_.Y
+Detected fault : s@1  SerialFS_TB.FUT._1487_.B
+Detected fault : s@0  SerialFS_TB.FUT._1489_.A
+Detected fault : s@0  SerialFS_TB.FUT._1490_.Y
+Detected fault : s@0  SerialFS_TB.FUT._1491_.A
+Detected fault : s@0  SerialFS_TB.FUT._1491_.B
+Detected fault : s@0  SerialFS_TB.FUT._1493_.Y
+Detected fault : s@1  SerialFS_TB.FUT._1494_.Y
+Detected fault : s@0  SerialFS_TB.FUT._1495_.Y
+Detected fault : s@0  SerialFS_TB.FUT._1496_.Y
+Detected fault : s@0  SerialFS_TB.FUT._1498_.Y
+Detected fault : s@0  SerialFS_TB.FUT._1499_.Y
+Detected fault : s@1  SerialFS_TB.FUT._1500_.Y
+Detected fault : s@0  SerialFS_TB.FUT._1501_.B
+Detected fault : s@1  SerialFS_TB.FUT._1502_.A
+Detected fault : s@0  SerialFS_TB.FUT._1504_.Y
+Detected fault : s@0  SerialFS_TB.FUT._1506_.Y
+Detected fault : s@1  SerialFS_TB.FUT._1510_.Y
+Detected fault : s@0  SerialFS_TB.FUT._1514_.Y
+Detected fault : s@0  SerialFS_TB.FUT._1516_.Y
+Detected fault : s@0  SerialFS_TB.FUT._1517_.A
+Detected fault : s@1  SerialFS_TB.FUT._1518_.B
+Detected fault : s@0  SerialFS_TB.FUT._1520_.Y
+Detected fault : s@0  SerialFS_TB.FUT._1522_.Y
+Detected fault : s@0  SerialFS_TB.FUT._1523_.A
+Detected fault : s@0  SerialFS_TB.FUT._1523_.B
+Detected fault : s@1  SerialFS_TB.FUT._1524_.Y
+Detected fault : s@0  SerialFS_TB.FUT._1525_.Y
+Detected fault : s@1  SerialFS_TB.FUT._1530_.A
+Detected fault : s@0  SerialFS_TB.FUT._1532_.Y
+Detected fault : s@1  SerialFS_TB.FUT._1533_.Y
+Detected fault : s@1  SerialFS_TB.FUT._1534_.A
+Detected fault : s@1  SerialFS_TB.FUT._1534_.B
+Detected fault : s@0  SerialFS_TB.FUT._1535_.Y
+Detected fault : s@1  SerialFS_TB.FUT._1536_.Y
+Detected fault : s@0  SerialFS_TB.FUT._1537_.Y
+Detected fault : s@0  SerialFS_TB.FUT._1578_.Y
+Detected fault : s@1  SerialFS_TB.FUT._1579_.Y
+Detected fault : s@0  SerialFS_TB.FUT._1584_.A
+Detected fault : s@0  SerialFS_TB.FUT._1589_.A
+Detected fault : s@1  SerialFS_TB.FUT._1593_.Y
+Detected fault : s@0  SerialFS_TB.FUT._1594_.Y
+Detected fault : s@0  SerialFS_TB.FUT._1595_.A
+Detected fault : s@0  SerialFS_TB.FUT._1612_.B
+Detected fault : s@0  SerialFS_TB.FUT._1616_.A
+Detected fault : s@0  SerialFS_TB.FUT._1624_.B
+Detected fault : s@0  SerialFS_TB.FUT._1638_.Y
+Detected fault : s@1  SerialFS_TB.FUT._1639_.Y
+Detected fault : s@0  SerialFS_TB.FUT._1641_.A
+Detected fault : s@0  SerialFS_TB.FUT._1643_.A
+Detected fault : s@0  SerialFS_TB.FUT._1645_.Y
+Detected fault : s@1  SerialFS_TB.FUT._1646_.Y
+Detected fault : s@1  SerialFS_TB.FUT._1654_.A
+Detected fault : s@0  SerialFS_TB.FUT._1657_.Y
+Detected fault : s@1  SerialFS_TB.FUT._1672_.A
+Detected fault : s@1  SerialFS_TB.FUT._1675_.A
+Detected fault : s@1  SerialFS_TB.FUT._1678_.Y
+Detected fault : s@1  SerialFS_TB.FUT._1683_.B
+Detected fault : s@1  SerialFS_TB.FUT._1693_.B
+Detected fault : s@1  SerialFS_TB.FUT._1702_.B
+Detected fault : s@0  SerialFS_TB.FUT._1707_.Y
+Detected fault : s@1  SerialFS_TB.FUT._1717_.A
+Detected fault : s@1  SerialFS_TB.FUT._1720_.Y
+Detected fault : s@1  SerialFS_TB.FUT._1726_.A
+Detected fault : s@1  SerialFS_TB.FUT._1733_.Y
+Detected fault : s@1  SerialFS_TB.FUT._1737_.B
+Detected fault : s@0  SerialFS_TB.FUT._1744_.A
+Detected fault : s@0  SerialFS_TB.FUT._1751_.A
+Detected fault : s@1  SerialFS_TB.FUT._1757_.Y
+Detected fault : s@1  SerialFS_TB.FUT._1761_.B
+Detected fault : s@1  SerialFS_TB.FUT._1782_.A
+Detected fault : s@0  SerialFS_TB.FUT._1784_.Y
+Detected fault : s@1  SerialFS_TB.FUT._1785_.Y
+Detected fault : s@1  SerialFS_TB.FUT._1796_.B
+Detected fault : s@1  SerialFS_TB.FUT._1805_.Y
+Detected fault : s@0  SerialFS_TB.FUT._1806_.Y
+Detected fault : s@0  SerialFS_TB.FUT._1807_.A
+Detected fault : s@0  SerialFS_TB.FUT._1807_.B
+Detected fault : s@0  SerialFS_TB.FUT._1808_.Y
+Detected fault : s@1  SerialFS_TB.FUT._1809_.Y
+Detected fault : s@0  SerialFS_TB.FUT._1810_.Y
+Detected fault : s@1  SerialFS_TB.FUT._1811_.A
+Detected fault : s@1  SerialFS_TB.FUT._1811_.B
+Detected fault : s@1  SerialFS_TB.FUT._1813_.Y
+Detected fault : s@0  SerialFS_TB.FUT._1825_.A
+Detected fault : s@0  SerialFS_TB.FUT._1826_.B
+Detected fault : s@0  SerialFS_TB.FUT._1827_.Y
+Detected fault : s@1  SerialFS_TB.FUT._1832_.A
+Detected fault : s@0  SerialFS_TB.FUT._1837_.Y
+Detected fault : s@0  SerialFS_TB.FUT._1838_.A
+Detected fault : s@1  SerialFS_TB.FUT._1839_.B
+Detected fault : s@0  SerialFS_TB.FUT._1841_.Y
+Detected fault : s@1  SerialFS_TB.FUT._1842_.Y
+Detected fault : s@0  SerialFS_TB.FUT._1843_.Y
+Detected fault : s@1  SerialFS_TB.FUT._1846_.Y
+Detected fault : s@0  SerialFS_TB.FUT._1847_.Y
+Detected fault : s@0  SerialFS_TB.FUT._1849_.B
+Detected fault : s@0  SerialFS_TB.FUT._1851_.Y
+Detected fault : s@1  SerialFS_TB.FUT._1853_.A
+Detected fault : s@1  SerialFS_TB.FUT._1853_.B
+Detected fault : s@0  SerialFS_TB.FUT._1855_.B
+Detected fault : s@1  SerialFS_TB.FUT._1856_.Y
+Detected fault : s@0  SerialFS_TB.FUT._1857_.Y
+Detected fault : s@1  SerialFS_TB.FUT._1859_.A
+Detected fault : s@1  SerialFS_TB.FUT._1859_.B
+Detected fault : s@1  SerialFS_TB.FUT._1861_.Y
+Detected fault : s@0  SerialFS_TB.FUT._1861_.B
+Detected fault : s@0  SerialFS_TB.FUT._1863_.Y
+Detected fault : s@0  SerialFS_TB.FUT._1868_.A
+Detected fault : s@1  SerialFS_TB.FUT._1871_.Y
+Detected fault : s@0  SerialFS_TB.FUT._1872_.Y
+Detected fault : s@0  SerialFS_TB.FUT._1873_.Y
+Detected fault : s@0  SerialFS_TB.FUT._1874_.A
+Detected fault : s@0  SerialFS_TB.FUT._1874_.B
+Detected fault : s@1  SerialFS_TB.FUT._1875_.Y
+Detected fault : s@0  SerialFS_TB.FUT._1876_.Y
+Detected fault : s@1  SerialFS_TB.FUT._1877_.A
+Detected fault : s@0  SerialFS_TB.FUT._1879_.B
+Detected fault : s@0  SerialFS_TB.FUT._1880_.Y
+Detected fault : s@0  SerialFS_TB.FUT._1881_.A
+Detected fault : s@0  SerialFS_TB.FUT._1882_.B
+Detected fault : s@0  SerialFS_TB.FUT._1883_.Y
+Detected fault : s@0  SerialFS_TB.FUT._1884_.A
+Detected fault : s@0  SerialFS_TB.FUT._1884_.B
+Detected fault : s@1  SerialFS_TB.FUT._1886_.Y
+Detected fault : s@1  SerialFS_TB.FUT._1887_.A
+Detected fault : s@0  SerialFS_TB.FUT._1888_.B
+Detected fault : s@0  SerialFS_TB.FUT._1889_.Y
+Detected fault : s@0  SerialFS_TB.FUT._1891_.Y
+Detected fault : s@1  SerialFS_TB.FUT._1892_.Y
+Detected fault : s@0  SerialFS_TB.FUT._1893_.A
+Detected fault : s@0  SerialFS_TB.FUT._1893_.B
+Detected fault : s@0  SerialFS_TB.FUT._1894_.Y
+Detected fault : s@1  SerialFS_TB.FUT._1895_.Y
+Detected fault : s@0  SerialFS_TB.FUT._1896_.B
+Detected fault : s@0  SerialFS_TB.FUT._1897_.Y
+Detected fault : s@0  SerialFS_TB.FUT._1899_.Y
+Detected fault : s@0  SerialFS_TB.FUT._1900_.A
+Detected fault : s@1  SerialFS_TB.FUT._1901_.B
+Detected fault : s@0  SerialFS_TB.FUT._1903_.Y
+Detected fault : s@1  SerialFS_TB.FUT._1904_.Y
+Detected fault : s@0  SerialFS_TB.FUT._1905_.Y
+Detected fault : s@1  SerialFS_TB.FUT._1906_.A
+Detected fault : s@1  SerialFS_TB.FUT._1906_.B
+Detected fault : s@1  SerialFS_TB.FUT._1908_.Y
+Detected fault : s@0  SerialFS_TB.FUT._1909_.A
+Detected fault : s@1  SerialFS_TB.FUT._1911_.A
+Detected fault : s@0  SerialFS_TB.FUT._1913_.Y
+Detected fault : s@1  SerialFS_TB.FUT._1913_.B
+Detected fault : s@1  SerialFS_TB.FUT._1914_.Y
+Detected fault : s@0  SerialFS_TB.FUT._1915_.Y
+Detected fault : s@1  SerialFS_TB.FUT._1915_.A
+Detected fault : s@1  SerialFS_TB.FUT._1916_.Y
+Detected fault : s@0  SerialFS_TB.FUT._1918_.Y
+Detected fault : s@1  SerialFS_TB.FUT._1918_.B
+Detected fault : s@1  SerialFS_TB.FUT._1921_.Y
+Detected fault : s@0  SerialFS_TB.FUT._1922_.Y
+Detected fault : s@1  SerialFS_TB.FUT._1922_.A
+Detected fault : s@0  SerialFS_TB.FUT._1923_.Y
+Detected fault : s@1  SerialFS_TB.FUT._1924_.A
+Detected fault : s@1  SerialFS_TB.FUT._1925_.A
+Detected fault : s@1  SerialFS_TB.FUT._1925_.B
+Detected fault : s@1  SerialFS_TB.FUT._1926_.Y
+Detected fault : s@1  SerialFS_TB.FUT._1927_.Y
+Detected fault : s@1  SerialFS_TB.FUT._1928_.B
+Detected fault : s@0  SerialFS_TB.FUT._1929_.Y
+Detected fault : s@0  SerialFS_TB.FUT._1930_.Y
+Detected fault : s@1  SerialFS_TB.FUT._1931_.A
+Detected fault : s@1  SerialFS_TB.FUT._1932_.Y
+Detected fault : s@0  SerialFS_TB.FUT._1933_.A
+Detected fault : s@0  SerialFS_TB.FUT._1934_.Y
+Detected fault : s@0  SerialFS_TB.FUT._1935_.Y
+Detected fault : s@1  SerialFS_TB.FUT._1935_.B
+Detected fault : s@0  SerialFS_TB.FUT._1937_.Y
+Detected fault : s@1  SerialFS_TB.FUT._1938_.Y
+Detected fault : s@0  SerialFS_TB.FUT._1938_.B
+Detected fault : s@1  SerialFS_TB.FUT._1939_.Y
+Detected fault : s@0  SerialFS_TB.FUT._1939_.B
+Detected fault : s@0  SerialFS_TB.FUT._1940_.Y
+Detected fault : s@1  SerialFS_TB.FUT._1940_.A
+Detected fault : s@0  SerialFS_TB.FUT._1942_.Y
+Detected fault : s@1  SerialFS_TB.FUT._1943_.Y
+Detected fault : s@0  SerialFS_TB.FUT._1945_.Y
+Detected fault : s@1  SerialFS_TB.FUT._1946_.Y
+Detected fault : s@0  SerialFS_TB.FUT._1953_.A
+Detected fault : s@0  SerialFS_TB.FUT._1954_.B
+Detected fault : s@1  SerialFS_TB.FUT._1956_.B
+Detected fault : s@1  SerialFS_TB.FUT._1958_.B
+Detected fault : s@0  SerialFS_TB.FUT._1959_.Y
+Detected fault : s@1  SerialFS_TB.FUT._1960_.B
+Detected fault : s@0  SerialFS_TB.FUT._1963_.A
+Detected fault : s@1  SerialFS_TB.FUT._1968_.A
+Detected fault : s@0  SerialFS_TB.FUT._1978_.B
+Detected fault : s@1  SerialFS_TB.FUT._1981_.B
+Detected fault : s@1  SerialFS_TB.FUT._1982_.B
+Detected fault : s@1  SerialFS_TB.FUT._1985_.B
+Detected fault : s@1  SerialFS_TB.FUT._1988_.B
+Detected fault : s@1  SerialFS_TB.FUT._1990_.B
+Detected fault : s@0  SerialFS_TB.FUT._1992_.B
+Detected fault : s@0  SerialFS_TB.FUT._1995_.B
+Detected fault : s@0  SerialFS_TB.FUT._2005_.B
+Detected fault : s@1  SerialFS_TB.FUT._2007_.Y
+Detected fault : s@1  SerialFS_TB.FUT._2008_.B
+Detected fault : s@1  SerialFS_TB.FUT._2017_.A
+Detected fault : s@1  SerialFS_TB.FUT._2019_.A
+Detected fault : s@1  SerialFS_TB.FUT._2019_.B
+Detected fault : s@1  SerialFS_TB.FUT._2024_.Y
+Detected fault : s@1  SerialFS_TB.FUT._2032_.A
+Detected fault : s@1  SerialFS_TB.FUT._2032_.B
+Detected fault : s@0  SerialFS_TB.FUT._2039_.A
+Detected fault : s@1  SerialFS_TB.FUT._2041_.A
+Detected fault : s@1  SerialFS_TB.FUT._2041_.B
+Detected fault : s@1  SerialFS_TB.FUT._2046_.Y
+Detected fault : s@0  SerialFS_TB.FUT._2052_.Y
+Test Vector number           1 is:  000000100101010010101111111000011000 
+Detected fault : s@0  SerialFS_TB.FUT._1314_.Y
+Detected fault : s@1  SerialFS_TB.FUT._1315_.Y
+Detected fault : s@0  SerialFS_TB.FUT._1335_.A
+Detected fault : s@0  SerialFS_TB.FUT._1369_.Y
+Detected fault : s@1  SerialFS_TB.FUT._1379_.Y
+Detected fault : s@1  SerialFS_TB.FUT._1381_.Y
+Detected fault : s@1  SerialFS_TB.FUT._1382_.A
+Detected fault : s@0  SerialFS_TB.FUT._1383_.Y
+Detected fault : s@1  SerialFS_TB.FUT._1384_.Y
+Detected fault : s@0  SerialFS_TB.FUT._1385_.Y
+Detected fault : s@1  SerialFS_TB.FUT._1388_.A
+Detected fault : s@0  SerialFS_TB.FUT._1395_.Y
+Detected fault : s@1  SerialFS_TB.FUT._1396_.Y
+Detected fault : s@1  SerialFS_TB.FUT._1397_.A
+Detected fault : s@1  SerialFS_TB.FUT._1427_.Y
+Detected fault : s@0  SerialFS_TB.FUT._1432_.Y
+Detected fault : s@1  SerialFS_TB.FUT._1433_.Y
+Detected fault : s@0  SerialFS_TB.FUT._1434_.Y
+Detected fault : s@1  SerialFS_TB.FUT._1439_.A
+Detected fault : s@1  SerialFS_TB.FUT._1446_.Y
+Detected fault : s@1  SerialFS_TB.FUT._1447_.A
+Detected fault : s@0  SerialFS_TB.FUT._1448_.Y
+Detected fault : s@1  SerialFS_TB.FUT._1449_.Y
+Detected fault : s@0  SerialFS_TB.FUT._1450_.Y
+Detected fault : s@0  SerialFS_TB.FUT._1605_.A
+Detected fault : s@1  SerialFS_TB.FUT._1689_.Y
+Detected fault : s@1  SerialFS_TB.FUT._1768_.A
+Detected fault : s@0  SerialFS_TB.FUT._1858_.Y
+Detected fault : s@1  SerialFS_TB.FUT._1864_.A
+Detected fault : s@1  SerialFS_TB.FUT._1877_.B
+Detected fault : s@0  SerialFS_TB.FUT._1879_.Y
+Detected fault : s@1  SerialFS_TB.FUT._1880_.Y
+Detected fault : s@0  SerialFS_TB.FUT._1881_.B
+Detected fault : s@0  SerialFS_TB.FUT._1882_.Y
+Detected fault : s@1  SerialFS_TB.FUT._1883_.Y
+Detected fault : s@0  SerialFS_TB.FUT._1884_.Y
+Detected fault : s@1  SerialFS_TB.FUT._1886_.A
+Detected fault : s@1  SerialFS_TB.FUT._1886_.B
+Detected fault : s@0  SerialFS_TB.FUT._1890_.B
+Detected fault : s@0  SerialFS_TB.FUT._1894_.A
+Detected fault : s@0  SerialFS_TB.FUT._1895_.Y
+Detected fault : s@0  SerialFS_TB.FUT._1896_.Y
+Detected fault : s@0  SerialFS_TB.FUT._1897_.A
+Detected fault : s@0  SerialFS_TB.FUT._1897_.B
+Detected fault : s@0  SerialFS_TB.FUT._1900_.B
+Detected fault : s@0  SerialFS_TB.FUT._1902_.Y
+Detected fault : s@1  SerialFS_TB.FUT._1903_.Y
+Detected fault : s@0  SerialFS_TB.FUT._1904_.Y
+Detected fault : s@0  SerialFS_TB.FUT._1905_.A
+Detected fault : s@0  SerialFS_TB.FUT._1908_.Y
+Detected fault : s@0  SerialFS_TB.FUT._1916_.B
+Detected fault : s@0  SerialFS_TB.FUT._1917_.A
+Detected fault : s@0  SerialFS_TB.FUT._1919_.Y
+Detected fault : s@1  SerialFS_TB.FUT._1927_.A
+Detected fault : s@1  SerialFS_TB.FUT._1928_.A
+Detected fault : s@1  SerialFS_TB.FUT._1929_.Y
+Detected fault : s@1  SerialFS_TB.FUT._1949_.B
+Detected fault : s@1  SerialFS_TB.FUT._1952_.B
+Detected fault : s@0  SerialFS_TB.FUT._1966_.A
+Detected fault : s@1  SerialFS_TB.FUT._1984_.B
+Detected fault : s@1  SerialFS_TB.FUT._2000_.A
+Detected fault : s@1  SerialFS_TB.FUT._2013_.B
+Detected fault : s@0  SerialFS_TB.FUT._2035_.A
+Test Vector number           2 is:  110110110010101100101101111101011110 
+Detected fault : s@0  SerialFS_TB.FUT._1313_.Y
+Detected fault : s@1  SerialFS_TB.FUT._1330_.B
+Detected fault : s@0  SerialFS_TB.FUT._1334_.A
+Detected fault : s@1  SerialFS_TB.FUT._1412_.B
+Test Vector number           3 is:  101011010100100100101101011100100100 
+Detected fault : s@0  SerialFS_TB.FUT._1441_.Y
+Detected fault : s@1  SerialFS_TB.FUT._1442_.Y
+Detected fault : s@0  SerialFS_TB.FUT._1586_.Y
+Detected fault : s@1  SerialFS_TB.FUT._1587_.Y
+Detected fault : s@0  SerialFS_TB.FUT._1593_.Y
+Detected fault : s@1  SerialFS_TB.FUT._1594_.Y
+Detected fault : s@0  SerialFS_TB.FUT._1600_.A
+Detected fault : s@0  SerialFS_TB.FUT._1871_.Y
+Detected fault : s@0  SerialFS_TB.FUT._1872_.A
+Detected fault : s@1  SerialFS_TB.FUT._1873_.Y
+Detected fault : s@0  SerialFS_TB.FUT._1875_.Y
+Detected fault : s@1  SerialFS_TB.FUT._1876_.Y
+Detected fault : s@0  SerialFS_TB.FUT._1879_.A
+Detected fault : s@0  SerialFS_TB.FUT._1887_.Y
+Detected fault : s@0  SerialFS_TB.FUT._1891_.B
+Detected fault : s@0  SerialFS_TB.FUT._1892_.Y
+Detected fault : s@0  SerialFS_TB.FUT._1893_.Y
+Detected fault : s@0  SerialFS_TB.FUT._1894_.B
+Detected fault : s@0  SerialFS_TB.FUT._1905_.B
+Detected fault : s@1  SerialFS_TB.FUT._1924_.Y
+Detected fault : s@0  SerialFS_TB.FUT._1926_.Y
+Detected fault : s@0  SerialFS_TB.FUT._1932_.Y
+Detected fault : s@1  SerialFS_TB.FUT._1932_.B
+Detected fault : s@0  SerialFS_TB.FUT._1936_.B
+Detected fault : s@0  SerialFS_TB.FUT._1938_.A
+Detected fault : s@0  SerialFS_TB.FUT._1939_.Y
+Detected fault : s@1  SerialFS_TB.FUT._1940_.B
+Detected fault : s@1  SerialFS_TB.FUT._1942_.Y
+Detected fault : s@0  SerialFS_TB.FUT._1942_.B
+Detected fault : s@1  SerialFS_TB.FUT._1943_.A
+Detected fault : s@1  SerialFS_TB.FUT._1944_.A
+Detected fault : s@1  SerialFS_TB.FUT._1945_.Y
+Detected fault : s@1  SerialFS_TB.FUT._1946_.A
+Detected fault : s@1  SerialFS_TB.FUT._1950_.A
+Detected fault : s@1  SerialFS_TB.FUT._1959_.Y
+Detected fault : s@1  SerialFS_TB.FUT._1960_.A
+Detected fault : s@0  SerialFS_TB.FUT._1994_.B
+Test Vector number           4 is:  001000010101001100011110000110011010 
+Detected fault : s@1  SerialFS_TB.FUT._1399_.Y
+Detected fault : s@0  SerialFS_TB.FUT._1405_.Y
+Detected fault : s@1  SerialFS_TB.FUT._1406_.Y
+Detected fault : s@0  SerialFS_TB.FUT._1407_.Y
+Detected fault : s@0  SerialFS_TB.FUT._1620_.A
+Detected fault : s@0  SerialFS_TB.FUT._1881_.Y
+Detected fault : s@0  SerialFS_TB.FUT._1882_.A
+Detected fault : s@0  SerialFS_TB.FUT._1960_.Y
+Detected fault : s@1  SerialFS_TB.FUT._1972_.Y
+Detected fault : s@1  SerialFS_TB.FUT._1980_.B
+Test Vector number           5 is:  010010001111100101111000100111010110 
+Detected fault : s@1  SerialFS_TB.FUT._1645_.Y
+Detected fault : s@0  SerialFS_TB.FUT._1646_.Y
+Detected fault : s@0  SerialFS_TB.FUT._1647_.A
+Detected fault : s@0  SerialFS_TB.FUT._1872_.B
+Detected fault : s@1  SerialFS_TB.FUT._1884_.Y
+Detected fault : s@0  SerialFS_TB.FUT._1886_.Y
+Detected fault : s@0  SerialFS_TB.FUT._1888_.Y
+Detected fault : s@1  SerialFS_TB.FUT._1922_.B
+Detected fault : s@0  SerialFS_TB.FUT._1933_.Y
+Detected fault : s@1  SerialFS_TB.FUT._1937_.Y
+Detected fault : s@1  SerialFS_TB.FUT._1944_.B
+Test Vector number           6 is:  111010011111100101110110010011101111 
+Detected fault : s@0  SerialFS_TB.FUT._1878_.Y
+Detected fault : s@1  SerialFS_TB.FUT._1899_.Y
+Detected fault : s@1  SerialFS_TB.FUT._1901_.A
+Test Vector number           7 is:  100101010001001101000100110000001000 
+Detected fault : s@1  SerialFS_TB.FUT._1885_.Y
+Detected fault : s@0  SerialFS_TB.FUT._1900_.Y
+Detected fault : s@1  SerialFS_TB.FUT._1906_.Y
+Detected fault : s@0  SerialFS_TB.FUT._1907_.Y
+Test Vector number           8 is:  111101101111100110101100011101110110 
+Detected fault : s@0  SerialFS_TB.FUT._1890_.Y
+Detected fault : s@0  SerialFS_TB.FUT._1979_.Y
+Detected fault : s@1  SerialFS_TB.FUT._1980_.Y
+Detected fault : s@0  SerialFS_TB.FUT._2005_.A
+Test Vector number           9 is:  000101101100110110000100001100000011 
+Detected fault : s@0  SerialFS_TB.FUT._1689_.Y
+Detected fault : s@0  SerialFS_TB.FUT._1690_.A
+Detected fault : s@0  SerialFS_TB.FUT._1896_.A
+Test Vector number          10 is:  110100110010111101111001110000101010 
+Detected fault : s@0  SerialFS_TB.FUT._1874_.Y
+Detected fault : s@0  SerialFS_TB.FUT._2021_.Y
+Test Vector number          11 is:  110011111001111111100010111101100101 
+Test Vector number          12 is:  010010111111111000010110111110100101 
+Detected fault : s@0  SerialFS_TB.FUT._1964_.Y
+Detected fault : s@0  SerialFS_TB.FUT._1973_.A
+Detected fault : s@1  SerialFS_TB.FUT._1977_.Y
+Detected fault : s@1  SerialFS_TB.FUT._1981_.A
+Detected fault : s@1  SerialFS_TB.FUT._1983_.Y
+Detected fault : s@1  SerialFS_TB.FUT._1984_.A
+Detected fault : s@1  SerialFS_TB.FUT._1985_.A
+Detected fault : s@1  SerialFS_TB.FUT._1990_.A
+Detected fault : s@0  SerialFS_TB.FUT._1995_.Y
+Detected fault : s@1  SerialFS_TB.FUT._1996_.Y
+Detected fault : s@1  SerialFS_TB.FUT._1998_.Y
+Detected fault : s@1  SerialFS_TB.FUT._2001_.Y
+Detected fault : s@1  SerialFS_TB.FUT._2002_.A
+Detected fault : s@0  SerialFS_TB.FUT._2003_.Y
+Detected fault : s@0  SerialFS_TB.FUT._2004_.A
+Detected fault : s@0  SerialFS_TB.FUT._2009_.Y
+Detected fault : s@0  SerialFS_TB.FUT._2010_.A
+Detected fault : s@0  SerialFS_TB.FUT._2012_.Y
+Detected fault : s@0  SerialFS_TB.FUT._2018_.B
+Test Vector number          13 is:  111001010001011100101100001101000010 
+Test Vector number          14 is:  110011001010111101000100101000111100 
+Test Vector number          15 is:  000001100011000111010010000110110000 
+Test Vector number          16 is:  011101111011010000010011110010010110 
+Test Vector number          17 is:  010101011010010011111101101101010100 
+Test Vector number          18 is:  100001100011111111010010110111111110 
+Test Vector number          19 is:  111010110001101110100111011110011010 
+Test Vector number          20 is:  000100100010000011111101100011110101 
+Test Vector number          21 is:  000110011011011001111111001000010010 
+Test Vector number          22 is:  000110100111000001101101000111011111 
+Detected fault : s@1  SerialFS_TB.FUT._1986_.B
+Detected fault : s@1  SerialFS_TB.FUT._1987_.Y
+Detected fault : s@1  SerialFS_TB.FUT._1988_.A
+Detected fault : s@0  SerialFS_TB.FUT._1994_.Y
+Test Vector number          23 is:  110110111111100010011001001100101101 
+Test Vector number          24 is:  011110001000100101101100001010101001 
+Test Vector number          25 is:  011101101000001000111111111011111000 
+Detected fault : s@1  SerialFS_TB.FUT._2008_.Y
+Detected fault : s@1  SerialFS_TB.FUT._2015_.Y
+Test Vector number          26 is:  000100000111000100011001001111011100 
+Test Vector number          27 is:  000111111011010000110101100011000010 
+Test Vector number          28 is:  001111111010010011101110111010011011 
+Test Vector number          29 is:  100001111100011010101010101101010000 
+Test Vector number          30 is:  010000010000100010001111100101111011 
+Test Vector number          31 is:  111110100001100000000001111101001110 
+Test Vector number          32 is:  101000001010101001111101101100111011 
+Test Vector number          33 is:  100100010111010001110111100101100010 
+Test Vector number          34 is:  011011101010000000110011111011111110 
+Test Vector number          35 is:  001110010111001000111101011000010001 
+Test Vector number          36 is:  001110011110011010111110000110100011 
+Test Vector number          37 is:  110010001001011000000010000000101011 
+Test Vector number          38 is:  001110100111001101000000001100101011 
+Test Vector number          39 is:  011010110001110101011100111001001110 
+Test Vector number          40 is:  000100000000011101000010001000100000 
+Test Vector number          41 is:  101011000110100011010101101100100101 
+Test Vector number          42 is:  001001011111001100100011011000000010 
+Test Vector number          43 is:  110010010010000101111011000001111101 
+Test Vector number          44 is:  111001001011100100110100110101110001 
+Test Vector number          45 is:  010111110001111011010110010101110110 
+Test Vector number          46 is:  111111010001011010101010101110111000 
+Test Vector number          47 is:  000111011011100001110000010000000000 
+Test Vector number          48 is:  111011011010101111011110101101101111 
+Test Vector number          49 is:  100000111001111010111000001000100001 
+Test Vector number          50 is:  010101110011101010010000111100010111 
+Test Vector number          51 is:  010001101110100110001010010111001100 
+Test Vector number          52 is:  111100110000110001011110101101110101 
+Test Vector number          53 is:  000100101110110101010110101100011101 
+Test Vector number          54 is:  000000011001000010011010011101010001 
+Test Vector number          55 is:  001101001101101011111011111110101100 
+Test Vector number          56 is:  010111100110100011000110001101001011 
+Test Vector number          57 is:  100101101001110000100010110110011100 
+Test Vector number          58 is:  100100100110110110010101000001110100 
+Test Vector number          59 is:  101011011111001101010000110011001010 
+Test Vector number          60 is:  111000011111011110010010011010000111 
+Test Vector number          61 is:  011001111100111100101001110101011001 
+Test Vector number          62 is:  110100001100001010001110110101110110 
+Test Vector number          63 is:  000111010011001010000011011011010100 
+Test Vector number          64 is:  001111000010111001101111011001111010 
+Test Vector number          65 is:  101110011010000100110101100010101011 
+Test Vector number          66 is:  000101011110111001011100101010101111 
+Test Vector number          67 is:  101000101111100011110111111011011010 
+Test Vector number          68 is:  001011100101001111001101000000000110 
+Test Vector number          69 is:  011001001110011100011101111000011111 
+Test Vector number          70 is:  010001111100010110110100000000101001 
+Test Vector number          71 is:  110111010001010011001001101100010101 
+Test Vector number          72 is:  000010010111100101101011000010101001 
+Test Vector number          73 is:  100000010000111100011001001001000010 
+Test Vector number          74 is:  001101011111001000011100100000000010 
+Test Vector number          75 is:  001101001010101100100111001001000010 
+Test Vector number          76 is:  001011001111011100001100010001110111 
+Test Vector number          77 is:  001111101010101010001111111111010111 
+Test Vector number          78 is:  000110100010111000001111010001110001 
+Test Vector number          79 is:  011110000101010011101110100110011101 
+Test Vector number          80 is:  011011000010100011101000001010101001 
+Test Vector number          81 is:  010110101000100110111001100100000111 
+Test Vector number          82 is:  111111101010111110100110111100011101 
+Test Vector number          83 is:  111100111011001111000011110111001111 
+Test Vector number          84 is:  001000111000110100000011001011111010 
+Detected fault : s@1  SerialFS_TB.FUT._1989_.B
+Detected fault : s@1  SerialFS_TB.FUT._1993_.Y
+Test Vector number          85 is:  111011011100100000010111000011100011 
+Test Vector number          86 is:  101111110010010110001100111011001111 
+Test Vector number          87 is:  101111110001010110010111111100011000 
+Test Vector number          88 is:  000000010111001101011110011110011111 
+Test Vector number          89 is:  010111100110110001111011100000000111 
+Test Vector number          90 is:  111011001100000011110011110111001011 
+Test Vector number          91 is:  010011001001011011100011011011011100 
+Test Vector number          92 is:  011100011000000101101110001111000100 
+Test Vector number          93 is:  100010010100101001010100001000101110 
+Test Vector number          94 is:  001011001111000001011011010100100001 
+Test Vector number          95 is:  001010100101100001010000011011110000 
+Test Vector number          96 is:  110101110101100001111000011111001111 
+Test Vector number          97 is:  100110101011111001100101101100000110 
+Test Vector number          98 is:  011010110111111111010000101000110111 
+Test Vector number          99 is:  000111111011110100001101010000000100 
+Test Vector number         100 is:  110010100111001010110001100001010011 
+Test Vector number         101 is:  010100110001101011110100100100000100 
+Test Vector number         102 is:  010000001101000011011110000000000001 
+Test Vector number         103 is:  111000010000101000000011010110011111 
+Test Vector number         104 is:  100011110011101010110111011001100001 
+Test Vector number         105 is:  011101110010101010110101001101000011 
+Test Vector number         106 is:  010100111010110000111111110011000111 
+Test Vector number         107 is:  111100000011101011000010010010000110 
+Test Vector number         108 is:  000100110001011101000100000001111001 
+Test Vector number         109 is:  100001011100011110100001000100100011 
+Test Vector number         110 is:  101100111010010111101100100000101000 
+Test Vector number         111 is:  001110011001100000011001110110011111 
+Test Vector number         112 is:  011001000011101011111001110101100011 
+Test Vector number         113 is:  011001110000100110100111010101011010 
+Test Vector number         114 is:  111010111010100110101011000110110110 
+Test Vector number         115 is:  111010110011100011110011110010100001 
+Test Vector number         116 is:  010011001010100011001000011011011011 
+Test Vector number         117 is:  010111100100110110110000010011000101 
+Test Vector number         118 is:  100111010001111000100000010000111001 
+Test Vector number         119 is:  011001000101101001110100110011101000 
+Test Vector number         120 is:  111011101111110010010100111111011010 
+Test Vector number         121 is:  101101111011001000000110101110000011 
+Test Vector number         122 is:  111011001011001111011011111111010011 
+Test Vector number         123 is:  011001110010000011011111001011111010 
+Test Vector number         124 is:  001000001111000100110010111000011101 
+Test Vector number         125 is:  011111100001110110010110110110110110 
+Test Vector number         126 is:  101101100101011010011000100100111010 
+Test Vector number         127 is:  001010001100100111001011100101100111 
+Test Vector number         128 is:  001001110010100111100010010000010100 
+Test Vector number         129 is:  110000011010010001010011110101100011 
+Test Vector number         130 is:  101100011010011100000001100100110011 
+Test Vector number         131 is:  000011010110101011111111010111110111 
+Test Vector number         132 is:  101001110110111111110110010000101001 
+Test Vector number         133 is:  101101001110101000010101101001011001 
+Test Vector number         134 is:  111110111100110000111010111011110010 
+Test Vector number         135 is:  000110010111100011000010110101111010 
+Test Vector number         136 is:  010110000101111100101111100011101101 
+Detected fault : s@0  SerialFS_TB.FUT._1965_.Y
+Detected fault : s@1  SerialFS_TB.FUT._1965_.B
+Detected fault : s@1  SerialFS_TB.FUT._1971_.Y
+Detected fault : s@0  SerialFS_TB.FUT._1971_.B
+Detected fault : s@0  SerialFS_TB.FUT._1974_.Y
+Detected fault : s@1  SerialFS_TB.FUT._1974_.B
+Detected fault : s@0  SerialFS_TB.FUT._1977_.B
+Detected fault : s@1  SerialFS_TB.FUT._1992_.Y
+Detected fault : s@1  SerialFS_TB.FUT._1997_.Y
+Detected fault : s@1  SerialFS_TB.FUT._1999_.Y
+Detected fault : s@1  SerialFS_TB.FUT._2000_.B
+Detected fault : s@1  SerialFS_TB.FUT._2015_.B
+Detected fault : s@1  SerialFS_TB.FUT._2016_.Y
+Detected fault : s@1  SerialFS_TB.FUT._2017_.B
+Detected fault : s@0  SerialFS_TB.FUT._2022_.B
+Detected fault : s@1  SerialFS_TB.FUT._2025_.Y
+Detected fault : s@1  SerialFS_TB.FUT._2026_.Y
+Detected fault : s@0  SerialFS_TB.FUT._2026_.B
+Detected fault : s@1  SerialFS_TB.FUT._2045_.B
+Detected fault : s@1  SerialFS_TB.FUT._2051_.B
+Detected fault : s@1  SerialFS_TB.FUT._2052_.Y
+Detected fault : s@1  SerialFS_TB.FUT._2052_.Y
+Test Vector number         137 is:  011001101100001011110101011001110101 
+Test Vector number         138 is:  100110011111000110111011000001101100 
+Test Vector number         139 is:  011011010001011110001100010011101101 
+Test Vector number         140 is:  001011111111110100010100110111001101 
+Test Vector number         141 is:  000101110010001100001011100110110101 
+Test Vector number         142 is:  111100100001011101000111100101100100 
+Test Vector number         143 is:  101010111010001010001111110111010101 
+Test Vector number         144 is:  101010101000001010110101101111001000 
+Test Vector number         145 is:  000011111101001001011100011000100010 
+Test Vector number         146 is:  100010000001100000110101001001001111 
+Test Vector number         147 is:  011011000000111111111101110111111011 
+Detected fault : s@1  SerialFS_TB.FUT._2013_.Y
+Test Vector number         148 is:  101110000001110110000011111010011100 
+Test Vector number         149 is:  110111111101000010001101110110100001 
+Test Vector number         150 is:  101011100010001001100011110010000100 
+Test Vector number         151 is:  001100000010011100101101011110011001 
+Test Vector number         152 is:  111000011100000001111100001011011011 
+Test Vector number         153 is:  100111010001001001101011000100001110 
+Test Vector number         154 is:  111111110100110110000000001011000010 
+Test Vector number         155 is:  011110101110010111110000000001001000 
+Test Vector number         156 is:  111100111111101011011101001100101010 
+Test Vector number         157 is:  001001101001100101101011111111100000 
+Test Vector number         158 is:  011100100011101000110111010110010010 
+Test Vector number         159 is:  000010100111101000011010000010000101 
+Test Vector number         160 is:  000010000011000100000111000001111101 
+Test Vector number         161 is:  000100011001101111001110000000100111 
+Test Vector number         162 is:  110001000111001110011101010011001111 
+Test Vector number         163 is:  100111111110111001000000000111111111 
+Test Vector number         164 is:  001000110001001001010000110010000111 
+Test Vector number         165 is:  010011000101011101111100011010011011 
+Test Vector number         166 is:  110000010010111111011011110101010010 
+Test Vector number         167 is:  110111110000010010000001010010010010 
+Test Vector number         168 is:  011010100001110101111111010101010100 
+Test Vector number         169 is:  101011100011010000010111100000011100 
+Test Vector number         170 is:  000100101001110100101110101000011010 
+Test Vector number         171 is:  101010011001000110111110110111000100 
+Test Vector number         172 is:  101111110101011101000110111100010010 
+Test Vector number         173 is:  100011001101110100110111110100100101 
+Test Vector number         174 is:  011101111111010011111001000010000110 
+Test Vector number         175 is:  100000101110010010010000011101010110 
+Test Vector number         176 is:  000110101000011000000101110100011101 
+Test Vector number         177 is:  010101000111011100110111110100000111 
+Test Vector number         178 is:  100001101010000010000001000111000101 
+Test Vector number         179 is:  111110010100111000100111111100101100 
+Test Vector number         180 is:  010010001101001111010010000110010001 
+Test Vector number         181 is:  011100010111110110100010101101000001 
+Test Vector number         182 is:  101101101110101100110110101001101110 
+Test Vector number         183 is:  010110101011001111000010011001110111 
+Test Vector number         184 is:  001011101100010111001000010111000110 
+Test Vector number         185 is:  000000011010110010011010101010111001 

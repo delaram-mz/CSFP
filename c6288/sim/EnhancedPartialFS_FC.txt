@@ -1,0 +1,2 @@
+Test set Size =           1;	Fault Coverage : 0.445613 
+Test set Size =           2;	Fault Coverage : 0.642118 

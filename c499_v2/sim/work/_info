@@ -1,0 +1,156 @@
+m255
+K4
+z2
+!s11f vlog 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dC:/Users/apple/Documents/UT/Master Thesis/c432_v2/sim
+vc499
+!s110 1723406265
+!i10b 1
+!s100 G;_HbP4dR>4LeAMEh]7]:1
+Z0 !s11b Dg1SIo80bB@j0V0VzS_@n1
+IP5EdflUgeQ:ncmmAk^J0c2
+Z1 VDg1SIo80bB@j0V0VzS_@n1
+Z2 dC:/Users/apple/Documents/UT/Master Thesis/c499_v2/sim
+w1722931452
+8C:/Users/apple/Documents/UT/Master Thesis/c499_v2/c499_netlist.v
+FC:/Users/apple/Documents/UT/Master Thesis/c499_v2/c499_netlist.v
+!i122 15
+L0 3 4522
+Z3 OV;L;2020.1;71
+r1
+!s85 0
+31
+Z4 !s108 1723406265.000000
+!s107 C:/Users/apple/Documents/UT/Master Thesis/c499_v2/c499_netlist.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/apple/Documents/UT/Master Thesis/c499_v2/c499_netlist.v|
+!i113 1
+Z5 o-work work
+Z6 tCvgOpt 0
+vDFF
+Z7 !s110 1723406266
+!i10b 1
+!s100 TcOT6lXmf28fW[^`=Q=Gj0
+R0
+IXRO86>kP>ank3S6^mT3:z1
+R1
+R2
+Z8 w1609697604
+Z9 8C:/Users/apple/Documents/UT/Master Thesis/c499_v2/mycells.v
+Z10 FC:/Users/apple/Documents/UT/Master Thesis/c499_v2/mycells.v
+!i122 16
+L0 20 6
+R3
+r1
+!s85 0
+31
+R4
+Z11 !s107 C:/Users/apple/Documents/UT/Master Thesis/c499_v2/mycells.v|
+Z12 !s90 -reportprogress|300|-work|work|-stats=none|C:/Users/apple/Documents/UT/Master Thesis/c499_v2/mycells.v|
+!i113 1
+R5
+R6
+n@d@f@f
+vNAND
+R7
+!i10b 1
+!s100 `Y:1XfRB[P7D@kUkB^zYo0
+R0
+IX<h5hzWR8?AloJF0GOBg:0
+R1
+R2
+R8
+R9
+R10
+!i122 16
+L0 8 5
+R3
+r1
+!s85 0
+31
+R4
+R11
+R12
+!i113 1
+R5
+R6
+n@n@a@n@d
+vNOR
+R7
+!i10b 1
+!s100 [^mN^cH<5@4Ch59ec@GFN3
+R0
+ITgMHeU^=XbbLzLBVT1c3<1
+R1
+R2
+R8
+R9
+R10
+!i122 16
+L0 14 5
+R3
+r1
+!s85 0
+31
+R4
+R11
+R12
+!i113 1
+R5
+R6
+n@n@o@r
+vNOT
+R7
+!i10b 1
+!s100 6imPiVbaJg0f_oC;Un^in0
+R0
+Ib4jDP@BONkQIKlHJkmMGn3
+R1
+R2
+R8
+R9
+R10
+!i122 16
+L0 2 5
+R3
+r1
+!s85 0
+31
+R4
+R11
+R12
+!i113 1
+R5
+R6
+n@n@o@t
+vSerialFS_TB
+DXx6 sv_std 3 std 0 22 VYECXdT12H8WgbUP_5Y6:3
+R7
+!i10b 1
+!s100 :PIn[;iMMlhTkj6V1=K151
+R0
+IfQda`TLXQMK;4Th;LXOA13
+R1
+S1
+R2
+w1723406176
+8C:/Users/apple/Documents/UT/Master Thesis/c499_v2/SerialFS_TB.sv
+FC:/Users/apple/Documents/UT/Master Thesis/c499_v2/SerialFS_TB.sv
+!i122 17
+L0 2 123
+R3
+r1
+!s85 0
+31
+!s108 1723406266.000000
+!s107 C:/Users/apple/Documents/UT/Master Thesis/c499_v2/SerialFS_TB.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/apple/Documents/UT/Master Thesis/c499_v2/SerialFS_TB.sv|
+!i113 1
+o-work work -sv
+R6
+n@serial@f@s_@t@b

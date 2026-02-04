@@ -1,0 +1,70 @@
+# Reading pref.tcl
+# OpenFile {C:/Users/apple/Documents/UT/Master Thesis/c432_v3/sim/c432_v3.mpf}
+# Loading project c432_v3
+do mydo.do
+# The DO file requires two arguments: 
+# 1. TB_Name and 2. Process_Name in which the wireName & stuckAtVal variables are defined. 
+# Please try again with the following syntax: 
+# do doFileName.do TB_Name Process_Name
+# In my case is:   do mydo.do SerialFS_TB
+do mydo.do SerialFS_TB
+# Compile of c432_netlist.v was successful.
+# Compile of mycells.v was successful.
+# Compile of SerialFS_TB.sv was successful.
+# 3 compiles, 0 failed with no errors.
+# vsim work.SerialFS_TB 
+# Start time: 12:04:12 on Oct 14,2024
+# Loading sv_std.std
+# Loading work.SerialFS_TB
+# Loading work.c432
+# Loading work.NOR
+# Loading work.NAND
+# Loading work.NOT
+# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
+#           File in use by: Delaram_mz  Hostname: DELARAM  ProcessID: 9312
+#           Attempting to use alternate WLF file "./wlftn94n41".
+# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
+#           Using alternate file: ./wlftn94n41
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Collapsed Faults =        607
+#  , Detected Faults =        585
+# 
+# coverage = 0.963756
+# 
+# Simulation stop requested.
+write format wave -window .main_pane.wave.interior.cs.body.pw.wf {C:/Users/apple/Documents/UT/Master Thesis/c432_v3/sim/wave.do}
+add wave -position insertpoint  \
+sim:/SerialFS_TB/detected \
+sim:/SerialFS_TB/detectedFault \
+sim:/SerialFS_TB/faultCount \
+sim:/SerialFS_TB/faultInjection
+write format wave -window .main_pane.wave.interior.cs.body.pw.wf {C:/Users/apple/Documents/UT/Master Thesis/c432_v3/sim/wave.do}
+do mydo.do SerialFS_TB
+# Compile of c432_netlist.v was successful.
+# Compile of mycells.v was successful.
+# Compile of SerialFS_TB.sv was successful.
+# 3 compiles, 0 failed with no errors.
+# End time: 12:25:39 on Oct 14,2024, Elapsed time: 0:21:27
+# Errors: 0, Warnings: 2
+# vsim work.SerialFS_TB 
+# Start time: 12:25:39 on Oct 14,2024
+# Loading sv_std.std
+# Loading work.SerialFS_TB
+# Loading work.c432
+# Loading work.NOR
+# Loading work.NAND
+# Loading work.NOT
+# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
+#           File in use by: Delaram_mz  Hostname: DELARAM  ProcessID: 9312
+#           Attempting to use alternate WLF file "./wlftf48nj1".
+# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
+#           Using alternate file: ./wlftf48nj1
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Collapsed Faults =        607
+#  , Detected Faults =        585
+# 
+# coverage = 0.963756
+# 
+# Simulation stop requested.
+# End time: 14:11:50 on Oct 14,2024, Elapsed time: 1:46:11
+# Errors: 0, Warnings: 1

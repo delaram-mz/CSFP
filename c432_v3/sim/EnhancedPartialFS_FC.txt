@@ -1,0 +1,7 @@
+Test set Size =           1;	Fault Coverage : 0.110561 
+Test set Size =           2;	Fault Coverage : 0.196370 
+Test set Size =           3;	Fault Coverage : 0.308581 
+Test set Size =           4;	Fault Coverage : 0.320132 
+Test set Size =           5;	Fault Coverage : 0.405941 
+Test set Size =           6;	Fault Coverage : 0.414191 
+Test set Size =           7;	Fault Coverage : 0.448845 

@@ -1,0 +1,79 @@
+{C:/Users/apple/Documents/UT/Master Thesis/Reconfigurable BIST/s344_BIST/SRSG.v} {1 {vlog -work work -stats=none {C:/Users/apple/Documents/UT/Master Thesis/Reconfigurable BIST/s344_BIST/SRSG.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module SRSG
+
+Top level modules:
+	SRSG
+
+} {} {}} {C:/Users/apple/Documents/UT/Master Thesis/Reconfigurable BIST/s344_BIST/MISR.v} {1 {vlog -work work -stats=none {C:/Users/apple/Documents/UT/Master Thesis/Reconfigurable BIST/s344_BIST/MISR.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module MISR
+
+Top level modules:
+	MISR
+
+} {} {}} {C:/Users/apple/Documents/UT/Master Thesis/Reconfigurable BIST/s344_BIST/LFSR.v} {1 {vlog -work work -stats=none {C:/Users/apple/Documents/UT/Master Thesis/Reconfigurable BIST/s344_BIST/LFSR.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module LFSR
+
+Top level modules:
+	LFSR
+
+} {} {}} {C:/Users/apple/Documents/UT/Master Thesis/Reconfigurable BIST/s344_BIST/STCR.v} {1 {vlog -work work -stats=none {C:/Users/apple/Documents/UT/Master Thesis/Reconfigurable BIST/s344_BIST/STCR.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module STCR
+
+Top level modules:
+	STCR
+
+} {} {}} {C:/Users/apple/Documents/UT/Master Thesis/Reconfigurable BIST/s344_BIST/SISA.v} {1 {vlog -work work -stats=none {C:/Users/apple/Documents/UT/Master Thesis/Reconfigurable BIST/s344_BIST/SISA.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module SISA
+
+Top level modules:
+	SISA
+
+} {} {}} {C:/Users/apple/Documents/UT/Master Thesis/Reconfigurable BIST/s344_BIST/s344_testable.v} {1 {vlog -work work -stats=none {C:/Users/apple/Documents/UT/Master Thesis/Reconfigurable BIST/s344_BIST/s344_testable.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module s344_testable
+
+Top level modules:
+	s344_testable
+
+} {} {}} {C:/Users/apple/Documents/UT/Master Thesis/Reconfigurable BIST/s344_BIST/sigROM.v} {1 {vlog -work work -stats=none {C:/Users/apple/Documents/UT/Master Thesis/Reconfigurable BIST/s344_BIST/sigROM.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module sigROM
+
+Top level modules:
+	sigROM
+
+} {} {}} {C:/Users/apple/Documents/UT/Master Thesis/Reconfigurable BIST/s344_BIST/mycells.v} {1 {vlog -work work -stats=none {C:/Users/apple/Documents/UT/Master Thesis/Reconfigurable BIST/s344_BIST/mycells.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module NOT
+-- Compiling module NAND
+-- Compiling module NOR
+-- Compiling module DFF
+
+Top level modules:
+	NOT
+	NAND
+	NOR
+	DFF
+
+} {} {}} {C:/Users/apple/Documents/UT/Master Thesis/Reconfigurable BIST/s344_BIST/s344_netlist_scanInserted.v} {1 {vlog -work work -stats=none {C:/Users/apple/Documents/UT/Master Thesis/Reconfigurable BIST/s344_BIST/s344_netlist_scanInserted.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module dff
+-- Compiling module s344_scanInserted
+
+Top level modules:
+	s344_scanInserted
+
+} {} {}} {C:/Users/apple/Documents/UT/Master Thesis/Reconfigurable BIST/s344_BIST/BIST_CTRL.v} {1 {vlog -work work -stats=none {C:/Users/apple/Documents/UT/Master Thesis/Reconfigurable BIST/s344_BIST/BIST_CTRL.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module counter
+-- Compiling module BIST_CTRL
+
+Top level modules:
+	BIST_CTRL
+
+} {} {}}

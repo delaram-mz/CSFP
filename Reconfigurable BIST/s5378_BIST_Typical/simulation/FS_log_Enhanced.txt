@@ -1,0 +1,5 @@
+
+
+==========> Fault Coverage: 0.756600 
+==========> Fault Simulation Time:         110192940000 
+==========> BIST Run Time:             58160000 

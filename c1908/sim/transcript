@@ -1,0 +1,423 @@
+do mydo.do
+# The DO file requires two arguments: 
+# 1. TB_Name and 2. Process_Name in which the wireName & stuckAtVal variables are defined. 
+# Please try again with the following syntax: 
+# do doFileName.do TB_Name Process_Name
+# In my case is:   do mydo.do SerialFS_TB
+do mydo.do SerialFS_TB
+# Compile of c1908_netlist.v was successful.
+# Compile of mycells.v was successful.
+# Compile of SerialFS_TB.sv was successful.
+# 3 compiles, 0 failed with no errors.
+# vsim work.SerialFS_TB 
+# Start time: 11:16:47 on Jul 19,2024
+# Loading sv_std.std
+# Loading work.SerialFS_TB
+# Loading work.c1908
+# Loading work.NOT
+# Loading work.NOR
+# Loading work.NAND
+# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
+#           File in use by: Delaram_mz  Hostname: DELARAM  ProcessID: 13608
+#           Attempting to use alternate WLF file "./wlft3q22f9".
+# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
+#           Using alternate file: ./wlft3q22f9
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Test set size =           1
+# Collapsed Faults =       3398
+# Detected Faults =        465
+# 
+# coverage = 0.136845
+# 
+# Break key hit
+# Simulation stop requested.
+# Compile of SerialFS_TB.sv was successful.
+do mydo.do
+# The DO file requires two arguments: 
+# 1. TB_Name and 2. Process_Name in which the wireName & stuckAtVal variables are defined. 
+# Please try again with the following syntax: 
+# do doFileName.do TB_Name Process_Name
+# In my case is:   do mydo.do SerialFS_TB
+do mydo.do SerialFS_TB
+# Compile of c1908_netlist.v was successful.
+# Compile of mycells.v was successful.
+# Compile of SerialFS_TB.sv was successful.
+# 3 compiles, 0 failed with no errors.
+# End time: 11:41:25 on Jul 19,2024, Elapsed time: 0:24:38
+# Errors: 0, Warnings: 3
+# vsim work.SerialFS_TB 
+# Start time: 11:41:25 on Jul 19,2024
+# Loading sv_std.std
+# Loading work.SerialFS_TB
+# Loading work.c1908
+# Loading work.NOT
+# Loading work.NOR
+# Loading work.NAND
+# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
+#           File in use by: Delaram_mz  Hostname: DELARAM  ProcessID: 13608
+#           Attempting to use alternate WLF file "./wlftmeiejr".
+# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
+#           Using alternate file: ./wlftmeiejr
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Test set size =           1
+# Collapsed Faults =       3398
+# Detected Faults =        465
+# 
+# coverage = 0.136845
+# 
+# Break key hit
+# Simulation stop requested.
+do mydo.do SerialFS_TB
+# Compile of c1908_netlist.v was successful.
+# Compile of mycells.v was successful.
+# Compile of SerialFS_TB.sv was successful.
+# 3 compiles, 0 failed with no errors.
+# End time: 11:47:11 on Jul 19,2024, Elapsed time: 0:05:46
+# Errors: 0, Warnings: 2
+# vsim work.SerialFS_TB 
+# Start time: 11:47:11 on Jul 19,2024
+# Loading sv_std.std
+# Loading work.SerialFS_TB
+# Loading work.c1908
+# Loading work.NOT
+# Loading work.NOR
+# Loading work.NAND
+# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
+#           File in use by: Delaram_mz  Hostname: DELARAM  ProcessID: 13608
+#           Attempting to use alternate WLF file "./wlftxvrwjg".
+# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
+#           Using alternate file: ./wlftxvrwjg
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+add wave -position end  sim:/SerialFS_TB/wireName
+add wave -position end  sim:/SerialFS_TB/stuckAtVal
+# Test set size =           1
+# Collapsed Faults =       3398
+# Detected Faults =        465
+# 
+# coverage = 0.136845
+# 
+# Test set size =           2
+# Collapsed Faults =       3398
+# Detected Faults =       1091
+# 
+# coverage = 0.321071
+# 
+# Test set size =           3
+# Collapsed Faults =       3398
+# Detected Faults =       1135
+# 
+# coverage = 0.334020
+# 
+# Test set size =           4
+# Collapsed Faults =       3398
+# Detected Faults =       1504
+# 
+# coverage = 0.442613
+# 
+# Test set size =           5
+# Collapsed Faults =       3398
+# Detected Faults =       1772
+# 
+# coverage = 0.521483
+# 
+# Test set size =           6
+# Collapsed Faults =       3398
+# Detected Faults =       1902
+# 
+# coverage = 0.559741
+# 
+# Break key hit
+# Simulation stop requested.
+do mydo.do SerialFS_TB
+# Compile of c1908_netlist.v was successful.
+# Compile of mycells.v was successful.
+# Compile of SerialFS_TB.sv was successful.
+# 3 compiles, 0 failed with no errors.
+# End time: 11:58:25 on Jul 19,2024, Elapsed time: 0:11:14
+# Errors: 0, Warnings: 2
+# vsim work.SerialFS_TB 
+# Start time: 11:58:25 on Jul 19,2024
+# Loading sv_std.std
+# Loading work.SerialFS_TB
+# Loading work.c1908
+# Loading work.NOT
+# Loading work.NOR
+# Loading work.NAND
+# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
+#           File in use by: Delaram_mz  Hostname: DELARAM  ProcessID: 13608
+#           Attempting to use alternate WLF file "./wlftcaesb1".
+# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
+#           Using alternate file: ./wlftcaesb1
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Test set size =           1
+# Collapsed Faults =       3398
+# Detected Faults =        465
+# 
+# coverage = 0.136845
+# 
+# Test set size =           2
+# Collapsed Faults =       3398
+# Detected Faults =       1090
+# 
+# coverage = 0.320777
+# 
+# Test set size =           3
+# Collapsed Faults =       3398
+# Detected Faults =       1134
+# 
+# coverage = 0.333726
+# 
+# Break key hit
+# Simulation stop requested.
+write format wave -window .main_pane.wave.interior.cs.body.pw.wf {C:/Users/apple/Documents/UT/Master Thesis/c1908/sim/wave.do}
+do mydo.do SerialFS_TB
+# Compile of c1908_netlist.v was successful.
+# Compile of mycells.v was successful.
+# Compile of SerialFS_TB.sv was successful.
+# 3 compiles, 0 failed with no errors.
+# End time: 12:10:14 on Jul 19,2024, Elapsed time: 0:11:49
+# Errors: 0, Warnings: 2
+# vsim work.SerialFS_TB 
+# Start time: 12:10:14 on Jul 19,2024
+# Loading sv_std.std
+# Loading work.SerialFS_TB
+# Loading work.c1908
+# Loading work.NOT
+# Loading work.NOR
+# Loading work.NAND
+# Collapsed Faults =       3398
+#  , Detected Faults =       3208
+# 
+# coverage = 0.944085
+# 
+# ** Note: $stop    : C:/Users/apple/Documents/UT/Master Thesis/c1908/SerialFS_TB.sv(90)
+#    Time: 20024940 ns  Iteration: 0  Instance: /SerialFS_TB
+# Break in Module SerialFS_TB at C:/Users/apple/Documents/UT/Master Thesis/c1908/SerialFS_TB.sv line 90
+do mydo.do SerialFS_TB
+# Compile of c1908_netlist.v was successful.
+# Compile of mycells.v was successful.
+# Compile of SerialFS_TB.sv was successful.
+# 3 compiles, 0 failed with no errors.
+# End time: 12:16:16 on Jul 19,2024, Elapsed time: 0:06:02
+# Errors: 0, Warnings: 2
+# vsim work.SerialFS_TB 
+# Start time: 12:16:16 on Jul 19,2024
+# Loading sv_std.std
+# Loading work.SerialFS_TB
+# Loading work.c1908
+# Loading work.NOT
+# Loading work.NOR
+# Loading work.NAND
+# Test set size =           1
+# Collapsed Faults =       3398
+# Detected Faults =        465
+# 
+# coverage = 0.136845
+# 
+# Test set size =           2
+# Collapsed Faults =       3398
+# Detected Faults =       1090
+# 
+# coverage = 0.320777
+# 
+# Test set size =           3
+# Collapsed Faults =       3398
+# Detected Faults =       1134
+# 
+# coverage = 0.333726
+# 
+# Test set size =           4
+# Collapsed Faults =       3398
+# Detected Faults =       1503
+# 
+# coverage = 0.442319
+# 
+# Test set size =           5
+# Collapsed Faults =       3398
+# Detected Faults =       1771
+# 
+# coverage = 0.521189
+# 
+# Test set size =           6
+# Collapsed Faults =       3398
+# Detected Faults =       1901
+# 
+# coverage = 0.559447
+# 
+# Test set size =           7
+# Collapsed Faults =       3398
+# Detected Faults =       2001
+# 
+# coverage = 0.588876
+# 
+# Test set size =           8
+# Collapsed Faults =       3398
+# Detected Faults =       2021
+# 
+# coverage = 0.594762
+# 
+# Test set size =           9
+# Collapsed Faults =       3398
+# Detected Faults =       2108
+# 
+# coverage = 0.620365
+# 
+# Test set size =          10
+# Collapsed Faults =       3398
+# Detected Faults =       2122
+# 
+# coverage = 0.624485
+# 
+# Test set size =          11
+# Collapsed Faults =       3398
+# Detected Faults =       2151
+# 
+# coverage = 0.633019
+# 
+# Test set size =          12
+# Collapsed Faults =       3398
+# Detected Faults =       2154
+# 
+# coverage = 0.633902
+# 
+# Test set size =          13
+# Collapsed Faults =       3398
+# Detected Faults =       2182
+# 
+# coverage = 0.642142
+# 
+# Test set size =          14
+# Collapsed Faults =       3398
+# Detected Faults =       2197
+# 
+# coverage = 0.646557
+# 
+# Test set size =          15
+# Collapsed Faults =       3398
+# Detected Faults =       2208
+# 
+# coverage = 0.649794
+# 
+# Test set size =          16
+# Collapsed Faults =       3398
+# Detected Faults =       2229
+# 
+# coverage = 0.655974
+# 
+# Test set size =          17
+# Collapsed Faults =       3398
+# Detected Faults =       2231
+# 
+# coverage = 0.656563
+# 
+# Test set size =          18
+# Collapsed Faults =       3398
+# Detected Faults =       2236
+# 
+# coverage = 0.658034
+# 
+# Test set size =          19
+# Collapsed Faults =       3398
+# Detected Faults =       2249
+# 
+# coverage = 0.661860
+# 
+# Test set size =          20
+# Collapsed Faults =       3398
+# Detected Faults =       2272
+# 
+# coverage = 0.668629
+# 
+# Test set size =          21
+# Collapsed Faults =       3398
+# Detected Faults =       2279
+# 
+# coverage = 0.670689
+# 
+# Test set size =          22
+# Collapsed Faults =       3398
+# Detected Faults =       2297
+# 
+# coverage = 0.675986
+# 
+# Test set size =          23
+# Collapsed Faults =       3398
+# Detected Faults =       2297
+# 
+# coverage = 0.675986
+# 
+# Test set size =          24
+# Collapsed Faults =       3398
+# Detected Faults =       2302
+# 
+# coverage = 0.677457
+# 
+# Test set size =          25
+# Collapsed Faults =       3398
+# Detected Faults =       2479
+# 
+# coverage = 0.729547
+# 
+# Test set size =          26
+# Collapsed Faults =       3398
+# Detected Faults =       2490
+# 
+# coverage = 0.732784
+# 
+# Test set size =          27
+# Collapsed Faults =       3398
+# Detected Faults =       2490
+# 
+# coverage = 0.732784
+# 
+# Test set size =          28
+# Collapsed Faults =       3398
+# Detected Faults =       2490
+# 
+# coverage = 0.732784
+# 
+# Test set size =          29
+# Collapsed Faults =       3398
+# Detected Faults =       2490
+# 
+# coverage = 0.732784
+# 
+# Test set size =          30
+# Collapsed Faults =       3398
+# Detected Faults =       2490
+# 
+# coverage = 0.732784
+# 
+# Test set size =          31
+# Collapsed Faults =       3398
+# Detected Faults =       2561
+# 
+# coverage = 0.753679
+# 
+# Test set size =          32
+# Collapsed Faults =       3398
+# Detected Faults =       2561
+# 
+# coverage = 0.753679
+# 
+# Test set size =          33
+# Collapsed Faults =       3398
+# Detected Faults =       2561
+# 
+# coverage = 0.753679
+# 
+# Test set size =          34
+# Collapsed Faults =       3398
+# Detected Faults =       2561
+# 
+# coverage = 0.753679
+# 
+# Test set size =          35
+# Collapsed Faults =       3398
+# Detected Faults =       2561
+# 
+# coverage = 0.753679
+# 
+# Simulation stop requested.
+# End time: 12:56:31 on Jul 19,2024, Elapsed time: 0:40:15
+# Errors: 0, Warnings: 1

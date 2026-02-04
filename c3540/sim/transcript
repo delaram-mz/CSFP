@@ -1,0 +1,32 @@
+# Reading pref.tcl
+# OpenFile {C:/Users/apple/Documents/UT/Master Thesis/c3540/sim/c3540.mpf}
+# Loading project c3540
+do mydo.do 
+# The DO file requires two arguments: 
+# 1. TB_Name and 2. Process_Name in which the wireName & stuckAtVal variables are defined. 
+# Please try again with the following syntax: 
+# do doFileName.do TB_Name Process_Name
+# In my case is:   do mydo.do SerialFS_TB
+do mydo.do SerialFS_TB
+# Compile of c3540_netlist.v was successful.
+# Compile of mycells.v was successful.
+# Compile of SerialFS_TB.sv was successful.
+# 3 compiles, 0 failed with no errors.
+# vsim work.SerialFS_TB 
+# Start time: 17:52:51 on Sep 11,2024
+# Loading sv_std.std
+# Loading work.SerialFS_TB
+# Loading work.c3540
+# Loading work.NOT
+# Loading work.NOR
+# Loading work.NAND
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Collapsed Faults =       3131
+#  , Detected Faults =       3012
+# 
+# coverage = 0.961993
+# 
+# Simulation stop requested.
+
+# End time: 17:56:52 on Sep 11,2024, Elapsed time: 0:04:01
+# Errors: 0, Warnings: 1

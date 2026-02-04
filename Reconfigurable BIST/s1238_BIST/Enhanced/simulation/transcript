@@ -1,0 +1,484 @@
+# Reading pref.tcl
+# OpenFile {C:/Users/apple/Documents/UT/Master Thesis/Reconfigurable BIST/s1238_BIST/Enhanced/simulation/s1238_Enhanced.mpf}
+# Loading project s1238_Enhanced
+do mydo.do BIST_TB
+# Compile of BIST_CTRL.v was successful.
+# Compile of FlipDemux.v was successful.
+# Compile of LFSR.v was successful.
+# Compile of MISR.v was successful.
+# Compile of mycells.v was successful.
+# Compile of s1238_netlist_scanInserted.v was successful.
+# Compile of s1238_testable.v was successful.
+# Compile of SFM.v was successful.
+# Compile of sigROM.v was successful.
+# Compile of SISA.v was successful.
+# Compile of SRSG.v was successful.
+# Compile of STCR.v was successful.
+# Compile of TB.sv was successful.
+# 13 compiles, 0 failed with no errors.
+# vsim work.BIST_TB 
+# Start time: 01:17:46 on Sep 16,2024
+# Loading sv_std.std
+# Loading work.BIST_TB
+# Loading work.STCR
+# Loading work.s1238_testable
+# Loading work.s1238_scanInserted
+# Loading work.NOT
+# Loading work.NOR
+# Loading work.NAND
+# Loading work.dff
+# Loading work.LFSR
+# Loading work.SRSG
+# Loading work.MISR
+# Loading work.SISA
+# Loading work.BIST_CTRL
+# Loading work.counter
+# Loading work.sigROM
+# Loading work.SFM
+# Loading work.flipDemux
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# ** Warning: (vsim-PLI-3407) Too many data words read on line 55 of file "SFM.txt". (Current address [54], address range [0:53])    : C:/Users/apple/Documents/UT/Master Thesis/Reconfigurable BIST/s1238_BIST/Enhanced/SFM.v(11)
+#    Time: 0 ps  Iteration: 0  Instance: /BIST_TB/DUT/SFM_inst
+# Starting Golden Signature Generation ... 
+# 
+# Starting Golden Signaturs Stored at            108845000 
+# 
+# ===> Fault Simulation Starting ...
+# 
+# ** Note: $stop    : C:/Users/apple/Documents/UT/Master Thesis/Reconfigurable BIST/s1238_BIST/Enhanced/TB.sv(286)
+#    Time: 130995705 ns  Iteration: 0  Instance: /BIST_TB
+# Break in Module BIST_TB at C:/Users/apple/Documents/UT/Master Thesis/Reconfigurable BIST/s1238_BIST/Enhanced/TB.sv line 286
+do mydo.do BIST_TB
+# Compile of BIST_CTRL.v was successful.
+# Compile of FlipDemux.v was successful.
+# Compile of LFSR.v was successful.
+# Compile of MISR.v was successful.
+# Compile of mycells.v was successful.
+# Compile of s1238_netlist_scanInserted.v was successful.
+# Compile of s1238_testable.v was successful.
+# Compile of SFM.v was successful.
+# Compile of sigROM.v was successful.
+# Compile of SISA.v was successful.
+# Compile of SRSG.v was successful.
+# Compile of STCR.v was successful.
+# Compile of TB.sv was successful.
+# 13 compiles, 0 failed with no errors.
+# End time: 01:28:45 on Sep 16,2024, Elapsed time: 0:10:59
+# Errors: 0, Warnings: 3
+# vsim work.BIST_TB 
+# Start time: 01:28:45 on Sep 16,2024
+# Loading sv_std.std
+# Loading work.BIST_TB
+# Loading work.STCR
+# Loading work.s1238_testable
+# Loading work.s1238_scanInserted
+# Loading work.NOT
+# Loading work.NOR
+# Loading work.NAND
+# Loading work.dff
+# Loading work.LFSR
+# Loading work.SRSG
+# Loading work.MISR
+# Loading work.SISA
+# Loading work.BIST_CTRL
+# Loading work.counter
+# Loading work.sigROM
+# Loading work.SFM
+# Loading work.flipDemux
+# ** Warning: (vsim-PLI-3407) Too many data words read on line 55 of file "SFM.txt". (Current address [54], address range [0:53])    : C:/Users/apple/Documents/UT/Master Thesis/Reconfigurable BIST/s1238_BIST/Enhanced/SFM.v(11)
+#    Time: 0 ps  Iteration: 0  Instance: /BIST_TB/DUT/SFM_inst
+# Starting Golden Signature Generation ... 
+# 
+# Starting Golden Signaturs Stored at            154905000 
+# 
+# ===> Fault Simulation Starting ...
+# 
+# ** Note: $stop    : C:/Users/apple/Documents/UT/Master Thesis/Reconfigurable BIST/s1238_BIST/Enhanced/TB.sv(286)
+#    Time: 186498005 ns  Iteration: 0  Instance: /BIST_TB
+# Break in Module BIST_TB at C:/Users/apple/Documents/UT/Master Thesis/Reconfigurable BIST/s1238_BIST/Enhanced/TB.sv line 286
+do mydo.do BIST_TB
+# Compile of BIST_CTRL.v was successful.
+# Compile of FlipDemux.v was successful.
+# Compile of LFSR.v was successful.
+# Compile of MISR.v was successful.
+# Compile of mycells.v was successful.
+# Compile of s1238_netlist_scanInserted.v was successful.
+# Compile of s1238_testable.v was successful.
+# Compile of SFM.v was successful.
+# Compile of sigROM.v was successful.
+# Compile of SISA.v was successful.
+# Compile of SRSG.v was successful.
+# Compile of STCR.v was successful.
+# Compile of TB.sv was successful.
+# 13 compiles, 0 failed with no errors.
+# End time: 05:51:37 on Sep 16,2024, Elapsed time: 4:22:52
+# Errors: 0, Warnings: 3
+# vsim work.BIST_TB 
+# Start time: 05:51:37 on Sep 16,2024
+# Loading sv_std.std
+# Loading work.BIST_TB
+# Loading work.STCR
+# Loading work.s1238_testable
+# Loading work.s1238_scanInserted
+# Loading work.NOT
+# Loading work.NOR
+# Loading work.NAND
+# Loading work.dff
+# Loading work.LFSR
+# Loading work.SRSG
+# Loading work.MISR
+# Loading work.SISA
+# Loading work.BIST_CTRL
+# Loading work.counter
+# Loading work.sigROM
+# Loading work.SFM
+# Loading work.flipDemux
+# ** Warning: (vsim-PLI-3407) Too many data words read on line 55 of file "SFM.txt". (Current address [54], address range [0:53])    : C:/Users/apple/Documents/UT/Master Thesis/Reconfigurable BIST/s1238_BIST/Enhanced/SFM.v(11)
+#    Time: 0 ps  Iteration: 0  Instance: /BIST_TB/DUT/SFM_inst
+# Starting Golden Signature Generation ... 
+# 
+# Starting Golden Signaturs Stored at            145035000 
+# 
+# ===> Fault Simulation Starting ...
+# 
+# ** Note: $stop    : C:/Users/apple/Documents/UT/Master Thesis/Reconfigurable BIST/s1238_BIST/Enhanced/TB.sv(286)
+#    Time: 174604655 ns  Iteration: 0  Instance: /BIST_TB
+# Break in Module BIST_TB at C:/Users/apple/Documents/UT/Master Thesis/Reconfigurable BIST/s1238_BIST/Enhanced/TB.sv line 286
+do mydo.do BIST_TB
+# Compile of BIST_CTRL.v was successful.
+# Compile of FlipDemux.v was successful.
+# Compile of LFSR.v was successful.
+# Compile of MISR.v was successful.
+# Compile of mycells.v was successful.
+# Compile of s1238_netlist_scanInserted.v was successful.
+# Compile of s1238_testable.v was successful.
+# Compile of SFM.v was successful.
+# Compile of sigROM.v was successful.
+# Compile of SISA.v was successful.
+# Compile of SRSG.v was successful.
+# Compile of STCR.v was successful.
+# Compile of TB.sv was successful.
+# 13 compiles, 0 failed with no errors.
+# End time: 06:08:13 on Sep 16,2024, Elapsed time: 0:16:36
+# Errors: 0, Warnings: 3
+# vsim work.BIST_TB 
+# Start time: 06:08:13 on Sep 16,2024
+# Loading sv_std.std
+# Loading work.BIST_TB
+# Loading work.STCR
+# Loading work.s1238_testable
+# Loading work.s1238_scanInserted
+# Loading work.NOT
+# Loading work.NOR
+# Loading work.NAND
+# Loading work.dff
+# Loading work.LFSR
+# Loading work.SRSG
+# Loading work.MISR
+# Loading work.SISA
+# Loading work.BIST_CTRL
+# Loading work.counter
+# Loading work.sigROM
+# Loading work.SFM
+# Loading work.flipDemux
+# ** Warning: (vsim-PLI-3407) Too many data words read on line 55 of file "SFM.txt". (Current address [54], address range [0:53])    : C:/Users/apple/Documents/UT/Master Thesis/Reconfigurable BIST/s1238_BIST/Enhanced/SFM.v(11)
+#    Time: 0 ps  Iteration: 0  Instance: /BIST_TB/DUT/SFM_inst
+# Starting Golden Signature Generation ... 
+# 
+# Starting Golden Signaturs Stored at            164775000 
+# 
+# ===> Fault Simulation Starting ...
+# 
+# ** Note: $stop    : C:/Users/apple/Documents/UT/Master Thesis/Reconfigurable BIST/s1238_BIST/Enhanced/TB.sv(286)
+#    Time: 198391355 ns  Iteration: 0  Instance: /BIST_TB
+# Break in Module BIST_TB at C:/Users/apple/Documents/UT/Master Thesis/Reconfigurable BIST/s1238_BIST/Enhanced/TB.sv line 286
+do mydo.do BIST_TB
+# Compile of BIST_CTRL.v was successful.
+# Compile of FlipDemux.v was successful.
+# Compile of LFSR.v was successful.
+# Compile of MISR.v was successful.
+# Compile of mycells.v was successful.
+# Compile of s1238_netlist_scanInserted.v was successful.
+# Compile of s1238_testable.v was successful.
+# Compile of SFM.v was successful.
+# Compile of sigROM.v was successful.
+# Compile of SISA.v was successful.
+# Compile of SRSG.v was successful.
+# Compile of STCR.v was successful.
+# Compile of TB.sv was successful.
+# 13 compiles, 0 failed with no errors.
+# End time: 07:28:20 on Sep 16,2024, Elapsed time: 1:20:07
+# Errors: 0, Warnings: 3
+# vsim work.BIST_TB 
+# Start time: 07:28:20 on Sep 16,2024
+# Loading sv_std.std
+# Loading work.BIST_TB
+# Loading work.STCR
+# Loading work.s1238_testable
+# Loading work.s1238_scanInserted
+# Loading work.NOT
+# Loading work.NOR
+# Loading work.NAND
+# Loading work.dff
+# Loading work.LFSR
+# Loading work.SRSG
+# Loading work.MISR
+# Loading work.SISA
+# Loading work.BIST_CTRL
+# Loading work.counter
+# Loading work.sigROM
+# Loading work.SFM
+# Loading work.flipDemux
+# ** Warning: (vsim-PLI-3407) Too many data words read on line 55 of file "SFM.txt". (Current address [54], address range [0:53])    : C:/Users/apple/Documents/UT/Master Thesis/Reconfigurable BIST/s1238_BIST/Enhanced/SFM.v(11)
+#    Time: 0 ps  Iteration: 0  Instance: /BIST_TB/DUT/SFM_inst
+# Starting Golden Signature Generation ... 
+# 
+# Starting Golden Signaturs Stored at             95685000 
+# 
+# ===> Fault Simulation Starting ...
+# 
+# ** Note: $stop    : C:/Users/apple/Documents/UT/Master Thesis/Reconfigurable BIST/s1238_BIST/Enhanced/TB.sv(286)
+#    Time: 115137905 ns  Iteration: 0  Instance: /BIST_TB
+# Break in Module BIST_TB at C:/Users/apple/Documents/UT/Master Thesis/Reconfigurable BIST/s1238_BIST/Enhanced/TB.sv line 286
+do mydo.do BIST_TB
+# Compile of BIST_CTRL.v was successful.
+# Compile of FlipDemux.v was successful.
+# Compile of LFSR.v was successful.
+# Compile of MISR.v was successful.
+# Compile of mycells.v was successful.
+# Compile of s1238_netlist_scanInserted.v was successful.
+# Compile of s1238_testable.v was successful.
+# Compile of SFM.v was successful.
+# Compile of sigROM.v was successful.
+# Compile of SISA.v was successful.
+# Compile of SRSG.v was successful.
+# Compile of STCR.v was successful.
+# Compile of TB.sv was successful.
+# 13 compiles, 0 failed with no errors.
+# End time: 07:42:19 on Sep 16,2024, Elapsed time: 0:13:59
+# Errors: 0, Warnings: 3
+# vsim work.BIST_TB 
+# Start time: 07:42:19 on Sep 16,2024
+# Loading sv_std.std
+# Loading work.BIST_TB
+# Loading work.STCR
+# Loading work.s1238_testable
+# Loading work.s1238_scanInserted
+# Loading work.NOT
+# Loading work.NOR
+# Loading work.NAND
+# Loading work.dff
+# Loading work.LFSR
+# Loading work.SRSG
+# Loading work.MISR
+# Loading work.SISA
+# Loading work.BIST_CTRL
+# Loading work.counter
+# Loading work.sigROM
+# Loading work.SFM
+# Loading work.flipDemux
+# ** Warning: (vsim-PLI-3407) Too many data words read on line 55 of file "SFM.txt". (Current address [54], address range [0:53])    : C:/Users/apple/Documents/UT/Master Thesis/Reconfigurable BIST/s1238_BIST/Enhanced/SFM.v(11)
+#    Time: 0 ps  Iteration: 0  Instance: /BIST_TB/DUT/SFM_inst
+# Starting Golden Signature Generation ... 
+# 
+# Starting Golden Signaturs Stored at            118715000 
+# 
+# ===> Fault Simulation Starting ...
+# 
+# ** Note: $stop    : C:/Users/apple/Documents/UT/Master Thesis/Reconfigurable BIST/s1238_BIST/Enhanced/TB.sv(286)
+#    Time: 142889055 ns  Iteration: 0  Instance: /BIST_TB
+# Break in Module BIST_TB at C:/Users/apple/Documents/UT/Master Thesis/Reconfigurable BIST/s1238_BIST/Enhanced/TB.sv line 286
+do mydo.do BIST_TB
+# Compile of BIST_CTRL.v was successful.
+# Compile of FlipDemux.v was successful.
+# Compile of LFSR.v was successful.
+# Compile of MISR.v was successful.
+# Compile of mycells.v was successful.
+# Compile of s1238_netlist_scanInserted.v was successful.
+# Compile of s1238_testable.v was successful.
+# Compile of SFM.v was successful.
+# Compile of sigROM.v was successful.
+# Compile of SISA.v was successful.
+# Compile of SRSG.v was successful.
+# Compile of STCR.v was successful.
+# Compile of TB.sv was successful.
+# 13 compiles, 0 failed with no errors.
+# End time: 08:00:41 on Sep 16,2024, Elapsed time: 0:18:22
+# Errors: 0, Warnings: 3
+# vsim work.BIST_TB 
+# Start time: 08:00:41 on Sep 16,2024
+# Loading sv_std.std
+# Loading work.BIST_TB
+# Loading work.STCR
+# Loading work.s1238_testable
+# Loading work.s1238_scanInserted
+# Loading work.NOT
+# Loading work.NOR
+# Loading work.NAND
+# Loading work.dff
+# Loading work.LFSR
+# Loading work.SRSG
+# Loading work.MISR
+# Loading work.SISA
+# Loading work.BIST_CTRL
+# Loading work.counter
+# Loading work.sigROM
+# Loading work.SFM
+# Loading work.flipDemux
+# ** Warning: (vsim-PLI-3407) Too many data words read on line 55 of file "SFM.txt". (Current address [54], address range [0:53])    : C:/Users/apple/Documents/UT/Master Thesis/Reconfigurable BIST/s1238_BIST/Enhanced/SFM.v(11)
+#    Time: 0 ps  Iteration: 0  Instance: /BIST_TB/DUT/SFM_inst
+# Starting Golden Signature Generation ... 
+# 
+# Starting Golden Signaturs Stored at            102265000 
+# 
+# ===> Fault Simulation Starting ...
+# 
+# ** Note: $stop    : C:/Users/apple/Documents/UT/Master Thesis/Reconfigurable BIST/s1238_BIST/Enhanced/TB.sv(286)
+#    Time: 123066805 ns  Iteration: 0  Instance: /BIST_TB
+# Break in Module BIST_TB at C:/Users/apple/Documents/UT/Master Thesis/Reconfigurable BIST/s1238_BIST/Enhanced/TB.sv line 286
+do mydo.do BIST_TB
+# Compile of BIST_CTRL.v was successful.
+# Compile of FlipDemux.v was successful.
+# Compile of LFSR.v was successful.
+# Compile of MISR.v was successful.
+# Compile of mycells.v was successful.
+# Compile of s1238_netlist_scanInserted.v was successful.
+# Compile of s1238_testable.v was successful.
+# Compile of SFM.v was successful.
+# Compile of sigROM.v was successful.
+# Compile of SISA.v was successful.
+# Compile of SRSG.v was successful.
+# Compile of STCR.v was successful.
+# Compile of TB.sv was successful.
+# 13 compiles, 0 failed with no errors.
+# End time: 08:17:40 on Sep 16,2024, Elapsed time: 0:16:59
+# Errors: 0, Warnings: 3
+# vsim work.BIST_TB 
+# Start time: 08:17:40 on Sep 16,2024
+# Loading sv_std.std
+# Loading work.BIST_TB
+# Loading work.STCR
+# Loading work.s1238_testable
+# Loading work.s1238_scanInserted
+# Loading work.NOT
+# Loading work.NOR
+# Loading work.NAND
+# Loading work.dff
+# Loading work.LFSR
+# Loading work.SRSG
+# Loading work.MISR
+# Loading work.SISA
+# Loading work.BIST_CTRL
+# Loading work.counter
+# Loading work.sigROM
+# Loading work.SFM
+# Loading work.flipDemux
+# ** Warning: (vsim-PLI-3407) Too many data words read on line 55 of file "SFM.txt". (Current address [54], address range [0:53])    : C:/Users/apple/Documents/UT/Master Thesis/Reconfigurable BIST/s1238_BIST/Enhanced/SFM.v(11)
+#    Time: 0 ps  Iteration: 0  Instance: /BIST_TB/DUT/SFM_inst
+# Starting Golden Signature Generation ... 
+# 
+# Starting Golden Signaturs Stored at             98975000 
+# 
+# ===> Fault Simulation Starting ...
+# 
+# ** Note: $stop    : C:/Users/apple/Documents/UT/Master Thesis/Reconfigurable BIST/s1238_BIST/Enhanced/TB.sv(286)
+#    Time: 119102355 ns  Iteration: 0  Instance: /BIST_TB
+# Break in Module BIST_TB at C:/Users/apple/Documents/UT/Master Thesis/Reconfigurable BIST/s1238_BIST/Enhanced/TB.sv line 286
+do mydo.do BIST_TB
+# Compile of BIST_CTRL.v was successful.
+# Compile of FlipDemux.v was successful.
+# Compile of LFSR.v was successful.
+# Compile of MISR.v was successful.
+# Compile of mycells.v was successful.
+# Compile of s1238_netlist_scanInserted.v was successful.
+# Compile of s1238_testable.v was successful.
+# Compile of SFM.v was successful.
+# Compile of sigROM.v was successful.
+# Compile of SISA.v was successful.
+# Compile of SRSG.v was successful.
+# Compile of STCR.v was successful.
+# Compile of TB.sv was successful.
+# 13 compiles, 0 failed with no errors.
+# End time: 08:39:07 on Sep 16,2024, Elapsed time: 0:21:27
+# Errors: 0, Warnings: 3
+# vsim work.BIST_TB 
+# Start time: 08:39:07 on Sep 16,2024
+# Loading sv_std.std
+# Loading work.BIST_TB
+# Loading work.STCR
+# Loading work.s1238_testable
+# Loading work.s1238_scanInserted
+# Loading work.NOT
+# Loading work.NOR
+# Loading work.NAND
+# Loading work.dff
+# Loading work.LFSR
+# Loading work.SRSG
+# Loading work.MISR
+# Loading work.SISA
+# Loading work.BIST_CTRL
+# Loading work.counter
+# Loading work.sigROM
+# Loading work.SFM
+# Loading work.flipDemux
+# ** Warning: (vsim-PLI-3407) Too many data words read on line 55 of file "SFM.txt". (Current address [54], address range [0:53])    : C:/Users/apple/Documents/UT/Master Thesis/Reconfigurable BIST/s1238_BIST/Enhanced/SFM.v(11)
+#    Time: 0 ps  Iteration: 0  Instance: /BIST_TB/DUT/SFM_inst
+# Starting Golden Signature Generation ... 
+# 
+# Starting Golden Signaturs Stored at            115425000 
+# 
+# ===> Fault Simulation Starting ...
+# 
+# ** Note: $stop    : C:/Users/apple/Documents/UT/Master Thesis/Reconfigurable BIST/s1238_BIST/Enhanced/TB.sv(286)
+#    Time: 138924605 ns  Iteration: 0  Instance: /BIST_TB
+# Break in Module BIST_TB at C:/Users/apple/Documents/UT/Master Thesis/Reconfigurable BIST/s1238_BIST/Enhanced/TB.sv line 286
+do mydo.do BIST_TB
+# Compile of BIST_CTRL.v was successful.
+# Compile of FlipDemux.v was successful.
+# Compile of LFSR.v was successful.
+# Compile of MISR.v was successful.
+# Compile of mycells.v was successful.
+# Compile of s1238_netlist_scanInserted.v was successful.
+# Compile of s1238_testable.v was successful.
+# Compile of SFM.v was successful.
+# Compile of sigROM.v was successful.
+# Compile of SISA.v was successful.
+# Compile of SRSG.v was successful.
+# Compile of STCR.v was successful.
+# Compile of TB.sv was successful.
+# 13 compiles, 0 failed with no errors.
+# End time: 08:57:21 on Sep 16,2024, Elapsed time: 0:18:14
+# Errors: 0, Warnings: 3
+# vsim work.BIST_TB 
+# Start time: 08:57:21 on Sep 16,2024
+# Loading sv_std.std
+# Loading work.BIST_TB
+# Loading work.STCR
+# Loading work.s1238_testable
+# Loading work.s1238_scanInserted
+# Loading work.NOT
+# Loading work.NOR
+# Loading work.NAND
+# Loading work.dff
+# Loading work.LFSR
+# Loading work.SRSG
+# Loading work.MISR
+# Loading work.SISA
+# Loading work.BIST_CTRL
+# Loading work.counter
+# Loading work.sigROM
+# Loading work.SFM
+# Loading work.flipDemux
+# ** Warning: (vsim-PLI-3407) Too many data words read on line 55 of file "SFM.txt". (Current address [54], address range [0:53])    : C:/Users/apple/Documents/UT/Master Thesis/Reconfigurable BIST/s1238_BIST/Enhanced/SFM.v(11)
+#    Time: 0 ps  Iteration: 0  Instance: /BIST_TB/DUT/SFM_inst
+# Starting Golden Signature Generation ... 
+# 
+# Starting Golden Signaturs Stored at            161485000 
+# 
+# ===> Fault Simulation Starting ...
+# 
+# ** Note: $stop    : C:/Users/apple/Documents/UT/Master Thesis/Reconfigurable BIST/s1238_BIST/Enhanced/TB.sv(286)
+#    Time: 194426905 ns  Iteration: 0  Instance: /BIST_TB
+# Break in Module BIST_TB at C:/Users/apple/Documents/UT/Master Thesis/Reconfigurable BIST/s1238_BIST/Enhanced/TB.sv line 286
+# End time: 10:08:44 on Sep 16,2024, Elapsed time: 1:11:23
+# Errors: 0, Warnings: 2

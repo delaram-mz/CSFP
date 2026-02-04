@@ -1,0 +1,2 @@
+Fault Coverage 0.963756 
+Simulation Time:                15135 

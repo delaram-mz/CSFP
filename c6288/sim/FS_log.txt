@@ -1,0 +1,4 @@
+==========> Fault Simulation Begins at                    0 
+Test Vector number           0 is:  01001100110001101000100011011000 
+Test Vector number           1 is:  11010110111001101101100011011011 
+Test Vector number           2 is:  11010010100011111110001011110000 

@@ -1,0 +1,2927 @@
+# Compile of BIST_CTRL.v was successful.
+# Compile of LFSR.v was successful.
+# Compile of MISR.v was successful.
+# Compile of mycells.v was successful.
+# Compile of s344_netlist.v was successful.
+# Compile of s344_netlist_scanInserted.v was successful.
+# Compile of sigROM.v was successful.
+# Compile of SISA.v was successful.
+# Compile of SRSG.v was successful.
+# Compile of STCR.v was successful.
+# Compile of TB.sv was successful.
+# 11 compiles, 0 failed with no errors.
+do mydo.do
+# The DO file requires two arguments: 
+# 1. TB_Name and 2. Process_Name in which the wireName & stuckAtVal variables are defined. 
+# Please try again with the following syntax: 
+# do doFileName.do TB_Name Process_Name
+# In my case is:   do mydo.do TB
+do mydo.do BIST_TB
+# Compile of BIST_CTRL.v was successful.
+# Compile of LFSR.v was successful.
+# Compile of MISR.v was successful.
+# Compile of mycells.v was successful.
+# Compile of s344_netlist.v was successful.
+# Compile of s344_netlist_scanInserted.v was successful.
+# Compile of sigROM.v was successful.
+# Compile of SISA.v was successful.
+# Compile of SRSG.v was successful.
+# Compile of STCR.v was successful.
+# Compile of TB.sv was successful.
+# 11 compiles, 0 failed with no errors.
+# vsim work.BIST_TB 
+# Start time: 14:27:17 on Sep 06,2024
+# Loading sv_std.std
+# Loading work.BIST_TB
+# Loading work.STCR
+# ** Error: (vsim-3033) Instantiation of 's344_testable' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /BIST_TB File: C:/Users/apple/Documents/UT/Master Thesis/Reconfigurable BIST/s344_BIST_v2/TB.sv Line: 67
+#         Searched libraries:
+#             C:/Users/apple/Documents/UT/Master Thesis/Reconfigurable BIST/s344_BIST_v2/simulation/work
+# Error loading design
+# Error: Error loading design
+#        Pausing macro execution
+# MACRO ./mydo.do PAUSED at line 67
+do mydo.do BIST_TB
+# Compile of BIST_CTRL.v was successful.
+# Compile of LFSR.v was successful.
+# Compile of MISR.v was successful.
+# Compile of mycells.v was successful.
+# Compile of s344_netlist_scanInserted.v was successful.
+# Compile of sigROM.v was successful.
+# Compile of SISA.v was successful.
+# Compile of SRSG.v was successful.
+# Compile of STCR.v was successful.
+# Compile of TB.sv was successful.
+# Compile of s344_testable.v was successful.
+# 11 compiles, 0 failed with no errors.
+# vsim work.BIST_TB 
+# Start time: 14:27:17 on Sep 06,2024
+# Loading sv_std.std
+# Loading work.BIST_TB
+# Loading work.STCR
+# Loading work.s344_testable
+# Loading work.s344_scanInserted
+# Loading work.NOT
+# Loading work.NOR
+# Loading work.NAND
+# Loading work.dff
+# Loading work.LFSR
+# Loading work.SRSG
+# Loading work.MISR
+# Loading work.SISA
+# Loading work.BIST_CTRL
+# Loading work.counter
+# Loading work.sigROM
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Starting Golden Signature Generation ... 
+# 
+# Starting Golden Signaturs Stored at              1915000 
+# 
+# ===> Fault Simulation Starting ...
+# 
+# ** Note: $stop    : C:/Users/apple/Documents/UT/Master Thesis/Reconfigurable BIST/s344_BIST_v2/TB.sv(175)
+#    Time: 97725 ns  Iteration: 0  Instance: /BIST_TB
+# Break in Module BIST_TB at C:/Users/apple/Documents/UT/Master Thesis/Reconfigurable BIST/s344_BIST_v2/TB.sv line 175
+do mydo.do BIST_TB
+# Compile of BIST_CTRL.v was successful.
+# Compile of LFSR.v was successful.
+# Compile of MISR.v was successful.
+# Compile of mycells.v was successful.
+# Compile of s344_netlist_scanInserted.v was successful.
+# Compile of sigROM.v was successful.
+# Compile of SISA.v was successful.
+# Compile of SRSG.v was successful.
+# Compile of STCR.v was successful.
+# Compile of TB.sv was successful.
+# Compile of s344_testable.v was successful.
+# 11 compiles, 0 failed with no errors.
+# End time: 14:32:20 on Sep 06,2024, Elapsed time: 0:05:03
+# Errors: 0, Warnings: 2
+# vsim work.BIST_TB 
+# Start time: 14:32:20 on Sep 06,2024
+# Loading sv_std.std
+# Loading work.BIST_TB
+# Loading work.STCR
+# Loading work.s344_testable
+# Loading work.s344_scanInserted
+# Loading work.NOT
+# Loading work.NOR
+# Loading work.NAND
+# Loading work.dff
+# Loading work.LFSR
+# Loading work.SRSG
+# Loading work.MISR
+# Loading work.SISA
+# Loading work.BIST_CTRL
+# Loading work.counter
+# Loading work.sigROM
+# Starting Golden Signature Generation ... 
+# 
+# Starting Golden Signaturs Stored at              1915000 
+# 
+# ===> Fault Simulation Starting ...
+# 
+# ** Note: $stop    : C:/Users/apple/Documents/UT/Master Thesis/Reconfigurable BIST/s344_BIST_v2/TB.sv(177)
+#    Time: 97725 ns  Iteration: 0  Instance: /BIST_TB
+# Break in Module BIST_TB at C:/Users/apple/Documents/UT/Master Thesis/Reconfigurable BIST/s344_BIST_v2/TB.sv line 177
+# Break key hit
+quit -sim
+# End time: 19:53:22 on Sep 06,2024, Elapsed time: 5:21:02
+# Errors: 0, Warnings: 1
+# Compile of BIST_CTRL.v was successful.
+# Compile of MISR.v was successful.
+# Compile of mycells.v was successful.
+# Compile of s344_netlist_scanInserted.v was successful.
+# Compile of sigROM.v was successful.
+# Compile of SISA.v was successful.
+# Compile of SRSG.v was successful.
+# Compile of STCR.v was successful.
+# Compile of TB.sv was successful.
+# Compile of s344_testable.v failed with 1 errors.
+# Compile of FlipDemux.v was successful.
+# Compile of LFSR_v2.v was successful.
+# Compile of SFM.v was successful.
+# 13 compiles, 1 failed with 1 error.
+# Compile of BIST_CTRL.v was successful.
+# Compile of MISR.v was successful.
+# Compile of mycells.v was successful.
+# Compile of s344_netlist_scanInserted.v was successful.
+# Compile of sigROM.v was successful.
+# Compile of SISA.v was successful.
+# Compile of SRSG.v was successful.
+# Compile of STCR.v was successful.
+# Compile of TB.sv was successful.
+# Compile of s344_testable.v failed with 1 errors.
+# Compile of FlipDemux.v was successful.
+# Compile of LFSR_v2.v was successful.
+# Compile of SFM.v was successful.
+# 13 compiles, 1 failed with 1 error.
+# Compile of BIST_CTRL.v was successful.
+# Compile of MISR.v was successful.
+# Compile of mycells.v was successful.
+# Compile of s344_netlist_scanInserted.v was successful.
+# Compile of sigROM.v was successful.
+# Compile of SISA.v was successful.
+# Compile of SRSG.v was successful.
+# Compile of STCR.v was successful.
+# Compile of TB.sv was successful.
+# Compile of s344_testable.v was successful.
+# Compile of FlipDemux.v was successful.
+# Compile of LFSR_v2.v was successful.
+# Compile of SFM.v was successful.
+# 13 compiles, 0 failed with no errors.
+do mydo.do BIST_TB
+# Compile of BIST_CTRL.v was successful.
+# Compile of MISR.v was successful.
+# Compile of mycells.v was successful.
+# Compile of s344_netlist_scanInserted.v was successful.
+# Compile of sigROM.v was successful.
+# Compile of SISA.v was successful.
+# Compile of SRSG.v was successful.
+# Compile of STCR.v was successful.
+# Compile of TB.sv was successful.
+# Compile of s344_testable.v was successful.
+# Compile of FlipDemux.v was successful.
+# Compile of LFSR_v2.v was successful.
+# Compile of SFM.v was successful.
+# 13 compiles, 0 failed with no errors.
+# vsim work.BIST_TB 
+# Start time: 19:57:29 on Sep 06,2024
+# Loading sv_std.std
+# Loading work.BIST_TB
+# Loading work.STCR
+# Loading work.s344_testable
+# Loading work.s344_scanInserted
+# Loading work.NOT
+# Loading work.NOR
+# Loading work.NAND
+# Loading work.dff
+# Loading work.LFSR
+# Loading work.SRSG
+# Loading work.MISR
+# Loading work.SISA
+# Loading work.BIST_CTRL
+# Loading work.counter
+# Loading work.sigROM
+# Loading work.SFM
+# Loading work.flipDemux
+# ** Error (suppressible): (vsim-3389) Port 'ld' not found in the connected module (7th connection).
+#    Time: 0 ps  Iteration: 0  Instance: /BIST_TB/DUT/PRPG_inst File: C:/Users/apple/Documents/UT/Master Thesis/Reconfigurable BIST/s344_BIST_v2/s344_testable.v Line: 77
+# ** Warning: (vsim-3015) [PCDPC] - Port size (228) does not match connection size (26) for port 'data'. The port definition is at: C:/Users/apple/Documents/UT/Master Thesis/Reconfigurable BIST/s344_BIST_v2/sigROM.v(5).
+#    Time: 0 ps  Iteration: 0  Instance: /BIST_TB/DUT/sigROM_inst File: C:/Users/apple/Documents/UT/Master Thesis/Reconfigurable BIST/s344_BIST_v2/s344_testable.v Line: 138
+# ** Warning: (vsim-3015) [PCDPC] - Port size (35) does not match connection size (9) for port 'currentSeed'. The port definition is at: C:/Users/apple/Documents/UT/Master Thesis/Reconfigurable BIST/s344_BIST_v2/FlipDemux.v(4).
+#    Time: 0 ps  Iteration: 0  Instance: /BIST_TB/DUT/flipDemux_inst File: C:/Users/apple/Documents/UT/Master Thesis/Reconfigurable BIST/s344_BIST_v2/s344_testable.v Line: 150
+# ** Warning: (vsim-3015) [PCDPC] - Port size (35) does not match connection size (9) for port 'nextSeed'. The port definition is at: C:/Users/apple/Documents/UT/Master Thesis/Reconfigurable BIST/s344_BIST_v2/FlipDemux.v(5).
+#    Time: 0 ps  Iteration: 0  Instance: /BIST_TB/DUT/flipDemux_inst File: C:/Users/apple/Documents/UT/Master Thesis/Reconfigurable BIST/s344_BIST_v2/s344_testable.v Line: 150
+# Error loading design
+# Error: Error loading design
+#        Pausing macro execution
+# MACRO ./mydo.do PAUSED at line 67
+do mydo.do
+# The DO file requires two arguments: 
+# 1. TB_Name and 2. Process_Name in which the wireName & stuckAtVal variables are defined. 
+# Please try again with the following syntax: 
+# do doFileName.do TB_Name Process_Name
+# In my case is:   do mydo.do TB
+do mydo.do BIST_TB
+# Compile of BIST_CTRL.v was successful.
+# Compile of MISR.v was successful.
+# Compile of mycells.v was successful.
+# Compile of s344_netlist_scanInserted.v was successful.
+# Compile of sigROM.v was successful.
+# Compile of SISA.v was successful.
+# Compile of SRSG.v was successful.
+# Compile of STCR.v was successful.
+# Compile of TB.sv was successful.
+# Compile of s344_testable.v was successful.
+# Compile of FlipDemux.v was successful.
+# Compile of LFSR_v2.v was successful.
+# Compile of SFM.v was successful.
+# 13 compiles, 0 failed with no errors.
+# vsim work.BIST_TB 
+# Start time: 19:57:29 on Sep 06,2024
+# Loading sv_std.std
+# Loading work.BIST_TB
+# Loading work.STCR
+# Loading work.s344_testable
+# Loading work.s344_scanInserted
+# Loading work.NOT
+# Loading work.NOR
+# Loading work.NAND
+# Loading work.dff
+# Loading work.LFSR
+# Loading work.SRSG
+# Loading work.MISR
+# Loading work.SISA
+# Loading work.BIST_CTRL
+# Loading work.counter
+# Loading work.sigROM
+# Loading work.SFM
+# Loading work.flipDemux
+# ** Error (suppressible): (vsim-3389) Port 'ld' not found in the connected module (7th connection).
+#    Time: 0 ps  Iteration: 0  Instance: /BIST_TB/DUT/PRPG_inst File: C:/Users/apple/Documents/UT/Master Thesis/Reconfigurable BIST/s344_BIST_v2/s344_testable.v Line: 77
+# ** Warning: (vsim-3015) [PCDPC] - Port size (228) does not match connection size (26) for port 'data'. The port definition is at: C:/Users/apple/Documents/UT/Master Thesis/Reconfigurable BIST/s344_BIST_v2/sigROM.v(5).
+#    Time: 0 ps  Iteration: 0  Instance: /BIST_TB/DUT/sigROM_inst File: C:/Users/apple/Documents/UT/Master Thesis/Reconfigurable BIST/s344_BIST_v2/s344_testable.v Line: 138
+# Error loading design
+# Error: Error loading design
+#        Pausing macro execution
+# MACRO ./mydo.do PAUSED at line 67
+vlog -work {C:/Users/apple/Documents/UT/Master Thesis/Reconfigurable BIST/s344_BIST_v2/simulation/work} -refresh -force_refresh
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 20:02:34 on Sep 06,2024
+# vlog -reportprogress 300 -work C:/Users/apple/Documents/UT/Master Thesis/Reconfigurable BIST/s344_BIST_v2/simulation/work -refresh -force_refresh 
+# -- Refreshing module BIST_CTRL
+# -- Refreshing module BIST_TB
+# -- Refreshing module counter
+# -- Refreshing module dff
+# -- Refreshing module DFF
+# -- Refreshing module flipDemux
+# -- Refreshing module LFSR
+# -- Refreshing module LFSR_v2
+# -- Refreshing module MISR
+# -- Refreshing module NAND
+# -- Refreshing module NOR
+# -- Refreshing module NOT
+# -- Refreshing module s344
+# -- Refreshing module s344_scanInserted
+# -- Refreshing module s344_testable
+# -- Refreshing module SFM
+# -- Refreshing module sigROM
+# -- Refreshing module SISA
+# -- Refreshing module SRSG
+# -- Refreshing module STCR
+# End time: 20:02:35 on Sep 06,2024, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+vcom -work {C:/Users/apple/Documents/UT/Master Thesis/Reconfigurable BIST/s344_BIST_v2/simulation/work} -refresh -force_refresh
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 20:02:35 on Sep 06,2024
+# vcom -reportprogress 300 -work C:/Users/apple/Documents/UT/Master Thesis/Reconfigurable BIST/s344_BIST_v2/simulation/work -refresh -force_refresh 
+# -- Skipping module BIST_CTRL
+# -- Skipping module BIST_TB
+# -- Skipping module counter
+# -- Skipping module DFF
+# -- Skipping module dff
+# -- Skipping module flipDemux
+# -- Skipping module LFSR
+# -- Skipping module LFSR_v2
+# -- Skipping module MISR
+# -- Skipping module NAND
+# -- Skipping module NOR
+# -- Skipping module NOT
+# -- Skipping module s344
+# -- Skipping module s344_scanInserted
+# -- Skipping module s344_testable
+# -- Skipping module SFM
+# -- Skipping module sigROM
+# -- Skipping module SISA
+# -- Skipping module SRSG
+# -- Skipping module STCR
+# End time: 20:02:35 on Sep 06,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+do mydo.do BIST_TB
+# Compile of BIST_CTRL.v was successful.
+# Compile of MISR.v was successful.
+# Compile of mycells.v was successful.
+# Compile of s344_netlist_scanInserted.v was successful.
+# Compile of sigROM.v was successful.
+# Compile of SISA.v was successful.
+# Compile of SRSG.v was successful.
+# Compile of STCR.v was successful.
+# Compile of TB.sv was successful.
+# Compile of s344_testable.v was successful.
+# Compile of FlipDemux.v was successful.
+# Compile of LFSR_v2.v was successful.
+# Compile of SFM.v was successful.
+# 13 compiles, 0 failed with no errors.
+# vsim work.BIST_TB 
+# Start time: 19:57:29 on Sep 06,2024
+# Loading sv_std.std
+# Loading work.BIST_TB
+# Loading work.STCR
+# Loading work.s344_testable
+# Loading work.s344_scanInserted
+# Loading work.NOT
+# Loading work.NOR
+# Loading work.NAND
+# Loading work.dff
+# ** Error: (vsim-3033) Instantiation of 'LFSR' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /BIST_TB/DUT File: C:/Users/apple/Documents/UT/Master Thesis/Reconfigurable BIST/s344_BIST_v2/s344_testable.v Line: 77
+#         Searched libraries:
+#             C:/Users/apple/Documents/UT/Master Thesis/Reconfigurable BIST/s344_BIST_v2/simulation/work
+# Loading work.SRSG
+# Loading work.MISR
+# Loading work.SISA
+# Loading work.BIST_CTRL
+# Loading work.counter
+# Loading work.sigROM
+# Loading work.SFM
+# Loading work.flipDemux
+# Error loading design
+# Error: Error loading design
+#        Pausing macro execution
+# MACRO ./mydo.do PAUSED at line 67
+# Compile of BIST_CTRL.v was successful.
+# Compile of MISR.v was successful.
+# Compile of mycells.v was successful.
+# Compile of s344_netlist_scanInserted.v was successful.
+# Compile of sigROM.v was successful.
+# Compile of SISA.v was successful.
+# Compile of SRSG.v was successful.
+# Compile of STCR.v was successful.
+# Compile of TB.sv was successful.
+# Compile of s344_testable.v was successful.
+# Compile of FlipDemux.v was successful.
+# Compile of LFSR_v2.v was successful.
+# Compile of SFM.v was successful.
+# 13 compiles, 0 failed with no errors.
+# Compile of BIST_CTRL.v was successful.
+# Compile of MISR.v was successful.
+# Compile of mycells.v was successful.
+# Compile of s344_netlist_scanInserted.v was successful.
+# Compile of sigROM.v was successful.
+# Compile of SISA.v was successful.
+# Compile of SRSG.v was successful.
+# Compile of STCR.v was successful.
+# Compile of TB.sv was successful.
+# Compile of s344_testable.v was successful.
+# Compile of FlipDemux.v was successful.
+# Compile of SFM.v was successful.
+# Compile of LFSR.v was successful.
+# 13 compiles, 0 failed with no errors.
+do mydo.do BIST_TB
+# Compile of BIST_CTRL.v was successful.
+# Compile of MISR.v was successful.
+# Compile of mycells.v was successful.
+# Compile of s344_netlist_scanInserted.v was successful.
+# Compile of sigROM.v was successful.
+# Compile of SISA.v was successful.
+# Compile of SRSG.v was successful.
+# Compile of STCR.v was successful.
+# Compile of TB.sv was successful.
+# Compile of s344_testable.v was successful.
+# Compile of FlipDemux.v was successful.
+# Compile of SFM.v was successful.
+# Compile of LFSR.v was successful.
+# 13 compiles, 0 failed with no errors.
+# vsim work.BIST_TB 
+# Start time: 19:57:29 on Sep 06,2024
+# Loading sv_std.std
+# Loading work.BIST_TB
+# Loading work.STCR
+# Loading work.s344_testable
+# Loading work.s344_scanInserted
+# Loading work.NOT
+# Loading work.NOR
+# Loading work.NAND
+# Loading work.dff
+# Loading work.LFSR
+# Loading work.SRSG
+# Loading work.MISR
+# Loading work.SISA
+# Loading work.BIST_CTRL
+# Loading work.counter
+# Loading work.sigROM
+# Loading work.SFM
+# Loading work.flipDemux
+# ** Error (suppressible): (vsim-3389) Port 'ld' not found in the connected module (7th connection).
+#    Time: 0 ps  Iteration: 0  Instance: /BIST_TB/DUT/PRPG_inst File: C:/Users/apple/Documents/UT/Master Thesis/Reconfigurable BIST/s344_BIST_v2/s344_testable.v Line: 77
+# ** Warning: (vsim-3015) [PCDPC] - Port size (228) does not match connection size (26) for port 'data'. The port definition is at: C:/Users/apple/Documents/UT/Master Thesis/Reconfigurable BIST/s344_BIST_v2/sigROM.v(5).
+#    Time: 0 ps  Iteration: 0  Instance: /BIST_TB/DUT/sigROM_inst File: C:/Users/apple/Documents/UT/Master Thesis/Reconfigurable BIST/s344_BIST_v2/s344_testable.v Line: 138
+# Error loading design
+# Error: Error loading design
+#        Pausing macro execution
+# MACRO ./mydo.do PAUSED at line 67
+do mydo.do BIST_TB
+# Compile of BIST_CTRL.v was successful.
+# Compile of MISR.v was successful.
+# Compile of mycells.v was successful.
+# Compile of s344_netlist_scanInserted.v was successful.
+# Compile of sigROM.v was successful.
+# Compile of SISA.v was successful.
+# Compile of SRSG.v was successful.
+# Compile of STCR.v was successful.
+# Compile of TB.sv was successful.
+# Compile of s344_testable.v was successful.
+# Compile of FlipDemux.v was successful.
+# Compile of SFM.v was successful.
+# Compile of LFSR.v was successful.
+# 13 compiles, 0 failed with no errors.
+# vsim work.BIST_TB 
+# Start time: 19:57:29 on Sep 06,2024
+# Loading sv_std.std
+# Loading work.BIST_TB
+# Loading work.STCR
+# Loading work.s344_testable
+# Loading work.s344_scanInserted
+# Loading work.NOT
+# Loading work.NOR
+# Loading work.NAND
+# Loading work.dff
+# Loading work.LFSR
+# Loading work.SRSG
+# Loading work.MISR
+# Loading work.SISA
+# Loading work.BIST_CTRL
+# Loading work.counter
+# Loading work.sigROM
+# Loading work.SFM
+# Loading work.flipDemux
+# ** Error (suppressible): (vsim-3389) Port 'ld' not found in the connected module (7th connection).
+#    Time: 0 ps  Iteration: 0  Instance: /BIST_TB/DUT/PRPG_inst File: C:/Users/apple/Documents/UT/Master Thesis/Reconfigurable BIST/s344_BIST_v2/s344_testable.v Line: 77
+# Error loading design
+# Error: Error loading design
+#        Pausing macro execution
+# MACRO ./mydo.do PAUSED at line 67
+do mydo.do BIST_TB
+# Compile of BIST_CTRL.v was successful.
+# Compile of MISR.v was successful.
+# Compile of mycells.v was successful.
+# Compile of s344_netlist_scanInserted.v was successful.
+# Compile of sigROM.v was successful.
+# Compile of SISA.v was successful.
+# Compile of SRSG.v was successful.
+# Compile of STCR.v was successful.
+# Compile of TB.sv was successful.
+# Compile of s344_testable.v was successful.
+# Compile of FlipDemux.v was successful.
+# Compile of SFM.v was successful.
+# Compile of LFSR.v was successful.
+# 13 compiles, 0 failed with no errors.
+# vsim work.BIST_TB 
+# Start time: 19:57:29 on Sep 06,2024
+# Loading sv_std.std
+# Loading work.BIST_TB
+# Loading work.STCR
+# Loading work.s344_testable
+# Loading work.s344_scanInserted
+# Loading work.NOT
+# Loading work.NOR
+# Loading work.NAND
+# Loading work.dff
+# Loading work.LFSR
+# Loading work.SRSG
+# Loading work.MISR
+# Loading work.SISA
+# Loading work.BIST_CTRL
+# Loading work.counter
+# Loading work.sigROM
+# Loading work.SFM
+# Loading work.flipDemux
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Starting Golden Signature Generation ... 
+# 
+# Starting Golden Signaturs Stored at              1925000 
+# 
+# ** Note: $stop    : C:/Users/apple/Documents/UT/Master Thesis/Reconfigurable BIST/s344_BIST_v2/TB.sv(287)
+#    Time: 1925 ns  Iteration: 0  Instance: /BIST_TB
+# Break in Module BIST_TB at C:/Users/apple/Documents/UT/Master Thesis/Reconfigurable BIST/s344_BIST_v2/TB.sv line 287
+do mydo.do BIST_TB
+# Compile of BIST_CTRL.v was successful.
+# Compile of MISR.v was successful.
+# Compile of mycells.v was successful.
+# Compile of s344_netlist_scanInserted.v was successful.
+# Compile of sigROM.v was successful.
+# Compile of SISA.v was successful.
+# Compile of SRSG.v was successful.
+# Compile of STCR.v was successful.
+# Compile of TB.sv was successful.
+# Compile of s344_testable.v was successful.
+# Compile of FlipDemux.v was successful.
+# Compile of SFM.v was successful.
+# Compile of LFSR.v was successful.
+# 13 compiles, 0 failed with no errors.
+# End time: 20:17:19 on Sep 06,2024, Elapsed time: 0:19:50
+# Errors: 0, Warnings: 2
+# vsim work.BIST_TB 
+# Start time: 20:17:19 on Sep 06,2024
+# Loading sv_std.std
+# Loading work.BIST_TB
+# Loading work.STCR
+# Loading work.s344_testable
+# Loading work.s344_scanInserted
+# Loading work.NOT
+# Loading work.NOR
+# Loading work.NAND
+# Loading work.dff
+# Loading work.LFSR
+# Loading work.SRSG
+# Loading work.MISR
+# Loading work.SISA
+# Loading work.BIST_CTRL
+# Loading work.counter
+# Loading work.sigROM
+# Loading work.SFM
+# Loading work.flipDemux
+# ** Note: $stop    : C:/Users/apple/Documents/UT/Master Thesis/Reconfigurable BIST/s344_BIST_v2/TB.sv(287)
+#    Time: 161 ns  Iteration: 0  Instance: /BIST_TB
+# Break in Module BIST_TB at C:/Users/apple/Documents/UT/Master Thesis/Reconfigurable BIST/s344_BIST_v2/TB.sv line 287
+do mydo.do BIST_TB
+# Compile of BIST_CTRL.v was successful.
+# Compile of MISR.v was successful.
+# Compile of mycells.v was successful.
+# Compile of s344_netlist_scanInserted.v was successful.
+# Compile of sigROM.v was successful.
+# Compile of SISA.v was successful.
+# Compile of SRSG.v was successful.
+# Compile of STCR.v was successful.
+# Compile of TB.sv was successful.
+# Compile of s344_testable.v was successful.
+# Compile of FlipDemux.v was successful.
+# Compile of SFM.v was successful.
+# Compile of LFSR.v was successful.
+# 13 compiles, 0 failed with no errors.
+# End time: 20:18:05 on Sep 06,2024, Elapsed time: 0:00:46
+# Errors: 0, Warnings: 2
+# vsim work.BIST_TB 
+# Start time: 20:18:05 on Sep 06,2024
+# Loading sv_std.std
+# Loading work.BIST_TB
+# Loading work.STCR
+# Loading work.s344_testable
+# Loading work.s344_scanInserted
+# Loading work.NOT
+# Loading work.NOR
+# Loading work.NAND
+# Loading work.dff
+# Loading work.LFSR
+# Loading work.SRSG
+# Loading work.MISR
+# Loading work.SISA
+# Loading work.BIST_CTRL
+# Loading work.counter
+# Loading work.sigROM
+# Loading work.SFM
+# Loading work.flipDemux
+# Starting Golden Signature Generation ... 
+# 
+# Starting Golden Signature Generation ... 
+# 
+# Starting Golden Signature Generation ... 
+# 
+# Starting Golden Signature Generation ... 
+# 
+# ** Warning: (vsim-PLI-3407) Too many data words read on line 13 of file "signatures.txt". (Current address [12], address range [0:11])    : C:/Users/apple/Documents/UT/Master Thesis/Reconfigurable BIST/s344_BIST_v2/sigROM.v(16)
+#    Time: 7165 ns  Iteration: 4  Instance: /BIST_TB/DUT/sigROM_inst
+# Starting Golden Signaturs Stored at              7175000 
+# 
+# ===> Fault Simulation Starting ...
+# 
+# ** Note: $stop    : C:/Users/apple/Documents/UT/Master Thesis/Reconfigurable BIST/s344_BIST_v2/TB.sv(287)
+#    Time: 414935 ns  Iteration: 0  Instance: /BIST_TB
+# Break in Module BIST_TB at C:/Users/apple/Documents/UT/Master Thesis/Reconfigurable BIST/s344_BIST_v2/TB.sv line 287
+do mydo.do BIST_TB
+# Compile of BIST_CTRL.v was successful.
+# Compile of MISR.v was successful.
+# Compile of mycells.v was successful.
+# Compile of s344_netlist_scanInserted.v was successful.
+# Compile of sigROM.v was successful.
+# Compile of SISA.v was successful.
+# Compile of SRSG.v was successful.
+# Compile of STCR.v was successful.
+# Compile of TB.sv was successful.
+# Compile of s344_testable.v was successful.
+# Compile of FlipDemux.v was successful.
+# Compile of SFM.v was successful.
+# Compile of LFSR.v was successful.
+# 13 compiles, 0 failed with no errors.
+# End time: 20:20:48 on Sep 06,2024, Elapsed time: 0:02:43
+# Errors: 0, Warnings: 3
+# vsim work.BIST_TB 
+# Start time: 20:20:48 on Sep 06,2024
+# Loading sv_std.std
+# Loading work.BIST_TB
+# Loading work.STCR
+# Loading work.s344_testable
+# Loading work.s344_scanInserted
+# Loading work.NOT
+# Loading work.NOR
+# Loading work.NAND
+# Loading work.dff
+# Loading work.LFSR
+# Loading work.SRSG
+# Loading work.MISR
+# Loading work.SISA
+# Loading work.BIST_CTRL
+# Loading work.counter
+# Loading work.sigROM
+# Loading work.SFM
+# Loading work.flipDemux
+# Starting Golden Signature Generation ... 
+# 
+# Starting Golden Signature Generation ... 
+# 
+# Starting Golden Signature Generation ... 
+# 
+# Starting Golden Signature Generation ... 
+# 
+# ** Warning: (vsim-PLI-3407) Too many data words read on line 13 of file "signatures.txt". (Current address [12], address range [0:11])    : C:/Users/apple/Documents/UT/Master Thesis/Reconfigurable BIST/s344_BIST_v2/sigROM.v(16)
+#    Time: 7165 ns  Iteration: 4  Instance: /BIST_TB/DUT/sigROM_inst
+# Starting Golden Signaturs Stored at              7175000 
+# 
+# ===> Fault Simulation Starting ...
+# 
+# ** Note: $stop    : C:/Users/apple/Documents/UT/Master Thesis/Reconfigurable BIST/s344_BIST_v2/TB.sv(287)
+#    Time: 414935 ns  Iteration: 0  Instance: /BIST_TB
+# Break in Module BIST_TB at C:/Users/apple/Documents/UT/Master Thesis/Reconfigurable BIST/s344_BIST_v2/TB.sv line 287
+do mydo.do BIST_TB
+# Compile of BIST_CTRL.v was successful.
+# Compile of MISR.v was successful.
+# Compile of mycells.v was successful.
+# Compile of s344_netlist_scanInserted.v was successful.
+# Compile of sigROM.v was successful.
+# Compile of SISA.v was successful.
+# Compile of SRSG.v was successful.
+# Compile of STCR.v was successful.
+# Compile of TB.sv was successful.
+# Compile of s344_testable.v was successful.
+# Compile of FlipDemux.v was successful.
+# Compile of SFM.v was successful.
+# Compile of LFSR.v was successful.
+# 13 compiles, 0 failed with no errors.
+# End time: 20:23:20 on Sep 06,2024, Elapsed time: 0:02:32
+# Errors: 0, Warnings: 3
+# vsim work.BIST_TB 
+# Start time: 20:23:20 on Sep 06,2024
+# Loading sv_std.std
+# Loading work.BIST_TB
+# Loading work.STCR
+# Loading work.s344_testable
+# Loading work.s344_scanInserted
+# Loading work.NOT
+# Loading work.NOR
+# Loading work.NAND
+# Loading work.dff
+# Loading work.LFSR
+# Loading work.SRSG
+# Loading work.MISR
+# Loading work.SISA
+# Loading work.BIST_CTRL
+# Loading work.counter
+# Loading work.sigROM
+# Loading work.SFM
+# Loading work.flipDemux
+# Starting Golden Signature Generation ... 
+# 
+# Starting Golden Signature Generation ... 
+# 
+# Starting Golden Signature Generation ... 
+# 
+# Starting Golden Signature Generation ... 
+# 
+# ** Warning: (vsim-PLI-3407) Too many data words read on line 13 of file "signatures.txt". (Current address [12], address range [0:11])    : C:/Users/apple/Documents/UT/Master Thesis/Reconfigurable BIST/s344_BIST_v2/sigROM.v(16)
+#    Time: 7165 ns  Iteration: 4  Instance: /BIST_TB/DUT/sigROM_inst
+# Starting Golden Signaturs Stored at              7175000 
+# 
+# ===> Fault Simulation Starting ...
+# 
+# ** Note: $stop    : C:/Users/apple/Documents/UT/Master Thesis/Reconfigurable BIST/s344_BIST_v2/TB.sv(287)
+#    Time: 414935 ns  Iteration: 0  Instance: /BIST_TB
+# Break in Module BIST_TB at C:/Users/apple/Documents/UT/Master Thesis/Reconfigurable BIST/s344_BIST_v2/TB.sv line 287
+do mydo.do BIST_TB
+# Compile of BIST_CTRL.v was successful.
+# Compile of MISR.v was successful.
+# Compile of mycells.v was successful.
+# Compile of s344_netlist_scanInserted.v was successful.
+# Compile of sigROM.v was successful.
+# Compile of SISA.v was successful.
+# Compile of SRSG.v was successful.
+# Compile of STCR.v was successful.
+# Compile of TB.sv was successful.
+# Compile of s344_testable.v was successful.
+# Compile of FlipDemux.v was successful.
+# Compile of SFM.v was successful.
+# Compile of LFSR.v was successful.
+# 13 compiles, 0 failed with no errors.
+# End time: 20:24:47 on Sep 06,2024, Elapsed time: 0:01:27
+# Errors: 0, Warnings: 3
+# vsim work.BIST_TB 
+# Start time: 20:24:47 on Sep 06,2024
+# Loading sv_std.std
+# Loading work.BIST_TB
+# Loading work.STCR
+# Loading work.s344_testable
+# Loading work.s344_scanInserted
+# Loading work.NOT
+# Loading work.NOR
+# Loading work.NAND
+# Loading work.dff
+# Loading work.LFSR
+# Loading work.SRSG
+# Loading work.MISR
+# Loading work.SISA
+# Loading work.BIST_CTRL
+# Loading work.counter
+# Loading work.sigROM
+# Loading work.SFM
+# Loading work.flipDemux
+# Starting Golden Signature Generation ... 
+# 
+# Starting Golden Signature Generation ... 
+# 
+# Starting Golden Signature Generation ... 
+# 
+# Starting Golden Signature Generation ... 
+# 
+# Starting Golden Signaturs Stored at              7175000 
+# 
+# ===> Fault Simulation Starting ...
+# 
+# ** Note: $stop    : C:/Users/apple/Documents/UT/Master Thesis/Reconfigurable BIST/s344_BIST_v2/TB.sv(287)
+#    Time: 414935 ns  Iteration: 0  Instance: /BIST_TB
+# Break in Module BIST_TB at C:/Users/apple/Documents/UT/Master Thesis/Reconfigurable BIST/s344_BIST_v2/TB.sv line 287
+add wave -position insertpoint  \
+sim:/BIST_TB/DUT/addr_groupVal \
+sim:/BIST_TB/DUT/clk \
+sim:/BIST_TB/DUT/compare \
+sim:/BIST_TB/DUT/done \
+sim:/BIST_TB/DUT/fail \
+sim:/BIST_TB/DUT/flipped_seed \
+sim:/BIST_TB/DUT/flippingVal \
+sim:/BIST_TB/DUT/goldenSig \
+sim:/BIST_TB/DUT/groupVal \
+sim:/BIST_TB/DUT/local_fail \
+sim:/BIST_TB/DUT/mode \
+sim:/BIST_TB/DUT/NbarT \
+sim:/BIST_TB/DUT/seed_ld \
+sim:/BIST_TB/DUT/session
+write format wave -window .main_pane.wave.interior.cs.body.pw.wf {C:/Users/apple/Documents/UT/Master Thesis/Reconfigurable BIST/s344_BIST_v2/simulation/wave.do}
+do mydo.do BIST_TB
+# Compile of BIST_CTRL.v was successful.
+# Compile of MISR.v was successful.
+# Compile of mycells.v was successful.
+# Compile of s344_netlist_scanInserted.v was successful.
+# Compile of sigROM.v was successful.
+# Compile of SISA.v was successful.
+# Compile of SRSG.v was successful.
+# Compile of STCR.v was successful.
+# Compile of TB.sv was successful.
+# Compile of s344_testable.v was successful.
+# Compile of FlipDemux.v was successful.
+# Compile of SFM.v was successful.
+# Compile of LFSR.v was successful.
+# 13 compiles, 0 failed with no errors.
+# End time: 20:26:47 on Sep 06,2024, Elapsed time: 0:02:00
+# Errors: 0, Warnings: 2
+# vsim work.BIST_TB 
+# Start time: 20:26:47 on Sep 06,2024
+# Loading sv_std.std
+# Loading work.BIST_TB
+# Loading work.STCR
+# Loading work.s344_testable
+# Loading work.s344_scanInserted
+# Loading work.NOT
+# Loading work.NOR
+# Loading work.NAND
+# Loading work.dff
+# Loading work.LFSR
+# Loading work.SRSG
+# Loading work.MISR
+# Loading work.SISA
+# Loading work.BIST_CTRL
+# Loading work.counter
+# Loading work.sigROM
+# Loading work.SFM
+# Loading work.flipDemux
+# Starting Golden Signature Generation ... 
+# 
+# Starting Golden Signature Generation ... 
+# 
+# Starting Golden Signature Generation ... 
+# 
+# Starting Golden Signature Generation ... 
+# 
+# Starting Golden Signaturs Stored at              7175000 
+# 
+# ===> Fault Simulation Starting ...
+# 
+# ** Note: $stop    : C:/Users/apple/Documents/UT/Master Thesis/Reconfigurable BIST/s344_BIST_v2/TB.sv(287)
+#    Time: 414935 ns  Iteration: 0  Instance: /BIST_TB
+# Break in Module BIST_TB at C:/Users/apple/Documents/UT/Master Thesis/Reconfigurable BIST/s344_BIST_v2/TB.sv line 287
+add wave -position insertpoint  \
+sim:/BIST_TB/DUT/CTRL_inst/group_eq
+add wave -position insertpoint  \
+sim:/BIST_TB/DUT/CTRL_inst/group_cnt_en
+add wave -position insertpoint  \
+sim:/BIST_TB/DUT/CTRL_inst/group_cnt_out
+add wave -position insertpoint  \
+sim:/BIST_TB/DUT/CTRL_inst/group_cnt_rst
+add wave -position insertpoint  \
+sim:/BIST_TB/DUT/CTRL_inst/group
+write format wave -window .main_pane.wave.interior.cs.body.pw.wf {C:/Users/apple/Documents/UT/Master Thesis/Reconfigurable BIST/s344_BIST_v2/simulation/wave.do}
+do mydo.do BIST_TB
+# Compile of BIST_CTRL.v was successful.
+# Compile of MISR.v was successful.
+# Compile of mycells.v was successful.
+# Compile of s344_netlist_scanInserted.v was successful.
+# Compile of sigROM.v was successful.
+# Compile of SISA.v was successful.
+# Compile of SRSG.v was successful.
+# Compile of STCR.v was successful.
+# Compile of TB.sv was successful.
+# Compile of s344_testable.v was successful.
+# Compile of FlipDemux.v was successful.
+# Compile of SFM.v was successful.
+# Compile of LFSR.v was successful.
+# 13 compiles, 0 failed with no errors.
+# End time: 20:35:25 on Sep 06,2024, Elapsed time: 0:08:38
+# Errors: 0, Warnings: 2
+# vsim work.BIST_TB 
+# Start time: 20:35:26 on Sep 06,2024
+# Loading sv_std.std
+# Loading work.BIST_TB
+# Loading work.STCR
+# Loading work.s344_testable
+# Loading work.s344_scanInserted
+# Loading work.NOT
+# Loading work.NOR
+# Loading work.NAND
+# Loading work.dff
+# Loading work.LFSR
+# Loading work.SRSG
+# Loading work.MISR
+# Loading work.SISA
+# Loading work.BIST_CTRL
+# Loading work.counter
+# Loading work.sigROM
+# Loading work.SFM
+# Loading work.flipDemux
+# Starting Golden Signature Generation ... 
+# 
+# Starting Golden Signature Generation ... 
+# 
+# Starting Golden Signature Generation ... 
+# 
+# Starting Golden Signature Generation ... 
+# 
+# Starting Golden Signaturs Stored at              7175000 
+# 
+# ===> Fault Simulation Starting ...
+# 
+# ** Note: $stop    : C:/Users/apple/Documents/UT/Master Thesis/Reconfigurable BIST/s344_BIST_v2/TB.sv(287)
+#    Time: 414935 ns  Iteration: 0  Instance: /BIST_TB
+# Break in Module BIST_TB at C:/Users/apple/Documents/UT/Master Thesis/Reconfigurable BIST/s344_BIST_v2/TB.sv line 287
+do mydo.do BIST_TB
+# Compile of BIST_CTRL.v was successful.
+# Compile of MISR.v was successful.
+# Compile of mycells.v was successful.
+# Compile of s344_netlist_scanInserted.v was successful.
+# Compile of sigROM.v was successful.
+# Compile of SISA.v was successful.
+# Compile of SRSG.v was successful.
+# Compile of STCR.v was successful.
+# Compile of TB.sv was successful.
+# Compile of s344_testable.v was successful.
+# Compile of FlipDemux.v was successful.
+# Compile of SFM.v was successful.
+# Compile of LFSR.v was successful.
+# 13 compiles, 0 failed with no errors.
+# End time: 20:38:02 on Sep 06,2024, Elapsed time: 0:02:36
+# Errors: 0, Warnings: 2
+# vsim work.BIST_TB 
+# Start time: 20:38:03 on Sep 06,2024
+# Loading sv_std.std
+# Loading work.BIST_TB
+# Loading work.STCR
+# Loading work.s344_testable
+# Loading work.s344_scanInserted
+# Loading work.NOT
+# Loading work.NOR
+# Loading work.NAND
+# Loading work.dff
+# Loading work.LFSR
+# Loading work.SRSG
+# Loading work.MISR
+# Loading work.SISA
+# Loading work.BIST_CTRL
+# Loading work.counter
+# Loading work.sigROM
+# Loading work.SFM
+# Loading work.flipDemux
+# Starting Golden Signature Generation ... 
+# 
+# Starting Golden Signature Generation ... 
+# 
+# Starting Golden Signature Generation ... 
+# 
+# Starting Golden Signature Generation ... 
+# 
+# Starting Golden Signaturs Stored at              5855000 
+# 
+# ===> Fault Simulation Starting ...
+# 
+# ** Note: $stop    : C:/Users/apple/Documents/UT/Master Thesis/Reconfigurable BIST/s344_BIST_v2/TB.sv(287)
+#    Time: 337055 ns  Iteration: 0  Instance: /BIST_TB
+# Break in Module BIST_TB at C:/Users/apple/Documents/UT/Master Thesis/Reconfigurable BIST/s344_BIST_v2/TB.sv line 287
+do mydo.do BIST_TB
+# Compile of BIST_CTRL.v was successful.
+# Compile of MISR.v was successful.
+# Compile of mycells.v was successful.
+# Compile of s344_netlist_scanInserted.v was successful.
+# Compile of sigROM.v was successful.
+# Compile of SISA.v was successful.
+# Compile of SRSG.v was successful.
+# Compile of STCR.v was successful.
+# Compile of TB.sv was successful.
+# Compile of s344_testable.v was successful.
+# Compile of FlipDemux.v was successful.
+# Compile of SFM.v was successful.
+# Compile of LFSR.v was successful.
+# 13 compiles, 0 failed with no errors.
+# End time: 20:42:43 on Sep 06,2024, Elapsed time: 0:04:40
+# Errors: 0, Warnings: 2
+# vsim work.BIST_TB 
+# Start time: 20:42:44 on Sep 06,2024
+# Loading sv_std.std
+# Loading work.BIST_TB
+# Loading work.STCR
+# Loading work.s344_testable
+# Loading work.s344_scanInserted
+# Loading work.NOT
+# Loading work.NOR
+# Loading work.NAND
+# Loading work.dff
+# Loading work.LFSR
+# Loading work.SRSG
+# Loading work.MISR
+# Loading work.SISA
+# Loading work.BIST_CTRL
+# Loading work.counter
+# Loading work.sigROM
+# Loading work.SFM
+# Loading work.flipDemux
+# ** Note: $stop    : C:/Users/apple/Documents/UT/Master Thesis/Reconfigurable BIST/s344_BIST_v2/TB.sv(287)
+#    Time: 161 ns  Iteration: 0  Instance: /BIST_TB
+# Break in Module BIST_TB at C:/Users/apple/Documents/UT/Master Thesis/Reconfigurable BIST/s344_BIST_v2/TB.sv line 287
+do mydo.do BIST_TB
+# Compile of BIST_CTRL.v was successful.
+# Compile of MISR.v was successful.
+# Compile of mycells.v was successful.
+# Compile of s344_netlist_scanInserted.v was successful.
+# Compile of sigROM.v was successful.
+# Compile of SISA.v was successful.
+# Compile of SRSG.v was successful.
+# Compile of STCR.v was successful.
+# Compile of TB.sv was successful.
+# Compile of s344_testable.v was successful.
+# Compile of FlipDemux.v was successful.
+# Compile of SFM.v was successful.
+# Compile of LFSR.v was successful.
+# 13 compiles, 0 failed with no errors.
+# End time: 20:45:17 on Sep 06,2024, Elapsed time: 0:02:33
+# Errors: 0, Warnings: 2
+# vsim work.BIST_TB 
+# Start time: 20:45:17 on Sep 06,2024
+# Loading sv_std.std
+# Loading work.BIST_TB
+# Loading work.STCR
+# Loading work.s344_testable
+# Loading work.s344_scanInserted
+# Loading work.NOT
+# Loading work.NOR
+# Loading work.NAND
+# Loading work.dff
+# Loading work.LFSR
+# Loading work.SRSG
+# Loading work.MISR
+# Loading work.SISA
+# Loading work.BIST_CTRL
+# Loading work.counter
+# Loading work.sigROM
+# Loading work.SFM
+# Loading work.flipDemux
+# Starting Golden Signature Generation ... 
+# 
+# Starting Golden Signaturs Stored at              5555000 
+# 
+# ** Note: $stop    : C:/Users/apple/Documents/UT/Master Thesis/Reconfigurable BIST/s344_BIST_v2/TB.sv(283)
+#    Time: 5555 ns  Iteration: 0  Instance: /BIST_TB
+# Break in Module BIST_TB at C:/Users/apple/Documents/UT/Master Thesis/Reconfigurable BIST/s344_BIST_v2/TB.sv line 283
+do mydo.do BIST_TB
+# Compile of BIST_CTRL.v was successful.
+# Compile of MISR.v was successful.
+# Compile of mycells.v was successful.
+# Compile of s344_netlist_scanInserted.v was successful.
+# Compile of sigROM.v was successful.
+# Compile of SISA.v was successful.
+# Compile of SRSG.v was successful.
+# Compile of STCR.v was successful.
+# Compile of TB.sv was successful.
+# Compile of s344_testable.v was successful.
+# Compile of FlipDemux.v was successful.
+# Compile of SFM.v was successful.
+# Compile of LFSR.v was successful.
+# 13 compiles, 0 failed with no errors.
+# End time: 20:46:48 on Sep 06,2024, Elapsed time: 0:01:31
+# Errors: 0, Warnings: 2
+# vsim work.BIST_TB 
+# Start time: 20:46:48 on Sep 06,2024
+# Loading sv_std.std
+# Loading work.BIST_TB
+# Loading work.STCR
+# Loading work.s344_testable
+# Loading work.s344_scanInserted
+# Loading work.NOT
+# Loading work.NOR
+# Loading work.NAND
+# Loading work.dff
+# Loading work.LFSR
+# Loading work.SRSG
+# Loading work.MISR
+# Loading work.SISA
+# Loading work.BIST_CTRL
+# Loading work.counter
+# Loading work.sigROM
+# Loading work.SFM
+# Loading work.flipDemux
+# Starting Golden Signature Generation ... 
+# 
+# Starting Golden Signaturs Stored at              5555000 
+# 
+# ===> Fault Simulation Starting ...
+# 
+# ** Note: $stop    : C:/Users/apple/Documents/UT/Master Thesis/Reconfigurable BIST/s344_BIST_v2/TB.sv(283)
+#    Time: 338495 ns  Iteration: 0  Instance: /BIST_TB
+# Break in Module BIST_TB at C:/Users/apple/Documents/UT/Master Thesis/Reconfigurable BIST/s344_BIST_v2/TB.sv line 283
+do mydo.do BIST_TB
+# Compile of BIST_CTRL.v was successful.
+# Compile of MISR.v was successful.
+# Compile of mycells.v was successful.
+# Compile of s344_netlist_scanInserted.v was successful.
+# Compile of sigROM.v was successful.
+# Compile of SISA.v was successful.
+# Compile of SRSG.v was successful.
+# Compile of STCR.v was successful.
+# Compile of TB.sv was successful.
+# Compile of s344_testable.v was successful.
+# Compile of FlipDemux.v was successful.
+# Compile of SFM.v was successful.
+# Compile of LFSR.v was successful.
+# 13 compiles, 0 failed with no errors.
+# End time: 20:49:12 on Sep 06,2024, Elapsed time: 0:02:24
+# Errors: 0, Warnings: 2
+# vsim work.BIST_TB 
+# Start time: 20:49:12 on Sep 06,2024
+# Loading sv_std.std
+# Loading work.BIST_TB
+# Loading work.STCR
+# Loading work.s344_testable
+# Loading work.s344_scanInserted
+# Loading work.NOT
+# Loading work.NOR
+# Loading work.NAND
+# Loading work.dff
+# Loading work.LFSR
+# Loading work.SRSG
+# Loading work.MISR
+# Loading work.SISA
+# Loading work.BIST_CTRL
+# Loading work.counter
+# Loading work.sigROM
+# Loading work.SFM
+# Loading work.flipDemux
+# Starting Golden Signature Generation ... 
+# 
+# Starting Golden Signaturs Stored at              5555000 
+# 
+# ===> Fault Simulation Starting ...
+# 
+# ** Note: $stop    : C:/Users/apple/Documents/UT/Master Thesis/Reconfigurable BIST/s344_BIST_v2/TB.sv(283)
+#    Time: 338495 ns  Iteration: 0  Instance: /BIST_TB
+# Break in Module BIST_TB at C:/Users/apple/Documents/UT/Master Thesis/Reconfigurable BIST/s344_BIST_v2/TB.sv line 283
+do mydo.do BIST_TB
+# Compile of BIST_CTRL.v was successful.
+# Compile of MISR.v was successful.
+# Compile of mycells.v was successful.
+# Compile of s344_netlist_scanInserted.v was successful.
+# Compile of sigROM.v was successful.
+# Compile of SISA.v was successful.
+# Compile of SRSG.v was successful.
+# Compile of STCR.v was successful.
+# Compile of TB.sv failed with 1 errors.
+# Compile of s344_testable.v was successful.
+# Compile of FlipDemux.v was successful.
+# Compile of SFM.v was successful.
+# Compile of LFSR.v was successful.
+# 13 compiles, 1 failed with 1 error.
+# End time: 20:51:53 on Sep 06,2024, Elapsed time: 0:02:41
+# Errors: 0, Warnings: 2
+# vsim work.BIST_TB 
+# Start time: 20:51:53 on Sep 06,2024
+# Loading sv_std.std
+# Loading work.BIST_TB
+# Loading work.STCR
+# Loading work.s344_testable
+# Loading work.s344_scanInserted
+# Loading work.NOT
+# Loading work.NOR
+# Loading work.NAND
+# Loading work.dff
+# Loading work.LFSR
+# Loading work.SRSG
+# Loading work.MISR
+# Loading work.SISA
+# Loading work.BIST_CTRL
+# Loading work.counter
+# Loading work.sigROM
+# Loading work.SFM
+# Loading work.flipDemux
+# Starting Golden Signature Generation ... 
+# 
+# Starting Golden Signaturs Stored at              5555000 
+# 
+# ===> Fault Simulation Starting ...
+# 
+# ** Note: $stop    : C:/Users/apple/Documents/UT/Master Thesis/Reconfigurable BIST/s344_BIST_v2/TB.sv(283)
+#    Time: 338495 ns  Iteration: 0  Instance: /BIST_TB
+# Break in Module BIST_TB at C:/Users/apple/Documents/UT/Master Thesis/Reconfigurable BIST/s344_BIST_v2/TB.sv line 283
+do mydo.do BIST_TB
+# Compile of BIST_CTRL.v was successful.
+# Compile of MISR.v was successful.
+# Compile of mycells.v was successful.
+# Compile of s344_netlist_scanInserted.v was successful.
+# Compile of sigROM.v was successful.
+# Compile of SISA.v was successful.
+# Compile of SRSG.v was successful.
+# Compile of STCR.v was successful.
+# Compile of TB.sv was successful.
+# Compile of s344_testable.v was successful.
+# Compile of FlipDemux.v was successful.
+# Compile of SFM.v was successful.
+# Compile of LFSR.v was successful.
+# 13 compiles, 0 failed with no errors.
+# End time: 20:54:29 on Sep 06,2024, Elapsed time: 0:02:36
+# Errors: 0, Warnings: 2
+# vsim work.BIST_TB 
+# Start time: 20:54:29 on Sep 06,2024
+# Loading sv_std.std
+# Loading work.BIST_TB
+# Loading work.STCR
+# Loading work.s344_testable
+# Loading work.s344_scanInserted
+# Loading work.NOT
+# Loading work.NOR
+# Loading work.NAND
+# Loading work.dff
+# Loading work.LFSR
+# Loading work.SRSG
+# Loading work.MISR
+# Loading work.SISA
+# Loading work.BIST_CTRL
+# Loading work.counter
+# Loading work.sigROM
+# Loading work.SFM
+# Loading work.flipDemux
+# Starting Golden Signature Generation ... 
+# 
+# Starting Golden Signaturs Stored at              5555000 
+# 
+# ===> Fault Simulation Starting ...
+# 
+# ** Note: $stop    : C:/Users/apple/Documents/UT/Master Thesis/Reconfigurable BIST/s344_BIST_v2/TB.sv(280)
+#    Time: 83975 ns  Iteration: 0  Instance: /BIST_TB
+# Break in Module BIST_TB at C:/Users/apple/Documents/UT/Master Thesis/Reconfigurable BIST/s344_BIST_v2/TB.sv line 280
+do mydo.do BIST_TB
+# Compile of BIST_CTRL.v was successful.
+# Compile of MISR.v was successful.
+# Compile of mycells.v was successful.
+# Compile of s344_netlist_scanInserted.v was successful.
+# Compile of sigROM.v was successful.
+# Compile of SISA.v was successful.
+# Compile of SRSG.v was successful.
+# Compile of STCR.v was successful.
+# Compile of TB.sv was successful.
+# Compile of s344_testable.v was successful.
+# Compile of FlipDemux.v was successful.
+# Compile of SFM.v was successful.
+# Compile of LFSR.v was successful.
+# 13 compiles, 0 failed with no errors.
+# End time: 20:56:39 on Sep 06,2024, Elapsed time: 0:02:10
+# Errors: 0, Warnings: 2
+# vsim work.BIST_TB 
+# Start time: 20:56:40 on Sep 06,2024
+# Loading sv_std.std
+# Loading work.BIST_TB
+# Loading work.STCR
+# Loading work.s344_testable
+# Loading work.s344_scanInserted
+# Loading work.NOT
+# Loading work.NOR
+# Loading work.NAND
+# Loading work.dff
+# Loading work.LFSR
+# Loading work.SRSG
+# Loading work.MISR
+# Loading work.SISA
+# Loading work.BIST_CTRL
+# Loading work.counter
+# Loading work.sigROM
+# Loading work.SFM
+# Loading work.flipDemux
+# Starting Golden Signature Generation ... 
+# 
+# Starting Golden Signaturs Stored at              5555000 
+# 
+# ** Note: $stop    : C:/Users/apple/Documents/UT/Master Thesis/Reconfigurable BIST/s344_BIST_v2/TB.sv(276)
+#    Time: 5555 ns  Iteration: 0  Instance: /BIST_TB
+# Break in Module BIST_TB at C:/Users/apple/Documents/UT/Master Thesis/Reconfigurable BIST/s344_BIST_v2/TB.sv line 276
+do mydo.do BIST_TB
+# Compile of BIST_CTRL.v was successful.
+# Compile of MISR.v was successful.
+# Compile of mycells.v was successful.
+# Compile of s344_netlist_scanInserted.v was successful.
+# Compile of sigROM.v was successful.
+# Compile of SISA.v was successful.
+# Compile of SRSG.v was successful.
+# Compile of STCR.v was successful.
+# Compile of TB.sv was successful.
+# Compile of s344_testable.v was successful.
+# Compile of FlipDemux.v was successful.
+# Compile of SFM.v was successful.
+# Compile of LFSR.v was successful.
+# 13 compiles, 0 failed with no errors.
+# End time: 20:58:08 on Sep 06,2024, Elapsed time: 0:01:28
+# Errors: 0, Warnings: 2
+# vsim work.BIST_TB 
+# Start time: 20:58:08 on Sep 06,2024
+# Loading sv_std.std
+# Loading work.BIST_TB
+# Loading work.STCR
+# Loading work.s344_testable
+# Loading work.s344_scanInserted
+# Loading work.NOT
+# Loading work.NOR
+# Loading work.NAND
+# Loading work.dff
+# Loading work.LFSR
+# Loading work.SRSG
+# Loading work.MISR
+# Loading work.SISA
+# Loading work.BIST_CTRL
+# Loading work.counter
+# Loading work.sigROM
+# Loading work.SFM
+# Loading work.flipDemux
+# Starting Golden Signature Generation ... 
+# 
+# Starting Golden Signaturs Stored at              5555000 
+# 
+# ===> Fault Simulation Starting ...
+# 
+# ** Note: $stop    : C:/Users/apple/Documents/UT/Master Thesis/Reconfigurable BIST/s344_BIST_v2/TB.sv(276)
+#    Time: 338495 ns  Iteration: 0  Instance: /BIST_TB
+# Break in Module BIST_TB at C:/Users/apple/Documents/UT/Master Thesis/Reconfigurable BIST/s344_BIST_v2/TB.sv line 276
+do mydo.do BIST_TB
+# Compile of BIST_CTRL.v was successful.
+# Compile of MISR.v was successful.
+# Compile of mycells.v was successful.
+# Compile of s344_netlist_scanInserted.v was successful.
+# Compile of sigROM.v was successful.
+# Compile of SISA.v was successful.
+# Compile of SRSG.v was successful.
+# Compile of STCR.v was successful.
+# Compile of TB.sv was successful.
+# Compile of s344_testable.v was successful.
+# Compile of FlipDemux.v was successful.
+# Compile of SFM.v was successful.
+# Compile of LFSR.v was successful.
+# 13 compiles, 0 failed with no errors.
+# End time: 21:09:00 on Sep 06,2024, Elapsed time: 0:10:52
+# Errors: 0, Warnings: 2
+# vsim work.BIST_TB 
+# Start time: 21:09:01 on Sep 06,2024
+# Loading sv_std.std
+# Loading work.BIST_TB
+# Loading work.STCR
+# Loading work.s344_testable
+# Loading work.s344_scanInserted
+# Loading work.NOT
+# Loading work.NOR
+# Loading work.NAND
+# Loading work.dff
+# Loading work.LFSR
+# Loading work.SRSG
+# Loading work.MISR
+# Loading work.SISA
+# Loading work.BIST_CTRL
+# Loading work.counter
+# Loading work.sigROM
+# Loading work.SFM
+# Loading work.flipDemux
+# Starting Golden Signature Generation ... 
+# 
+# Starting Golden Signaturs Stored at              5555000 
+# 
+# ===> Fault Simulation Starting ...
+# 
+# ** Note: $stop    : C:/Users/apple/Documents/UT/Master Thesis/Reconfigurable BIST/s344_BIST_v2/TB.sv(276)
+#    Time: 338495 ns  Iteration: 0  Instance: /BIST_TB
+# Break in Module BIST_TB at C:/Users/apple/Documents/UT/Master Thesis/Reconfigurable BIST/s344_BIST_v2/TB.sv line 276
+do mydo.do BIST_TB
+# Compile of BIST_CTRL.v was successful.
+# Compile of MISR.v was successful.
+# Compile of mycells.v was successful.
+# Compile of s344_netlist_scanInserted.v was successful.
+# Compile of sigROM.v was successful.
+# Compile of SISA.v was successful.
+# Compile of SRSG.v was successful.
+# Compile of STCR.v was successful.
+# Compile of TB.sv was successful.
+# Compile of s344_testable.v was successful.
+# Compile of FlipDemux.v was successful.
+# Compile of SFM.v was successful.
+# Compile of LFSR.v was successful.
+# 13 compiles, 0 failed with no errors.
+# End time: 22:06:45 on Sep 06,2024, Elapsed time: 0:57:44
+# Errors: 0, Warnings: 2
+# vsim work.BIST_TB 
+# Start time: 22:06:45 on Sep 06,2024
+# Loading sv_std.std
+# Loading work.BIST_TB
+# Loading work.STCR
+# Loading work.s344_testable
+# Loading work.s344_scanInserted
+# Loading work.NOT
+# Loading work.NOR
+# Loading work.NAND
+# Loading work.dff
+# Loading work.LFSR
+# Loading work.SRSG
+# Loading work.MISR
+# Loading work.SISA
+# Loading work.BIST_CTRL
+# Loading work.counter
+# Loading work.sigROM
+# Loading work.SFM
+# Loading work.flipDemux
+# Starting Golden Signature Generation ... 
+# 
+# Starting Golden Signaturs Stored at              5555000 
+# 
+# ===> Fault Simulation Starting ...
+# 
+# ** Note: $stop    : C:/Users/apple/Documents/UT/Master Thesis/Reconfigurable BIST/s344_BIST_v2/TB.sv(277)
+#    Time: 83975 ns  Iteration: 0  Instance: /BIST_TB
+# Break in Module BIST_TB at C:/Users/apple/Documents/UT/Master Thesis/Reconfigurable BIST/s344_BIST_v2/TB.sv line 277
+do mydo.do BIST_TB
+# Compile of BIST_CTRL.v was successful.
+# Compile of MISR.v was successful.
+# Compile of mycells.v was successful.
+# Compile of s344_netlist_scanInserted.v was successful.
+# Compile of sigROM.v was successful.
+# Compile of SISA.v was successful.
+# Compile of SRSG.v was successful.
+# Compile of STCR.v was successful.
+# Compile of TB.sv was successful.
+# Compile of s344_testable.v was successful.
+# Compile of FlipDemux.v was successful.
+# Compile of SFM.v was successful.
+# Compile of LFSR.v was successful.
+# 13 compiles, 0 failed with no errors.
+# End time: 22:12:26 on Sep 06,2024, Elapsed time: 0:05:41
+# Errors: 0, Warnings: 2
+# vsim work.BIST_TB 
+# Start time: 22:12:26 on Sep 06,2024
+# Loading sv_std.std
+# Loading work.BIST_TB
+# Loading work.STCR
+# Loading work.s344_testable
+# Loading work.s344_scanInserted
+# Loading work.NOT
+# Loading work.NOR
+# Loading work.NAND
+# Loading work.dff
+# Loading work.LFSR
+# Loading work.SRSG
+# Loading work.MISR
+# Loading work.SISA
+# Loading work.BIST_CTRL
+# Loading work.counter
+# Loading work.sigROM
+# Loading work.SFM
+# Loading work.flipDemux
+# Starting Golden Signature Generation ... 
+# 
+# Starting Golden Signaturs Stored at              5555000 
+# 
+# ===> Fault Simulation Starting ...
+# 
+# ** Note: $stop    : C:/Users/apple/Documents/UT/Master Thesis/Reconfigurable BIST/s344_BIST_v2/TB.sv(277)
+#    Time: 83975 ns  Iteration: 0  Instance: /BIST_TB
+# Break in Module BIST_TB at C:/Users/apple/Documents/UT/Master Thesis/Reconfigurable BIST/s344_BIST_v2/TB.sv line 277
+add wave -position insertpoint  \
+sim:/BIST_TB/DUT/CTRL_inst/pstate
+write format wave -window .main_pane.wave.interior.cs.body.pw.wf {C:/Users/apple/Documents/UT/Master Thesis/Reconfigurable BIST/s344_BIST_v2/simulation/wave.do}
+do mydo.do BIST_TB
+# Compile of BIST_CTRL.v was successful.
+# Compile of MISR.v was successful.
+# Compile of mycells.v was successful.
+# Compile of s344_netlist_scanInserted.v was successful.
+# Compile of sigROM.v was successful.
+# Compile of SISA.v was successful.
+# Compile of SRSG.v was successful.
+# Compile of STCR.v was successful.
+# Compile of TB.sv was successful.
+# Compile of s344_testable.v was successful.
+# Compile of FlipDemux.v was successful.
+# Compile of SFM.v was successful.
+# Compile of LFSR.v was successful.
+# 13 compiles, 0 failed with no errors.
+# End time: 22:14:07 on Sep 06,2024, Elapsed time: 0:01:41
+# Errors: 0, Warnings: 2
+# vsim work.BIST_TB 
+# Start time: 22:14:07 on Sep 06,2024
+# Loading sv_std.std
+# Loading work.BIST_TB
+# Loading work.STCR
+# Loading work.s344_testable
+# Loading work.s344_scanInserted
+# Loading work.NOT
+# Loading work.NOR
+# Loading work.NAND
+# Loading work.dff
+# Loading work.LFSR
+# Loading work.SRSG
+# Loading work.MISR
+# Loading work.SISA
+# Loading work.BIST_CTRL
+# Loading work.counter
+# Loading work.sigROM
+# Loading work.SFM
+# Loading work.flipDemux
+# Starting Golden Signature Generation ... 
+# 
+# Starting Golden Signaturs Stored at              5555000 
+# 
+# ===> Fault Simulation Starting ...
+# 
+# ** Note: $stop    : C:/Users/apple/Documents/UT/Master Thesis/Reconfigurable BIST/s344_BIST_v2/TB.sv(277)
+#    Time: 83975 ns  Iteration: 0  Instance: /BIST_TB
+# Break in Module BIST_TB at C:/Users/apple/Documents/UT/Master Thesis/Reconfigurable BIST/s344_BIST_v2/TB.sv line 277
+do mydo.do BIST_TB
+# Compile of BIST_CTRL.v was successful.
+# Compile of MISR.v was successful.
+# Compile of mycells.v was successful.
+# Compile of s344_netlist_scanInserted.v was successful.
+# Compile of sigROM.v was successful.
+# Compile of SISA.v was successful.
+# Compile of SRSG.v was successful.
+# Compile of STCR.v was successful.
+# Compile of TB.sv was successful.
+# Compile of s344_testable.v was successful.
+# Compile of FlipDemux.v was successful.
+# Compile of SFM.v was successful.
+# Compile of LFSR.v was successful.
+# 13 compiles, 0 failed with no errors.
+# End time: 22:18:36 on Sep 06,2024, Elapsed time: 0:04:29
+# Errors: 0, Warnings: 2
+# vsim work.BIST_TB 
+# Start time: 22:18:36 on Sep 06,2024
+# Loading sv_std.std
+# Loading work.BIST_TB
+# Loading work.STCR
+# Loading work.s344_testable
+# Loading work.s344_scanInserted
+# Loading work.NOT
+# Loading work.NOR
+# Loading work.NAND
+# Loading work.dff
+# Loading work.LFSR
+# Loading work.SRSG
+# Loading work.MISR
+# Loading work.SISA
+# Loading work.BIST_CTRL
+# Loading work.counter
+# Loading work.sigROM
+# Loading work.SFM
+# Loading work.flipDemux
+# Starting Golden Signature Generation ... 
+# 
+# Starting Golden Signaturs Stored at              5555000 
+# 
+# ===> Fault Simulation Starting ...
+# 
+# ** Note: $stop    : C:/Users/apple/Documents/UT/Master Thesis/Reconfigurable BIST/s344_BIST_v2/TB.sv(277)
+#    Time: 83975 ns  Iteration: 0  Instance: /BIST_TB
+# Break in Module BIST_TB at C:/Users/apple/Documents/UT/Master Thesis/Reconfigurable BIST/s344_BIST_v2/TB.sv line 277
+do mydo.do BIST_TB
+# Compile of BIST_CTRL.v was successful.
+# Compile of MISR.v was successful.
+# Compile of mycells.v was successful.
+# Compile of s344_netlist_scanInserted.v was successful.
+# Compile of sigROM.v was successful.
+# Compile of SISA.v was successful.
+# Compile of SRSG.v was successful.
+# Compile of STCR.v was successful.
+# Compile of TB.sv was successful.
+# Compile of s344_testable.v was successful.
+# Compile of FlipDemux.v was successful.
+# Compile of SFM.v was successful.
+# Compile of LFSR.v was successful.
+# 13 compiles, 0 failed with no errors.
+# End time: 22:21:14 on Sep 06,2024, Elapsed time: 0:02:38
+# Errors: 0, Warnings: 2
+# vsim work.BIST_TB 
+# Start time: 22:21:14 on Sep 06,2024
+# Loading sv_std.std
+# Loading work.BIST_TB
+# Loading work.STCR
+# Loading work.s344_testable
+# Loading work.s344_scanInserted
+# Loading work.NOT
+# Loading work.NOR
+# Loading work.NAND
+# Loading work.dff
+# Loading work.LFSR
+# Loading work.SRSG
+# Loading work.MISR
+# Loading work.SISA
+# Loading work.BIST_CTRL
+# Loading work.counter
+# Loading work.sigROM
+# Loading work.SFM
+# Loading work.flipDemux
+# Starting Golden Signature Generation ... 
+# 
+# Starting Golden Signaturs Stored at              5555000 
+# 
+# ===> Fault Simulation Starting ...
+# 
+# ** Note: $stop    : C:/Users/apple/Documents/UT/Master Thesis/Reconfigurable BIST/s344_BIST_v2/TB.sv(277)
+#    Time: 313655 ns  Iteration: 0  Instance: /BIST_TB
+# Break in Module BIST_TB at C:/Users/apple/Documents/UT/Master Thesis/Reconfigurable BIST/s344_BIST_v2/TB.sv line 277
+do mydo.do BIST_TB
+# Compile of BIST_CTRL.v was successful.
+# Compile of MISR.v was successful.
+# Compile of mycells.v was successful.
+# Compile of s344_netlist_scanInserted.v was successful.
+# Compile of sigROM.v was successful.
+# Compile of SISA.v was successful.
+# Compile of SRSG.v was successful.
+# Compile of STCR.v was successful.
+# Compile of TB.sv failed with 2 errors.
+# Compile of s344_testable.v was successful.
+# Compile of FlipDemux.v was successful.
+# Compile of SFM.v was successful.
+# Compile of LFSR.v was successful.
+# 13 compiles, 1 failed with 2 errors.
+# End time: 22:25:31 on Sep 06,2024, Elapsed time: 0:04:17
+# Errors: 0, Warnings: 2
+# vsim work.BIST_TB 
+# Start time: 22:25:31 on Sep 06,2024
+# Loading sv_std.std
+# Loading work.BIST_TB
+# Loading work.STCR
+# Loading work.s344_testable
+# Loading work.s344_scanInserted
+# Loading work.NOT
+# Loading work.NOR
+# Loading work.NAND
+# Loading work.dff
+# Loading work.LFSR
+# Loading work.SRSG
+# Loading work.MISR
+# Loading work.SISA
+# Loading work.BIST_CTRL
+# Loading work.counter
+# Loading work.sigROM
+# Loading work.SFM
+# Loading work.flipDemux
+# **** Error: RestartQ cmd: Wave::Restart .main_pane.wave.interior.cs.body.pw.wf.tree sim
+# ****        Window .main_pane.wave.interior.cs.body.pw.wf.tree does not exist
+# Window .main_pane.wave.interior.cs.body.pw.wf.tree does not exist
+#     while executing
+# "winRestart $treeObj"
+#     (procedure "Wave::Restart" line 2)
+#     invoked from within
+# "Wave::Restart .main_pane.wave.interior.cs.body.pw.wf.tree sim"
+#     ("eval" body line 1)
+#     invoked from within
+# "eval $p $tankNamespace "
+# Starting Golden Signature Generation ... 
+# 
+# Starting Golden Signaturs Stored at              5555000 
+# 
+# ===> Fault Simulation Starting ...
+# 
+# ** Note: $stop    : C:/Users/apple/Documents/UT/Master Thesis/Reconfigurable BIST/s344_BIST_v2/TB.sv(277)
+#    Time: 313655 ns  Iteration: 0  Instance: /BIST_TB
+# Break in Module BIST_TB at C:/Users/apple/Documents/UT/Master Thesis/Reconfigurable BIST/s344_BIST_v2/TB.sv line 277
+do mydo.do BIST_TB
+# Compile of BIST_CTRL.v was successful.
+# Compile of MISR.v was successful.
+# Compile of mycells.v was successful.
+# Compile of s344_netlist_scanInserted.v was successful.
+# Compile of sigROM.v was successful.
+# Compile of SISA.v was successful.
+# Compile of SRSG.v was successful.
+# Compile of STCR.v was successful.
+# Compile of TB.sv was successful.
+# Compile of s344_testable.v was successful.
+# Compile of FlipDemux.v was successful.
+# Compile of SFM.v was successful.
+# Compile of LFSR.v was successful.
+# 13 compiles, 0 failed with no errors.
+# End time: 22:26:03 on Sep 06,2024, Elapsed time: 0:00:32
+# Errors: 0, Warnings: 2
+# vsim work.BIST_TB 
+# Start time: 22:26:03 on Sep 06,2024
+# Loading sv_std.std
+# Loading work.BIST_TB
+# Loading work.STCR
+# Loading work.s344_testable
+# Loading work.s344_scanInserted
+# Loading work.NOT
+# Loading work.NOR
+# Loading work.NAND
+# Loading work.dff
+# Loading work.LFSR
+# Loading work.SRSG
+# Loading work.MISR
+# Loading work.SISA
+# Loading work.BIST_CTRL
+# Loading work.counter
+# Loading work.sigROM
+# Loading work.SFM
+# Loading work.flipDemux
+# Starting Golden Signature Generation ... 
+# 
+# Starting Golden Signaturs Stored at              5555000 
+# 
+# ===> Fault Simulation Starting ...
+# 
+# ** Note: $stop    : C:/Users/apple/Documents/UT/Master Thesis/Reconfigurable BIST/s344_BIST_v2/TB.sv(277)
+#    Time: 338495 ns  Iteration: 0  Instance: /BIST_TB
+# Break in Module BIST_TB at C:/Users/apple/Documents/UT/Master Thesis/Reconfigurable BIST/s344_BIST_v2/TB.sv line 277
+add wave -position insertpoint  \
+sim:/BIST_TB/DUT/CTRL_inst/sigAddr
+write format wave -window .main_pane.wave.interior.cs.body.pw.wf {C:/Users/apple/Documents/UT/Master Thesis/Reconfigurable BIST/s344_BIST_v2/simulation/wave.do}
+do mydo.do BIST_TB
+# Compile of BIST_CTRL.v was successful.
+# Compile of MISR.v was successful.
+# Compile of mycells.v was successful.
+# Compile of s344_netlist_scanInserted.v was successful.
+# Compile of sigROM.v was successful.
+# Compile of SISA.v was successful.
+# Compile of SRSG.v was successful.
+# Compile of STCR.v was successful.
+# Compile of TB.sv was successful.
+# Compile of s344_testable.v was successful.
+# Compile of FlipDemux.v was successful.
+# Compile of SFM.v was successful.
+# Compile of LFSR.v was successful.
+# 13 compiles, 0 failed with no errors.
+# End time: 22:28:37 on Sep 06,2024, Elapsed time: 0:02:34
+# Errors: 0, Warnings: 2
+# vsim work.BIST_TB 
+# Start time: 22:28:37 on Sep 06,2024
+# Loading sv_std.std
+# Loading work.BIST_TB
+# Loading work.STCR
+# Loading work.s344_testable
+# Loading work.s344_scanInserted
+# Loading work.NOT
+# Loading work.NOR
+# Loading work.NAND
+# Loading work.dff
+# Loading work.LFSR
+# Loading work.SRSG
+# Loading work.MISR
+# Loading work.SISA
+# Loading work.BIST_CTRL
+# Loading work.counter
+# Loading work.sigROM
+# Loading work.SFM
+# Loading work.flipDemux
+# Starting Golden Signature Generation ... 
+# 
+# Starting Golden Signaturs Stored at              5555000 
+# 
+# ===> Fault Simulation Starting ...
+# 
+# ** Note: $stop    : C:/Users/apple/Documents/UT/Master Thesis/Reconfigurable BIST/s344_BIST_v2/TB.sv(277)
+#    Time: 338495 ns  Iteration: 0  Instance: /BIST_TB
+# Break in Module BIST_TB at C:/Users/apple/Documents/UT/Master Thesis/Reconfigurable BIST/s344_BIST_v2/TB.sv line 277
+# Compile of BIST_CTRL.v failed with 2 errors.
+# Compile of MISR.v was successful.
+# Compile of mycells.v was successful.
+# Compile of s344_netlist_scanInserted.v was successful.
+# Compile of sigROM.v was successful.
+# Compile of SISA.v was successful.
+# Compile of SRSG.v was successful.
+# Compile of STCR.v was successful.
+# Compile of TB.sv was successful.
+# Compile of s344_testable.v was successful.
+# Compile of FlipDemux.v was successful.
+# Compile of SFM.v was successful.
+# Compile of LFSR.v was successful.
+# 13 compiles, 1 failed with 2 errors.
+do mydo.do BIST_TB
+# Compile of BIST_CTRL.v was successful.
+# Compile of MISR.v was successful.
+# Compile of mycells.v was successful.
+# Compile of s344_netlist_scanInserted.v was successful.
+# Compile of sigROM.v was successful.
+# Compile of SISA.v was successful.
+# Compile of SRSG.v was successful.
+# Compile of STCR.v was successful.
+# Compile of TB.sv was successful.
+# Compile of s344_testable.v was successful.
+# Compile of FlipDemux.v was successful.
+# Compile of SFM.v was successful.
+# Compile of LFSR.v was successful.
+# 13 compiles, 0 failed with no errors.
+# End time: 22:43:40 on Sep 06,2024, Elapsed time: 0:15:03
+# Errors: 0, Warnings: 3
+# vsim work.BIST_TB 
+# Start time: 22:43:40 on Sep 06,2024
+# Loading sv_std.std
+# Loading work.BIST_TB
+# Loading work.STCR
+# Loading work.s344_testable
+# Loading work.s344_scanInserted
+# Loading work.NOT
+# Loading work.NOR
+# Loading work.NAND
+# Loading work.dff
+# Loading work.LFSR
+# Loading work.SRSG
+# Loading work.MISR
+# Loading work.SISA
+# Loading work.BIST_CTRL
+# Loading work.counter
+# Loading work.sigROM
+# Loading work.SFM
+# Loading work.flipDemux
+# Starting Golden Signature Generation ... 
+# 
+# Starting Golden Signaturs Stored at              5555000 
+# 
+# ===> Fault Simulation Starting ...
+# 
+# ** Note: $stop    : C:/Users/apple/Documents/UT/Master Thesis/Reconfigurable BIST/s344_BIST_v2/TB.sv(277)
+#    Time: 338495 ns  Iteration: 0  Instance: /BIST_TB
+# Break in Module BIST_TB at C:/Users/apple/Documents/UT/Master Thesis/Reconfigurable BIST/s344_BIST_v2/TB.sv line 277
+do mydo.do BIST_TB
+# Compile of BIST_CTRL.v was successful.
+# Compile of MISR.v was successful.
+# Compile of mycells.v was successful.
+# Compile of s344_netlist_scanInserted.v was successful.
+# Compile of sigROM.v was successful.
+# Compile of SISA.v was successful.
+# Compile of SRSG.v was successful.
+# Compile of STCR.v was successful.
+# Compile of TB.sv was successful.
+# Compile of s344_testable.v was successful.
+# Compile of FlipDemux.v was successful.
+# Compile of SFM.v was successful.
+# Compile of LFSR.v was successful.
+# 13 compiles, 0 failed with no errors.
+# End time: 22:45:25 on Sep 06,2024, Elapsed time: 0:01:45
+# Errors: 0, Warnings: 2
+# vsim work.BIST_TB 
+# Start time: 22:45:25 on Sep 06,2024
+# Loading sv_std.std
+# Loading work.BIST_TB
+# Loading work.STCR
+# Loading work.s344_testable
+# Loading work.s344_scanInserted
+# Loading work.NOT
+# Loading work.NOR
+# Loading work.NAND
+# Loading work.dff
+# Loading work.LFSR
+# Loading work.SRSG
+# Loading work.MISR
+# Loading work.SISA
+# Loading work.BIST_CTRL
+# Loading work.counter
+# Loading work.sigROM
+# Loading work.SFM
+# Loading work.flipDemux
+# Starting Golden Signature Generation ... 
+# 
+# Starting Golden Signaturs Stored at              5555000 
+# 
+# ===> Fault Simulation Starting ...
+# 
+# ** Note: $stop    : C:/Users/apple/Documents/UT/Master Thesis/Reconfigurable BIST/s344_BIST_v2/TB.sv(277)
+#    Time: 338495 ns  Iteration: 0  Instance: /BIST_TB
+# Break in Module BIST_TB at C:/Users/apple/Documents/UT/Master Thesis/Reconfigurable BIST/s344_BIST_v2/TB.sv line 277
+do mydo.do BIST_TB
+# Compile of BIST_CTRL.v was successful.
+# Compile of MISR.v was successful.
+# Compile of mycells.v was successful.
+# Compile of s344_netlist_scanInserted.v was successful.
+# Compile of sigROM.v was successful.
+# Compile of SISA.v was successful.
+# Compile of SRSG.v was successful.
+# Compile of STCR.v was successful.
+# Compile of TB.sv was successful.
+# Compile of s344_testable.v was successful.
+# Compile of FlipDemux.v was successful.
+# Compile of SFM.v was successful.
+# Compile of LFSR.v was successful.
+# 13 compiles, 0 failed with no errors.
+# End time: 22:46:45 on Sep 06,2024, Elapsed time: 0:01:20
+# Errors: 0, Warnings: 2
+# vsim work.BIST_TB 
+# Start time: 22:46:45 on Sep 06,2024
+# Loading sv_std.std
+# Loading work.BIST_TB
+# Loading work.STCR
+# Loading work.s344_testable
+# Loading work.s344_scanInserted
+# Loading work.NOT
+# Loading work.NOR
+# Loading work.NAND
+# Loading work.dff
+# Loading work.LFSR
+# Loading work.SRSG
+# Loading work.MISR
+# Loading work.SISA
+# Loading work.BIST_CTRL
+# Loading work.counter
+# Loading work.sigROM
+# Loading work.SFM
+# Loading work.flipDemux
+# Starting Golden Signature Generation ... 
+# 
+# Starting Golden Signaturs Stored at              5555000 
+# 
+# ===> Fault Simulation Starting ...
+# 
+# ** Note: $stop    : C:/Users/apple/Documents/UT/Master Thesis/Reconfigurable BIST/s344_BIST_v2/TB.sv(277)
+#    Time: 338495 ns  Iteration: 0  Instance: /BIST_TB
+# Break in Module BIST_TB at C:/Users/apple/Documents/UT/Master Thesis/Reconfigurable BIST/s344_BIST_v2/TB.sv line 277
+do mydo.do BIST_TB
+# Compile of BIST_CTRL.v was successful.
+# Compile of MISR.v was successful.
+# Compile of mycells.v was successful.
+# Compile of s344_netlist_scanInserted.v was successful.
+# Compile of sigROM.v was successful.
+# Compile of SISA.v was successful.
+# Compile of SRSG.v was successful.
+# Compile of STCR.v was successful.
+# Compile of TB.sv was successful.
+# Compile of s344_testable.v was successful.
+# Compile of FlipDemux.v was successful.
+# Compile of SFM.v was successful.
+# Compile of LFSR.v was successful.
+# 13 compiles, 0 failed with no errors.
+# End time: 22:49:09 on Sep 06,2024, Elapsed time: 0:02:24
+# Errors: 0, Warnings: 2
+# vsim work.BIST_TB 
+# Start time: 22:49:09 on Sep 06,2024
+# Loading sv_std.std
+# Loading work.BIST_TB
+# Loading work.STCR
+# Loading work.s344_testable
+# Loading work.s344_scanInserted
+# Loading work.NOT
+# Loading work.NOR
+# Loading work.NAND
+# Loading work.dff
+# Loading work.LFSR
+# Loading work.SRSG
+# Loading work.MISR
+# Loading work.SISA
+# Loading work.BIST_CTRL
+# Loading work.counter
+# Loading work.sigROM
+# Loading work.SFM
+# Loading work.flipDemux
+# ===> Fault Simulation Starting ...
+# 
+# ** Note: $stop    : C:/Users/apple/Documents/UT/Master Thesis/Reconfigurable BIST/s344_BIST_v2/TB.sv(277)
+#    Time: 333105 ns  Iteration: 0  Instance: /BIST_TB
+# Break in Module BIST_TB at C:/Users/apple/Documents/UT/Master Thesis/Reconfigurable BIST/s344_BIST_v2/TB.sv line 277
+do mydo.do BIST_TB
+# Compile of BIST_CTRL.v was successful.
+# Compile of MISR.v was successful.
+# Compile of mycells.v was successful.
+# Compile of s344_netlist_scanInserted.v was successful.
+# Compile of sigROM.v was successful.
+# Compile of SISA.v was successful.
+# Compile of SRSG.v was successful.
+# Compile of STCR.v was successful.
+# Compile of TB.sv was successful.
+# Compile of s344_testable.v was successful.
+# Compile of FlipDemux.v was successful.
+# Compile of SFM.v was successful.
+# Compile of LFSR.v was successful.
+# 13 compiles, 0 failed with no errors.
+# End time: 22:50:27 on Sep 06,2024, Elapsed time: 0:01:18
+# Errors: 0, Warnings: 2
+# vsim work.BIST_TB 
+# Start time: 22:50:27 on Sep 06,2024
+# Loading sv_std.std
+# Loading work.BIST_TB
+# Loading work.STCR
+# Loading work.s344_testable
+# Loading work.s344_scanInserted
+# Loading work.NOT
+# Loading work.NOR
+# Loading work.NAND
+# Loading work.dff
+# Loading work.LFSR
+# Loading work.SRSG
+# Loading work.MISR
+# Loading work.SISA
+# Loading work.BIST_CTRL
+# Loading work.counter
+# Loading work.sigROM
+# Loading work.SFM
+# Loading work.flipDemux
+# Starting Golden Signature Generation ... 
+# 
+# Starting Golden Signaturs Stored at              5555000 
+# 
+# ===> Fault Simulation Starting ...
+# 
+# ** Note: $stop    : C:/Users/apple/Documents/UT/Master Thesis/Reconfigurable BIST/s344_BIST_v2/TB.sv(277)
+#    Time: 338495 ns  Iteration: 0  Instance: /BIST_TB
+# Break in Module BIST_TB at C:/Users/apple/Documents/UT/Master Thesis/Reconfigurable BIST/s344_BIST_v2/TB.sv line 277
+do mydo.do BIST_TB
+# Compile of BIST_CTRL.v was successful.
+# Compile of MISR.v was successful.
+# Compile of mycells.v was successful.
+# Compile of s344_netlist_scanInserted.v was successful.
+# Compile of sigROM.v was successful.
+# Compile of SISA.v was successful.
+# Compile of SRSG.v was successful.
+# Compile of STCR.v was successful.
+# Compile of TB.sv was successful.
+# Compile of s344_testable.v was successful.
+# Compile of FlipDemux.v was successful.
+# Compile of SFM.v was successful.
+# Compile of LFSR.v was successful.
+# 13 compiles, 0 failed with no errors.
+# End time: 22:52:46 on Sep 06,2024, Elapsed time: 0:02:19
+# Errors: 0, Warnings: 2
+# vsim work.BIST_TB 
+# Start time: 22:52:46 on Sep 06,2024
+# Loading sv_std.std
+# Loading work.BIST_TB
+# Loading work.STCR
+# Loading work.s344_testable
+# Loading work.s344_scanInserted
+# Loading work.NOT
+# Loading work.NOR
+# Loading work.NAND
+# Loading work.dff
+# Loading work.LFSR
+# Loading work.SRSG
+# Loading work.MISR
+# Loading work.SISA
+# Loading work.BIST_CTRL
+# Loading work.counter
+# Loading work.sigROM
+# Loading work.SFM
+# Loading work.flipDemux
+# Starting Golden Signature Generation ... 
+# 
+# Starting Golden Signaturs Stored at              5555000 
+# 
+# ===> Fault Simulation Starting ...
+# 
+add wave -position insertpoint  \
+sim:/BIST_TB/faultCount
+add wave -position insertpoint  \
+sim:/BIST_TB/faultInjection
+add wave -position insertpoint  \
+sim:/BIST_TB/faultsPath
+add wave -position insertpoint  \
+sim:/BIST_TB/rst
+add wave -position insertpoint  \
+sim:/BIST_TB/session
+add wave -position insertpoint  \
+sim:/BIST_TB/status
+add wave -position insertpoint  \
+sim:/BIST_TB/writeIdx
+add wave -position insertpoint  \
+sim:/BIST_TB/wireName
+write format wave -window .main_pane.wave.interior.cs.body.pw.wf {C:/Users/apple/Documents/UT/Master Thesis/Reconfigurable BIST/s344_BIST_v2/simulation/wave.do}
+# Break key hit
+# Break in Module SISA at C:/Users/apple/Documents/UT/Master Thesis/Reconfigurable BIST/s344_BIST_v2/SISA.v line 29
+# Break key hit
+do mydo.do BIST_TB
+# Compile of BIST_CTRL.v was successful.
+# Compile of MISR.v was successful.
+# Compile of mycells.v was successful.
+# Compile of s344_netlist_scanInserted.v was successful.
+# Compile of sigROM.v was successful.
+# Compile of SISA.v was successful.
+# Compile of SRSG.v was successful.
+# Compile of STCR.v was successful.
+# Compile of TB.sv was successful.
+# Compile of s344_testable.v was successful.
+# Compile of FlipDemux.v was successful.
+# Compile of SFM.v was successful.
+# Compile of LFSR.v was successful.
+# 13 compiles, 0 failed with no errors.
+# End time: 22:56:38 on Sep 06,2024, Elapsed time: 0:03:52
+# Errors: 0, Warnings: 2
+# vsim work.BIST_TB 
+# Start time: 22:56:38 on Sep 06,2024
+# Loading sv_std.std
+# Loading work.BIST_TB
+# Loading work.STCR
+# Loading work.s344_testable
+# Loading work.s344_scanInserted
+# Loading work.NOT
+# Loading work.NOR
+# Loading work.NAND
+# Loading work.dff
+# Loading work.LFSR
+# Loading work.SRSG
+# Loading work.MISR
+# Loading work.SISA
+# Loading work.BIST_CTRL
+# Loading work.counter
+# Loading work.sigROM
+# Loading work.SFM
+# Loading work.flipDemux
+# Starting Golden Signature Generation ... 
+# 
+# Starting Golden Signaturs Stored at              5555000 
+# 
+# ===> Fault Simulation Starting ...
+# 
+# ** Note: $stop    : C:/Users/apple/Documents/UT/Master Thesis/Reconfigurable BIST/s344_BIST_v2/TB.sv(277)
+#    Time: 338495 ns  Iteration: 0  Instance: /BIST_TB
+# Break in Module BIST_TB at C:/Users/apple/Documents/UT/Master Thesis/Reconfigurable BIST/s344_BIST_v2/TB.sv line 277
+# WARNING: No extended dataflow license exists
+# Error: invalid command name "::.main_pane.dataflow.interior.cs.body.pw.df.c"
+# Error: invalid command name "::.main_pane.dataflow.interior.cs.body.pw.df.c"
+# Error: invalid command name "::.main_pane.dataflow.interior.cs.body.pw.df.c"
+# Error: invalid command name "::.main_pane.dataflow.interior.cs.body.pw.df.c"
+# WARNING: No extended dataflow license exists
+# Error: invalid command name "::.main_pane.dataflow.interior.cs.body.pw.df.c"
+# Error: invalid command name "::.main_pane.dataflow.interior.cs.body.pw.df.c"
+# Error: invalid command name "::.main_pane.dataflow.interior.cs.body.pw.df.c"
+# Error: invalid command name "::.main_pane.dataflow.interior.cs.body.pw.df.c"
+# Error: invalid command name "::.main_pane.dataflow.interior.cs.body.pw.df.c"
+# Error: invalid command name "::.main_pane.dataflow.interior.cs.body.pw.df.c"
+do mydo.do BIST_TB
+# Compile of BIST_CTRL.v was successful.
+# Compile of MISR.v was successful.
+# Compile of mycells.v was successful.
+# Compile of s344_netlist_scanInserted.v was successful.
+# Compile of sigROM.v was successful.
+# Compile of SISA.v was successful.
+# Compile of SRSG.v was successful.
+# Compile of STCR.v was successful.
+# Compile of TB.sv was successful.
+# Compile of s344_testable.v was successful.
+# Compile of FlipDemux.v was successful.
+# Compile of SFM.v was successful.
+# Compile of LFSR.v was successful.
+# 13 compiles, 0 failed with no errors.
+# End time: 23:00:36 on Sep 06,2024, Elapsed time: 0:03:58
+# Errors: 0, Warnings: 2
+# vsim work.BIST_TB 
+# Start time: 23:00:36 on Sep 06,2024
+# Loading sv_std.std
+# Loading work.BIST_TB
+# Loading work.STCR
+# Loading work.s344_testable
+# Loading work.s344_scanInserted
+# Loading work.NOT
+# Loading work.NOR
+# Loading work.NAND
+# Loading work.dff
+# Loading work.LFSR
+# Loading work.SRSG
+# Loading work.MISR
+# Loading work.SISA
+# Loading work.BIST_CTRL
+# Loading work.counter
+# Loading work.sigROM
+# Loading work.SFM
+# Loading work.flipDemux
+# ** Warning: (vsim-PLI-3407) Too many data words read on line 9 of file "SFM.txt". (Current address [8], address range [0:7])    : C:/Users/apple/Documents/UT/Master Thesis/Reconfigurable BIST/s344_BIST_v2/SFM.v(11)
+#    Time: 0 ps  Iteration: 0  Instance: /BIST_TB/DUT/SFM_inst
+# Starting Golden Signature Generation ... 
+# 
+# Starting Golden Signaturs Stored at              5555000 
+# 
+# ===> Fault Simulation Starting ...
+# 
+# ** Note: $stop    : C:/Users/apple/Documents/UT/Master Thesis/Reconfigurable BIST/s344_BIST_v2/TB.sv(277)
+#    Time: 338495 ns  Iteration: 0  Instance: /BIST_TB
+# Break in Module BIST_TB at C:/Users/apple/Documents/UT/Master Thesis/Reconfigurable BIST/s344_BIST_v2/TB.sv line 277
+# Compile of TB.sv was successful.
+# Compile of SFM.v was successful.
+# 2 compiles, 0 failed with no errors.
+do mydo.do BIST_TB
+# Compile of BIST_CTRL.v was successful.
+# Compile of MISR.v was successful.
+# Compile of mycells.v was successful.
+# Compile of s344_netlist_scanInserted.v was successful.
+# Compile of sigROM.v was successful.
+# Compile of SISA.v was successful.
+# Compile of SRSG.v was successful.
+# Compile of STCR.v was successful.
+# Compile of TB.sv was successful.
+# Compile of s344_testable.v was successful.
+# Compile of FlipDemux.v was successful.
+# Compile of SFM.v was successful.
+# Compile of LFSR.v was successful.
+# 13 compiles, 0 failed with no errors.
+# End time: 23:07:05 on Sep 06,2024, Elapsed time: 0:06:29
+# Errors: 0, Warnings: 4
+# vsim work.BIST_TB 
+# Start time: 23:07:05 on Sep 06,2024
+# Loading sv_std.std
+# Loading work.BIST_TB
+# Loading work.STCR
+# Loading work.s344_testable
+# Loading work.s344_scanInserted
+# Loading work.NOT
+# Loading work.NOR
+# Loading work.NAND
+# Loading work.dff
+# Loading work.LFSR
+# Loading work.SRSG
+# Loading work.MISR
+# Loading work.SISA
+# Loading work.BIST_CTRL
+# Loading work.counter
+# Loading work.sigROM
+# Loading work.SFM
+# Loading work.flipDemux
+# ** Warning: (vsim-PLI-3407) Too many data words read on line 9 of file "SFM.txt". (Current address [8], address range [0:7])    : C:/Users/apple/Documents/UT/Master Thesis/Reconfigurable BIST/s344_BIST_v2/SFM.v(11)
+#    Time: 0 ps  Iteration: 0  Instance: /BIST_TB/DUT/SFM_inst
+# Starting Golden Signature Generation ... 
+# 
+# Starting Golden Signaturs Stored at              5555000 
+# 
+# ===> Fault Simulation Starting ...
+# 
+# ** Note: $stop    : C:/Users/apple/Documents/UT/Master Thesis/Reconfigurable BIST/s344_BIST_v2/TB.sv(277)
+#    Time: 312735 ns  Iteration: 0  Instance: /BIST_TB
+# Break in Module BIST_TB at C:/Users/apple/Documents/UT/Master Thesis/Reconfigurable BIST/s344_BIST_v2/TB.sv line 277
+do mydo.do BIST_TB
+# Compile of BIST_CTRL.v was successful.
+# Compile of MISR.v was successful.
+# Compile of mycells.v was successful.
+# Compile of s344_netlist_scanInserted.v was successful.
+# Compile of sigROM.v was successful.
+# Compile of SISA.v was successful.
+# Compile of SRSG.v was successful.
+# Compile of STCR.v was successful.
+# Compile of TB.sv was successful.
+# Compile of s344_testable.v was successful.
+# Compile of FlipDemux.v was successful.
+# Compile of SFM.v was successful.
+# Compile of LFSR.v was successful.
+# 13 compiles, 0 failed with no errors.
+# End time: 08:31:56 on Sep 07,2024, Elapsed time: 9:24:51
+# Errors: 0, Warnings: 3
+# vsim work.BIST_TB 
+# Start time: 08:31:56 on Sep 07,2024
+# Loading sv_std.std
+# Loading work.BIST_TB
+# Loading work.STCR
+# Loading work.s344_testable
+# Loading work.s344_scanInserted
+# Loading work.NOT
+# Loading work.NOR
+# Loading work.NAND
+# Loading work.dff
+# Loading work.LFSR
+# Loading work.SRSG
+# Loading work.MISR
+# Loading work.SISA
+# Loading work.BIST_CTRL
+# Loading work.counter
+# Loading work.sigROM
+# Loading work.SFM
+# Loading work.flipDemux
+# ** Warning: (vsim-PLI-3407) Too many data words read on line 9 of file "SFM.txt". (Current address [8], address range [0:7])    : C:/Users/apple/Documents/UT/Master Thesis/Reconfigurable BIST/s344_BIST_v2/SFM.v(11)
+#    Time: 0 ps  Iteration: 0  Instance: /BIST_TB/DUT/SFM_inst
+# Starting Golden Signature Generation ... 
+# 
+# Starting Golden Signaturs Stored at              5555000 
+# 
+# ===> Fault Simulation Starting ...
+# 
+# ** Note: $stop    : C:/Users/apple/Documents/UT/Master Thesis/Reconfigurable BIST/s344_BIST_v2/TB.sv(278)
+#    Time: 312775 ns  Iteration: 0  Instance: /BIST_TB
+# Break in Module BIST_TB at C:/Users/apple/Documents/UT/Master Thesis/Reconfigurable BIST/s344_BIST_v2/TB.sv line 278
+do mydo.do BIST_TB
+# Compile of BIST_CTRL.v was successful.
+# Compile of MISR.v was successful.
+# Compile of mycells.v was successful.
+# Compile of s344_netlist_scanInserted.v was successful.
+# Compile of sigROM.v was successful.
+# Compile of SISA.v was successful.
+# Compile of SRSG.v was successful.
+# Compile of STCR.v was successful.
+# Compile of TB.sv was successful.
+# Compile of s344_testable.v was successful.
+# Compile of FlipDemux.v was successful.
+# Compile of SFM.v was successful.
+# Compile of LFSR.v was successful.
+# 13 compiles, 0 failed with no errors.
+# End time: 08:36:17 on Sep 07,2024, Elapsed time: 0:04:21
+# Errors: 0, Warnings: 3
+# vsim work.BIST_TB 
+# Start time: 08:36:17 on Sep 07,2024
+# Loading sv_std.std
+# Loading work.BIST_TB
+# Loading work.STCR
+# Loading work.s344_testable
+# Loading work.s344_scanInserted
+# Loading work.NOT
+# Loading work.NOR
+# Loading work.NAND
+# Loading work.dff
+# Loading work.LFSR
+# Loading work.SRSG
+# Loading work.MISR
+# Loading work.SISA
+# Loading work.BIST_CTRL
+# Loading work.counter
+# Loading work.sigROM
+# Loading work.SFM
+# Loading work.flipDemux
+# ** Warning: (vsim-PLI-3407) Too many data words read on line 9 of file "SFM.txt". (Current address [8], address range [0:7])    : C:/Users/apple/Documents/UT/Master Thesis/Reconfigurable BIST/s344_BIST_v2/SFM.v(11)
+#    Time: 0 ps  Iteration: 0  Instance: /BIST_TB/DUT/SFM_inst
+# Starting Golden Signature Generation ... 
+# 
+# Starting Golden Signaturs Stored at              5555000 
+# 
+# ===> Fault Simulation Starting ...
+# 
+# ** Note: $stop    : C:/Users/apple/Documents/UT/Master Thesis/Reconfigurable BIST/s344_BIST_v2/TB.sv(278)
+#    Time: 338495 ns  Iteration: 0  Instance: /BIST_TB
+# Break in Module BIST_TB at C:/Users/apple/Documents/UT/Master Thesis/Reconfigurable BIST/s344_BIST_v2/TB.sv line 278
+do mydo.do BIST_TB
+# Compile of BIST_CTRL.v was successful.
+# Compile of MISR.v was successful.
+# Compile of mycells.v was successful.
+# Compile of s344_netlist_scanInserted.v was successful.
+# Compile of sigROM.v was successful.
+# Compile of SISA.v was successful.
+# Compile of SRSG.v was successful.
+# Compile of STCR.v was successful.
+# Compile of TB.sv was successful.
+# Compile of s344_testable.v was successful.
+# Compile of FlipDemux.v was successful.
+# Compile of SFM.v was successful.
+# Compile of LFSR.v was successful.
+# 13 compiles, 0 failed with no errors.
+# End time: 08:37:14 on Sep 07,2024, Elapsed time: 0:00:57
+# Errors: 0, Warnings: 3
+# vsim work.BIST_TB 
+# Start time: 08:37:14 on Sep 07,2024
+# Loading sv_std.std
+# Loading work.BIST_TB
+# Loading work.STCR
+# Loading work.s344_testable
+# Loading work.s344_scanInserted
+# Loading work.NOT
+# Loading work.NOR
+# Loading work.NAND
+# Loading work.dff
+# Loading work.LFSR
+# Loading work.SRSG
+# Loading work.MISR
+# Loading work.SISA
+# Loading work.BIST_CTRL
+# Loading work.counter
+# Loading work.sigROM
+# Loading work.SFM
+# Loading work.flipDemux
+# ** Warning: (vsim-PLI-3407) Too many data words read on line 9 of file "SFM.txt". (Current address [8], address range [0:7])    : C:/Users/apple/Documents/UT/Master Thesis/Reconfigurable BIST/s344_BIST_v2/SFM.v(11)
+#    Time: 0 ps  Iteration: 0  Instance: /BIST_TB/DUT/SFM_inst
+# Starting Golden Signature Generation ... 
+# 
+# Starting Golden Signaturs Stored at              5555000 
+# 
+# ===> Fault Simulation Starting ...
+# 
+# ** Note: $stop    : C:/Users/apple/Documents/UT/Master Thesis/Reconfigurable BIST/s344_BIST_v2/TB.sv(278)
+#    Time: 319355 ns  Iteration: 0  Instance: /BIST_TB
+# Break in Module BIST_TB at C:/Users/apple/Documents/UT/Master Thesis/Reconfigurable BIST/s344_BIST_v2/TB.sv line 278
+do mydo.do BIST_TB
+# Compile of BIST_CTRL.v was successful.
+# Compile of MISR.v was successful.
+# Compile of mycells.v was successful.
+# Compile of s344_netlist_scanInserted.v was successful.
+# Compile of sigROM.v was successful.
+# Compile of SISA.v was successful.
+# Compile of SRSG.v was successful.
+# Compile of STCR.v was successful.
+# Compile of TB.sv was successful.
+# Compile of s344_testable.v was successful.
+# Compile of FlipDemux.v was successful.
+# Compile of SFM.v was successful.
+# Compile of LFSR.v was successful.
+# 13 compiles, 0 failed with no errors.
+# End time: 08:41:50 on Sep 07,2024, Elapsed time: 0:04:36
+# Errors: 0, Warnings: 3
+# vsim work.BIST_TB 
+# Start time: 08:41:50 on Sep 07,2024
+# Loading sv_std.std
+# Loading work.BIST_TB
+# Loading work.STCR
+# Loading work.s344_testable
+# Loading work.s344_scanInserted
+# Loading work.NOT
+# Loading work.NOR
+# Loading work.NAND
+# Loading work.dff
+# Loading work.LFSR
+# Loading work.SRSG
+# Loading work.MISR
+# Loading work.SISA
+# Loading work.BIST_CTRL
+# Loading work.counter
+# Loading work.sigROM
+# Loading work.SFM
+# Loading work.flipDemux
+# ** Warning: (vsim-PLI-3407) Too many data words read on line 9 of file "SFM.txt". (Current address [8], address range [0:7])    : C:/Users/apple/Documents/UT/Master Thesis/Reconfigurable BIST/s344_BIST_v2/SFM.v(11)
+#    Time: 0 ps  Iteration: 0  Instance: /BIST_TB/DUT/SFM_inst
+# Starting Golden Signature Generation ... 
+# 
+# Starting Golden Signaturs Stored at              5555000 
+# 
+# ===> Fault Simulation Starting ...
+# 
+# ** Note: $stop    : C:/Users/apple/Documents/UT/Master Thesis/Reconfigurable BIST/s344_BIST_v2/TB.sv(278)
+#    Time: 319355 ns  Iteration: 0  Instance: /BIST_TB
+# Break in Module BIST_TB at C:/Users/apple/Documents/UT/Master Thesis/Reconfigurable BIST/s344_BIST_v2/TB.sv line 278
+do mydo.do BIST_TB
+# Compile of BIST_CTRL.v was successful.
+# Compile of MISR.v was successful.
+# Compile of mycells.v was successful.
+# Compile of s344_netlist_scanInserted.v was successful.
+# Compile of sigROM.v was successful.
+# Compile of SISA.v was successful.
+# Compile of SRSG.v was successful.
+# Compile of STCR.v was successful.
+# Compile of TB.sv was successful.
+# Compile of s344_testable.v was successful.
+# Compile of FlipDemux.v was successful.
+# Compile of SFM.v was successful.
+# Compile of LFSR.v was successful.
+# 13 compiles, 0 failed with no errors.
+# End time: 08:45:49 on Sep 07,2024, Elapsed time: 0:03:59
+# Errors: 0, Warnings: 3
+# vsim work.BIST_TB 
+# Start time: 08:45:49 on Sep 07,2024
+# Loading sv_std.std
+# Loading work.BIST_TB
+# Loading work.STCR
+# Loading work.s344_testable
+# Loading work.s344_scanInserted
+# Loading work.NOT
+# Loading work.NOR
+# Loading work.NAND
+# Loading work.dff
+# Loading work.LFSR
+# Loading work.SRSG
+# Loading work.MISR
+# Loading work.SISA
+# Loading work.BIST_CTRL
+# Loading work.counter
+# Loading work.sigROM
+# Loading work.SFM
+# Loading work.flipDemux
+# ** Warning: (vsim-PLI-3407) Too many data words read on line 9 of file "SFM.txt". (Current address [8], address range [0:7])    : C:/Users/apple/Documents/UT/Master Thesis/Reconfigurable BIST/s344_BIST_v2/SFM.v(11)
+#    Time: 0 ps  Iteration: 0  Instance: /BIST_TB/DUT/SFM_inst
+# Starting Golden Signature Generation ... 
+# 
+# Starting Golden Signaturs Stored at              5555000 
+# 
+# ===> Fault Simulation Starting ...
+# 
+# ** Note: $stop    : C:/Users/apple/Documents/UT/Master Thesis/Reconfigurable BIST/s344_BIST_v2/TB.sv(278)
+#    Time: 319355 ns  Iteration: 0  Instance: /BIST_TB
+# Break in Module BIST_TB at C:/Users/apple/Documents/UT/Master Thesis/Reconfigurable BIST/s344_BIST_v2/TB.sv line 278
+write format wave -window .main_pane.wave.interior.cs.body.pw.wf {C:/Users/apple/Documents/UT/Master Thesis/Reconfigurable BIST/s344_BIST_v2/simulation/wave.do}
+do mydo.do BIST_TB
+# Compile of BIST_CTRL.v was successful.
+# Compile of MISR.v was successful.
+# Compile of mycells.v was successful.
+# Compile of s344_netlist_scanInserted.v was successful.
+# Compile of sigROM.v was successful.
+# Compile of SISA.v was successful.
+# Compile of SRSG.v was successful.
+# Compile of STCR.v was successful.
+# Compile of TB.sv was successful.
+# Compile of s344_testable.v was successful.
+# Compile of FlipDemux.v was successful.
+# Compile of SFM.v was successful.
+# Compile of LFSR.v was successful.
+# 13 compiles, 0 failed with no errors.
+# End time: 08:51:32 on Sep 07,2024, Elapsed time: 0:05:43
+# Errors: 0, Warnings: 3
+# vsim work.BIST_TB 
+# Start time: 08:51:32 on Sep 07,2024
+# Loading sv_std.std
+# Loading work.BIST_TB
+# Loading work.STCR
+# Loading work.s344_testable
+# Loading work.s344_scanInserted
+# Loading work.NOT
+# Loading work.NOR
+# Loading work.NAND
+# Loading work.dff
+# Loading work.LFSR
+# Loading work.SRSG
+# Loading work.MISR
+# Loading work.SISA
+# Loading work.BIST_CTRL
+# Loading work.counter
+# Loading work.sigROM
+# Loading work.SFM
+# Loading work.flipDemux
+# ** Warning: (vsim-PLI-3407) Too many data words read on line 9 of file "SFM.txt". (Current address [8], address range [0:7])    : C:/Users/apple/Documents/UT/Master Thesis/Reconfigurable BIST/s344_BIST_v2/SFM.v(11)
+#    Time: 0 ps  Iteration: 0  Instance: /BIST_TB/DUT/SFM_inst
+# Starting Golden Signature Generation ... 
+# 
+# Starting Golden Signaturs Stored at              5555000 
+# 
+# ===> Fault Simulation Starting ...
+# 
+# ** Note: $stop    : C:/Users/apple/Documents/UT/Master Thesis/Reconfigurable BIST/s344_BIST_v2/TB.sv(278)
+#    Time: 319355 ns  Iteration: 0  Instance: /BIST_TB
+# Break in Module BIST_TB at C:/Users/apple/Documents/UT/Master Thesis/Reconfigurable BIST/s344_BIST_v2/TB.sv line 278
+do mydo.do BIST_TB
+# Compile of BIST_CTRL.v was successful.
+# Compile of MISR.v was successful.
+# Compile of mycells.v was successful.
+# Compile of s344_netlist_scanInserted.v was successful.
+# Compile of sigROM.v was successful.
+# Compile of SISA.v was successful.
+# Compile of SRSG.v was successful.
+# Compile of STCR.v was successful.
+# Compile of TB.sv was successful.
+# Compile of s344_testable.v was successful.
+# Compile of FlipDemux.v was successful.
+# Compile of SFM.v was successful.
+# Compile of LFSR.v was successful.
+# 13 compiles, 0 failed with no errors.
+# End time: 08:53:10 on Sep 07,2024, Elapsed time: 0:01:38
+# Errors: 0, Warnings: 3
+# vsim work.BIST_TB 
+# Start time: 08:53:10 on Sep 07,2024
+# Loading sv_std.std
+# Loading work.BIST_TB
+# Loading work.STCR
+# Loading work.s344_testable
+# Loading work.s344_scanInserted
+# Loading work.NOT
+# Loading work.NOR
+# Loading work.NAND
+# Loading work.dff
+# Loading work.LFSR
+# Loading work.SRSG
+# Loading work.MISR
+# Loading work.SISA
+# Loading work.BIST_CTRL
+# Loading work.counter
+# Loading work.sigROM
+# Loading work.SFM
+# Loading work.flipDemux
+# ** Warning: (vsim-PLI-3407) Too many data words read on line 9 of file "SFM.txt". (Current address [8], address range [0:7])    : C:/Users/apple/Documents/UT/Master Thesis/Reconfigurable BIST/s344_BIST_v2/SFM.v(11)
+#    Time: 0 ps  Iteration: 0  Instance: /BIST_TB/DUT/SFM_inst
+# Starting Golden Signature Generation ... 
+# 
+# Starting Golden Signaturs Stored at              5555000 
+# 
+# ===> Fault Simulation Starting ...
+# 
+# ** Note: $stop    : C:/Users/apple/Documents/UT/Master Thesis/Reconfigurable BIST/s344_BIST_v2/TB.sv(278)
+#    Time: 319355 ns  Iteration: 0  Instance: /BIST_TB
+# Break in Module BIST_TB at C:/Users/apple/Documents/UT/Master Thesis/Reconfigurable BIST/s344_BIST_v2/TB.sv line 278
+do mydo.do BIST_TB
+# Compile of BIST_CTRL.v was successful.
+# Compile of MISR.v was successful.
+# Compile of mycells.v was successful.
+# Compile of s344_netlist_scanInserted.v was successful.
+# Compile of sigROM.v was successful.
+# Compile of SISA.v was successful.
+# Compile of SRSG.v was successful.
+# Compile of STCR.v was successful.
+# Compile of TB.sv was successful.
+# Compile of s344_testable.v was successful.
+# Compile of FlipDemux.v was successful.
+# Compile of SFM.v was successful.
+# Compile of LFSR.v was successful.
+# 13 compiles, 0 failed with no errors.
+# End time: 08:58:24 on Sep 07,2024, Elapsed time: 0:05:14
+# Errors: 0, Warnings: 3
+# vsim work.BIST_TB 
+# Start time: 08:58:24 on Sep 07,2024
+# Loading sv_std.std
+# Loading work.BIST_TB
+# Loading work.STCR
+# Loading work.s344_testable
+# Loading work.s344_scanInserted
+# Loading work.NOT
+# Loading work.NOR
+# Loading work.NAND
+# Loading work.dff
+# Loading work.LFSR
+# Loading work.SRSG
+# Loading work.MISR
+# Loading work.SISA
+# Loading work.BIST_CTRL
+# Loading work.counter
+# Loading work.sigROM
+# Loading work.SFM
+# Loading work.flipDemux
+# ** Warning: (vsim-PLI-3407) Too many data words read on line 9 of file "SFM.txt". (Current address [8], address range [0:7])    : C:/Users/apple/Documents/UT/Master Thesis/Reconfigurable BIST/s344_BIST_v2/SFM.v(11)
+#    Time: 0 ps  Iteration: 0  Instance: /BIST_TB/DUT/SFM_inst
+# Starting Golden Signature Generation ... 
+# 
+# Starting Golden Signaturs Stored at              5555000 
+# 
+# ===> Fault Simulation Starting ...
+# 
+# ** Note: $stop    : C:/Users/apple/Documents/UT/Master Thesis/Reconfigurable BIST/s344_BIST_v2/TB.sv(278)
+#    Time: 319355 ns  Iteration: 0  Instance: /BIST_TB
+# Break in Module BIST_TB at C:/Users/apple/Documents/UT/Master Thesis/Reconfigurable BIST/s344_BIST_v2/TB.sv line 278
+do mydo.do BIST_TB
+# Compile of BIST_CTRL.v was successful.
+# Compile of MISR.v was successful.
+# Compile of mycells.v was successful.
+# Compile of s344_netlist_scanInserted.v was successful.
+# Compile of sigROM.v was successful.
+# Compile of SISA.v was successful.
+# Compile of SRSG.v was successful.
+# Compile of STCR.v was successful.
+# Compile of TB.sv was successful.
+# Compile of s344_testable.v was successful.
+# Compile of FlipDemux.v was successful.
+# Compile of SFM.v was successful.
+# Compile of LFSR.v was successful.
+# 13 compiles, 0 failed with no errors.
+# End time: 09:02:28 on Sep 07,2024, Elapsed time: 0:04:04
+# Errors: 0, Warnings: 3
+# vsim work.BIST_TB 
+# Start time: 09:02:28 on Sep 07,2024
+# Loading sv_std.std
+# Loading work.BIST_TB
+# Loading work.STCR
+# Loading work.s344_testable
+# Loading work.s344_scanInserted
+# Loading work.NOT
+# Loading work.NOR
+# Loading work.NAND
+# Loading work.dff
+# Loading work.LFSR
+# Loading work.SRSG
+# Loading work.MISR
+# Loading work.SISA
+# Loading work.BIST_CTRL
+# Loading work.counter
+# Loading work.sigROM
+# Loading work.SFM
+# Loading work.flipDemux
+# ** Warning: (vsim-PLI-3407) Too many data words read on line 9 of file "SFM.txt". (Current address [8], address range [0:7])    : C:/Users/apple/Documents/UT/Master Thesis/Reconfigurable BIST/s344_BIST_v2/SFM.v(11)
+#    Time: 0 ps  Iteration: 0  Instance: /BIST_TB/DUT/SFM_inst
+# Starting Golden Signature Generation ... 
+# 
+# Starting Golden Signaturs Stored at              5555000 
+# 
+# ===> Fault Simulation Starting ...
+# 
+# ** Note: $stop    : C:/Users/apple/Documents/UT/Master Thesis/Reconfigurable BIST/s344_BIST_v2/TB.sv(279)
+#    Time: 319355 ns  Iteration: 0  Instance: /BIST_TB
+# Break in Module BIST_TB at C:/Users/apple/Documents/UT/Master Thesis/Reconfigurable BIST/s344_BIST_v2/TB.sv line 279
+do mydo.do BIST_TB
+# Compile of BIST_CTRL.v was successful.
+# Compile of MISR.v was successful.
+# Compile of mycells.v was successful.
+# Compile of s344_netlist_scanInserted.v was successful.
+# Compile of sigROM.v was successful.
+# Compile of SISA.v was successful.
+# Compile of SRSG.v was successful.
+# Compile of STCR.v was successful.
+# Compile of TB.sv was successful.
+# Compile of s344_testable.v was successful.
+# Compile of FlipDemux.v was successful.
+# Compile of SFM.v was successful.
+# Compile of LFSR.v was successful.
+# 13 compiles, 0 failed with no errors.
+# End time: 09:04:17 on Sep 07,2024, Elapsed time: 0:01:49
+# Errors: 0, Warnings: 3
+# vsim work.BIST_TB 
+# Start time: 09:04:18 on Sep 07,2024
+# Loading sv_std.std
+# Loading work.BIST_TB
+# Loading work.STCR
+# Loading work.s344_testable
+# Loading work.s344_scanInserted
+# Loading work.NOT
+# Loading work.NOR
+# Loading work.NAND
+# Loading work.dff
+# Loading work.LFSR
+# Loading work.SRSG
+# Loading work.MISR
+# Loading work.SISA
+# Loading work.BIST_CTRL
+# Loading work.counter
+# Loading work.sigROM
+# Loading work.SFM
+# Loading work.flipDemux
+# ** Warning: (vsim-PLI-3407) Too many data words read on line 9 of file "SFM.txt". (Current address [8], address range [0:7])    : C:/Users/apple/Documents/UT/Master Thesis/Reconfigurable BIST/s344_BIST_v2/SFM.v(11)
+#    Time: 0 ps  Iteration: 0  Instance: /BIST_TB/DUT/SFM_inst
+# Starting Golden Signature Generation ... 
+# 
+# Starting Golden Signaturs Stored at              5555000 
+# 
+# ===> Fault Simulation Starting ...
+# 
+# ** Note: $stop    : C:/Users/apple/Documents/UT/Master Thesis/Reconfigurable BIST/s344_BIST_v2/TB.sv(279)
+#    Time: 319355 ns  Iteration: 0  Instance: /BIST_TB
+# Break in Module BIST_TB at C:/Users/apple/Documents/UT/Master Thesis/Reconfigurable BIST/s344_BIST_v2/TB.sv line 279
+do mydo.do BIST_TB
+# Compile of BIST_CTRL.v was successful.
+# Compile of MISR.v was successful.
+# Compile of mycells.v was successful.
+# Compile of s344_netlist_scanInserted.v was successful.
+# Compile of sigROM.v was successful.
+# Compile of SISA.v was successful.
+# Compile of SRSG.v was successful.
+# Compile of STCR.v was successful.
+# Compile of TB.sv was successful.
+# Compile of s344_testable.v was successful.
+# Compile of FlipDemux.v was successful.
+# Compile of SFM.v was successful.
+# Compile of LFSR.v was successful.
+# 13 compiles, 0 failed with no errors.
+# End time: 09:13:26 on Sep 07,2024, Elapsed time: 0:09:08
+# Errors: 0, Warnings: 3
+# vsim work.BIST_TB 
+# Start time: 09:13:26 on Sep 07,2024
+# Loading sv_std.std
+# Loading work.BIST_TB
+# Loading work.STCR
+# Loading work.s344_testable
+# Loading work.s344_scanInserted
+# Loading work.NOT
+# Loading work.NOR
+# Loading work.NAND
+# Loading work.dff
+# Loading work.LFSR
+# Loading work.SRSG
+# Loading work.MISR
+# Loading work.SISA
+# Loading work.BIST_CTRL
+# Loading work.counter
+# Loading work.sigROM
+# Loading work.SFM
+# Loading work.flipDemux
+# ** Warning: (vsim-PLI-3407) Too many data words read on line 9 of file "SFM.txt". (Current address [8], address range [0:7])    : C:/Users/apple/Documents/UT/Master Thesis/Reconfigurable BIST/s344_BIST_v2/SFM.v(11)
+#    Time: 0 ps  Iteration: 0  Instance: /BIST_TB/DUT/SFM_inst
+# Starting Golden Signature Generation ... 
+# 
+# Starting Golden Signaturs Stored at              5555000 
+# 
+# ===> Fault Simulation Starting ...
+# 
+# ** Note: $stop    : C:/Users/apple/Documents/UT/Master Thesis/Reconfigurable BIST/s344_BIST_v2/TB.sv(279)
+#    Time: 319355 ns  Iteration: 0  Instance: /BIST_TB
+# Break in Module BIST_TB at C:/Users/apple/Documents/UT/Master Thesis/Reconfigurable BIST/s344_BIST_v2/TB.sv line 279
+do mydo.do BIST_TB
+# Compile of BIST_CTRL.v was successful.
+# Compile of MISR.v was successful.
+# Compile of mycells.v was successful.
+# Compile of s344_netlist_scanInserted.v was successful.
+# Compile of sigROM.v was successful.
+# Compile of SISA.v was successful.
+# Compile of SRSG.v was successful.
+# Compile of STCR.v was successful.
+# Compile of TB.sv was successful.
+# Compile of s344_testable.v was successful.
+# Compile of FlipDemux.v was successful.
+# Compile of SFM.v was successful.
+# Compile of LFSR.v was successful.
+# 13 compiles, 0 failed with no errors.
+# End time: 09:21:34 on Sep 07,2024, Elapsed time: 0:08:08
+# Errors: 0, Warnings: 3
+# vsim work.BIST_TB 
+# Start time: 09:21:34 on Sep 07,2024
+# Loading sv_std.std
+# Loading work.BIST_TB
+# Loading work.STCR
+# Loading work.s344_testable
+# Loading work.s344_scanInserted
+# Loading work.NOT
+# Loading work.NOR
+# Loading work.NAND
+# Loading work.dff
+# Loading work.LFSR
+# Loading work.SRSG
+# Loading work.MISR
+# Loading work.SISA
+# Loading work.BIST_CTRL
+# Loading work.counter
+# Loading work.sigROM
+# Loading work.SFM
+# Loading work.flipDemux
+# ** Warning: (vsim-PLI-3407) Too many data words read on line 9 of file "SFM.txt". (Current address [8], address range [0:7])    : C:/Users/apple/Documents/UT/Master Thesis/Reconfigurable BIST/s344_BIST_v2/SFM.v(11)
+#    Time: 0 ps  Iteration: 0  Instance: /BIST_TB/DUT/SFM_inst
+# Starting Golden Signature Generation ... 
+# 
+# Starting Golden Signaturs Stored at              5575000 
+# 
+# ===> Fault Simulation Starting ...
+# 
+# ** Note: $stop    : C:/Users/apple/Documents/UT/Master Thesis/Reconfigurable BIST/s344_BIST_v2/TB.sv(279)
+#    Time: 89695 ns  Iteration: 0  Instance: /BIST_TB
+# Break in Module BIST_TB at C:/Users/apple/Documents/UT/Master Thesis/Reconfigurable BIST/s344_BIST_v2/TB.sv line 279
+do mydo.do BIST_TB
+# Compile of BIST_CTRL.v was successful.
+# Compile of MISR.v was successful.
+# Compile of mycells.v was successful.
+# Compile of s344_netlist_scanInserted.v was successful.
+# Compile of sigROM.v was successful.
+# Compile of SISA.v was successful.
+# Compile of SRSG.v was successful.
+# Compile of STCR.v was successful.
+# Compile of TB.sv was successful.
+# Compile of s344_testable.v was successful.
+# Compile of FlipDemux.v was successful.
+# Compile of SFM.v was successful.
+# Compile of LFSR.v was successful.
+# 13 compiles, 0 failed with no errors.
+# End time: 09:30:01 on Sep 07,2024, Elapsed time: 0:08:27
+# Errors: 0, Warnings: 3
+# vsim work.BIST_TB 
+# Start time: 09:30:01 on Sep 07,2024
+# Loading sv_std.std
+# Loading work.BIST_TB
+# Loading work.STCR
+# Loading work.s344_testable
+# Loading work.s344_scanInserted
+# Loading work.NOT
+# Loading work.NOR
+# Loading work.NAND
+# Loading work.dff
+# Loading work.LFSR
+# Loading work.SRSG
+# Loading work.MISR
+# Loading work.SISA
+# Loading work.BIST_CTRL
+# Loading work.counter
+# Loading work.sigROM
+# Loading work.SFM
+# Loading work.flipDemux
+# ** Warning: (vsim-PLI-3407) Too many data words read on line 9 of file "SFM.txt". (Current address [8], address range [0:7])    : C:/Users/apple/Documents/UT/Master Thesis/Reconfigurable BIST/s344_BIST_v2/SFM.v(11)
+#    Time: 0 ps  Iteration: 0  Instance: /BIST_TB/DUT/SFM_inst
+# Starting Golden Signature Generation ... 
+# 
+# Starting Golden Signaturs Stored at              5555000 
+# 
+# ===> Fault Simulation Starting ...
+# 
+# ** Note: $stop    : C:/Users/apple/Documents/UT/Master Thesis/Reconfigurable BIST/s344_BIST_v2/TB.sv(279)
+#    Time: 319355 ns  Iteration: 0  Instance: /BIST_TB
+# Break in Module BIST_TB at C:/Users/apple/Documents/UT/Master Thesis/Reconfigurable BIST/s344_BIST_v2/TB.sv line 279
+do mydo.do BIST_TB
+# Compile of BIST_CTRL.v was successful.
+# Compile of MISR.v was successful.
+# Compile of mycells.v was successful.
+# Compile of s344_netlist_scanInserted.v was successful.
+# Compile of sigROM.v was successful.
+# Compile of SISA.v was successful.
+# Compile of SRSG.v was successful.
+# Compile of STCR.v was successful.
+# Compile of TB.sv was successful.
+# Compile of s344_testable.v was successful.
+# Compile of FlipDemux.v was successful.
+# Compile of SFM.v was successful.
+# Compile of LFSR.v was successful.
+# 13 compiles, 0 failed with no errors.
+# End time: 09:33:54 on Sep 07,2024, Elapsed time: 0:03:53
+# Errors: 0, Warnings: 3
+# vsim work.BIST_TB 
+# Start time: 09:33:54 on Sep 07,2024
+# Loading sv_std.std
+# Loading work.BIST_TB
+# Loading work.STCR
+# Loading work.s344_testable
+# Loading work.s344_scanInserted
+# Loading work.NOT
+# Loading work.NOR
+# Loading work.NAND
+# Loading work.dff
+# Loading work.LFSR
+# Loading work.SRSG
+# Loading work.MISR
+# Loading work.SISA
+# Loading work.BIST_CTRL
+# Loading work.counter
+# Loading work.sigROM
+# Loading work.SFM
+# Loading work.flipDemux
+# ** Warning: (vsim-PLI-3407) Too many data words read on line 9 of file "SFM.txt". (Current address [8], address range [0:7])    : C:/Users/apple/Documents/UT/Master Thesis/Reconfigurable BIST/s344_BIST_v2/SFM.v(11)
+#    Time: 0 ps  Iteration: 0  Instance: /BIST_TB/DUT/SFM_inst
+# Starting Golden Signature Generation ... 
+# 
+# Starting Golden Signaturs Stored at              5555000 
+# 
+# ===> Fault Simulation Starting ...
+# 
+# ** Note: $stop    : C:/Users/apple/Documents/UT/Master Thesis/Reconfigurable BIST/s344_BIST_v2/TB.sv(279)
+#    Time: 319355 ns  Iteration: 0  Instance: /BIST_TB
+# Break in Module BIST_TB at C:/Users/apple/Documents/UT/Master Thesis/Reconfigurable BIST/s344_BIST_v2/TB.sv line 279
+do mydo.do BIST_TB
+# Compile of BIST_CTRL.v was successful.
+# Compile of MISR.v was successful.
+# Compile of mycells.v was successful.
+# Compile of s344_netlist_scanInserted.v was successful.
+# Compile of sigROM.v was successful.
+# Compile of SISA.v was successful.
+# Compile of SRSG.v was successful.
+# Compile of STCR.v was successful.
+# Compile of TB.sv was successful.
+# Compile of s344_testable.v was successful.
+# Compile of FlipDemux.v was successful.
+# Compile of SFM.v was successful.
+# Compile of LFSR.v was successful.
+# 13 compiles, 0 failed with no errors.
+# End time: 09:43:41 on Sep 07,2024, Elapsed time: 0:09:47
+# Errors: 0, Warnings: 3
+# vsim work.BIST_TB 
+# Start time: 09:43:41 on Sep 07,2024
+# Loading sv_std.std
+# Loading work.BIST_TB
+# Loading work.STCR
+# Loading work.s344_testable
+# Loading work.s344_scanInserted
+# Loading work.NOT
+# Loading work.NOR
+# Loading work.NAND
+# Loading work.dff
+# Loading work.LFSR
+# Loading work.SRSG
+# Loading work.MISR
+# Loading work.SISA
+# Loading work.BIST_CTRL
+# Loading work.counter
+# Loading work.sigROM
+# Loading work.SFM
+# Loading work.flipDemux
+# ** Warning: (vsim-PLI-3407) Too many data words read on line 9 of file "SFM.txt". (Current address [8], address range [0:7])    : C:/Users/apple/Documents/UT/Master Thesis/Reconfigurable BIST/s344_BIST_v2/SFM.v(11)
+#    Time: 0 ps  Iteration: 0  Instance: /BIST_TB/DUT/SFM_inst
+# Starting Golden Signature Generation ... 
+# 
+# Starting Golden Signaturs Stored at              5555000 
+# 
+# ===> Fault Simulation Starting ...
+# 
+# ** Note: $stop    : C:/Users/apple/Documents/UT/Master Thesis/Reconfigurable BIST/s344_BIST_v2/TB.sv(279)
+#    Time: 319355 ns  Iteration: 0  Instance: /BIST_TB
+# Break in Module BIST_TB at C:/Users/apple/Documents/UT/Master Thesis/Reconfigurable BIST/s344_BIST_v2/TB.sv line 279
+# End time: 10:23:38 on Sep 07,2024, Elapsed time: 0:39:57
+# Errors: 0, Warnings: 2

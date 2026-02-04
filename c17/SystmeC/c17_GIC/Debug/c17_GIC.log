@@ -1,0 +1,22 @@
+﻿Build started 7/10/2024 11:00:09 AM.
+     1>Project "C:\Users\apple\Documents\UT\Master Thesis\c17\SystmeC\c17_GIC\c17_GIC.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I"C:\systemc-2.3.0\src" /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _LIB /D _CRT_SECURE_NO_DEPRECATE /D _CRT_SECURE_NO_WARNINGS /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MTd /GS /fp:precise /Zc:wchar_t /Zc:forScope /GR /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt /vmg ..\codes\netlistSimulation.cpp ..\codes\netlistSimulationTB.cpp ..\codes\powerGatesNetlist.cpp
+         powerGatesNetlist.cpp
+         netlistSimulationTB.cpp
+         netlistSimulation.cpp
+         Generating Code...
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\apple\Documents\UT\Master Thesis\c17\SystmeC\c17_GIC\Debug\c17_GIC.exe" /INCREMENTAL /NOLOGO /LIBPATH:"C:\systemc-2.3.0\msvc80\SystemC\Debug" systemc.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\apple\Documents\UT\Master Thesis\c17\SystmeC\c17_GIC\Debug\c17_GIC.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\apple\Documents\UT\Master Thesis\c17\SystmeC\c17_GIC\Debug\c17_GIC.lib" /MACHINE:X86 Debug\GATES_X1.obj
+         Debug\NAND2_X1.obj
+         Debug\netlistSimulation.obj
+         Debug\netlistSimulationTB.obj
+         Debug\powerGatesNetlist.obj
+         Debug\powerNAND2_X1GateParams.obj
+         Debug\powerUtils.obj
+         c17_GIC.vcxproj -> C:\Users\apple\Documents\UT\Master Thesis\c17\SystmeC\c17_GIC\Debug\c17_GIC.exe
+     1>Done Building Project "C:\Users\apple\Documents\UT\Master Thesis\c17\SystmeC\c17_GIC\c17_GIC.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:11.18

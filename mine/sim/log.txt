@@ -1,0 +1,3 @@
+Simulation is done successfully :) @ 7296 ns
+SIMULATION TIME: 0 h & 0 min & 2 sec
+All TIME Units => 2 sec ~ 0 min ~ 0 h

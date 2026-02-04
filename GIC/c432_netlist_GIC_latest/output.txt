@@ -1,0 +1,4 @@
+all gates are instantiated 257
+END OF SIM=> Total Observed Combs = 941
+END OF SIM=> Total Possible Combs = 950
+GIC Coverage = 0.990526

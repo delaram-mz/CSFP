@@ -1,0 +1,16 @@
+s@1   TB.DUT.DUT.Y1
+s@1   TB.DUT.DUT._18_/B
+s@0   TB.DUT.DUT.Y1
+s@0   TB.DUT.DUT.DFF_0/Q
+s@1   TB.DUT.DUT.DFF_0/Q
+s@0   TB.DUT.DUT.Y0
+s@1   TB.DUT.DUT.Y0
+s@1   TB.DUT.DUT._14_/Y
+s@1   TB.DUT.DUT.DFF_1/Q
+s@1   TB.DUT.DUT._17_/Y
+s@1   TB.DUT.DUT.C
+s@1   TB.DUT.DUT._15_/Y
+s@1   TB.DUT.DUT.B
+s@1   TB.DUT.DUT.A
+s@0   TB.DUT.DUT.D
+s@1   TB.DUT.DUT.D

@@ -1,0 +1,6 @@
+
+
+==========> Group Val 13.000000 
+==========> Fault Coverage Enhanced: 0.918301 
+==========> Fault Simulation Time:           2827460000 
+==========> BIST Run Time:              9210000 

@@ -1,0 +1,1602 @@
+do mydo.do
+# The DO file requires two arguments: 
+# 1. TB_Name and 2. Process_Name in which the wireName & stuckAtVal variables are defined. 
+# Please try again with the following syntax: 
+# do doFileName.do TB_Name Process_Name
+# In my case is:   do mydo.do TB
+do mydo.do TB
+# Compile of mycells.v was successful.
+# Compile of s27_netlist_scanInserted.v was successful.
+# Compile of TB.sv was successful.
+# Compile of BIST_CTRL.v was successful.
+# Compile of LFSR.v was successful.
+# Compile of MISR.v was successful.
+# Compile of SISA.v was successful.
+# Compile of SRSG.v was successful.
+# Compile of s27_testable.v was successful.
+# Compile of sigROM.v was successful.
+# 10 compiles, 0 failed with no errors.
+# vsim work.TB 
+# Start time: 09:14:00 on Jul 27,2024
+# Loading sv_std.std
+# Loading work.TB
+# Loading work.s27_testable
+# Loading work.s27_scanInserted
+# Loading work.NOR
+# Loading work.NOT
+# Loading work.NAND
+# Loading work.dff
+# Loading work.LFSR
+# Loading work.SRSG
+# Loading work.MISR
+# Loading work.SISA
+# Loading work.BIST_CTRL
+# Loading work.counter
+# Loading work.sigROM
+# ** Warning: (vsim-3015) [PCDPC] - Port size (3) does not match connection size (1) for port 'data'. The port definition is at: C:/Users/apple/Documents/UT/Master Thesis/Reconfigurable BIST/s27_BIST/SISA.v(3).
+#    Time: 0 ps  Iteration: 0  Instance: /TB/DUT/SISA_inst File: C:/Users/apple/Documents/UT/Master Thesis/Reconfigurable BIST/s27_BIST/s27_testable.v Line: 76
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# ** Warning: (vsim-3015) [PCDPC] - Port size (3) does not match connection size (1) for port 'data'. The port definition is at: C:/Users/apple/Documents/UT/Master Thesis/Reconfigurable BIST/s27_BIST/SISA.v(3).
+#    Time: 0 ps  Iteration: 0  Instance: /TB/DUT/SISA_inst File: C:/Users/apple/Documents/UT/Master Thesis/Reconfigurable BIST/s27_BIST/s27_testable.v Line: 76
+# DONE ISSUED at               275000 
+# 
+# DONE ISSUED at               395000 
+# 
+# DONE ISSUED at               515000 
+# 
+# DONE ISSUED at               635000 
+# 
+# DONE ISSUED at               755000 
+# 
+# DONE ISSUED at               915000 
+# 
+# ===> Fault Simulation Starting ...
+# 
+# TB.DUT.DUT.G17
+# TB.DUT.DUT._40_/Y
+# TB.DUT.DUT._40_/A
+# TB.DUT.DUT._40_/B
+# TB.DUT.DUT._39_/Y
+# TB.DUT.DUT._35_/Y
+# TB.DUT.DUT._35_/A
+# TB.DUT.DUT.DFF_0/Q
+# TB.DUT.DUT.G17
+# TB.DUT.DUT._40_/Y
+# TB.DUT.DUT._37_/B
+# TB.DUT.DUT._37_/Y
+# TB.DUT.DUT._38_/A
+# TB.DUT.DUT._39_/Y
+# TB.DUT.DUT._39_/A
+# TB.DUT.DUT._39_/B
+# TB.DUT.DUT._38_/Y
+# TB.DUT.DUT._36_/Y
+# TB.DUT.DUT._36_/A
+# TB.DUT.DUT._44_/Y
+# TB.DUT.DUT._40_/A
+# TB.DUT.DUT.DFF_2/Q
+# TB.DUT.DUT.DFF_2/Q
+# TB.DUT.DUT.So
+# TB.DUT.DUT.So
+# TB.DUT.DUT.CK
+# Break key hit
+# Simulation stop requested.
+do mydo.do TB
+# Compile of mycells.v was successful.
+# Compile of s27_netlist_scanInserted.v was successful.
+# Compile of TB.sv was successful.
+# Compile of BIST_CTRL.v was successful.
+# Compile of LFSR.v was successful.
+# Compile of MISR.v was successful.
+# Compile of SISA.v was successful.
+# Compile of SRSG.v was successful.
+# Compile of s27_testable.v was successful.
+# Compile of sigROM.v was successful.
+# 10 compiles, 0 failed with no errors.
+# End time: 09:15:43 on Jul 27,2024, Elapsed time: 0:01:43
+# Errors: 0, Warnings: 4
+# vsim work.TB 
+# Start time: 09:15:43 on Jul 27,2024
+# Loading sv_std.std
+# Loading work.TB
+# Loading work.s27_testable
+# Loading work.s27_scanInserted
+# Loading work.NOR
+# Loading work.NOT
+# Loading work.NAND
+# Loading work.dff
+# Loading work.LFSR
+# Loading work.SRSG
+# Loading work.MISR
+# Loading work.SISA
+# Loading work.BIST_CTRL
+# Loading work.counter
+# Loading work.sigROM
+# ** Warning: (vsim-3015) [PCDPC] - Port size (3) does not match connection size (1) for port 'data'. The port definition is at: C:/Users/apple/Documents/UT/Master Thesis/Reconfigurable BIST/s27_BIST/SISA.v(3).
+#    Time: 0 ps  Iteration: 0  Instance: /TB/DUT/SISA_inst File: C:/Users/apple/Documents/UT/Master Thesis/Reconfigurable BIST/s27_BIST/s27_testable.v Line: 76
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# ** Warning: (vsim-3015) [PCDPC] - Port size (3) does not match connection size (1) for port 'data'. The port definition is at: C:/Users/apple/Documents/UT/Master Thesis/Reconfigurable BIST/s27_BIST/SISA.v(3).
+#    Time: 0 ps  Iteration: 0  Instance: /TB/DUT/SISA_inst File: C:/Users/apple/Documents/UT/Master Thesis/Reconfigurable BIST/s27_BIST/s27_testable.v Line: 76
+# DONE ISSUED at               275000 
+# 
+# DONE ISSUED at               395000 
+# 
+# DONE ISSUED at               515000 
+# 
+# DONE ISSUED at               635000 
+# 
+# DONE ISSUED at               755000 
+# 
+# DONE ISSUED at               915000 
+# 
+# ===> Fault Simulation Starting ...
+# 
+# TB.DUT.DUT.G17
+# TB.DUT.DUT._40_/Y
+# TB.DUT.DUT._40_/A
+# TB.DUT.DUT._40_/B
+# TB.DUT.DUT._39_/Y
+# TB.DUT.DUT._35_/Y
+# TB.DUT.DUT._35_/A
+# TB.DUT.DUT.DFF_0/Q
+# TB.DUT.DUT.G17
+# TB.DUT.DUT._40_/Y
+# TB.DUT.DUT._37_/B
+# TB.DUT.DUT._37_/Y
+# TB.DUT.DUT._38_/A
+# TB.DUT.DUT._39_/Y
+# TB.DUT.DUT._39_/A
+# TB.DUT.DUT._39_/B
+# TB.DUT.DUT._38_/Y
+# TB.DUT.DUT._36_/Y
+# TB.DUT.DUT._36_/A
+# TB.DUT.DUT._44_/Y
+# TB.DUT.DUT._40_/A
+# TB.DUT.DUT.DFF_2/Q
+# TB.DUT.DUT.DFF_2/Q
+# TB.DUT.DUT.So
+# TB.DUT.DUT.So
+# TB.DUT.DUT.CK
+# Break key hit
+# Simulation stop requested.
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# ** Warning: (vsim-3015) [PCDPC] - Port size (3) does not match connection size (1) for port 'data'. The port definition is at: C:/Users/apple/Documents/UT/Master Thesis/Reconfigurable BIST/s27_BIST/SISA.v(3).
+#    Time: 0 ps  Iteration: 0  Instance: /TB/DUT/SISA_inst File: C:/Users/apple/Documents/UT/Master Thesis/Reconfigurable BIST/s27_BIST/s27_testable.v Line: 76
+run
+# GetModuleFileName: The specified module could not be found.
+# 
+# 
+run
+# DONE ISSUED at               275000 
+# 
+# DONE ISSUED at               395000 
+# 
+run
+# DONE ISSUED at               515000 
+# 
+run
+# DONE ISSUED at               635000 
+# 
+# DONE ISSUED at               755000 
+# 
+run
+# DONE ISSUED at               915000 
+# 
+# ===> Fault Simulation Starting ...
+# 
+# when execution error: (faultInjectionwhen) can't read "1": no such variable
+# Simulation stop requested.
+run
+run
+restart
+do mydo.do TB
+# Compile of mycells.v was successful.
+# Compile of s27_netlist_scanInserted.v was successful.
+# Compile of TB.sv was successful.
+# Compile of BIST_CTRL.v was successful.
+# Compile of LFSR.v was successful.
+# Compile of MISR.v was successful.
+# Compile of SISA.v was successful.
+# Compile of SRSG.v was successful.
+# Compile of s27_testable.v was successful.
+# Compile of sigROM.v was successful.
+# 10 compiles, 0 failed with no errors.
+# End time: 09:17:16 on Jul 27,2024, Elapsed time: 0:01:33
+# Errors: 0, Warnings: 3
+# vsim work.TB 
+# Start time: 09:17:16 on Jul 27,2024
+# Loading sv_std.std
+# Loading work.TB
+# Loading work.s27_testable
+# Loading work.s27_scanInserted
+# Loading work.NOR
+# Loading work.NOT
+# Loading work.NAND
+# Loading work.dff
+# Loading work.LFSR
+# Loading work.SRSG
+# Loading work.MISR
+# Loading work.SISA
+# Loading work.BIST_CTRL
+# Loading work.counter
+# Loading work.sigROM
+# ** Warning: (vsim-3015) [PCDPC] - Port size (3) does not match connection size (1) for port 'data'. The port definition is at: C:/Users/apple/Documents/UT/Master Thesis/Reconfigurable BIST/s27_BIST/SISA.v(3).
+#    Time: 0 ps  Iteration: 0  Instance: /TB/DUT/SISA_inst File: C:/Users/apple/Documents/UT/Master Thesis/Reconfigurable BIST/s27_BIST/s27_testable.v Line: 76
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# ** Warning: (vsim-3015) [PCDPC] - Port size (3) does not match connection size (1) for port 'data'. The port definition is at: C:/Users/apple/Documents/UT/Master Thesis/Reconfigurable BIST/s27_BIST/SISA.v(3).
+#    Time: 0 ps  Iteration: 0  Instance: /TB/DUT/SISA_inst File: C:/Users/apple/Documents/UT/Master Thesis/Reconfigurable BIST/s27_BIST/s27_testable.v Line: 76
+# DONE ISSUED at               275000 
+# 
+# DONE ISSUED at               395000 
+# 
+# DONE ISSUED at               515000 
+# 
+# DONE ISSUED at               635000 
+# 
+# DONE ISSUED at               755000 
+# 
+# DONE ISSUED at               915000 
+# 
+# ===> Fault Simulation Starting ...
+# 
+# TB.DUT.DUT.G17
+# TB.DUT.DUT._40_/Y
+# TB.DUT.DUT._40_/A
+# TB.DUT.DUT._40_/B
+# TB.DUT.DUT._39_/Y
+# TB.DUT.DUT._35_/Y
+# TB.DUT.DUT._35_/A
+# TB.DUT.DUT.DFF_0/Q
+# TB.DUT.DUT.G17
+# TB.DUT.DUT._40_/Y
+# TB.DUT.DUT._37_/B
+# TB.DUT.DUT._37_/Y
+# TB.DUT.DUT._38_/A
+# TB.DUT.DUT._39_/Y
+# TB.DUT.DUT._39_/A
+# TB.DUT.DUT._39_/B
+# TB.DUT.DUT._38_/Y
+# TB.DUT.DUT._36_/Y
+# TB.DUT.DUT._36_/A
+# TB.DUT.DUT._44_/Y
+# TB.DUT.DUT._40_/A
+# TB.DUT.DUT.DFF_2/Q
+# TB.DUT.DUT.DFF_2/Q
+# TB.DUT.DUT.So
+# TB.DUT.DUT.So
+# TB.DUT.DUT.G0
+# TB.DUT.DUT._44_/B
+# TB.DUT.DUT._43_/Y
+# TB.DUT.DUT._43_/A
+# TB.DUT.DUT.DFF_1/Q
+# TB.DUT.DUT._44_/A
+# TB.DUT.DUT._35_/Y
+# TB.DUT.DUT._35_/A
+# TB.DUT.DUT.DFF_0/Q
+# TB.DUT.DUT._40_/B
+# TB.DUT.DUT.G3
+# TB.DUT.DUT._38_/B
+# TB.DUT.DUT._38_/Y
+# TB.DUT.DUT._38_/A
+# TB.DUT.DUT._38_/B
+# TB.DUT.DUT._37_/Y
+# TB.DUT.DUT._37_/A
+# TB.DUT.DUT._37_/B
+# TB.DUT.DUT.G3
+# TB.DUT.DUT.G1
+# TB.DUT.DUT._39_/A
+# TB.DUT.DUT.G1
+# TB.DUT.DUT._37_/A
+# TB.DUT.DUT._36_/Y
+# TB.DUT.DUT._36_/A
+# TB.DUT.DUT._44_/Y
+# TB.DUT.DUT._44_/B
+# TB.DUT.DUT._44_/A
+# TB.DUT.DUT.G0
+# TB.DUT.DUT._43_/Y
+# TB.DUT.DUT._43_/A
+# TB.DUT.DUT.DFF_1/Q
+# TB.DUT.DUT._39_/B
+# TB.DUT.DUT.G2
+# TB.DUT.DUT.G2
+# TB.DUT.DUT.Si
+# TB.DUT.DUT.Si
+# TB.DUT.DUT.PbarS
+# TB.DUT.DUT.PbarS
+# ** Note: $stop    : C:/Users/apple/Documents/UT/Master Thesis/Reconfigurable BIST/s27_BIST/TB.sv(129)
+#    Time: 52865 ns  Iteration: 0  Instance: /TB
+# Break in Module TB at C:/Users/apple/Documents/UT/Master Thesis/Reconfigurable BIST/s27_BIST/TB.sv line 129
+# Compile of s27_testable.v failed with 1 errors.
+# Compile of s27_testable.v was successful.
+do mydo.do TB
+# Compile of mycells.v was successful.
+# Compile of s27_netlist_scanInserted.v was successful.
+# Compile of TB.sv was successful.
+# Compile of BIST_CTRL.v was successful.
+# Compile of LFSR.v was successful.
+# Compile of MISR.v was successful.
+# Compile of SISA.v was successful.
+# Compile of SRSG.v was successful.
+# Compile of s27_testable.v was successful.
+# Compile of sigROM.v was successful.
+# 10 compiles, 0 failed with no errors.
+# End time: 10:09:07 on Jul 27,2024, Elapsed time: 0:51:51
+# Errors: 0, Warnings: 5
+# vsim work.TB 
+# Start time: 10:09:07 on Jul 27,2024
+# Loading sv_std.std
+# Loading work.TB
+# Loading work.s27_testable
+# Loading work.s27_scanInserted
+# Loading work.NOR
+# Loading work.NOT
+# Loading work.NAND
+# Loading work.dff
+# Loading work.LFSR
+# Loading work.SRSG
+# Loading work.MISR
+# Loading work.SISA
+# Loading work.BIST_CTRL
+# Loading work.counter
+# Loading work.sigROM
+# ** Warning: (vsim-3015) [PCDPC] - Port size (3) does not match connection size (1) for port 'data'. The port definition is at: C:/Users/apple/Documents/UT/Master Thesis/Reconfigurable BIST/s27_BIST/SISA.v(3).
+#    Time: 0 ps  Iteration: 0  Instance: /TB/DUT/SISA_inst File: C:/Users/apple/Documents/UT/Master Thesis/Reconfigurable BIST/s27_BIST/s27_testable.v Line: 76
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# ** Warning: (vsim-3015) [PCDPC] - Port size (3) does not match connection size (1) for port 'data'. The port definition is at: C:/Users/apple/Documents/UT/Master Thesis/Reconfigurable BIST/s27_BIST/SISA.v(3).
+#    Time: 0 ps  Iteration: 0  Instance: /TB/DUT/SISA_inst File: C:/Users/apple/Documents/UT/Master Thesis/Reconfigurable BIST/s27_BIST/s27_testable.v Line: 76
+# DONE ISSUED at               275000 
+# 
+# DONE ISSUED at               395000 
+# 
+# DONE ISSUED at               515000 
+# 
+# DONE ISSUED at               635000 
+# 
+# DONE ISSUED at               755000 
+# 
+# DONE ISSUED at               915000 
+# 
+# ===> Fault Simulation Starting ...
+# 
+# TB.DUT.DUT.G17
+# FAULT DETECTED
+# 
+# TB.DUT.DUT._40_/Y
+# FAULT DETECTED
+# 
+# TB.DUT.DUT._40_/A
+# FAULT DETECTED
+# 
+# TB.DUT.DUT._40_/B
+# FAULT DETECTED
+# 
+# TB.DUT.DUT._39_/Y
+# FAULT DETECTED
+# 
+# TB.DUT.DUT._35_/Y
+# FAULT DETECTED
+# 
+# TB.DUT.DUT._35_/A
+# FAULT DETECTED
+# 
+# TB.DUT.DUT.DFF_0/Q
+# FAULT DETECTED
+# 
+# TB.DUT.DUT.G17
+# TB.DUT.DUT._40_/Y
+# TB.DUT.DUT._37_/B
+# FAULT DETECTED
+# 
+# TB.DUT.DUT._37_/Y
+# TB.DUT.DUT._38_/A
+# TB.DUT.DUT._39_/Y
+# FAULT DETECTED
+# 
+# TB.DUT.DUT._39_/A
+# FAULT DETECTED
+# 
+# TB.DUT.DUT._39_/B
+# FAULT DETECTED
+# 
+# TB.DUT.DUT._38_/Y
+# FAULT DETECTED
+# 
+# TB.DUT.DUT._36_/Y
+# FAULT DETECTED
+# 
+# TB.DUT.DUT._36_/A
+# FAULT DETECTED
+# 
+# TB.DUT.DUT._44_/Y
+# FAULT DETECTED
+# 
+# TB.DUT.DUT._40_/A
+# FAULT DETECTED
+# 
+# TB.DUT.DUT.DFF_2/Q
+# FAULT DETECTED
+# 
+# TB.DUT.DUT.DFF_2/Q
+# FAULT DETECTED
+# 
+# TB.DUT.DUT.So
+# FAULT DETECTED
+# 
+# TB.DUT.DUT.So
+# FAULT DETECTED
+# 
+# TB.DUT.DUT.G0
+# FAULT DETECTED
+# 
+# TB.DUT.DUT._44_/B
+# FAULT DETECTED
+# 
+# TB.DUT.DUT._43_/Y
+# FAULT DETECTED
+# 
+# TB.DUT.DUT._43_/A
+# FAULT DETECTED
+# 
+# TB.DUT.DUT.DFF_1/Q
+# FAULT DETECTED
+# 
+# TB.DUT.DUT._44_/A
+# FAULT DETECTED
+# 
+# TB.DUT.DUT._35_/Y
+# FAULT DETECTED
+# 
+# TB.DUT.DUT._35_/A
+# FAULT DETECTED
+# 
+# TB.DUT.DUT.DFF_0/Q
+# FAULT DETECTED
+# 
+# TB.DUT.DUT._40_/B
+# FAULT DETECTED
+# 
+# TB.DUT.DUT.G3
+# TB.DUT.DUT._38_/B
+# TB.DUT.DUT._38_/Y
+# TB.DUT.DUT._38_/A
+# TB.DUT.DUT._38_/B
+# TB.DUT.DUT._37_/Y
+# TB.DUT.DUT._37_/A
+# TB.DUT.DUT._37_/B
+# TB.DUT.DUT.G3
+# TB.DUT.DUT.G1
+# TB.DUT.DUT._39_/A
+# TB.DUT.DUT.G1
+# TB.DUT.DUT._37_/A
+# TB.DUT.DUT._36_/Y
+# FAULT DETECTED
+# 
+# TB.DUT.DUT._36_/A
+# FAULT DETECTED
+# 
+# TB.DUT.DUT._44_/Y
+# FAULT DETECTED
+# 
+# TB.DUT.DUT._44_/B
+# FAULT DETECTED
+# 
+# TB.DUT.DUT._44_/A
+# FAULT DETECTED
+# 
+# TB.DUT.DUT.G0
+# FAULT DETECTED
+# 
+# TB.DUT.DUT._43_/Y
+# FAULT DETECTED
+# 
+# TB.DUT.DUT._43_/A
+# FAULT DETECTED
+# 
+# TB.DUT.DUT.DFF_1/Q
+# TB.DUT.DUT._39_/B
+# FAULT DETECTED
+# 
+# TB.DUT.DUT.G2
+# FAULT DETECTED
+# 
+# TB.DUT.DUT.G2
+# TB.DUT.DUT.Si
+# FAULT DETECTED
+# 
+# TB.DUT.DUT.Si
+# FAULT DETECTED
+# 
+# TB.DUT.DUT.PbarS
+# FAULT DETECTED
+# 
+# TB.DUT.DUT.PbarS
+# FAULT DETECTED
+# 
+# ** Note: $stop    : C:/Users/apple/Documents/UT/Master Thesis/Reconfigurable BIST/s27_BIST/TB.sv(129)
+#    Time: 52865 ns  Iteration: 0  Instance: /TB
+# Break in Module TB at C:/Users/apple/Documents/UT/Master Thesis/Reconfigurable BIST/s27_BIST/TB.sv line 129
+# Compile of TB.sv was successful.
+do mydo.do TB
+# Compile of mycells.v was successful.
+# Compile of s27_netlist_scanInserted.v was successful.
+# Compile of TB.sv was successful.
+# Compile of BIST_CTRL.v was successful.
+# Compile of LFSR.v was successful.
+# Compile of MISR.v was successful.
+# Compile of SISA.v was successful.
+# Compile of SRSG.v was successful.
+# Compile of s27_testable.v was successful.
+# Compile of sigROM.v was successful.
+# 10 compiles, 0 failed with no errors.
+# End time: 10:11:59 on Jul 27,2024, Elapsed time: 0:02:52
+# Errors: 0, Warnings: 4
+# vsim work.TB 
+# Start time: 10:11:59 on Jul 27,2024
+# Loading sv_std.std
+# Loading work.TB
+# Loading work.s27_testable
+# Loading work.s27_scanInserted
+# Loading work.NOR
+# Loading work.NOT
+# Loading work.NAND
+# Loading work.dff
+# Loading work.LFSR
+# Loading work.SRSG
+# Loading work.MISR
+# Loading work.SISA
+# Loading work.BIST_CTRL
+# Loading work.counter
+# Loading work.sigROM
+# ** Warning: (vsim-3015) [PCDPC] - Port size (3) does not match connection size (1) for port 'data'. The port definition is at: C:/Users/apple/Documents/UT/Master Thesis/Reconfigurable BIST/s27_BIST/SISA.v(3).
+#    Time: 0 ps  Iteration: 0  Instance: /TB/DUT/SISA_inst File: C:/Users/apple/Documents/UT/Master Thesis/Reconfigurable BIST/s27_BIST/s27_testable.v Line: 76
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# ** Warning: (vsim-3015) [PCDPC] - Port size (3) does not match connection size (1) for port 'data'. The port definition is at: C:/Users/apple/Documents/UT/Master Thesis/Reconfigurable BIST/s27_BIST/SISA.v(3).
+#    Time: 0 ps  Iteration: 0  Instance: /TB/DUT/SISA_inst File: C:/Users/apple/Documents/UT/Master Thesis/Reconfigurable BIST/s27_BIST/s27_testable.v Line: 76
+# DONE ISSUED at               275000 
+# 
+# DONE ISSUED at               395000 
+# 
+# DONE ISSUED at               515000 
+# 
+# DONE ISSUED at               635000 
+# 
+# DONE ISSUED at               755000 
+# 
+# DONE ISSUED at               915000 
+# 
+# ===> Fault Simulation Starting ...
+# 
+# TB.DUT.DUT.G17
+# FAULT DETECTED
+# 
+# TB.DUT.DUT._40_/Y
+# FAULT DETECTED
+# 
+# TB.DUT.DUT._40_/A
+# FAULT DETECTED
+# 
+# TB.DUT.DUT._40_/B
+# FAULT DETECTED
+# 
+# TB.DUT.DUT._39_/Y
+# FAULT DETECTED
+# 
+# TB.DUT.DUT._35_/Y
+# FAULT DETECTED
+# 
+# TB.DUT.DUT._35_/A
+# FAULT DETECTED
+# 
+# TB.DUT.DUT.DFF_0/Q
+# FAULT DETECTED
+# 
+# TB.DUT.DUT.G17
+# TB.DUT.DUT._40_/Y
+# TB.DUT.DUT._37_/B
+# FAULT DETECTED
+# 
+# TB.DUT.DUT._37_/Y
+# TB.DUT.DUT._38_/A
+# TB.DUT.DUT._39_/Y
+# FAULT DETECTED
+# 
+# TB.DUT.DUT._39_/A
+# FAULT DETECTED
+# 
+# TB.DUT.DUT._39_/B
+# FAULT DETECTED
+# 
+# TB.DUT.DUT._38_/Y
+# FAULT DETECTED
+# 
+# TB.DUT.DUT._36_/Y
+# FAULT DETECTED
+# 
+# TB.DUT.DUT._36_/A
+# FAULT DETECTED
+# 
+# TB.DUT.DUT._44_/Y
+# FAULT DETECTED
+# 
+# TB.DUT.DUT._40_/A
+# FAULT DETECTED
+# 
+# TB.DUT.DUT.DFF_2/Q
+# FAULT DETECTED
+# 
+# TB.DUT.DUT.DFF_2/Q
+# FAULT DETECTED
+# 
+# TB.DUT.DUT.So
+# FAULT DETECTED
+# 
+# TB.DUT.DUT.So
+# FAULT DETECTED
+# 
+# TB.DUT.DUT.G0
+# FAULT DETECTED
+# 
+# TB.DUT.DUT._44_/B
+# FAULT DETECTED
+# 
+# TB.DUT.DUT._43_/Y
+# FAULT DETECTED
+# 
+# TB.DUT.DUT._43_/A
+# FAULT DETECTED
+# 
+# TB.DUT.DUT.DFF_1/Q
+# FAULT DETECTED
+# 
+# TB.DUT.DUT._44_/A
+# FAULT DETECTED
+# 
+# TB.DUT.DUT._35_/Y
+# FAULT DETECTED
+# 
+# TB.DUT.DUT._35_/A
+# FAULT DETECTED
+# 
+# TB.DUT.DUT.DFF_0/Q
+# FAULT DETECTED
+# 
+# TB.DUT.DUT._40_/B
+# FAULT DETECTED
+# 
+# TB.DUT.DUT.G3
+# TB.DUT.DUT._38_/B
+# TB.DUT.DUT._38_/Y
+# TB.DUT.DUT._38_/A
+# TB.DUT.DUT._38_/B
+# TB.DUT.DUT._37_/Y
+# TB.DUT.DUT._37_/A
+# TB.DUT.DUT._37_/B
+# TB.DUT.DUT.G3
+# TB.DUT.DUT.G1
+# TB.DUT.DUT._39_/A
+# TB.DUT.DUT.G1
+# TB.DUT.DUT._37_/A
+# TB.DUT.DUT._36_/Y
+# FAULT DETECTED
+# 
+# TB.DUT.DUT._36_/A
+# FAULT DETECTED
+# 
+# TB.DUT.DUT._44_/Y
+# FAULT DETECTED
+# 
+# TB.DUT.DUT._44_/B
+# FAULT DETECTED
+# 
+# TB.DUT.DUT._44_/A
+# FAULT DETECTED
+# 
+# TB.DUT.DUT.G0
+# FAULT DETECTED
+# 
+# TB.DUT.DUT._43_/Y
+# FAULT DETECTED
+# 
+# TB.DUT.DUT._43_/A
+# FAULT DETECTED
+# 
+# TB.DUT.DUT.DFF_1/Q
+# TB.DUT.DUT._39_/B
+# FAULT DETECTED
+# 
+# TB.DUT.DUT.G2
+# FAULT DETECTED
+# 
+# TB.DUT.DUT.G2
+# TB.DUT.DUT.Si
+# FAULT DETECTED
+# 
+# TB.DUT.DUT.Si
+# FAULT DETECTED
+# 
+# TB.DUT.DUT.PbarS
+# FAULT DETECTED
+# 
+# TB.DUT.DUT.PbarS
+# FAULT DETECTED
+# 
+# ** Note: $stop    : C:/Users/apple/Documents/UT/Master Thesis/Reconfigurable BIST/s27_BIST/TB.sv(137)
+#    Time: 52875 ns  Iteration: 0  Instance: /TB
+# Break in Module TB at C:/Users/apple/Documents/UT/Master Thesis/Reconfigurable BIST/s27_BIST/TB.sv line 137
+# Compile of TB.sv was successful.
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.TB
+# ** Warning: (vsim-3015) [PCDPC] - Port size (3) does not match connection size (1) for port 'data'. The port definition is at: C:/Users/apple/Documents/UT/Master Thesis/Reconfigurable BIST/s27_BIST/SISA.v(3).
+#    Time: 0 ps  Iteration: 0  Instance: /TB/DUT/SISA_inst File: C:/Users/apple/Documents/UT/Master Thesis/Reconfigurable BIST/s27_BIST/s27_testable.v Line: 76
+do mydo.do TB
+# Compile of mycells.v was successful.
+# Compile of s27_netlist_scanInserted.v was successful.
+# Compile of TB.sv was successful.
+# Compile of BIST_CTRL.v was successful.
+# Compile of LFSR.v was successful.
+# Compile of MISR.v was successful.
+# Compile of SISA.v was successful.
+# Compile of SRSG.v was successful.
+# Compile of s27_testable.v was successful.
+# Compile of sigROM.v was successful.
+# 10 compiles, 0 failed with no errors.
+# End time: 10:15:00 on Jul 27,2024, Elapsed time: 0:03:01
+# Errors: 0, Warnings: 3
+# vsim work.TB 
+# Start time: 10:15:00 on Jul 27,2024
+# Loading sv_std.std
+# Loading work.TB
+# Loading work.s27_testable
+# Loading work.s27_scanInserted
+# Loading work.NOR
+# Loading work.NOT
+# Loading work.NAND
+# Loading work.dff
+# Loading work.LFSR
+# Loading work.SRSG
+# Loading work.MISR
+# Loading work.SISA
+# Loading work.BIST_CTRL
+# Loading work.counter
+# Loading work.sigROM
+# ** Warning: (vsim-3015) [PCDPC] - Port size (3) does not match connection size (1) for port 'data'. The port definition is at: C:/Users/apple/Documents/UT/Master Thesis/Reconfigurable BIST/s27_BIST/SISA.v(3).
+#    Time: 0 ps  Iteration: 0  Instance: /TB/DUT/SISA_inst File: C:/Users/apple/Documents/UT/Master Thesis/Reconfigurable BIST/s27_BIST/s27_testable.v Line: 76
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# ** Warning: (vsim-3015) [PCDPC] - Port size (3) does not match connection size (1) for port 'data'. The port definition is at: C:/Users/apple/Documents/UT/Master Thesis/Reconfigurable BIST/s27_BIST/SISA.v(3).
+#    Time: 0 ps  Iteration: 0  Instance: /TB/DUT/SISA_inst File: C:/Users/apple/Documents/UT/Master Thesis/Reconfigurable BIST/s27_BIST/s27_testable.v Line: 76
+# DONE ISSUED at               275000 
+# 
+# DONE ISSUED at               395000 
+# 
+# DONE ISSUED at               515000 
+# 
+# DONE ISSUED at               635000 
+# 
+# DONE ISSUED at               755000 
+# 
+# DONE ISSUED at               915000 
+# 
+# ===> Fault Simulation Starting ...
+# 
+# TB.DUT.DUT.G17
+# FAULT DETECTED
+# 
+# TB.DUT.DUT._40_/Y
+# FAULT DETECTED
+# 
+# TB.DUT.DUT._40_/A
+# FAULT DETECTED
+# 
+# TB.DUT.DUT._40_/B
+# FAULT DETECTED
+# 
+# TB.DUT.DUT._39_/Y
+# FAULT DETECTED
+# 
+# TB.DUT.DUT._35_/Y
+# FAULT DETECTED
+# 
+# TB.DUT.DUT._35_/A
+# FAULT DETECTED
+# 
+# TB.DUT.DUT.DFF_0/Q
+# FAULT DETECTED
+# 
+# TB.DUT.DUT.G17
+# TB.DUT.DUT._40_/Y
+# TB.DUT.DUT._37_/B
+# FAULT DETECTED
+# 
+# TB.DUT.DUT._37_/Y
+# TB.DUT.DUT._38_/A
+# TB.DUT.DUT._39_/Y
+# FAULT DETECTED
+# 
+# TB.DUT.DUT._39_/A
+# FAULT DETECTED
+# 
+# TB.DUT.DUT._39_/B
+# FAULT DETECTED
+# 
+# TB.DUT.DUT._38_/Y
+# FAULT DETECTED
+# 
+# TB.DUT.DUT._36_/Y
+# FAULT DETECTED
+# 
+# TB.DUT.DUT._36_/A
+# FAULT DETECTED
+# 
+# TB.DUT.DUT._44_/Y
+# FAULT DETECTED
+# 
+# TB.DUT.DUT._40_/A
+# FAULT DETECTED
+# 
+# TB.DUT.DUT.DFF_2/Q
+# FAULT DETECTED
+# 
+# TB.DUT.DUT.DFF_2/Q
+# FAULT DETECTED
+# 
+# TB.DUT.DUT.So
+# FAULT DETECTED
+# 
+# TB.DUT.DUT.So
+# FAULT DETECTED
+# 
+# TB.DUT.DUT.G0
+# FAULT DETECTED
+# 
+# TB.DUT.DUT._44_/B
+# FAULT DETECTED
+# 
+# TB.DUT.DUT._43_/Y
+# FAULT DETECTED
+# 
+# TB.DUT.DUT._43_/A
+# FAULT DETECTED
+# 
+# TB.DUT.DUT.DFF_1/Q
+# FAULT DETECTED
+# 
+# TB.DUT.DUT._44_/A
+# FAULT DETECTED
+# 
+# TB.DUT.DUT._35_/Y
+# FAULT DETECTED
+# 
+# TB.DUT.DUT._35_/A
+# FAULT DETECTED
+# 
+# TB.DUT.DUT.DFF_0/Q
+# FAULT DETECTED
+# 
+# TB.DUT.DUT._40_/B
+# FAULT DETECTED
+# 
+# TB.DUT.DUT.G3
+# TB.DUT.DUT._38_/B
+# TB.DUT.DUT._38_/Y
+# TB.DUT.DUT._38_/A
+# TB.DUT.DUT._38_/B
+# TB.DUT.DUT._37_/Y
+# TB.DUT.DUT._37_/A
+# TB.DUT.DUT._37_/B
+# TB.DUT.DUT.G3
+# TB.DUT.DUT.G1
+# TB.DUT.DUT._39_/A
+# TB.DUT.DUT.G1
+# TB.DUT.DUT._37_/A
+# TB.DUT.DUT._36_/Y
+# FAULT DETECTED
+# 
+# TB.DUT.DUT._36_/A
+# FAULT DETECTED
+# 
+# TB.DUT.DUT._44_/Y
+# FAULT DETECTED
+# 
+# TB.DUT.DUT._44_/B
+# FAULT DETECTED
+# 
+# TB.DUT.DUT._44_/A
+# FAULT DETECTED
+# 
+# TB.DUT.DUT.G0
+# FAULT DETECTED
+# 
+# TB.DUT.DUT._43_/Y
+# FAULT DETECTED
+# 
+# TB.DUT.DUT._43_/A
+# FAULT DETECTED
+# 
+# TB.DUT.DUT.DFF_1/Q
+# TB.DUT.DUT._39_/B
+# FAULT DETECTED
+# 
+# TB.DUT.DUT.G2
+# FAULT DETECTED
+# 
+# TB.DUT.DUT.G2
+# TB.DUT.DUT.Si
+# FAULT DETECTED
+# 
+# TB.DUT.DUT.Si
+# FAULT DETECTED
+# 
+# TB.DUT.DUT.PbarS
+# FAULT DETECTED
+# 
+# TB.DUT.DUT.PbarS
+# FAULT DETECTED
+# 
+# ** Note: $stop    : C:/Users/apple/Documents/UT/Master Thesis/Reconfigurable BIST/s27_BIST/TB.sv(143)
+#    Time: 52875 ns  Iteration: 0  Instance: /TB
+# Break in Module TB at C:/Users/apple/Documents/UT/Master Thesis/Reconfigurable BIST/s27_BIST/TB.sv line 143
+# Compile of TB.sv was successful.
+do mydo.do TB
+# Compile of mycells.v was successful.
+# Compile of s27_netlist_scanInserted.v was successful.
+# Compile of TB.sv was successful.
+# Compile of BIST_CTRL.v was successful.
+# Compile of LFSR.v was successful.
+# Compile of MISR.v was successful.
+# Compile of SISA.v was successful.
+# Compile of SRSG.v was successful.
+# Compile of s27_testable.v was successful.
+# Compile of sigROM.v was successful.
+# 10 compiles, 0 failed with no errors.
+# End time: 10:16:04 on Jul 27,2024, Elapsed time: 0:01:04
+# Errors: 0, Warnings: 4
+# vsim work.TB 
+# Start time: 10:16:04 on Jul 27,2024
+# Loading sv_std.std
+# Loading work.TB
+# Loading work.s27_testable
+# Loading work.s27_scanInserted
+# Loading work.NOR
+# Loading work.NOT
+# Loading work.NAND
+# Loading work.dff
+# Loading work.LFSR
+# Loading work.SRSG
+# Loading work.MISR
+# Loading work.SISA
+# Loading work.BIST_CTRL
+# Loading work.counter
+# Loading work.sigROM
+# ** Warning: (vsim-3015) [PCDPC] - Port size (3) does not match connection size (1) for port 'data'. The port definition is at: C:/Users/apple/Documents/UT/Master Thesis/Reconfigurable BIST/s27_BIST/SISA.v(3).
+#    Time: 0 ps  Iteration: 0  Instance: /TB/DUT/SISA_inst File: C:/Users/apple/Documents/UT/Master Thesis/Reconfigurable BIST/s27_BIST/s27_testable.v Line: 76
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# ** Warning: (vsim-3015) [PCDPC] - Port size (3) does not match connection size (1) for port 'data'. The port definition is at: C:/Users/apple/Documents/UT/Master Thesis/Reconfigurable BIST/s27_BIST/SISA.v(3).
+#    Time: 0 ps  Iteration: 0  Instance: /TB/DUT/SISA_inst File: C:/Users/apple/Documents/UT/Master Thesis/Reconfigurable BIST/s27_BIST/s27_testable.v Line: 76
+# DONE ISSUED at               275000 
+# 
+# DONE ISSUED at               395000 
+# 
+# DONE ISSUED at               515000 
+# 
+# DONE ISSUED at               635000 
+# 
+# DONE ISSUED at               755000 
+# 
+# DONE ISSUED at               915000 
+# 
+# ===> Fault Simulation Starting ...
+# 
+# TB.DUT.DUT.G17
+# TB.DUT.DUT._40_/Y
+# TB.DUT.DUT._40_/A
+# TB.DUT.DUT._40_/B
+# TB.DUT.DUT._39_/Y
+# TB.DUT.DUT._35_/Y
+# TB.DUT.DUT._35_/A
+# FAULT DETECTED
+# 
+# TB.DUT.DUT.DFF_0/Q
+# FAULT DETECTED
+# 
+# TB.DUT.DUT.G17
+# FAULT DETECTED
+# 
+# TB.DUT.DUT._40_/Y
+# FAULT DETECTED
+# 
+# TB.DUT.DUT._37_/B
+# TB.DUT.DUT._37_/Y
+# TB.DUT.DUT._38_/A
+# TB.DUT.DUT._39_/Y
+# TB.DUT.DUT._39_/A
+# TB.DUT.DUT._39_/B
+# TB.DUT.DUT._38_/Y
+# TB.DUT.DUT._36_/Y
+# TB.DUT.DUT._36_/A
+# TB.DUT.DUT._44_/Y
+# TB.DUT.DUT._40_/A
+# TB.DUT.DUT.DFF_2/Q
+# FAULT DETECTED
+# 
+# TB.DUT.DUT.DFF_2/Q
+# FAULT DETECTED
+# 
+# TB.DUT.DUT.So
+# FAULT DETECTED
+# 
+# TB.DUT.DUT.So
+# FAULT DETECTED
+# 
+# TB.DUT.DUT.G0
+# FAULT DETECTED
+# 
+# TB.DUT.DUT._44_/B
+# FAULT DETECTED
+# 
+# TB.DUT.DUT._43_/Y
+# FAULT DETECTED
+# 
+# TB.DUT.DUT._43_/A
+# FAULT DETECTED
+# 
+# TB.DUT.DUT.DFF_1/Q
+# TB.DUT.DUT._44_/A
+# FAULT DETECTED
+# 
+# TB.DUT.DUT._35_/Y
+# TB.DUT.DUT._35_/A
+# FAULT DETECTED
+# 
+# TB.DUT.DUT.DFF_0/Q
+# TB.DUT.DUT._40_/B
+# TB.DUT.DUT.G3
+# TB.DUT.DUT._38_/B
+# TB.DUT.DUT._38_/Y
+# TB.DUT.DUT._38_/A
+# TB.DUT.DUT._38_/B
+# TB.DUT.DUT._37_/Y
+# TB.DUT.DUT._37_/A
+# TB.DUT.DUT._37_/B
+# TB.DUT.DUT.G3
+# TB.DUT.DUT.G1
+# TB.DUT.DUT._39_/A
+# TB.DUT.DUT.G1
+# FAULT DETECTED
+# 
+# TB.DUT.DUT._37_/A
+# FAULT DETECTED
+# 
+# TB.DUT.DUT._36_/Y
+# TB.DUT.DUT._36_/A
+# FAULT DETECTED
+# 
+# TB.DUT.DUT._44_/Y
+# FAULT DETECTED
+# 
+# TB.DUT.DUT._44_/B
+# FAULT DETECTED
+# 
+# TB.DUT.DUT._44_/A
+# FAULT DETECTED
+# 
+# TB.DUT.DUT.G0
+# FAULT DETECTED
+# 
+# TB.DUT.DUT._43_/Y
+# FAULT DETECTED
+# 
+# TB.DUT.DUT._43_/A
+# FAULT DETECTED
+# 
+# TB.DUT.DUT.DFF_1/Q
+# FAULT DETECTED
+# 
+# TB.DUT.DUT._39_/B
+# TB.DUT.DUT.G2
+# FAULT DETECTED
+# 
+# TB.DUT.DUT.G2
+# TB.DUT.DUT.Si
+# TB.DUT.DUT.Si
+# FAULT DETECTED
+# 
+# TB.DUT.DUT.PbarS
+# TB.DUT.DUT.PbarS
+# FAULT DETECTED
+# 
+# ** Note: $stop    : C:/Users/apple/Documents/UT/Master Thesis/Reconfigurable BIST/s27_BIST/TB.sv(143)
+#    Time: 52875 ns  Iteration: 0  Instance: /TB
+# Break in Module TB at C:/Users/apple/Documents/UT/Master Thesis/Reconfigurable BIST/s27_BIST/TB.sv line 143
+# Compile of TB.sv failed with 2 errors.
+# Compile of TB.sv was successful.
+do mydo.do TB
+# Compile of mycells.v was successful.
+# Compile of s27_netlist_scanInserted.v was successful.
+# Compile of TB.sv was successful.
+# Compile of BIST_CTRL.v was successful.
+# Compile of LFSR.v was successful.
+# Compile of MISR.v was successful.
+# Compile of SISA.v was successful.
+# Compile of SRSG.v was successful.
+# Compile of s27_testable.v was successful.
+# Compile of sigROM.v was successful.
+# 10 compiles, 0 failed with no errors.
+# End time: 10:20:25 on Jul 27,2024, Elapsed time: 0:04:21
+# Errors: 0, Warnings: 5
+# vsim work.TB 
+# Start time: 10:20:25 on Jul 27,2024
+# Loading sv_std.std
+# Loading work.TB
+# Loading work.s27_testable
+# Loading work.s27_scanInserted
+# Loading work.NOR
+# Loading work.NOT
+# Loading work.NAND
+# Loading work.dff
+# Loading work.LFSR
+# Loading work.SRSG
+# Loading work.MISR
+# Loading work.SISA
+# Loading work.BIST_CTRL
+# Loading work.counter
+# Loading work.sigROM
+# ** Warning: (vsim-3015) [PCDPC] - Port size (3) does not match connection size (1) for port 'data'. The port definition is at: C:/Users/apple/Documents/UT/Master Thesis/Reconfigurable BIST/s27_BIST/SISA.v(3).
+#    Time: 0 ps  Iteration: 0  Instance: /TB/DUT/SISA_inst File: C:/Users/apple/Documents/UT/Master Thesis/Reconfigurable BIST/s27_BIST/s27_testable.v Line: 76
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# ** Warning: (vsim-3015) [PCDPC] - Port size (3) does not match connection size (1) for port 'data'. The port definition is at: C:/Users/apple/Documents/UT/Master Thesis/Reconfigurable BIST/s27_BIST/SISA.v(3).
+#    Time: 0 ps  Iteration: 0  Instance: /TB/DUT/SISA_inst File: C:/Users/apple/Documents/UT/Master Thesis/Reconfigurable BIST/s27_BIST/s27_testable.v Line: 76
+# DONE ISSUED at               275000 
+# 
+# DONE ISSUED at               395000 
+# 
+# DONE ISSUED at               515000 
+# 
+# DONE ISSUED at               635000 
+# 
+# DONE ISSUED at               755000 
+# 
+# DONE ISSUED at               915000 
+# 
+# ===> Fault Simulation Starting ...
+# 
+# TB.DUT.DUT.G17
+# TB.DUT.DUT._40_/Y
+# TB.DUT.DUT._40_/A
+# TB.DUT.DUT._40_/B
+# TB.DUT.DUT._39_/Y
+# TB.DUT.DUT._35_/Y
+# TB.DUT.DUT._35_/A
+# FAULT DETECTED
+# 
+# TB.DUT.DUT.DFF_0/Q
+# FAULT DETECTED
+# 
+# TB.DUT.DUT.G17
+# FAULT DETECTED
+# 
+# TB.DUT.DUT._40_/Y
+# FAULT DETECTED
+# 
+# TB.DUT.DUT._37_/B
+# TB.DUT.DUT._37_/Y
+# TB.DUT.DUT._38_/A
+# TB.DUT.DUT._39_/Y
+# TB.DUT.DUT._39_/A
+# TB.DUT.DUT._39_/B
+# TB.DUT.DUT._38_/Y
+# TB.DUT.DUT._36_/Y
+# TB.DUT.DUT._36_/A
+# TB.DUT.DUT._44_/Y
+# TB.DUT.DUT._40_/A
+# TB.DUT.DUT.DFF_2/Q
+# FAULT DETECTED
+# 
+# TB.DUT.DUT.DFF_2/Q
+# FAULT DETECTED
+# 
+# TB.DUT.DUT.So
+# FAULT DETECTED
+# 
+# TB.DUT.DUT.So
+# FAULT DETECTED
+# 
+# TB.DUT.DUT.G0
+# FAULT DETECTED
+# 
+# TB.DUT.DUT._44_/B
+# FAULT DETECTED
+# 
+# TB.DUT.DUT._43_/Y
+# FAULT DETECTED
+# 
+# TB.DUT.DUT._43_/A
+# FAULT DETECTED
+# 
+# TB.DUT.DUT.DFF_1/Q
+# TB.DUT.DUT._44_/A
+# FAULT DETECTED
+# 
+# TB.DUT.DUT._35_/Y
+# TB.DUT.DUT._35_/A
+# FAULT DETECTED
+# 
+# TB.DUT.DUT.DFF_0/Q
+# TB.DUT.DUT._40_/B
+# TB.DUT.DUT.G3
+# TB.DUT.DUT._38_/B
+# TB.DUT.DUT._38_/Y
+# TB.DUT.DUT._38_/A
+# TB.DUT.DUT._38_/B
+# TB.DUT.DUT._37_/Y
+# TB.DUT.DUT._37_/A
+# TB.DUT.DUT._37_/B
+# TB.DUT.DUT.G3
+# TB.DUT.DUT.G1
+# TB.DUT.DUT._39_/A
+# TB.DUT.DUT.G1
+# FAULT DETECTED
+# 
+# TB.DUT.DUT._37_/A
+# FAULT DETECTED
+# 
+# TB.DUT.DUT._36_/Y
+# TB.DUT.DUT._36_/A
+# FAULT DETECTED
+# 
+# TB.DUT.DUT._44_/Y
+# FAULT DETECTED
+# 
+# TB.DUT.DUT._44_/B
+# FAULT DETECTED
+# 
+# TB.DUT.DUT._44_/A
+# FAULT DETECTED
+# 
+# TB.DUT.DUT.G0
+# FAULT DETECTED
+# 
+# TB.DUT.DUT._43_/Y
+# FAULT DETECTED
+# 
+# TB.DUT.DUT._43_/A
+# FAULT DETECTED
+# 
+# TB.DUT.DUT.DFF_1/Q
+# FAULT DETECTED
+# 
+# TB.DUT.DUT._39_/B
+# TB.DUT.DUT.G2
+# FAULT DETECTED
+# 
+# TB.DUT.DUT.G2
+# TB.DUT.DUT.Si
+# TB.DUT.DUT.Si
+# FAULT DETECTED
+# 
+# TB.DUT.DUT.PbarS
+# TB.DUT.DUT.PbarS
+# FAULT DETECTED
+# 
+# ** Note: $stop    : C:/Users/apple/Documents/UT/Master Thesis/Reconfigurable BIST/s27_BIST/TB.sv(147)
+#    Time: 52875 ns  Iteration: 0  Instance: /TB
+# Break in Module TB at C:/Users/apple/Documents/UT/Master Thesis/Reconfigurable BIST/s27_BIST/TB.sv line 147
+# Compile of TB.sv was successful.
+do mydo.do TB
+# Compile of mycells.v was successful.
+# Compile of s27_netlist_scanInserted.v was successful.
+# Compile of TB.sv was successful.
+# Compile of BIST_CTRL.v was successful.
+# Compile of LFSR.v was successful.
+# Compile of MISR.v was successful.
+# Compile of SISA.v was successful.
+# Compile of SRSG.v was successful.
+# Compile of s27_testable.v was successful.
+# Compile of sigROM.v was successful.
+# 10 compiles, 0 failed with no errors.
+# End time: 10:21:57 on Jul 27,2024, Elapsed time: 0:01:32
+# Errors: 0, Warnings: 5
+# vsim work.TB 
+# Start time: 10:21:57 on Jul 27,2024
+# Loading sv_std.std
+# Loading work.TB
+# Loading work.s27_testable
+# Loading work.s27_scanInserted
+# Loading work.NOR
+# Loading work.NOT
+# Loading work.NAND
+# Loading work.dff
+# Loading work.LFSR
+# Loading work.SRSG
+# Loading work.MISR
+# Loading work.SISA
+# Loading work.BIST_CTRL
+# Loading work.counter
+# Loading work.sigROM
+# ** Warning: (vsim-3015) [PCDPC] - Port size (3) does not match connection size (1) for port 'data'. The port definition is at: C:/Users/apple/Documents/UT/Master Thesis/Reconfigurable BIST/s27_BIST/SISA.v(3).
+#    Time: 0 ps  Iteration: 0  Instance: /TB/DUT/SISA_inst File: C:/Users/apple/Documents/UT/Master Thesis/Reconfigurable BIST/s27_BIST/s27_testable.v Line: 76
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# ** Warning: (vsim-3015) [PCDPC] - Port size (3) does not match connection size (1) for port 'data'. The port definition is at: C:/Users/apple/Documents/UT/Master Thesis/Reconfigurable BIST/s27_BIST/SISA.v(3).
+#    Time: 0 ps  Iteration: 0  Instance: /TB/DUT/SISA_inst File: C:/Users/apple/Documents/UT/Master Thesis/Reconfigurable BIST/s27_BIST/s27_testable.v Line: 76
+# DONE ISSUED at               395000 
+# 
+# DONE ISSUED at               635000 
+# 
+# DONE ISSUED at               875000 
+# 
+# DONE ISSUED at              1115000 
+# 
+# DONE ISSUED at              1355000 
+# 
+# DONE ISSUED at              1635000 
+# 
+# ===> Fault Simulation Starting ...
+# 
+# TB.DUT.DUT.G17
+# FAULT DETECTED
+# 
+# TB.DUT.DUT._40_/Y
+# FAULT DETECTED
+# 
+# TB.DUT.DUT._40_/A
+# FAULT DETECTED
+# 
+# TB.DUT.DUT._40_/B
+# FAULT DETECTED
+# 
+# TB.DUT.DUT._39_/Y
+# FAULT DETECTED
+# 
+# TB.DUT.DUT._35_/Y
+# FAULT DETECTED
+# 
+# TB.DUT.DUT._35_/A
+# FAULT DETECTED
+# 
+# TB.DUT.DUT.DFF_0/Q
+# FAULT DETECTED
+# 
+# TB.DUT.DUT.G17
+# TB.DUT.DUT._40_/Y
+# TB.DUT.DUT._37_/B
+# TB.DUT.DUT._37_/Y
+# FAULT DETECTED
+# 
+# TB.DUT.DUT._38_/A
+# FAULT DETECTED
+# 
+# TB.DUT.DUT._39_/Y
+# FAULT DETECTED
+# 
+# TB.DUT.DUT._39_/A
+# FAULT DETECTED
+# 
+# TB.DUT.DUT._39_/B
+# FAULT DETECTED
+# 
+# TB.DUT.DUT._38_/Y
+# FAULT DETECTED
+# 
+# TB.DUT.DUT._36_/Y
+# FAULT DETECTED
+# 
+# TB.DUT.DUT._36_/A
+# FAULT DETECTED
+# 
+# TB.DUT.DUT._44_/Y
+# FAULT DETECTED
+# 
+# TB.DUT.DUT._40_/A
+# FAULT DETECTED
+# 
+# TB.DUT.DUT.DFF_2/Q
+# TB.DUT.DUT.DFF_2/Q
+# FAULT DETECTED
+# 
+# TB.DUT.DUT.So
+# TB.DUT.DUT.So
+# FAULT DETECTED
+# 
+# TB.DUT.DUT.G0
+# FAULT DETECTED
+# 
+# TB.DUT.DUT._44_/B
+# FAULT DETECTED
+# 
+# TB.DUT.DUT._43_/Y
+# TB.DUT.DUT._43_/A
+# TB.DUT.DUT.DFF_1/Q
+# TB.DUT.DUT._44_/A
+# TB.DUT.DUT._35_/Y
+# FAULT DETECTED
+# 
+# TB.DUT.DUT._35_/A
+# FAULT DETECTED
+# 
+# TB.DUT.DUT.DFF_0/Q
+# FAULT DETECTED
+# 
+# TB.DUT.DUT._40_/B
+# FAULT DETECTED
+# 
+# TB.DUT.DUT.G3
+# TB.DUT.DUT._38_/B
+# TB.DUT.DUT._38_/Y
+# TB.DUT.DUT._38_/A
+# FAULT DETECTED
+# 
+# TB.DUT.DUT._38_/B
+# TB.DUT.DUT._37_/Y
+# FAULT DETECTED
+# 
+# TB.DUT.DUT._37_/A
+# FAULT DETECTED
+# 
+# TB.DUT.DUT._37_/B
+# FAULT DETECTED
+# 
+# TB.DUT.DUT.G3
+# TB.DUT.DUT.G1
+# FAULT DETECTED
+# 
+# TB.DUT.DUT._39_/A
+# TB.DUT.DUT.G1
+# TB.DUT.DUT._37_/A
+# TB.DUT.DUT._36_/Y
+# FAULT DETECTED
+# 
+# TB.DUT.DUT._36_/A
+# FAULT DETECTED
+# 
+# TB.DUT.DUT._44_/Y
+# FAULT DETECTED
+# 
+# TB.DUT.DUT._44_/B
+# FAULT DETECTED
+# 
+# TB.DUT.DUT._44_/A
+# FAULT DETECTED
+# 
+# TB.DUT.DUT.G0
+# FAULT DETECTED
+# 
+# TB.DUT.DUT._43_/Y
+# FAULT DETECTED
+# 
+# TB.DUT.DUT._43_/A
+# FAULT DETECTED
+# 
+# TB.DUT.DUT.DFF_1/Q
+# TB.DUT.DUT._39_/B
+# FAULT DETECTED
+# 
+# TB.DUT.DUT.G2
+# TB.DUT.DUT.G2
+# FAULT DETECTED
+# 
+# TB.DUT.DUT.Si
+# FAULT DETECTED
+# 
+# TB.DUT.DUT.Si
+# FAULT DETECTED
+# 
+# TB.DUT.DUT.PbarS
+# FAULT DETECTED
+# 
+# TB.DUT.DUT.PbarS
+# FAULT DETECTED
+# 
+# ** Note: $stop    : C:/Users/apple/Documents/UT/Master Thesis/Reconfigurable BIST/s27_BIST/TB.sv(147)
+#    Time: 99675 ns  Iteration: 0  Instance: /TB
+# Break in Module TB at C:/Users/apple/Documents/UT/Master Thesis/Reconfigurable BIST/s27_BIST/TB.sv line 147
+# Compile of TB.sv was successful.
+run
+do mydo.do TB
+# Compile of mycells.v was successful.
+# Compile of s27_netlist_scanInserted.v was successful.
+# Compile of TB.sv was successful.
+# Compile of BIST_CTRL.v was successful.
+# Compile of LFSR.v was successful.
+# Compile of MISR.v was successful.
+# Compile of SISA.v was successful.
+# Compile of SRSG.v was successful.
+# Compile of s27_testable.v was successful.
+# Compile of sigROM.v was successful.
+# 10 compiles, 0 failed with no errors.
+# End time: 10:24:18 on Jul 27,2024, Elapsed time: 0:02:21
+# Errors: 0, Warnings: 4
+# vsim work.TB 
+# Start time: 10:24:18 on Jul 27,2024
+# Loading sv_std.std
+# Loading work.TB
+# Loading work.s27_testable
+# Loading work.s27_scanInserted
+# Loading work.NOR
+# Loading work.NOT
+# Loading work.NAND
+# Loading work.dff
+# Loading work.LFSR
+# Loading work.SRSG
+# Loading work.MISR
+# Loading work.SISA
+# Loading work.BIST_CTRL
+# Loading work.counter
+# Loading work.sigROM
+# ** Warning: (vsim-3015) [PCDPC] - Port size (3) does not match connection size (1) for port 'data'. The port definition is at: C:/Users/apple/Documents/UT/Master Thesis/Reconfigurable BIST/s27_BIST/SISA.v(3).
+#    Time: 0 ps  Iteration: 0  Instance: /TB/DUT/SISA_inst File: C:/Users/apple/Documents/UT/Master Thesis/Reconfigurable BIST/s27_BIST/s27_testable.v Line: 76
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# ** Warning: (vsim-3015) [PCDPC] - Port size (3) does not match connection size (1) for port 'data'. The port definition is at: C:/Users/apple/Documents/UT/Master Thesis/Reconfigurable BIST/s27_BIST/SISA.v(3).
+#    Time: 0 ps  Iteration: 0  Instance: /TB/DUT/SISA_inst File: C:/Users/apple/Documents/UT/Master Thesis/Reconfigurable BIST/s27_BIST/s27_testable.v Line: 76
+# DONE ISSUED at               395000 
+# 
+# DONE ISSUED at               635000 
+# 
+# DONE ISSUED at               875000 
+# 
+# DONE ISSUED at              1115000 
+# 
+# DONE ISSUED at              1355000 
+# 
+# DONE ISSUED at              1635000 
+# 
+# ===> Fault Simulation Starting ...
+# 
+# ** Note: $stop    : C:/Users/apple/Documents/UT/Master Thesis/Reconfigurable BIST/s27_BIST/TB.sv(147)
+#    Time: 99675 ns  Iteration: 0  Instance: /TB
+# Break in Module TB at C:/Users/apple/Documents/UT/Master Thesis/Reconfigurable BIST/s27_BIST/TB.sv line 147
+add wave -position insertpoint  \
+sim:/TB/wireName
+add wave -position insertpoint  \
+sim:/TB/stuckAtVal
+add wave -position insertpoint  \
+sim:/TB/faultInjection
+write format wave -window .main_pane.wave.interior.cs.body.pw.wf {C:/Users/apple/Documents/UT/Master Thesis/Reconfigurable BIST/s27_BIST/simulation/wave.do}
+# Compile of TB.sv was successful.
+do mydo.do TB
+# Compile of mycells.v was successful.
+# Compile of s27_netlist_scanInserted.v was successful.
+# Compile of TB.sv was successful.
+# Compile of BIST_CTRL.v was successful.
+# Compile of LFSR.v was successful.
+# Compile of MISR.v was successful.
+# Compile of SISA.v was successful.
+# Compile of SRSG.v was successful.
+# Compile of s27_testable.v was successful.
+# Compile of sigROM.v was successful.
+# 10 compiles, 0 failed with no errors.
+# End time: 10:29:43 on Jul 27,2024, Elapsed time: 0:05:25
+# Errors: 0, Warnings: 4
+# vsim work.TB 
+# Start time: 10:29:43 on Jul 27,2024
+# Loading sv_std.std
+# Loading work.TB
+# Loading work.s27_testable
+# Loading work.s27_scanInserted
+# Loading work.NOR
+# Loading work.NOT
+# Loading work.NAND
+# Loading work.dff
+# Loading work.LFSR
+# Loading work.SRSG
+# Loading work.MISR
+# Loading work.SISA
+# Loading work.BIST_CTRL
+# Loading work.counter
+# Loading work.sigROM
+# ** Warning: (vsim-3015) [PCDPC] - Port size (3) does not match connection size (1) for port 'data'. The port definition is at: C:/Users/apple/Documents/UT/Master Thesis/Reconfigurable BIST/s27_BIST/SISA.v(3).
+#    Time: 0 ps  Iteration: 0  Instance: /TB/DUT/SISA_inst File: C:/Users/apple/Documents/UT/Master Thesis/Reconfigurable BIST/s27_BIST/s27_testable.v Line: 76
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# ** Warning: (vsim-3015) [PCDPC] - Port size (3) does not match connection size (1) for port 'data'. The port definition is at: C:/Users/apple/Documents/UT/Master Thesis/Reconfigurable BIST/s27_BIST/SISA.v(3).
+#    Time: 0 ps  Iteration: 0  Instance: /TB/DUT/SISA_inst File: C:/Users/apple/Documents/UT/Master Thesis/Reconfigurable BIST/s27_BIST/s27_testable.v Line: 76
+# Starting Golden Signature Generation ... 
+# 
+# Starting Golden Signaturs Stored at              1645000 
+# 
+# ===> Fault Simulation Starting ...
+# 
+# ** Note: $stop    : C:/Users/apple/Documents/UT/Master Thesis/Reconfigurable BIST/s27_BIST/TB.sv(150)
+#    Time: 99675 ns  Iteration: 0  Instance: /TB
+# Break in Module TB at C:/Users/apple/Documents/UT/Master Thesis/Reconfigurable BIST/s27_BIST/TB.sv line 150
+quit -sim
+# End time: 13:01:55 on Jul 27,2024, Elapsed time: 2:32:12
+# Errors: 0, Warnings: 2

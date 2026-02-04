@@ -1,0 +1,49 @@
+Net to be faulty => TB.DUT.DUT.Y1 to 1 
+#### LBIST Run is done
+Net to be faulty => TB.DUT.DUT._18_/B to 1 
+#### LBIST Run is done
+FAULT DETECTED
+Net to be faulty => TB.DUT.DUT.Y1 to 0 
+#### LBIST Run is done
+FAULT DETECTED
+Net to be faulty => TB.DUT.DUT.DFF_0/Q to 0 
+#### LBIST Run is done
+FAULT DETECTED
+Net to be faulty => TB.DUT.DUT.DFF_0/Q to 1 
+#### LBIST Run is done
+FAULT DETECTED
+Net to be faulty => TB.DUT.DUT.Y0 to 0 
+#### LBIST Run is done
+Net to be faulty => TB.DUT.DUT.Y0 to 1 
+#### LBIST Run is done
+FAULT DETECTED
+Net to be faulty => TB.DUT.DUT._14_/Y to 1 
+#### LBIST Run is done
+FAULT DETECTED
+Net to be faulty => TB.DUT.DUT.DFF_1/Q to 1 
+#### LBIST Run is done
+Net to be faulty => TB.DUT.DUT._17_/Y to 1 
+#### LBIST Run is done
+Net to be faulty => TB.DUT.DUT.C to 1 
+#### LBIST Run is done
+FAULT DETECTED
+Net to be faulty => TB.DUT.DUT._15_/Y to 1 
+#### LBIST Run is done
+FAULT DETECTED
+Net to be faulty => TB.DUT.DUT.B to 1 
+#### LBIST Run is done
+FAULT DETECTED
+Net to be faulty => TB.DUT.DUT.A to 1 
+#### LBIST Run is done
+FAULT DETECTED
+Net to be faulty => TB.DUT.DUT.D to 0 
+#### LBIST Run is done
+FAULT DETECTED
+Net to be faulty => TB.DUT.DUT.D to 1 
+#### LBIST Run is done
+FAULT DETECTED
+
+
+==========> Fault Coverage: 0.750000 
+==========> Fault Simulation Time:              4010000 
+==========> BIST Run Time:               240000 

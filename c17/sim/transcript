@@ -1,0 +1,864 @@
+do mydo.do
+# The DO file requires two arguments: 
+# 1. TB_Name and 2. Process_Name in which the wireName & stuckAtVal variables are defined. 
+# Please try again with the following syntax: 
+# do doFileName.do TB_Name Process_Name
+# In my case is:   do mydo.do SerialFS_TB
+do mydo.do SerialFS_TB
+# Compile of c17_netlist.v was successful.
+# Compile of mycells.v was successful.
+# Compile of SerialFS_TB.sv was successful.
+# 3 compiles, 0 failed with no errors.
+# vsim work.SerialFS_TB 
+# Start time: 14:14:59 on Jul 11,2024
+# Loading sv_std.std
+# Loading work.SerialFS_TB
+# Loading work.c17
+# Loading work.NAND
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Fault:SerialFS_TB.FUT._15_.Y SA1 detecteds at                   90.
+# Fault:SerialFS_TB.FUT._15_.A SA0 detecteds at                  210.
+# Fault:SerialFS_TB.FUT._15_.B SA0 detecteds at                  330.
+# Fault:SerialFS_TB.FUT.N1 SA0 detecteds at                  450.
+# Fault:SerialFS_TB.FUT._18_.B SA1 detecteds at                  570.
+# Fault:SerialFS_TB.FUT._18_.A SA1 detecteds at                  780.
+# Fault:SerialFS_TB.FUT.N22 SA0 detecteds at                  900.
+# Fault:SerialFS_TB.FUT._18_.Y SA0 detecteds at                 1020.
+# Fault:SerialFS_TB.FUT._15_.B SA1 detecteds at                 1500.
+# Fault:SerialFS_TB.FUT.N22 SA1 detecteds at                 1890.
+# Fault:SerialFS_TB.FUT._18_.Y SA1 detecteds at                 2280.
+# Fault:SerialFS_TB.FUT._18_.A SA0 detecteds at                 2400.
+# Fault:SerialFS_TB.FUT._18_.B SA0 detecteds at                 2790.
+# Fault:SerialFS_TB.FUT._15_.Y SA0 detecteds at                 3180.
+# Fault:SerialFS_TB.FUT._17_.Y SA1 detecteds at                 4350.
+# Fault:SerialFS_TB.FUT._17_.B SA0 detecteds at                 4560.
+# Fault:SerialFS_TB.FUT._17_.A SA0 detecteds at                 4770.
+# Fault:SerialFS_TB.FUT.N2 SA0 detecteds at                 4980.
+# Fault:SerialFS_TB.FUT._17_.A SA1 detecteds at                 5100.
+# Fault:SerialFS_TB.FUT._17_.Y SA0 detecteds at                 5220.
+# Fault:SerialFS_TB.FUT.N2 SA1 detecteds at                 5610.
+# Fault:SerialFS_TB.FUT._17_.B SA1 detecteds at                 6000.
+# Fault:SerialFS_TB.FUT.N3 SA0 detecteds at                 6120.
+# Fault:SerialFS_TB.FUT.N3 SA1 detecteds at                 6600.
+# Fault:SerialFS_TB.FUT._16_.Y SA1 detecteds at                 6720.
+# Fault:SerialFS_TB.FUT._16_.A SA0 detecteds at                 6840.
+# Fault:SerialFS_TB.FUT._16_.B SA0 detecteds at                 6960.
+# Fault:SerialFS_TB.FUT.N6 SA0 detecteds at                 7080.
+# Fault:SerialFS_TB.FUT._16_.B SA1 detecteds at                 7560.
+# Fault:SerialFS_TB.FUT._16_.Y SA0 detecteds at                 7770.
+# Fault:SerialFS_TB.FUT._19_.Y SA1 detecteds at                 9120.
+# Fault:SerialFS_TB.FUT._19_.B SA0 detecteds at                 9510.
+# Fault:SerialFS_TB.FUT._19_.A SA0 detecteds at                 9720.
+# Fault:SerialFS_TB.FUT.N7 SA0 detecteds at                10110.
+# Fault:SerialFS_TB.FUT._20_.A SA1 detecteds at                10500.
+# Fault:SerialFS_TB.FUT._20_.B SA1 detecteds at                10710.
+# Fault:SerialFS_TB.FUT.N23 SA0 detecteds at                10920.
+# Fault:SerialFS_TB.FUT._20_.Y SA0 detecteds at                11130.
+# Fault:SerialFS_TB.FUT._19_.A SA1 detecteds at                11250.
+# Fault:SerialFS_TB.FUT.N23 SA1 detecteds at                11370.
+# Fault:SerialFS_TB.FUT._20_.Y SA1 detecteds at                11490.
+# Fault:SerialFS_TB.FUT._20_.A SA0 detecteds at                11610.
+# Fault:SerialFS_TB.FUT._20_.B SA0 detecteds at                11730.
+# Fault:SerialFS_TB.FUT._19_.Y SA0 detecteds at                11850.
+# Collapsed Faults =         50
+#  , Detected Faults =         44
+# 
+# coverage = 0.880000
+# 
+# ** Note: $stop    : C:/Users/apple/Documents/UT/Master Thesis/c17/SerialFS_TB.sv(72)
+#    Time: 12840 ns  Iteration: 0  Instance: /SerialFS_TB
+# Break in Module SerialFS_TB at C:/Users/apple/Documents/UT/Master Thesis/c17/SerialFS_TB.sv line 72
+# Compile of SerialFS_TB.sv was successful.
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.SerialFS_TB
+run
+# when execution error: (faultInjectionwhen) can't read "1": no such variable
+# Simulation stop requested.
+run
+# when execution error: (faultRemovalwhen) can't read "1": no such variable
+# Simulation stop requested.
+# A time value could not be extracted from the current line
+# Compile of SerialFS_TB.sv was successful.
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.SerialFS_TB
+run
+# when execution error: (faultInjectionwhen) can't read "1": no such variable
+# Simulation stop requested.
+# Compile of SerialFS_TB.sv was successful.
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.SerialFS_TB
+run
+# when execution error: (faultInjectionwhen) can't read "1": no such variable
+# Simulation stop requested.
+do mydo.do SerialFS_TB
+# Compile of c17_netlist.v was successful.
+# Compile of mycells.v was successful.
+# Compile of SerialFS_TB.sv was successful.
+# 3 compiles, 0 failed with no errors.
+# End time: 14:44:28 on Jul 11,2024, Elapsed time: 0:29:29
+# Errors: 0, Warnings: 2
+# vsim work.SerialFS_TB 
+# Start time: 14:44:28 on Jul 11,2024
+# Loading sv_std.std
+# Loading work.SerialFS_TB
+# Loading work.c17
+# Loading work.NAND
+# Fault:SerialFS_TB.FUT._15_.Y SA1 detecteds at                   90.
+# Fault:SerialFS_TB.FUT._15_.A SA0 detecteds at                  210.
+# Fault:SerialFS_TB.FUT._15_.B SA0 detecteds at                  330.
+# Fault:SerialFS_TB.FUT.N1 SA0 detecteds at                  450.
+# Fault:SerialFS_TB.FUT._18_.B SA1 detecteds at                  570.
+# Fault:SerialFS_TB.FUT._18_.A SA1 detecteds at                  780.
+# Fault:SerialFS_TB.FUT.N22 SA0 detecteds at                  900.
+# Fault:SerialFS_TB.FUT._18_.Y SA0 detecteds at                 1020.
+# Fault:SerialFS_TB.FUT._15_.B SA1 detecteds at                 1500.
+# Fault:SerialFS_TB.FUT.N22 SA1 detecteds at                 1890.
+# Fault:SerialFS_TB.FUT._18_.Y SA1 detecteds at                 2280.
+# Fault:SerialFS_TB.FUT._18_.A SA0 detecteds at                 2400.
+# Fault:SerialFS_TB.FUT._18_.B SA0 detecteds at                 2790.
+# Fault:SerialFS_TB.FUT._15_.Y SA0 detecteds at                 3180.
+# Fault:SerialFS_TB.FUT._17_.Y SA1 detecteds at                 4350.
+# Fault:SerialFS_TB.FUT._17_.B SA0 detecteds at                 4560.
+# Fault:SerialFS_TB.FUT._17_.A SA0 detecteds at                 4770.
+# Fault:SerialFS_TB.FUT.N2 SA0 detecteds at                 4980.
+# Fault:SerialFS_TB.FUT._17_.A SA1 detecteds at                 5100.
+# Fault:SerialFS_TB.FUT._17_.Y SA0 detecteds at                 5220.
+# Fault:SerialFS_TB.FUT.N2 SA1 detecteds at                 5610.
+# Fault:SerialFS_TB.FUT._17_.B SA1 detecteds at                 6000.
+# Fault:SerialFS_TB.FUT.N3 SA0 detecteds at                 6120.
+# Fault:SerialFS_TB.FUT.N3 SA1 detecteds at                 6600.
+# Fault:SerialFS_TB.FUT._16_.Y SA1 detecteds at                 6720.
+# Fault:SerialFS_TB.FUT._16_.A SA0 detecteds at                 6840.
+# Fault:SerialFS_TB.FUT._16_.B SA0 detecteds at                 6960.
+# Fault:SerialFS_TB.FUT.N6 SA0 detecteds at                 7080.
+# Fault:SerialFS_TB.FUT._16_.B SA1 detecteds at                 7560.
+# Fault:SerialFS_TB.FUT._16_.Y SA0 detecteds at                 7770.
+# Fault:SerialFS_TB.FUT._19_.Y SA1 detecteds at                 9120.
+# Fault:SerialFS_TB.FUT._19_.B SA0 detecteds at                 9510.
+# Fault:SerialFS_TB.FUT._19_.A SA0 detecteds at                 9720.
+# Fault:SerialFS_TB.FUT.N7 SA0 detecteds at                10110.
+# Fault:SerialFS_TB.FUT._20_.A SA1 detecteds at                10500.
+# Fault:SerialFS_TB.FUT._20_.B SA1 detecteds at                10710.
+# Fault:SerialFS_TB.FUT.N23 SA0 detecteds at                10920.
+# Fault:SerialFS_TB.FUT._20_.Y SA0 detecteds at                11130.
+# Fault:SerialFS_TB.FUT._19_.A SA1 detecteds at                11250.
+# Fault:SerialFS_TB.FUT.N23 SA1 detecteds at                11370.
+# Fault:SerialFS_TB.FUT._20_.Y SA1 detecteds at                11490.
+# Fault:SerialFS_TB.FUT._20_.A SA0 detecteds at                11610.
+# Fault:SerialFS_TB.FUT._20_.B SA0 detecteds at                11730.
+# Fault:SerialFS_TB.FUT._19_.Y SA0 detecteds at                11850.
+# Collapsed Faults =         50
+#  , Detected Faults =         44
+# 
+# coverage = 0.880000
+# 
+# ** Note: $stop    : C:/Users/apple/Documents/UT/Master Thesis/c17/SerialFS_TB.sv(72)
+#    Time: 12840 ns  Iteration: 0  Instance: /SerialFS_TB
+# Break in Module SerialFS_TB at C:/Users/apple/Documents/UT/Master Thesis/c17/SerialFS_TB.sv line 72
+do mydo.do SerialFS_TB
+# Compile of c17_netlist.v was successful.
+# Compile of mycells.v was successful.
+# Compile of SerialFS_TB.sv was successful.
+# 3 compiles, 0 failed with no errors.
+# End time: 14:44:53 on Jul 11,2024, Elapsed time: 0:00:25
+# Errors: 0, Warnings: 2
+# vsim work.SerialFS_TB 
+# Start time: 14:44:53 on Jul 11,2024
+# Loading sv_std.std
+# Loading work.SerialFS_TB
+# Loading work.c17
+# Loading work.NAND
+# Fault:SerialFS_TB.FUT._15_.Y SA1 detecteds at                  270.
+# Fault:SerialFS_TB.FUT._15_.A SA0 detecteds at                  570.
+# Fault:SerialFS_TB.FUT._15_.B SA0 detecteds at                  870.
+# Fault:SerialFS_TB.FUT.N1 SA0 detecteds at                 1170.
+# Fault:SerialFS_TB.FUT._18_.B SA1 detecteds at                 1470.
+# Fault:SerialFS_TB.FUT._18_.A SA1 detecteds at                 1680.
+# Fault:SerialFS_TB.FUT.N22 SA0 detecteds at                 1890.
+# Fault:SerialFS_TB.FUT._18_.Y SA0 detecteds at                 2100.
+# Fault:SerialFS_TB.FUT._15_.B SA1 detecteds at                 2310.
+# Fault:SerialFS_TB.FUT.N22 SA1 detecteds at                 2430.
+# Fault:SerialFS_TB.FUT._18_.Y SA1 detecteds at                 2550.
+# Fault:SerialFS_TB.FUT._18_.A SA0 detecteds at                 2670.
+# Fault:SerialFS_TB.FUT._18_.B SA0 detecteds at                 2790.
+# Fault:SerialFS_TB.FUT._15_.Y SA0 detecteds at                 2910.
+# Fault:SerialFS_TB.FUT.N1 SA1 detecteds at                 3030.
+# Fault:SerialFS_TB.FUT._15_.A SA1 detecteds at                 3150.
+# Fault:SerialFS_TB.FUT._17_.Y SA1 detecteds at                 3360.
+# Fault:SerialFS_TB.FUT._17_.B SA0 detecteds at                 3570.
+# Fault:SerialFS_TB.FUT._17_.A SA0 detecteds at                 3780.
+# Fault:SerialFS_TB.FUT.N2 SA0 detecteds at                 3990.
+# Fault:SerialFS_TB.FUT._17_.A SA1 detecteds at                 4380.
+# Fault:SerialFS_TB.FUT._17_.Y SA0 detecteds at                 4500.
+# Fault:SerialFS_TB.FUT.N3 SA0 detecteds at                 5760.
+# Fault:SerialFS_TB.FUT.N3 SA1 detecteds at                 5970.
+# Fault:SerialFS_TB.FUT._16_.Y SA1 detecteds at                 6360.
+# Fault:SerialFS_TB.FUT._16_.A SA0 detecteds at                 6750.
+# Fault:SerialFS_TB.FUT._16_.B SA0 detecteds at                 7050.
+# Fault:SerialFS_TB.FUT.N6 SA0 detecteds at                 7440.
+# Fault:SerialFS_TB.FUT._16_.B SA1 detecteds at                 7650.
+# Fault:SerialFS_TB.FUT._16_.Y SA0 detecteds at                 7860.
+# Fault:SerialFS_TB.FUT.N6 SA1 detecteds at                 8160.
+# Fault:SerialFS_TB.FUT._16_.A SA1 detecteds at                 8460.
+# Fault:SerialFS_TB.FUT._19_.Y SA1 detecteds at                 8760.
+# Fault:SerialFS_TB.FUT._19_.B SA0 detecteds at                 9060.
+# Fault:SerialFS_TB.FUT._19_.A SA0 detecteds at                 9270.
+# Fault:SerialFS_TB.FUT.N7 SA0 detecteds at                 9570.
+# Fault:SerialFS_TB.FUT._20_.A SA1 detecteds at                 9870.
+# Fault:SerialFS_TB.FUT._20_.B SA1 detecteds at                10080.
+# Fault:SerialFS_TB.FUT.N23 SA0 detecteds at                10290.
+# Fault:SerialFS_TB.FUT._20_.Y SA0 detecteds at                10500.
+# Fault:SerialFS_TB.FUT._19_.A SA1 detecteds at                10890.
+# Fault:SerialFS_TB.FUT.N23 SA1 detecteds at                11010.
+# Fault:SerialFS_TB.FUT._20_.Y SA1 detecteds at                11130.
+# Fault:SerialFS_TB.FUT._20_.A SA0 detecteds at                11250.
+# Fault:SerialFS_TB.FUT._20_.B SA0 detecteds at                11370.
+# Fault:SerialFS_TB.FUT._19_.Y SA0 detecteds at                11490.
+# Collapsed Faults =         50
+#  , Detected Faults =         46
+# 
+# coverage = 0.920000
+# 
+# ** Note: $stop    : C:/Users/apple/Documents/UT/Master Thesis/c17/SerialFS_TB.sv(72)
+#    Time: 12480 ns  Iteration: 0  Instance: /SerialFS_TB
+# Break in Module SerialFS_TB at C:/Users/apple/Documents/UT/Master Thesis/c17/SerialFS_TB.sv line 72
+do mydo.do SerialFS_TB
+# Compile of c17_netlist.v was successful.
+# Compile of mycells.v was successful.
+# Compile of SerialFS_TB.sv was successful.
+# 3 compiles, 0 failed with no errors.
+# End time: 14:47:02 on Jul 11,2024, Elapsed time: 0:02:09
+# Errors: 0, Warnings: 2
+# vsim work.SerialFS_TB 
+# Start time: 14:47:03 on Jul 11,2024
+# Loading sv_std.std
+# Loading work.SerialFS_TB
+# Loading work.c17
+# Loading work.NAND
+# Fault:SerialFS_TB.FUT._15_.Y SA1 detecteds at                  450.
+# Fault:SerialFS_TB.FUT._15_.A SA0 detecteds at                  930.
+# Fault:SerialFS_TB.FUT._15_.B SA0 detecteds at                 1230.
+# Fault:SerialFS_TB.FUT.N1 SA0 detecteds at                 1710.
+# Fault:SerialFS_TB.FUT._18_.B SA1 detecteds at                 2190.
+# Fault:SerialFS_TB.FUT._18_.A SA1 detecteds at                 2940.
+# Fault:SerialFS_TB.FUT.N22 SA0 detecteds at                 3420.
+# Fault:SerialFS_TB.FUT._18_.Y SA0 detecteds at                 3900.
+# Fault:SerialFS_TB.FUT._15_.B SA1 detecteds at                 4020.
+# Fault:SerialFS_TB.FUT.N22 SA1 detecteds at                 4140.
+# Fault:SerialFS_TB.FUT._18_.Y SA1 detecteds at                 4260.
+# Fault:SerialFS_TB.FUT._18_.A SA0 detecteds at                 4380.
+# Fault:SerialFS_TB.FUT._18_.B SA0 detecteds at                 4500.
+# Fault:SerialFS_TB.FUT._15_.Y SA0 detecteds at                 4620.
+# Fault:SerialFS_TB.FUT.N1 SA1 detecteds at                 4830.
+# Fault:SerialFS_TB.FUT._15_.A SA1 detecteds at                 5040.
+# Fault:SerialFS_TB.FUT._17_.Y SA1 detecteds at                 5790.
+# Fault:SerialFS_TB.FUT._17_.B SA0 detecteds at                 6540.
+# Fault:SerialFS_TB.FUT._17_.A SA0 detecteds at                 7110.
+# Fault:SerialFS_TB.FUT.N2 SA0 detecteds at                 7860.
+# Fault:SerialFS_TB.FUT._17_.A SA1 detecteds at                 8160.
+# Fault:SerialFS_TB.FUT._17_.Y SA0 detecteds at                 8280.
+# Fault:SerialFS_TB.FUT.N2 SA1 detecteds at                 8400.
+# Fault:SerialFS_TB.FUT._17_.B SA1 detecteds at                 8520.
+# Fault:SerialFS_TB.FUT.N3 SA0 detecteds at                 8820.
+# Fault:SerialFS_TB.FUT.N3 SA1 detecteds at                 8940.
+# Fault:SerialFS_TB.FUT._16_.Y SA1 detecteds at                 9240.
+# Fault:SerialFS_TB.FUT._16_.A SA0 detecteds at                 9540.
+# Fault:SerialFS_TB.FUT._16_.B SA0 detecteds at                 9840.
+# Fault:SerialFS_TB.FUT.N6 SA0 detecteds at                10140.
+# Fault:SerialFS_TB.FUT._16_.B SA1 detecteds at                10260.
+# Fault:SerialFS_TB.FUT._16_.Y SA0 detecteds at                10830.
+# Fault:SerialFS_TB.FUT.N6 SA1 detecteds at                11580.
+# Fault:SerialFS_TB.FUT._16_.A SA1 detecteds at                12330.
+# Fault:SerialFS_TB.FUT._19_.Y SA1 detecteds at                12900.
+# Fault:SerialFS_TB.FUT._19_.B SA0 detecteds at                13470.
+# Fault:SerialFS_TB.FUT._19_.A SA0 detecteds at                14040.
+# Fault:SerialFS_TB.FUT.N7 SA0 detecteds at                14610.
+# Fault:SerialFS_TB.FUT._20_.A SA1 detecteds at                15180.
+# Fault:SerialFS_TB.FUT._20_.B SA1 detecteds at                15930.
+# Fault:SerialFS_TB.FUT.N23 SA0 detecteds at                16500.
+# Fault:SerialFS_TB.FUT._20_.Y SA0 detecteds at                17070.
+# Fault:SerialFS_TB.FUT._19_.A SA1 detecteds at                17370.
+# Fault:SerialFS_TB.FUT.N23 SA1 detecteds at                17490.
+# Fault:SerialFS_TB.FUT._20_.Y SA1 detecteds at                17610.
+# Fault:SerialFS_TB.FUT._20_.A SA0 detecteds at                17730.
+# Fault:SerialFS_TB.FUT._20_.B SA0 detecteds at                17850.
+# Fault:SerialFS_TB.FUT._19_.Y SA0 detecteds at                17970.
+# Fault:SerialFS_TB.FUT.N7 SA1 detecteds at                18090.
+# Fault:SerialFS_TB.FUT._19_.B SA1 detecteds at                18210.
+# Collapsed Faults =         50
+#  , Detected Faults =         50
+# 
+# coverage = 1.000000
+# 
+# ** Note: $stop    : C:/Users/apple/Documents/UT/Master Thesis/c17/SerialFS_TB.sv(72)
+#    Time: 18240 ns  Iteration: 0  Instance: /SerialFS_TB
+# Break in Module SerialFS_TB at C:/Users/apple/Documents/UT/Master Thesis/c17/SerialFS_TB.sv line 72
+do mydo.do SerialFS_TB
+# Compile of c17_netlist.v was successful.
+# Compile of mycells.v was successful.
+# Compile of SerialFS_TB.sv was successful.
+# 3 compiles, 0 failed with no errors.
+# End time: 14:47:48 on Jul 11,2024, Elapsed time: 0:00:45
+# Errors: 0, Warnings: 2
+# vsim work.SerialFS_TB 
+# Start time: 14:47:48 on Jul 11,2024
+# Loading sv_std.std
+# Loading work.SerialFS_TB
+# Loading work.c17
+# Loading work.NAND
+# Fault:SerialFS_TB.FUT._15_.Y SA1 detecteds at                  720.
+# Fault:SerialFS_TB.FUT._15_.A SA0 detecteds at                 1470.
+# Fault:SerialFS_TB.FUT._15_.B SA0 detecteds at                 1680.
+# Fault:SerialFS_TB.FUT.N1 SA0 detecteds at                 2430.
+# Fault:SerialFS_TB.FUT._18_.B SA1 detecteds at                 3180.
+# Fault:SerialFS_TB.FUT._18_.A SA1 detecteds at                 3300.
+# Fault:SerialFS_TB.FUT.N22 SA0 detecteds at                 3420.
+# Fault:SerialFS_TB.FUT._18_.Y SA0 detecteds at                 3540.
+# Fault:SerialFS_TB.FUT.N22 SA1 detecteds at                 4680.
+# Fault:SerialFS_TB.FUT._18_.Y SA1 detecteds at                 4890.
+# Fault:SerialFS_TB.FUT._18_.A SA0 detecteds at                 5100.
+# Fault:SerialFS_TB.FUT._18_.B SA0 detecteds at                 5310.
+# Fault:SerialFS_TB.FUT._15_.Y SA0 detecteds at                 5520.
+# Fault:SerialFS_TB.FUT.N1 SA1 detecteds at                 5730.
+# Fault:SerialFS_TB.FUT._15_.A SA1 detecteds at                 5940.
+# Fault:SerialFS_TB.FUT._17_.Y SA1 detecteds at                 6060.
+# Fault:SerialFS_TB.FUT._17_.B SA0 detecteds at                 6180.
+# Fault:SerialFS_TB.FUT._17_.A SA0 detecteds at                 6300.
+# Fault:SerialFS_TB.FUT.N2 SA0 detecteds at                 6420.
+# Fault:SerialFS_TB.FUT._17_.A SA1 detecteds at                 6630.
+# Fault:SerialFS_TB.FUT._17_.Y SA0 detecteds at                 6840.
+# Fault:SerialFS_TB.FUT.N2 SA1 detecteds at                 7500.
+# Fault:SerialFS_TB.FUT._17_.B SA1 detecteds at                 8160.
+# Fault:SerialFS_TB.FUT.N3 SA0 detecteds at                 8370.
+# Fault:SerialFS_TB.FUT._16_.Y SA1 detecteds at                 9510.
+# Fault:SerialFS_TB.FUT._16_.A SA0 detecteds at                 9720.
+# Fault:SerialFS_TB.FUT._16_.B SA0 detecteds at                 9930.
+# Fault:SerialFS_TB.FUT.N6 SA0 detecteds at                10140.
+# Fault:SerialFS_TB.FUT._16_.Y SA0 detecteds at                11190.
+# Fault:SerialFS_TB.FUT.N6 SA1 detecteds at                11580.
+# Fault:SerialFS_TB.FUT._16_.A SA1 detecteds at                11970.
+# Fault:SerialFS_TB.FUT._19_.Y SA1 detecteds at                12630.
+# Fault:SerialFS_TB.FUT._19_.B SA0 detecteds at                13290.
+# Fault:SerialFS_TB.FUT._19_.A SA0 detecteds at                13410.
+# Fault:SerialFS_TB.FUT.N7 SA0 detecteds at                14070.
+# Fault:SerialFS_TB.FUT._20_.A SA1 detecteds at                14730.
+# Fault:SerialFS_TB.FUT._20_.B SA1 detecteds at                14850.
+# Fault:SerialFS_TB.FUT.N23 SA0 detecteds at                14970.
+# Fault:SerialFS_TB.FUT._20_.Y SA0 detecteds at                15090.
+# Fault:SerialFS_TB.FUT._19_.A SA1 detecteds at                15300.
+# Fault:SerialFS_TB.FUT.N23 SA1 detecteds at                15510.
+# Fault:SerialFS_TB.FUT._20_.Y SA1 detecteds at                15720.
+# Fault:SerialFS_TB.FUT._20_.A SA0 detecteds at                15930.
+# Fault:SerialFS_TB.FUT._20_.B SA0 detecteds at                16140.
+# Fault:SerialFS_TB.FUT._19_.Y SA0 detecteds at                16350.
+# Fault:SerialFS_TB.FUT.N7 SA1 detecteds at                17190.
+# Fault:SerialFS_TB.FUT._19_.B SA1 detecteds at                18030.
+# Collapsed Faults =         50
+#  , Detected Faults =         47
+# 
+# coverage = 0.940000
+# 
+# ** Note: $stop    : C:/Users/apple/Documents/UT/Master Thesis/c17/SerialFS_TB.sv(72)
+#    Time: 18060 ns  Iteration: 0  Instance: /SerialFS_TB
+# Break in Module SerialFS_TB at C:/Users/apple/Documents/UT/Master Thesis/c17/SerialFS_TB.sv line 72
+do mydo.do SerialFS_TB
+# Compile of c17_netlist.v was successful.
+# Compile of mycells.v was successful.
+# Compile of SerialFS_TB.sv was successful.
+# 3 compiles, 0 failed with no errors.
+# End time: 14:48:18 on Jul 11,2024, Elapsed time: 0:00:30
+# Errors: 0, Warnings: 2
+# vsim work.SerialFS_TB 
+# Start time: 14:48:18 on Jul 11,2024
+# Loading sv_std.std
+# Loading work.SerialFS_TB
+# Loading work.c17
+# Loading work.NAND
+# Fault:SerialFS_TB.FUT._15_.Y SA1 detecteds at                   90.
+# Fault:SerialFS_TB.FUT._15_.A SA0 detecteds at                  210.
+# Fault:SerialFS_TB.FUT._15_.B SA0 detecteds at                  330.
+# Fault:SerialFS_TB.FUT.N1 SA0 detecteds at                  450.
+# Fault:SerialFS_TB.FUT._18_.B SA1 detecteds at                  570.
+# Fault:SerialFS_TB.FUT._18_.A SA1 detecteds at                 1140.
+# Fault:SerialFS_TB.FUT.N22 SA0 detecteds at                 1260.
+# Fault:SerialFS_TB.FUT._18_.Y SA0 detecteds at                 1380.
+# Fault:SerialFS_TB.FUT._15_.B SA1 detecteds at                 1770.
+# Fault:SerialFS_TB.FUT.N22 SA1 detecteds at                 2160.
+# Fault:SerialFS_TB.FUT._18_.Y SA1 detecteds at                 2550.
+# Fault:SerialFS_TB.FUT._18_.A SA0 detecteds at                 2670.
+# Fault:SerialFS_TB.FUT._18_.B SA0 detecteds at                 3060.
+# Fault:SerialFS_TB.FUT._15_.Y SA0 detecteds at                 3450.
+# Fault:SerialFS_TB.FUT.N1 SA1 detecteds at                 4290.
+# Fault:SerialFS_TB.FUT._15_.A SA1 detecteds at                 5130.
+# Fault:SerialFS_TB.FUT._17_.Y SA1 detecteds at                 5700.
+# Fault:SerialFS_TB.FUT._17_.B SA0 detecteds at                 6270.
+# Fault:SerialFS_TB.FUT._17_.A SA0 detecteds at                 6570.
+# Fault:SerialFS_TB.FUT.N2 SA0 detecteds at                 7140.
+# Fault:SerialFS_TB.FUT._17_.A SA1 detecteds at                 7350.
+# Fault:SerialFS_TB.FUT._17_.Y SA0 detecteds at                 7470.
+# Fault:SerialFS_TB.FUT.N2 SA1 detecteds at                 7860.
+# Fault:SerialFS_TB.FUT._17_.B SA1 detecteds at                 8250.
+# Fault:SerialFS_TB.FUT.N3 SA0 detecteds at                 8370.
+# Fault:SerialFS_TB.FUT.N3 SA1 detecteds at                 8760.
+# Fault:SerialFS_TB.FUT._16_.Y SA1 detecteds at                 8970.
+# Fault:SerialFS_TB.FUT._16_.A SA0 detecteds at                 9180.
+# Fault:SerialFS_TB.FUT._16_.B SA0 detecteds at                 9300.
+# Fault:SerialFS_TB.FUT.N6 SA0 detecteds at                 9510.
+# Fault:SerialFS_TB.FUT._16_.B SA1 detecteds at                 9900.
+# Fault:SerialFS_TB.FUT._16_.Y SA0 detecteds at                10200.
+# Fault:SerialFS_TB.FUT.N6 SA1 detecteds at                10500.
+# Fault:SerialFS_TB.FUT._16_.A SA1 detecteds at                10800.
+# Fault:SerialFS_TB.FUT._19_.Y SA1 detecteds at                11100.
+# Fault:SerialFS_TB.FUT._19_.B SA0 detecteds at                11400.
+# Fault:SerialFS_TB.FUT._19_.A SA0 detecteds at                11700.
+# Fault:SerialFS_TB.FUT.N7 SA0 detecteds at                12000.
+# Fault:SerialFS_TB.FUT._20_.A SA1 detecteds at                12300.
+# Fault:SerialFS_TB.FUT._20_.B SA1 detecteds at                12870.
+# Fault:SerialFS_TB.FUT.N23 SA0 detecteds at                13170.
+# Fault:SerialFS_TB.FUT._20_.Y SA0 detecteds at                13470.
+# Fault:SerialFS_TB.FUT._19_.A SA1 detecteds at                13680.
+# Fault:SerialFS_TB.FUT.N23 SA1 detecteds at                13800.
+# Fault:SerialFS_TB.FUT._20_.Y SA1 detecteds at                13920.
+# Fault:SerialFS_TB.FUT._20_.A SA0 detecteds at                14040.
+# Fault:SerialFS_TB.FUT._20_.B SA0 detecteds at                14160.
+# Fault:SerialFS_TB.FUT._19_.Y SA0 detecteds at                14280.
+# Fault:SerialFS_TB.FUT.N7 SA1 detecteds at                14670.
+# Fault:SerialFS_TB.FUT._19_.B SA1 detecteds at                15060.
+# Collapsed Faults =         50
+#  , Detected Faults =         50
+# 
+# coverage = 1.000000
+# 
+# ** Note: $stop    : C:/Users/apple/Documents/UT/Master Thesis/c17/SerialFS_TB.sv(72)
+#    Time: 15090 ns  Iteration: 0  Instance: /SerialFS_TB
+# Break in Module SerialFS_TB at C:/Users/apple/Documents/UT/Master Thesis/c17/SerialFS_TB.sv line 72
+do mydo.do SerialFS_TB
+# Compile of c17_netlist.v was successful.
+# Compile of mycells.v was successful.
+# Compile of SerialFS_TB.sv was successful.
+# 3 compiles, 0 failed with no errors.
+# End time: 14:51:51 on Jul 11,2024, Elapsed time: 0:03:33
+# Errors: 0, Warnings: 2
+# vsim work.SerialFS_TB 
+# Start time: 14:51:51 on Jul 11,2024
+# Loading sv_std.std
+# Loading work.SerialFS_TB
+# Loading work.c17
+# Loading work.NAND
+# Fault:SerialFS_TB.FUT._15_.Y SA1 detecteds at                  360.
+# Fault:SerialFS_TB.FUT._15_.A SA0 detecteds at                  750.
+# Fault:SerialFS_TB.FUT._15_.B SA0 detecteds at                 1140.
+# Fault:SerialFS_TB.FUT.N1 SA0 detecteds at                 1530.
+# Fault:SerialFS_TB.FUT._18_.B SA1 detecteds at                 1920.
+# Fault:SerialFS_TB.FUT._18_.A SA1 detecteds at                 2490.
+# Fault:SerialFS_TB.FUT.N22 SA0 detecteds at                 2880.
+# Fault:SerialFS_TB.FUT._18_.Y SA0 detecteds at                 3270.
+# Fault:SerialFS_TB.FUT._15_.B SA1 detecteds at                 3390.
+# Fault:SerialFS_TB.FUT.N22 SA1 detecteds at                 3510.
+# Fault:SerialFS_TB.FUT._18_.Y SA1 detecteds at                 3630.
+# Fault:SerialFS_TB.FUT._18_.A SA0 detecteds at                 3750.
+# Fault:SerialFS_TB.FUT._18_.B SA0 detecteds at                 3870.
+# Fault:SerialFS_TB.FUT._15_.Y SA0 detecteds at                 3990.
+# Fault:SerialFS_TB.FUT.N1 SA1 detecteds at                 4290.
+# Fault:SerialFS_TB.FUT._15_.A SA1 detecteds at                 4590.
+# Fault:SerialFS_TB.FUT._17_.Y SA1 detecteds at                 5160.
+# Fault:SerialFS_TB.FUT._17_.B SA0 detecteds at                 5730.
+# Fault:SerialFS_TB.FUT._17_.A SA0 detecteds at                 5850.
+# Fault:SerialFS_TB.FUT.N2 SA0 detecteds at                 6420.
+# Fault:SerialFS_TB.FUT._17_.A SA1 detecteds at                 6810.
+# Fault:SerialFS_TB.FUT._17_.Y SA0 detecteds at                 6930.
+# Fault:SerialFS_TB.FUT.N2 SA1 detecteds at                 7050.
+# Fault:SerialFS_TB.FUT._17_.B SA1 detecteds at                 7170.
+# Fault:SerialFS_TB.FUT.N3 SA0 detecteds at                 7560.
+# Fault:SerialFS_TB.FUT.N3 SA1 detecteds at                 7680.
+# Fault:SerialFS_TB.FUT._16_.Y SA1 detecteds at                 8070.
+# Fault:SerialFS_TB.FUT._16_.A SA0 detecteds at                 8460.
+# Fault:SerialFS_TB.FUT._16_.B SA0 detecteds at                 8850.
+# Fault:SerialFS_TB.FUT.N6 SA0 detecteds at                 9240.
+# Fault:SerialFS_TB.FUT._16_.B SA1 detecteds at                 9360.
+# Fault:SerialFS_TB.FUT._16_.Y SA0 detecteds at                 9480.
+# Fault:SerialFS_TB.FUT.N6 SA1 detecteds at                 9780.
+# Fault:SerialFS_TB.FUT._16_.A SA1 detecteds at                10080.
+# Fault:SerialFS_TB.FUT._19_.Y SA1 detecteds at                10200.
+# Fault:SerialFS_TB.FUT._19_.B SA0 detecteds at                10320.
+# Fault:SerialFS_TB.FUT._19_.A SA0 detecteds at                10440.
+# Fault:SerialFS_TB.FUT.N7 SA0 detecteds at                10560.
+# Fault:SerialFS_TB.FUT._20_.A SA1 detecteds at                10680.
+# Fault:SerialFS_TB.FUT._20_.B SA1 detecteds at                11250.
+# Fault:SerialFS_TB.FUT.N23 SA0 detecteds at                11370.
+# Fault:SerialFS_TB.FUT._20_.Y SA0 detecteds at                11490.
+# Fault:SerialFS_TB.FUT._19_.A SA1 detecteds at                11880.
+# Fault:SerialFS_TB.FUT.N23 SA1 detecteds at                12090.
+# Fault:SerialFS_TB.FUT._20_.Y SA1 detecteds at                12300.
+# Fault:SerialFS_TB.FUT._20_.A SA0 detecteds at                12510.
+# Fault:SerialFS_TB.FUT._20_.B SA0 detecteds at                12630.
+# Fault:SerialFS_TB.FUT._19_.Y SA0 detecteds at                12840.
+# Fault:SerialFS_TB.FUT.N7 SA1 detecteds at                13050.
+# Fault:SerialFS_TB.FUT._19_.B SA1 detecteds at                13260.
+# Collapsed Faults =         50
+#  , Detected Faults =         50
+# 
+# coverage = 1.000000
+# 
+# ** Note: $stop    : C:/Users/apple/Documents/UT/Master Thesis/c17/SerialFS_TB.sv(72)
+#    Time: 13290 ns  Iteration: 0  Instance: /SerialFS_TB
+# Break in Module SerialFS_TB at C:/Users/apple/Documents/UT/Master Thesis/c17/SerialFS_TB.sv line 72
+do mydo.do SerialFS_TB
+# Compile of c17_netlist.v was successful.
+# Compile of mycells.v was successful.
+# Compile of SerialFS_TB.sv was successful.
+# 3 compiles, 0 failed with no errors.
+# End time: 15:05:41 on Jul 11,2024, Elapsed time: 0:13:50
+# Errors: 0, Warnings: 2
+# vsim work.SerialFS_TB 
+# Start time: 15:05:41 on Jul 11,2024
+# Loading sv_std.std
+# Loading work.SerialFS_TB
+# Loading work.c17
+# Loading work.NAND
+# Fault:SerialFS_TB.FUT._15_.Y SA1 detecteds at                  270.
+# Fault:SerialFS_TB.FUT._15_.A SA0 detecteds at                  570.
+# Fault:SerialFS_TB.FUT._15_.B SA0 detecteds at                  870.
+# Fault:SerialFS_TB.FUT.N1 SA0 detecteds at                 1170.
+# Fault:SerialFS_TB.FUT._18_.B SA1 detecteds at                 1470.
+# Fault:SerialFS_TB.FUT._18_.A SA1 detecteds at                 1590.
+# Fault:SerialFS_TB.FUT.N22 SA0 detecteds at                 1710.
+# Fault:SerialFS_TB.FUT._18_.Y SA0 detecteds at                 1830.
+# Fault:SerialFS_TB.FUT._15_.B SA1 detecteds at                 2040.
+# Fault:SerialFS_TB.FUT.N22 SA1 detecteds at                 2250.
+# Fault:SerialFS_TB.FUT._18_.Y SA1 detecteds at                 2460.
+# Fault:SerialFS_TB.FUT._18_.A SA0 detecteds at                 2670.
+# Fault:SerialFS_TB.FUT._18_.B SA0 detecteds at                 2880.
+# Fault:SerialFS_TB.FUT._15_.Y SA0 detecteds at                 3090.
+# Fault:SerialFS_TB.FUT.N1 SA1 detecteds at                 3480.
+# Fault:SerialFS_TB.FUT._15_.A SA1 detecteds at                 3870.
+# Fault:SerialFS_TB.FUT._17_.Y SA1 detecteds at                 3990.
+# Fault:SerialFS_TB.FUT._17_.B SA0 detecteds at                 4110.
+# Fault:SerialFS_TB.FUT._17_.A SA0 detecteds at                 4230.
+# Fault:SerialFS_TB.FUT.N2 SA0 detecteds at                 4350.
+# Fault:SerialFS_TB.FUT._17_.A SA1 detecteds at                 5280.
+# Fault:SerialFS_TB.FUT._17_.Y SA0 detecteds at                 5490.
+# Fault:SerialFS_TB.FUT.N2 SA1 detecteds at                 5700.
+# Fault:SerialFS_TB.FUT._17_.B SA1 detecteds at                 5910.
+# Fault:SerialFS_TB.FUT.N3 SA0 detecteds at                 6210.
+# Fault:SerialFS_TB.FUT.N3 SA1 detecteds at                 6420.
+# Fault:SerialFS_TB.FUT._16_.Y SA1 detecteds at                 7350.
+# Fault:SerialFS_TB.FUT._16_.A SA0 detecteds at                 8280.
+# Fault:SerialFS_TB.FUT._16_.B SA0 detecteds at                 8580.
+# Fault:SerialFS_TB.FUT.N6 SA0 detecteds at                 9510.
+# Fault:SerialFS_TB.FUT._16_.B SA1 detecteds at                 9720.
+# Fault:SerialFS_TB.FUT._16_.Y SA0 detecteds at                 9840.
+# Fault:SerialFS_TB.FUT.N6 SA1 detecteds at                11220.
+# Fault:SerialFS_TB.FUT._16_.A SA1 detecteds at                12600.
+# Fault:SerialFS_TB.FUT._19_.Y SA1 detecteds at                12810.
+# Fault:SerialFS_TB.FUT._19_.B SA0 detecteds at                13020.
+# Fault:SerialFS_TB.FUT._19_.A SA0 detecteds at                13140.
+# Fault:SerialFS_TB.FUT.N7 SA0 detecteds at                13350.
+# Fault:SerialFS_TB.FUT._20_.A SA1 detecteds at                13560.
+# Fault:SerialFS_TB.FUT._20_.B SA1 detecteds at                13680.
+# Fault:SerialFS_TB.FUT.N23 SA0 detecteds at                13800.
+# Fault:SerialFS_TB.FUT._20_.Y SA0 detecteds at                13920.
+# Fault:SerialFS_TB.FUT._19_.A SA1 detecteds at                14850.
+# Fault:SerialFS_TB.FUT.N23 SA1 detecteds at                15150.
+# Fault:SerialFS_TB.FUT._20_.Y SA1 detecteds at                15450.
+# Fault:SerialFS_TB.FUT._20_.A SA0 detecteds at                15750.
+# Fault:SerialFS_TB.FUT._20_.B SA0 detecteds at                15960.
+# Fault:SerialFS_TB.FUT._19_.Y SA0 detecteds at                16260.
+# Fault:SerialFS_TB.FUT.N7 SA1 detecteds at                16560.
+# Fault:SerialFS_TB.FUT._19_.B SA1 detecteds at                16860.
+# Collapsed Faults =         50
+#  , Detected Faults =         50
+# 
+# coverage = 1.000000
+# 
+# ** Note: $stop    : C:/Users/apple/Documents/UT/Master Thesis/c17/SerialFS_TB.sv(72)
+#    Time: 16890 ns  Iteration: 0  Instance: /SerialFS_TB
+# Break in Module SerialFS_TB at C:/Users/apple/Documents/UT/Master Thesis/c17/SerialFS_TB.sv line 72
+do mydo.do SerialFS_TB
+# Compile of c17_netlist.v was successful.
+# Compile of mycells.v was successful.
+# Compile of SerialFS_TB.sv was successful.
+# 3 compiles, 0 failed with no errors.
+# End time: 15:07:31 on Jul 11,2024, Elapsed time: 0:01:50
+# Errors: 0, Warnings: 2
+# vsim work.SerialFS_TB 
+# Start time: 15:07:32 on Jul 11,2024
+# Loading sv_std.std
+# Loading work.SerialFS_TB
+# Loading work.c17
+# Loading work.NAND
+# Fault:SerialFS_TB.FUT._15_.Y SA1 detecteds at                   90.
+# Fault:SerialFS_TB.FUT._15_.A SA0 detecteds at                  210.
+# Fault:SerialFS_TB.FUT._15_.B SA0 detecteds at                  330.
+# Fault:SerialFS_TB.FUT.N1 SA0 detecteds at                  450.
+# Fault:SerialFS_TB.FUT._18_.B SA1 detecteds at                  570.
+# Fault:SerialFS_TB.FUT._18_.A SA1 detecteds at                  780.
+# Fault:SerialFS_TB.FUT.N22 SA0 detecteds at                  900.
+# Fault:SerialFS_TB.FUT._18_.Y SA0 detecteds at                 1020.
+# Fault:SerialFS_TB.FUT._15_.B SA1 detecteds at                 1500.
+# Fault:SerialFS_TB.FUT.N22 SA1 detecteds at                 1800.
+# Fault:SerialFS_TB.FUT._18_.Y SA1 detecteds at                 2100.
+# Fault:SerialFS_TB.FUT._18_.A SA0 detecteds at                 2220.
+# Fault:SerialFS_TB.FUT._18_.B SA0 detecteds at                 2520.
+# Fault:SerialFS_TB.FUT._15_.Y SA0 detecteds at                 2820.
+# Fault:SerialFS_TB.FUT.N1 SA1 detecteds at                 4020.
+# Fault:SerialFS_TB.FUT._15_.A SA1 detecteds at                 5220.
+# Fault:SerialFS_TB.FUT._17_.Y SA1 detecteds at                 5430.
+# Fault:SerialFS_TB.FUT._17_.B SA0 detecteds at                 5640.
+# Fault:SerialFS_TB.FUT._17_.A SA0 detecteds at                 5850.
+# Fault:SerialFS_TB.FUT.N2 SA0 detecteds at                 6060.
+# Fault:SerialFS_TB.FUT._17_.A SA1 detecteds at                 7080.
+# Fault:SerialFS_TB.FUT._17_.Y SA0 detecteds at                 7200.
+# Fault:SerialFS_TB.FUT.N2 SA1 detecteds at                 7320.
+# Fault:SerialFS_TB.FUT._17_.B SA1 detecteds at                 7440.
+# Fault:SerialFS_TB.FUT.N3 SA0 detecteds at                 7560.
+# Fault:SerialFS_TB.FUT.N3 SA1 detecteds at                 8040.
+# Fault:SerialFS_TB.FUT._16_.Y SA1 detecteds at                 9060.
+# Fault:SerialFS_TB.FUT._16_.A SA0 detecteds at                10080.
+# Fault:SerialFS_TB.FUT._16_.B SA0 detecteds at                10200.
+# Fault:SerialFS_TB.FUT.N6 SA0 detecteds at                11220.
+# Fault:SerialFS_TB.FUT._16_.B SA1 detecteds at                11700.
+# Fault:SerialFS_TB.FUT._16_.Y SA0 detecteds at                11910.
+# Fault:SerialFS_TB.FUT.N6 SA1 detecteds at                12660.
+# Fault:SerialFS_TB.FUT._16_.A SA1 detecteds at                13410.
+# Fault:SerialFS_TB.FUT._19_.Y SA1 detecteds at                14250.
+# Fault:SerialFS_TB.FUT._19_.B SA0 detecteds at                15090.
+# Fault:SerialFS_TB.FUT._19_.A SA0 detecteds at                15300.
+# Fault:SerialFS_TB.FUT.N7 SA0 detecteds at                16140.
+# Fault:SerialFS_TB.FUT._20_.A SA1 detecteds at                16980.
+# Fault:SerialFS_TB.FUT._20_.B SA1 detecteds at                17190.
+# Fault:SerialFS_TB.FUT.N23 SA0 detecteds at                17400.
+# Fault:SerialFS_TB.FUT._20_.Y SA0 detecteds at                17610.
+# Fault:SerialFS_TB.FUT._19_.A SA1 detecteds at                18630.
+# Fault:SerialFS_TB.FUT.N23 SA1 detecteds at                18750.
+# Fault:SerialFS_TB.FUT._20_.Y SA1 detecteds at                18870.
+# Fault:SerialFS_TB.FUT._20_.A SA0 detecteds at                18990.
+# Fault:SerialFS_TB.FUT._20_.B SA0 detecteds at                19110.
+# Fault:SerialFS_TB.FUT._19_.Y SA0 detecteds at                19230.
+# Fault:SerialFS_TB.FUT.N7 SA1 detecteds at                19350.
+# Fault:SerialFS_TB.FUT._19_.B SA1 detecteds at                19470.
+# Collapsed Faults =         50
+#  , Detected Faults =         50
+# 
+# coverage = 1.000000
+# 
+# ** Note: $stop    : C:/Users/apple/Documents/UT/Master Thesis/c17/SerialFS_TB.sv(72)
+#    Time: 19500 ns  Iteration: 0  Instance: /SerialFS_TB
+# Break in Module SerialFS_TB at C:/Users/apple/Documents/UT/Master Thesis/c17/SerialFS_TB.sv line 72
+do mydo.do SerialFS_TB
+# Compile of c17_netlist.v was successful.
+# Compile of mycells.v was successful.
+# Compile of SerialFS_TB.sv was successful.
+# 3 compiles, 0 failed with no errors.
+# End time: 15:09:03 on Jul 11,2024, Elapsed time: 0:01:31
+# Errors: 0, Warnings: 2
+# vsim work.SerialFS_TB 
+# Start time: 15:09:03 on Jul 11,2024
+# Loading sv_std.std
+# Loading work.SerialFS_TB
+# Loading work.c17
+# Loading work.NAND
+# Fault:SerialFS_TB.FUT._15_.Y SA1 detecteds at                  720.
+# Fault:SerialFS_TB.FUT._15_.A SA0 detecteds at                 1470.
+# Fault:SerialFS_TB.FUT._15_.B SA0 detecteds at                 1950.
+# Fault:SerialFS_TB.FUT.N1 SA0 detecteds at                 2700.
+# Fault:SerialFS_TB.FUT._18_.B SA1 detecteds at                 3450.
+# Fault:SerialFS_TB.FUT._18_.A SA1 detecteds at                 3660.
+# Fault:SerialFS_TB.FUT.N22 SA0 detecteds at                 3870.
+# Fault:SerialFS_TB.FUT._18_.Y SA0 detecteds at                 4080.
+# Fault:SerialFS_TB.FUT._15_.B SA1 detecteds at                 4380.
+# Fault:SerialFS_TB.FUT.N22 SA1 detecteds at                 4500.
+# Fault:SerialFS_TB.FUT._18_.Y SA1 detecteds at                 4620.
+# Fault:SerialFS_TB.FUT._18_.A SA0 detecteds at                 4740.
+# Fault:SerialFS_TB.FUT._18_.B SA0 detecteds at                 4860.
+# Fault:SerialFS_TB.FUT._15_.Y SA0 detecteds at                 4980.
+# Fault:SerialFS_TB.FUT.N1 SA1 detecteds at                 5100.
+# Fault:SerialFS_TB.FUT._15_.A SA1 detecteds at                 5220.
+# Fault:SerialFS_TB.FUT._17_.Y SA1 detecteds at                 5430.
+# Fault:SerialFS_TB.FUT._17_.B SA0 detecteds at                 5640.
+# Fault:SerialFS_TB.FUT._17_.A SA0 detecteds at                 5850.
+# Fault:SerialFS_TB.FUT.N2 SA0 detecteds at                 6060.
+# Fault:SerialFS_TB.FUT._17_.A SA1 detecteds at                 6540.
+# Fault:SerialFS_TB.FUT._17_.Y SA0 detecteds at                 6660.
+# Fault:SerialFS_TB.FUT.N2 SA1 detecteds at                 7050.
+# Fault:SerialFS_TB.FUT._17_.B SA1 detecteds at                 7440.
+# Fault:SerialFS_TB.FUT.N3 SA0 detecteds at                 7920.
+# Fault:SerialFS_TB.FUT.N3 SA1 detecteds at                 8220.
+# Fault:SerialFS_TB.FUT._16_.Y SA1 detecteds at                 8700.
+# Fault:SerialFS_TB.FUT._16_.A SA0 detecteds at                 9180.
+# Fault:SerialFS_TB.FUT._16_.B SA0 detecteds at                 9660.
+# Fault:SerialFS_TB.FUT.N6 SA0 detecteds at                10140.
+# Fault:SerialFS_TB.FUT._16_.B SA1 detecteds at                10440.
+# Fault:SerialFS_TB.FUT._16_.Y SA0 detecteds at                10650.
+# Fault:SerialFS_TB.FUT.N6 SA1 detecteds at                10860.
+# Fault:SerialFS_TB.FUT._16_.A SA1 detecteds at                11070.
+# Fault:SerialFS_TB.FUT._19_.Y SA1 detecteds at                11460.
+# Fault:SerialFS_TB.FUT._19_.B SA0 detecteds at                11850.
+# Fault:SerialFS_TB.FUT._19_.A SA0 detecteds at                12060.
+# Fault:SerialFS_TB.FUT.N7 SA0 detecteds at                12450.
+# Fault:SerialFS_TB.FUT._20_.A SA1 detecteds at                12840.
+# Fault:SerialFS_TB.FUT._20_.B SA1 detecteds at                13050.
+# Fault:SerialFS_TB.FUT.N23 SA0 detecteds at                13260.
+# Fault:SerialFS_TB.FUT._20_.Y SA0 detecteds at                13470.
+# Fault:SerialFS_TB.FUT._19_.A SA1 detecteds at                13950.
+# Fault:SerialFS_TB.FUT.N23 SA1 detecteds at                14070.
+# Fault:SerialFS_TB.FUT._20_.Y SA1 detecteds at                14190.
+# Fault:SerialFS_TB.FUT._20_.A SA0 detecteds at                14310.
+# Fault:SerialFS_TB.FUT._20_.B SA0 detecteds at                14430.
+# Fault:SerialFS_TB.FUT._19_.Y SA0 detecteds at                14550.
+# Collapsed Faults =         50
+#  , Detected Faults =         48
+# 
+# coverage = 0.960000
+# 
+# ** Note: $stop    : C:/Users/apple/Documents/UT/Master Thesis/c17/SerialFS_TB.sv(72)
+#    Time: 18960 ns  Iteration: 0  Instance: /SerialFS_TB
+# Break in Module SerialFS_TB at C:/Users/apple/Documents/UT/Master Thesis/c17/SerialFS_TB.sv line 72
+do mydo.do SerialFS_TB
+# Compile of c17_netlist.v was successful.
+# Compile of mycells.v was successful.
+# Compile of SerialFS_TB.sv was successful.
+# 3 compiles, 0 failed with no errors.
+# End time: 15:11:47 on Jul 11,2024, Elapsed time: 0:02:44
+# Errors: 0, Warnings: 2
+# vsim work.SerialFS_TB 
+# Start time: 15:11:47 on Jul 11,2024
+# Loading sv_std.std
+# Loading work.SerialFS_TB
+# Loading work.c17
+# Loading work.NAND
+# Fault:SerialFS_TB.FUT._15_.Y SA1 detecteds at                  810.
+# Fault:SerialFS_TB.FUT._15_.A SA0 detecteds at                 1650.
+# Fault:SerialFS_TB.FUT._15_.B SA0 detecteds at                 1950.
+# Fault:SerialFS_TB.FUT.N1 SA0 detecteds at                 2790.
+# Fault:SerialFS_TB.FUT._18_.B SA1 detecteds at                 3630.
+# Fault:SerialFS_TB.FUT._18_.A SA1 detecteds at                 4110.
+# Fault:SerialFS_TB.FUT.N22 SA0 detecteds at                 4590.
+# Fault:SerialFS_TB.FUT._18_.Y SA0 detecteds at                 5070.
+# Fault:SerialFS_TB.FUT._15_.B SA1 detecteds at                 5190.
+# Fault:SerialFS_TB.FUT.N22 SA1 detecteds at                 5310.
+# Fault:SerialFS_TB.FUT._18_.Y SA1 detecteds at                 5430.
+# Fault:SerialFS_TB.FUT._18_.A SA0 detecteds at                 5550.
+# Fault:SerialFS_TB.FUT._18_.B SA0 detecteds at                 5670.
+# Fault:SerialFS_TB.FUT._15_.Y SA0 detecteds at                 5790.
+# Fault:SerialFS_TB.FUT.N1 SA1 detecteds at                 6000.
+# Fault:SerialFS_TB.FUT._15_.A SA1 detecteds at                 6210.
+# Fault:SerialFS_TB.FUT._17_.Y SA1 detecteds at                 6690.
+# Fault:SerialFS_TB.FUT._17_.B SA0 detecteds at                 7170.
+# Fault:SerialFS_TB.FUT._17_.A SA0 detecteds at                 7650.
+# Fault:SerialFS_TB.FUT.N2 SA0 detecteds at                 8130.
+# Fault:SerialFS_TB.FUT._17_.A SA1 detecteds at                 8430.
+# Fault:SerialFS_TB.FUT._17_.Y SA0 detecteds at                 8550.
+# Fault:SerialFS_TB.FUT.N2 SA1 detecteds at                 8670.
+# Fault:SerialFS_TB.FUT._17_.B SA1 detecteds at                 8790.
+# Fault:SerialFS_TB.FUT.N3 SA0 detecteds at                 9090.
+# Fault:SerialFS_TB.FUT.N3 SA1 detecteds at                 9210.
+# Fault:SerialFS_TB.FUT._16_.Y SA1 detecteds at                 9510.
+# Fault:SerialFS_TB.FUT._16_.A SA0 detecteds at                 9810.
+# Fault:SerialFS_TB.FUT._16_.B SA0 detecteds at                10110.
+# Fault:SerialFS_TB.FUT.N6 SA0 detecteds at                10410.
+# Fault:SerialFS_TB.FUT._16_.B SA1 detecteds at                10530.
+# Fault:SerialFS_TB.FUT._16_.Y SA0 detecteds at                11010.
+# Fault:SerialFS_TB.FUT.N6 SA1 detecteds at                11490.
+# Fault:SerialFS_TB.FUT._16_.A SA1 detecteds at                11970.
+# Fault:SerialFS_TB.FUT._19_.Y SA1 detecteds at                12540.
+# Fault:SerialFS_TB.FUT._19_.B SA0 detecteds at                13110.
+# Fault:SerialFS_TB.FUT._19_.A SA0 detecteds at                13590.
+# Fault:SerialFS_TB.FUT.N7 SA0 detecteds at                14160.
+# Fault:SerialFS_TB.FUT._20_.A SA1 detecteds at                14730.
+# Fault:SerialFS_TB.FUT._20_.B SA1 detecteds at                15210.
+# Fault:SerialFS_TB.FUT.N23 SA0 detecteds at                15690.
+# Fault:SerialFS_TB.FUT._20_.Y SA0 detecteds at                16170.
+# Fault:SerialFS_TB.FUT._19_.A SA1 detecteds at                16470.
+# Fault:SerialFS_TB.FUT.N23 SA1 detecteds at                16590.
+# Fault:SerialFS_TB.FUT._20_.Y SA1 detecteds at                16710.
+# Fault:SerialFS_TB.FUT._20_.A SA0 detecteds at                16830.
+# Fault:SerialFS_TB.FUT._20_.B SA0 detecteds at                16950.
+# Fault:SerialFS_TB.FUT._19_.Y SA0 detecteds at                17070.
+# Fault:SerialFS_TB.FUT.N7 SA1 detecteds at                17190.
+# Fault:SerialFS_TB.FUT._19_.B SA1 detecteds at                17310.
+# Collapsed Faults =         50
+#  , Detected Faults =         50
+# 
+# coverage = 1.000000
+# 
+# ** Note: $stop    : C:/Users/apple/Documents/UT/Master Thesis/c17/SerialFS_TB.sv(72)
+#    Time: 17340 ns  Iteration: 0  Instance: /SerialFS_TB
+# Break in Module SerialFS_TB at C:/Users/apple/Documents/UT/Master Thesis/c17/SerialFS_TB.sv line 72
+do mydo.do SerialFS_TB
+# Compile of c17_netlist.v was successful.
+# Compile of mycells.v was successful.
+# Compile of SerialFS_TB.sv was successful.
+# 3 compiles, 0 failed with no errors.
+# End time: 15:14:24 on Jul 11,2024, Elapsed time: 0:02:37
+# Errors: 0, Warnings: 2
+# vsim work.SerialFS_TB 
+# Start time: 15:14:24 on Jul 11,2024
+# Loading sv_std.std
+# Loading work.SerialFS_TB
+# Loading work.c17
+# Loading work.NAND
+# Fault:SerialFS_TB.FUT._15_.Y SA1 detecteds at                 1440.
+# Fault:SerialFS_TB.FUT._15_.A SA0 detecteds at                 2910.
+# Fault:SerialFS_TB.FUT._15_.B SA0 detecteds at                 3210.
+# Fault:SerialFS_TB.FUT.N1 SA0 detecteds at                 4680.
+# Fault:SerialFS_TB.FUT._18_.B SA1 detecteds at                 6150.
+# Fault:SerialFS_TB.FUT._18_.A SA1 detecteds at                 6270.
+# Fault:SerialFS_TB.FUT.N22 SA0 detecteds at                 6390.
+# Fault:SerialFS_TB.FUT._18_.Y SA0 detecteds at                 6510.
+# Fault:SerialFS_TB.FUT._15_.B SA1 detecteds at                 6720.
+# Fault:SerialFS_TB.FUT.N22 SA1 detecteds at                 6930.
+# Fault:SerialFS_TB.FUT._18_.Y SA1 detecteds at                 7140.
+# Fault:SerialFS_TB.FUT._18_.A SA0 detecteds at                 7350.
+# Fault:SerialFS_TB.FUT._18_.B SA0 detecteds at                 7560.
+# Fault:SerialFS_TB.FUT._15_.Y SA0 detecteds at                 7770.
+# Fault:SerialFS_TB.FUT.N1 SA1 detecteds at                 8070.
+# Fault:SerialFS_TB.FUT._15_.A SA1 detecteds at                 8370.
+# Fault:SerialFS_TB.FUT._17_.Y SA1 detecteds at                 8490.
+# Fault:SerialFS_TB.FUT._17_.B SA0 detecteds at                 8610.
+# Fault:SerialFS_TB.FUT._17_.A SA0 detecteds at                 8730.
+# Fault:SerialFS_TB.FUT.N2 SA0 detecteds at                 8850.
+# Fault:SerialFS_TB.FUT._17_.A SA1 detecteds at                 9150.
+# Fault:SerialFS_TB.FUT._17_.Y SA0 detecteds at                 9360.
+# Fault:SerialFS_TB.FUT.N2 SA1 detecteds at                 9570.
+# Fault:SerialFS_TB.FUT._17_.B SA1 detecteds at                 9780.
+# Fault:SerialFS_TB.FUT.N3 SA0 detecteds at                10080.
+# Fault:SerialFS_TB.FUT.N3 SA1 detecteds at                10290.
+# Fault:SerialFS_TB.FUT._16_.Y SA1 detecteds at                10590.
+# Fault:SerialFS_TB.FUT._16_.A SA0 detecteds at                10890.
+# Fault:SerialFS_TB.FUT._16_.B SA0 detecteds at                11190.
+# Fault:SerialFS_TB.FUT.N6 SA0 detecteds at                11490.
+# Fault:SerialFS_TB.FUT._16_.B SA1 detecteds at                11700.
+# Fault:SerialFS_TB.FUT._16_.Y SA0 detecteds at                11820.
+# Fault:SerialFS_TB.FUT.N6 SA1 detecteds at                11940.
+# Fault:SerialFS_TB.FUT._16_.A SA1 detecteds at                12060.
+# Fault:SerialFS_TB.FUT._19_.Y SA1 detecteds at                12810.
+# Fault:SerialFS_TB.FUT._19_.B SA0 detecteds at                13560.
+# Fault:SerialFS_TB.FUT._19_.A SA0 detecteds at                13680.
+# Fault:SerialFS_TB.FUT.N7 SA0 detecteds at                14430.
+# Fault:SerialFS_TB.FUT._20_.A SA1 detecteds at                15180.
+# Fault:SerialFS_TB.FUT._20_.B SA1 detecteds at                15300.
+# Fault:SerialFS_TB.FUT.N23 SA0 detecteds at                15420.
+# Fault:SerialFS_TB.FUT._20_.Y SA0 detecteds at                15540.
+# Fault:SerialFS_TB.FUT._19_.A SA1 detecteds at                15840.
+# Fault:SerialFS_TB.FUT.N23 SA1 detecteds at                16050.
+# Fault:SerialFS_TB.FUT._20_.Y SA1 detecteds at                16260.
+# Fault:SerialFS_TB.FUT._20_.A SA0 detecteds at                16470.
+# Fault:SerialFS_TB.FUT._20_.B SA0 detecteds at                16680.
+# Fault:SerialFS_TB.FUT._19_.Y SA0 detecteds at                16890.
+# Fault:SerialFS_TB.FUT.N7 SA1 detecteds at                17100.
+# Fault:SerialFS_TB.FUT._19_.B SA1 detecteds at                17310.
+# Collapsed Faults =         50
+#  , Detected Faults =         50
+# 
+# coverage = 1.000000
+# 
+# ** Note: $stop    : C:/Users/apple/Documents/UT/Master Thesis/c17/SerialFS_TB.sv(72)
+#    Time: 17340 ns  Iteration: 0  Instance: /SerialFS_TB
+# Break in Module SerialFS_TB at C:/Users/apple/Documents/UT/Master Thesis/c17/SerialFS_TB.sv line 72
+quit -sim
+# End time: 21:38:24 on Jul 11,2024, Elapsed time: 6:24:00
+# Errors: 0, Warnings: 1

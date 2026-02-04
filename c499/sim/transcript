@@ -1,0 +1,4267 @@
+# Compile of c880_netlist.v was successful.
+# Compile of mycells.v was successful.
+# Compile of SerialFS_TB.sv was successful.
+# 3 compiles, 0 failed with no errors.
+do mydo.do SerialFS_TB
+# Compile of c880_netlist.v was successful.
+# Compile of mycells.v was successful.
+# Compile of SerialFS_TB.sv was successful.
+# 3 compiles, 0 failed with no errors.
+# vsim work.SerialFS_TB 
+# Start time: 17:46:41 on Aug 06,2024
+# Loading sv_std.std
+# Loading work.SerialFS_TB
+# Loading work.c880
+# Loading work.NOT
+# Loading work.NAND
+# Loading work.NOR
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# ** Warning: (vsim-3533) [FOFIW] - Failed to open file "faults/faultSet_1.flt" for writing.
+# No such file or directory. (errno = ENOENT)    : C:/Users/apple/Documents/UT/Master Thesis/c880/SerialFS_TB.sv(183)
+#    Time: 0 ns  Iteration: 0  Instance: /SerialFS_TB
+# Break key hit
+# Simulation stop requested.
+do mydo.do SerialFS_TB
+# Compile of c880_netlist.v was successful.
+# Compile of mycells.v was successful.
+# Compile of SerialFS_TB.sv was successful.
+# 3 compiles, 0 failed with no errors.
+# End time: 17:47:57 on Aug 06,2024, Elapsed time: 0:01:16
+# Errors: 0, Warnings: 3
+# vsim work.SerialFS_TB 
+# Start time: 17:47:58 on Aug 06,2024
+# Loading sv_std.std
+# Loading work.SerialFS_TB
+# Loading work.c880
+# Loading work.NOT
+# Loading work.NAND
+# Loading work.NOR
+# Test set size =           1
+# Collapsed Faults =       2492
+# Detected Faults =        827
+# 
+# coverage = 0.331862
+# 
+# Test set size =           2
+# Collapsed Faults =       2492
+# Detected Faults =       1109
+# 
+# coverage = 0.445024
+# 
+# Test set size =           3
+# Collapsed Faults =       2492
+# Detected Faults =       1189
+# 
+# coverage = 0.477127
+# 
+# Test set size =           4
+# Collapsed Faults =       2492
+# Detected Faults =       1211
+# 
+# coverage = 0.485955
+# 
+# Test set size =           5
+# Collapsed Faults =       2492
+# Detected Faults =       1246
+# 
+# coverage = 0.500000
+# 
+# Test set size =           6
+# Collapsed Faults =       2492
+# Detected Faults =       1294
+# 
+# coverage = 0.519262
+# 
+# Test set size =           7
+# Collapsed Faults =       2492
+# Detected Faults =       1294
+# 
+# coverage = 0.519262
+# 
+# Test set size =           8
+# Collapsed Faults =       2492
+# Detected Faults =       1306
+# 
+# coverage = 0.524077
+# 
+# Test set size =           9
+# Collapsed Faults =       2492
+# Detected Faults =       1359
+# 
+# coverage = 0.545345
+# 
+# Test set size =          10
+# Collapsed Faults =       2492
+# Detected Faults =       1372
+# 
+# coverage = 0.550562
+# 
+# Test set size =          11
+# Collapsed Faults =       2492
+# Detected Faults =       1387
+# 
+# coverage = 0.556581
+# 
+# Test set size =          12
+# Collapsed Faults =       2492
+# Detected Faults =       1389
+# 
+# coverage = 0.557384
+# 
+# Test set size =          13
+# Collapsed Faults =       2492
+# Detected Faults =       1398
+# 
+# coverage = 0.560995
+# 
+# Test set size =          14
+# Collapsed Faults =       2492
+# Detected Faults =       1400
+# 
+# coverage = 0.561798
+# 
+# Test set size =          15
+# Collapsed Faults =       2492
+# Detected Faults =       1400
+# 
+# coverage = 0.561798
+# 
+# Test set size =          16
+# Collapsed Faults =       2492
+# Detected Faults =       1404
+# 
+# coverage = 0.563403
+# 
+# Test set size =          17
+# Collapsed Faults =       2492
+# Detected Faults =       1418
+# 
+# coverage = 0.569021
+# 
+# Test set size =          18
+# Collapsed Faults =       2492
+# Detected Faults =       1418
+# 
+# coverage = 0.569021
+# 
+# Test set size =          19
+# Collapsed Faults =       2492
+# Detected Faults =       1418
+# 
+# coverage = 0.569021
+# 
+# Test set size =          20
+# Collapsed Faults =       2492
+# Detected Faults =       1418
+# 
+# coverage = 0.569021
+# 
+# Test set size =          21
+# Collapsed Faults =       2492
+# Detected Faults =       1418
+# 
+# coverage = 0.569021
+# 
+# Test set size =          22
+# Collapsed Faults =       2492
+# Detected Faults =       1418
+# 
+# coverage = 0.569021
+# 
+# Test set size =          23
+# Collapsed Faults =       2492
+# Detected Faults =       1418
+# 
+# coverage = 0.569021
+# 
+# Test set size =          24
+# Collapsed Faults =       2492
+# Detected Faults =       1418
+# 
+# coverage = 0.569021
+# 
+# Test set size =          25
+# Collapsed Faults =       2492
+# Detected Faults =       1418
+# 
+# coverage = 0.569021
+# 
+# Test set size =          26
+# Collapsed Faults =       2492
+# Detected Faults =       1418
+# 
+# coverage = 0.569021
+# 
+# Test set size =          27
+# Collapsed Faults =       2492
+# Detected Faults =       1418
+# 
+# coverage = 0.569021
+# 
+# Test set size =          28
+# Collapsed Faults =       2492
+# Detected Faults =       1418
+# 
+# coverage = 0.569021
+# 
+# Test set size =          29
+# Collapsed Faults =       2492
+# Detected Faults =       1418
+# 
+# coverage = 0.569021
+# 
+# Test set size =          30
+# Collapsed Faults =       2492
+# Detected Faults =       1418
+# 
+# coverage = 0.569021
+# 
+# Test set size =          31
+# Collapsed Faults =       2492
+# Detected Faults =       1418
+# 
+# coverage = 0.569021
+# 
+# Test set size =          32
+# Collapsed Faults =       2492
+# Detected Faults =       1418
+# 
+# coverage = 0.569021
+# 
+# Test set size =          33
+# Collapsed Faults =       2492
+# Detected Faults =       1418
+# 
+# coverage = 0.569021
+# 
+# Test set size =          34
+# Collapsed Faults =       2492
+# Detected Faults =       1420
+# 
+# coverage = 0.569823
+# 
+# Test set size =          35
+# Collapsed Faults =       2492
+# Detected Faults =       1420
+# 
+# coverage = 0.569823
+# 
+# Test set size =          36
+# Collapsed Faults =       2492
+# Detected Faults =       1420
+# 
+# coverage = 0.569823
+# 
+# Test set size =          37
+# Collapsed Faults =       2492
+# Detected Faults =       1420
+# 
+# coverage = 0.569823
+# 
+# Test set size =          38
+# Collapsed Faults =       2492
+# Detected Faults =       1420
+# 
+# coverage = 0.569823
+# 
+# Test set size =          39
+# Collapsed Faults =       2492
+# Detected Faults =       1420
+# 
+# coverage = 0.569823
+# 
+# Test set size =          40
+# Collapsed Faults =       2492
+# Detected Faults =       1420
+# 
+# coverage = 0.569823
+# 
+# Test set size =          41
+# Collapsed Faults =       2492
+# Detected Faults =       1420
+# 
+# coverage = 0.569823
+# 
+# Test set size =          42
+# Collapsed Faults =       2492
+# Detected Faults =       1420
+# 
+# coverage = 0.569823
+# 
+# Test set size =          43
+# Collapsed Faults =       2492
+# Detected Faults =       1420
+# 
+# coverage = 0.569823
+# 
+# Test set size =          44
+# Collapsed Faults =       2492
+# Detected Faults =       1420
+# 
+# coverage = 0.569823
+# 
+# Test set size =          45
+# Collapsed Faults =       2492
+# Detected Faults =       1420
+# 
+# coverage = 0.569823
+# 
+# Test set size =          46
+# Collapsed Faults =       2492
+# Detected Faults =       1420
+# 
+# coverage = 0.569823
+# 
+# Test set size =          47
+# Collapsed Faults =       2492
+# Detected Faults =       1420
+# 
+# coverage = 0.569823
+# 
+# Test set size =          48
+# Collapsed Faults =       2492
+# Detected Faults =       1420
+# 
+# coverage = 0.569823
+# 
+# Test set size =          49
+# Collapsed Faults =       2492
+# Detected Faults =       1420
+# 
+# coverage = 0.569823
+# 
+# Test set size =          50
+# Collapsed Faults =       2492
+# Detected Faults =       1420
+# 
+# coverage = 0.569823
+# 
+# Test set size =          51
+# Collapsed Faults =       2492
+# Detected Faults =       1420
+# 
+# coverage = 0.569823
+# 
+# Test set size =          52
+# Collapsed Faults =       2492
+# Detected Faults =       1420
+# 
+# coverage = 0.569823
+# 
+# Test set size =          53
+# Collapsed Faults =       2492
+# Detected Faults =       1420
+# 
+# coverage = 0.569823
+# 
+# Test set size =          54
+# Collapsed Faults =       2492
+# Detected Faults =       1420
+# 
+# coverage = 0.569823
+# 
+# Test set size =          55
+# Collapsed Faults =       2492
+# Detected Faults =       1420
+# 
+# coverage = 0.569823
+# 
+# Test set size =          56
+# Collapsed Faults =       2492
+# Detected Faults =       1420
+# 
+# coverage = 0.569823
+# 
+# Test set size =          57
+# Collapsed Faults =       2492
+# Detected Faults =       1420
+# 
+# coverage = 0.569823
+# 
+# Test set size =          58
+# Collapsed Faults =       2492
+# Detected Faults =       1420
+# 
+# coverage = 0.569823
+# 
+# Test set size =          59
+# Collapsed Faults =       2492
+# Detected Faults =       1420
+# 
+# coverage = 0.569823
+# 
+# Test set size =          60
+# Collapsed Faults =       2492
+# Detected Faults =       1420
+# 
+# coverage = 0.569823
+# 
+# Test set size =          61
+# Collapsed Faults =       2492
+# Detected Faults =       1420
+# 
+# coverage = 0.569823
+# 
+# Test set size =          62
+# Collapsed Faults =       2492
+# Detected Faults =       1420
+# 
+# coverage = 0.569823
+# 
+# Test set size =          63
+# Collapsed Faults =       2492
+# Detected Faults =       1420
+# 
+# coverage = 0.569823
+# 
+# Test set size =          64
+# Collapsed Faults =       2492
+# Detected Faults =       1420
+# 
+# coverage = 0.569823
+# 
+# Test set size =          65
+# Collapsed Faults =       2492
+# Detected Faults =       1420
+# 
+# coverage = 0.569823
+# 
+# Test set size =          66
+# Collapsed Faults =       2492
+# Detected Faults =       1420
+# 
+# coverage = 0.569823
+# 
+# Test set size =          67
+# Collapsed Faults =       2492
+# Detected Faults =       1420
+# 
+# coverage = 0.569823
+# 
+# Test set size =          68
+# Collapsed Faults =       2492
+# Detected Faults =       1420
+# 
+# coverage = 0.569823
+# 
+# Test set size =          69
+# Collapsed Faults =       2492
+# Detected Faults =       1420
+# 
+# coverage = 0.569823
+# 
+# Test set size =          70
+# Collapsed Faults =       2492
+# Detected Faults =       1420
+# 
+# coverage = 0.569823
+# 
+# Test set size =          71
+# Collapsed Faults =       2492
+# Detected Faults =       1420
+# 
+# coverage = 0.569823
+# 
+# Test set size =          72
+# Collapsed Faults =       2492
+# Detected Faults =       1420
+# 
+# coverage = 0.569823
+# 
+# Test set size =          73
+# Collapsed Faults =       2492
+# Detected Faults =       1420
+# 
+# coverage = 0.569823
+# 
+# Test set size =          74
+# Collapsed Faults =       2492
+# Detected Faults =       1420
+# 
+# coverage = 0.569823
+# 
+# Test set size =          75
+# Collapsed Faults =       2492
+# Detected Faults =       1420
+# 
+# coverage = 0.569823
+# 
+# Test set size =          76
+# Collapsed Faults =       2492
+# Detected Faults =       1420
+# 
+# coverage = 0.569823
+# 
+# Test set size =          77
+# Collapsed Faults =       2492
+# Detected Faults =       1420
+# 
+# coverage = 0.569823
+# 
+# Test set size =          78
+# Collapsed Faults =       2492
+# Detected Faults =       1420
+# 
+# coverage = 0.569823
+# 
+# Test set size =          79
+# Collapsed Faults =       2492
+# Detected Faults =       1420
+# 
+# coverage = 0.569823
+# 
+# Test set size =          80
+# Collapsed Faults =       2492
+# Detected Faults =       1420
+# 
+# coverage = 0.569823
+# 
+# Test set size =          81
+# Collapsed Faults =       2492
+# Detected Faults =       1420
+# 
+# coverage = 0.569823
+# 
+# Test set size =          82
+# Collapsed Faults =       2492
+# Detected Faults =       1420
+# 
+# coverage = 0.569823
+# 
+# Test set size =          83
+# Collapsed Faults =       2492
+# Detected Faults =       1420
+# 
+# coverage = 0.569823
+# 
+# Test set size =          84
+# Collapsed Faults =       2492
+# Detected Faults =       1420
+# 
+# coverage = 0.569823
+# 
+# Test set size =          85
+# Collapsed Faults =       2492
+# Detected Faults =       1420
+# 
+# coverage = 0.569823
+# 
+# Test set size =          86
+# Collapsed Faults =       2492
+# Detected Faults =       1420
+# 
+# coverage = 0.569823
+# 
+# Test set size =          87
+# Collapsed Faults =       2492
+# Detected Faults =       1420
+# 
+# coverage = 0.569823
+# 
+# Test set size =          88
+# Collapsed Faults =       2492
+# Detected Faults =       1420
+# 
+# coverage = 0.569823
+# 
+# Test set size =          89
+# Collapsed Faults =       2492
+# Detected Faults =       1420
+# 
+# coverage = 0.569823
+# 
+# Test set size =          90
+# Collapsed Faults =       2492
+# Detected Faults =       1420
+# 
+# coverage = 0.569823
+# 
+# Test set size =          91
+# Collapsed Faults =       2492
+# Detected Faults =       1420
+# 
+# coverage = 0.569823
+# 
+# Test set size =          92
+# Collapsed Faults =       2492
+# Detected Faults =       1420
+# 
+# coverage = 0.569823
+# 
+# Test set size =          93
+# Collapsed Faults =       2492
+# Detected Faults =       1420
+# 
+# coverage = 0.569823
+# 
+# Test set size =          94
+# Collapsed Faults =       2492
+# Detected Faults =       1420
+# 
+# coverage = 0.569823
+# 
+# Test set size =          95
+# Collapsed Faults =       2492
+# Detected Faults =       1420
+# 
+# coverage = 0.569823
+# 
+# Test set size =          96
+# Collapsed Faults =       2492
+# Detected Faults =       1420
+# 
+# coverage = 0.569823
+# 
+# Test set size =          97
+# Collapsed Faults =       2492
+# Detected Faults =       1420
+# 
+# coverage = 0.569823
+# 
+# Test set size =          98
+# Collapsed Faults =       2492
+# Detected Faults =       1420
+# 
+# coverage = 0.569823
+# 
+# Test set size =          99
+# Collapsed Faults =       2492
+# Detected Faults =       1420
+# 
+# coverage = 0.569823
+# 
+# Test set size =         100
+# Collapsed Faults =       2492
+# Detected Faults =       1420
+# 
+# coverage = 0.569823
+# 
+# Test set size =         101
+# Collapsed Faults =       2492
+# Detected Faults =       1420
+# 
+# coverage = 0.569823
+# 
+# Test set size =         102
+# Collapsed Faults =       2492
+# Detected Faults =       1420
+# 
+# coverage = 0.569823
+# 
+# Test set size =         103
+# Collapsed Faults =       2492
+# Detected Faults =       1420
+# 
+# coverage = 0.569823
+# 
+# Test set size =         104
+# Collapsed Faults =       2492
+# Detected Faults =       1420
+# 
+# coverage = 0.569823
+# 
+# Test set size =         105
+# Collapsed Faults =       2492
+# Detected Faults =       1420
+# 
+# coverage = 0.569823
+# 
+# Test set size =         106
+# Collapsed Faults =       2492
+# Detected Faults =       1420
+# 
+# coverage = 0.569823
+# 
+# Test set size =         107
+# Collapsed Faults =       2492
+# Detected Faults =       1420
+# 
+# coverage = 0.569823
+# 
+# Test set size =         108
+# Collapsed Faults =       2492
+# Detected Faults =       1420
+# 
+# coverage = 0.569823
+# 
+# Test set size =         109
+# Collapsed Faults =       2492
+# Detected Faults =       1420
+# 
+# coverage = 0.569823
+# 
+# Test set size =         110
+# Collapsed Faults =       2492
+# Detected Faults =       1420
+# 
+# coverage = 0.569823
+# 
+# Test set size =         111
+# Collapsed Faults =       2492
+# Detected Faults =       1420
+# 
+# coverage = 0.569823
+# 
+# Test set size =         112
+# Collapsed Faults =       2492
+# Detected Faults =       1420
+# 
+# coverage = 0.569823
+# 
+# Test set size =         113
+# Collapsed Faults =       2492
+# Detected Faults =       1420
+# 
+# coverage = 0.569823
+# 
+# Test set size =         114
+# Collapsed Faults =       2492
+# Detected Faults =       1420
+# 
+# coverage = 0.569823
+# 
+# Test set size =         115
+# Collapsed Faults =       2492
+# Detected Faults =       1420
+# 
+# coverage = 0.569823
+# 
+# Test set size =         116
+# Collapsed Faults =       2492
+# Detected Faults =       1420
+# 
+# coverage = 0.569823
+# 
+# Test set size =         117
+# Collapsed Faults =       2492
+# Detected Faults =       1420
+# 
+# coverage = 0.569823
+# 
+# Test set size =         118
+# Collapsed Faults =       2492
+# Detected Faults =       1420
+# 
+# coverage = 0.569823
+# 
+# Test set size =         119
+# Collapsed Faults =       2492
+# Detected Faults =       1420
+# 
+# coverage = 0.569823
+# 
+# Test set size =         120
+# Collapsed Faults =       2492
+# Detected Faults =       1420
+# 
+# coverage = 0.569823
+# 
+# Test set size =         121
+# Collapsed Faults =       2492
+# Detected Faults =       1420
+# 
+# coverage = 0.569823
+# 
+# Test set size =         122
+# Collapsed Faults =       2492
+# Detected Faults =       1420
+# 
+# coverage = 0.569823
+# 
+# Test set size =         123
+# Collapsed Faults =       2492
+# Detected Faults =       1420
+# 
+# coverage = 0.569823
+# 
+# Test set size =         124
+# Collapsed Faults =       2492
+# Detected Faults =       1420
+# 
+# coverage = 0.569823
+# 
+# Test set size =         125
+# Collapsed Faults =       2492
+# Detected Faults =       1420
+# 
+# coverage = 0.569823
+# 
+# Test set size =         126
+# Collapsed Faults =       2492
+# Detected Faults =       1420
+# 
+# coverage = 0.569823
+# 
+# Test set size =         127
+# Collapsed Faults =       2492
+# Detected Faults =       1420
+# 
+# coverage = 0.569823
+# 
+# Test set size =         128
+# Collapsed Faults =       2492
+# Detected Faults =       1420
+# 
+# coverage = 0.569823
+# 
+# Test set size =         129
+# Collapsed Faults =       2492
+# Detected Faults =       1420
+# 
+# coverage = 0.569823
+# 
+# Test set size =         130
+# Collapsed Faults =       2492
+# Detected Faults =       1420
+# 
+# coverage = 0.569823
+# 
+# Test set size =         131
+# Collapsed Faults =       2492
+# Detected Faults =       1420
+# 
+# coverage = 0.569823
+# 
+# Test set size =         132
+# Collapsed Faults =       2492
+# Detected Faults =       1420
+# 
+# coverage = 0.569823
+# 
+# Test set size =         133
+# Collapsed Faults =       2492
+# Detected Faults =       1420
+# 
+# coverage = 0.569823
+# 
+# Test set size =         134
+# Collapsed Faults =       2492
+# Detected Faults =       1420
+# 
+# coverage = 0.569823
+# 
+# Test set size =         135
+# Collapsed Faults =       2492
+# Detected Faults =       1420
+# 
+# coverage = 0.569823
+# 
+# Test set size =         136
+# Collapsed Faults =       2492
+# Detected Faults =       1420
+# 
+# coverage = 0.569823
+# 
+# Test set size =         137
+# Collapsed Faults =       2492
+# Detected Faults =       1420
+# 
+# coverage = 0.569823
+# 
+# Test set size =         138
+# Collapsed Faults =       2492
+# Detected Faults =       1420
+# 
+# coverage = 0.569823
+# 
+# Test set size =         139
+# Collapsed Faults =       2492
+# Detected Faults =       1422
+# 
+# coverage = 0.570626
+# 
+# Test set size =         140
+# Collapsed Faults =       2492
+# Detected Faults =       1422
+# 
+# coverage = 0.570626
+# 
+# Test set size =         141
+# Collapsed Faults =       2492
+# Detected Faults =       1422
+# 
+# coverage = 0.570626
+# 
+# Test set size =         142
+# Collapsed Faults =       2492
+# Detected Faults =       1422
+# 
+# coverage = 0.570626
+# 
+# Test set size =         143
+# Collapsed Faults =       2492
+# Detected Faults =       1422
+# 
+# coverage = 0.570626
+# 
+# Test set size =         144
+# Collapsed Faults =       2492
+# Detected Faults =       1422
+# 
+# coverage = 0.570626
+# 
+# Test set size =         145
+# Collapsed Faults =       2492
+# Detected Faults =       1422
+# 
+# coverage = 0.570626
+# 
+# Test set size =         146
+# Collapsed Faults =       2492
+# Detected Faults =       1422
+# 
+# coverage = 0.570626
+# 
+# Test set size =         147
+# Collapsed Faults =       2492
+# Detected Faults =       1422
+# 
+# coverage = 0.570626
+# 
+# Test set size =         148
+# Collapsed Faults =       2492
+# Detected Faults =       1422
+# 
+# coverage = 0.570626
+# 
+# Test set size =         149
+# Collapsed Faults =       2492
+# Detected Faults =       1422
+# 
+# coverage = 0.570626
+# 
+# Test set size =         150
+# Collapsed Faults =       2492
+# Detected Faults =       1422
+# 
+# coverage = 0.570626
+# 
+# Test set size =         151
+# Collapsed Faults =       2492
+# Detected Faults =       1422
+# 
+# coverage = 0.570626
+# 
+# Test set size =         152
+# Collapsed Faults =       2492
+# Detected Faults =       1422
+# 
+# coverage = 0.570626
+# 
+# Test set size =         153
+# Collapsed Faults =       2492
+# Detected Faults =       1422
+# 
+# coverage = 0.570626
+# 
+# Test set size =         154
+# Collapsed Faults =       2492
+# Detected Faults =       1422
+# 
+# coverage = 0.570626
+# 
+# Test set size =         155
+# Collapsed Faults =       2492
+# Detected Faults =       1422
+# 
+# coverage = 0.570626
+# 
+# Test set size =         156
+# Collapsed Faults =       2492
+# Detected Faults =       1422
+# 
+# coverage = 0.570626
+# 
+# Test set size =         157
+# Collapsed Faults =       2492
+# Detected Faults =       1422
+# 
+# coverage = 0.570626
+# 
+# Test set size =         158
+# Collapsed Faults =       2492
+# Detected Faults =       1422
+# 
+# coverage = 0.570626
+# 
+# Test set size =         159
+# Collapsed Faults =       2492
+# Detected Faults =       1422
+# 
+# coverage = 0.570626
+# 
+# Test set size =         160
+# Collapsed Faults =       2492
+# Detected Faults =       1422
+# 
+# coverage = 0.570626
+# 
+# Test set size =         161
+# Collapsed Faults =       2492
+# Detected Faults =       1422
+# 
+# coverage = 0.570626
+# 
+# Test set size =         162
+# Collapsed Faults =       2492
+# Detected Faults =       1422
+# 
+# coverage = 0.570626
+# 
+# Test set size =         163
+# Collapsed Faults =       2492
+# Detected Faults =       1422
+# 
+# coverage = 0.570626
+# 
+# Test set size =         164
+# Collapsed Faults =       2492
+# Detected Faults =       1422
+# 
+# coverage = 0.570626
+# 
+# Test set size =         165
+# Collapsed Faults =       2492
+# Detected Faults =       1422
+# 
+# coverage = 0.570626
+# 
+# Test set size =         166
+# Collapsed Faults =       2492
+# Detected Faults =       1422
+# 
+# coverage = 0.570626
+# 
+# Test set size =         167
+# Collapsed Faults =       2492
+# Detected Faults =       1422
+# 
+# coverage = 0.570626
+# 
+# Test set size =         168
+# Collapsed Faults =       2492
+# Detected Faults =       1422
+# 
+# coverage = 0.570626
+# 
+# Test set size =         169
+# Collapsed Faults =       2492
+# Detected Faults =       1422
+# 
+# coverage = 0.570626
+# 
+# Test set size =         170
+# Collapsed Faults =       2492
+# Detected Faults =       1422
+# 
+# coverage = 0.570626
+# 
+# Test set size =         171
+# Collapsed Faults =       2492
+# Detected Faults =       1422
+# 
+# coverage = 0.570626
+# 
+# Test set size =         172
+# Collapsed Faults =       2492
+# Detected Faults =       1422
+# 
+# coverage = 0.570626
+# 
+# Test set size =         173
+# Collapsed Faults =       2492
+# Detected Faults =       1422
+# 
+# coverage = 0.570626
+# 
+# Test set size =         174
+# Collapsed Faults =       2492
+# Detected Faults =       1422
+# 
+# coverage = 0.570626
+# 
+# Test set size =         175
+# Collapsed Faults =       2492
+# Detected Faults =       1422
+# 
+# coverage = 0.570626
+# 
+# Test set size =         176
+# Collapsed Faults =       2492
+# Detected Faults =       1422
+# 
+# coverage = 0.570626
+# 
+# Test set size =         177
+# Collapsed Faults =       2492
+# Detected Faults =       1422
+# 
+# coverage = 0.570626
+# 
+# Test set size =         178
+# Collapsed Faults =       2492
+# Detected Faults =       1422
+# 
+# coverage = 0.570626
+# 
+# Test set size =         179
+# Collapsed Faults =       2492
+# Detected Faults =       1422
+# 
+# coverage = 0.570626
+# 
+# Test set size =         180
+# Collapsed Faults =       2492
+# Detected Faults =       1422
+# 
+# coverage = 0.570626
+# 
+# Test set size =         181
+# Collapsed Faults =       2492
+# Detected Faults =       1422
+# 
+# coverage = 0.570626
+# 
+# Test set size =         182
+# Collapsed Faults =       2492
+# Detected Faults =       1422
+# 
+# coverage = 0.570626
+# 
+# Test set size =         183
+# Collapsed Faults =       2492
+# Detected Faults =       1422
+# 
+# coverage = 0.570626
+# 
+# Test set size =         184
+# Collapsed Faults =       2492
+# Detected Faults =       1422
+# 
+# coverage = 0.570626
+# 
+# Test set size =         185
+# Collapsed Faults =       2492
+# Detected Faults =       1422
+# 
+# coverage = 0.570626
+# 
+# Test set size =         186
+# Collapsed Faults =       2492
+# Detected Faults =       1422
+# 
+# coverage = 0.570626
+# 
+# Test set size =         187
+# Collapsed Faults =       2492
+# Detected Faults =       1422
+# 
+# coverage = 0.570626
+# 
+# Test set size =         188
+# Collapsed Faults =       2492
+# Detected Faults =       1422
+# 
+# coverage = 0.570626
+# 
+# Test set size =         189
+# Collapsed Faults =       2492
+# Detected Faults =       1422
+# 
+# coverage = 0.570626
+# 
+# Test set size =         190
+# Collapsed Faults =       2492
+# Detected Faults =       1422
+# 
+# coverage = 0.570626
+# 
+# Test set size =         191
+# Collapsed Faults =       2492
+# Detected Faults =       1422
+# 
+# coverage = 0.570626
+# 
+# Test set size =         192
+# Collapsed Faults =       2492
+# Detected Faults =       1422
+# 
+# coverage = 0.570626
+# 
+# Test set size =         193
+# Collapsed Faults =       2492
+# Detected Faults =       1422
+# 
+# coverage = 0.570626
+# 
+# Test set size =         194
+# Collapsed Faults =       2492
+# Detected Faults =       1422
+# 
+# coverage = 0.570626
+# 
+# Test set size =         195
+# Collapsed Faults =       2492
+# Detected Faults =       1422
+# 
+# coverage = 0.570626
+# 
+# Test set size =         196
+# Collapsed Faults =       2492
+# Detected Faults =       1422
+# 
+# coverage = 0.570626
+# 
+# Test set size =         197
+# Collapsed Faults =       2492
+# Detected Faults =       1422
+# 
+# coverage = 0.570626
+# 
+# Test set size =         198
+# Collapsed Faults =       2492
+# Detected Faults =       1422
+# 
+# coverage = 0.570626
+# 
+# Test set size =         199
+# Collapsed Faults =       2492
+# Detected Faults =       1422
+# 
+# coverage = 0.570626
+# 
+# Test set size =         200
+# Collapsed Faults =       2492
+# Detected Faults =       1422
+# 
+# coverage = 0.570626
+# 
+# Test set size =         201
+# Collapsed Faults =       2492
+# Detected Faults =       1422
+# 
+# coverage = 0.570626
+# 
+# Test set size =         202
+# Collapsed Faults =       2492
+# Detected Faults =       1422
+# 
+# coverage = 0.570626
+# 
+# Test set size =         203
+# Collapsed Faults =       2492
+# Detected Faults =       1422
+# 
+# coverage = 0.570626
+# 
+# Test set size =         204
+# Collapsed Faults =       2492
+# Detected Faults =       1422
+# 
+# coverage = 0.570626
+# 
+# Test set size =         205
+# Collapsed Faults =       2492
+# Detected Faults =       1422
+# 
+# coverage = 0.570626
+# 
+# Test set size =         206
+# Collapsed Faults =       2492
+# Detected Faults =       1422
+# 
+# coverage = 0.570626
+# 
+# Test set size =         207
+# Collapsed Faults =       2492
+# Detected Faults =       1422
+# 
+# coverage = 0.570626
+# 
+# Test set size =         208
+# Collapsed Faults =       2492
+# Detected Faults =       1422
+# 
+# coverage = 0.570626
+# 
+# Test set size =         209
+# Collapsed Faults =       2492
+# Detected Faults =       1422
+# 
+# coverage = 0.570626
+# 
+# Test set size =         210
+# Collapsed Faults =       2492
+# Detected Faults =       1422
+# 
+# coverage = 0.570626
+# 
+# Test set size =         211
+# Collapsed Faults =       2492
+# Detected Faults =       1422
+# 
+# coverage = 0.570626
+# 
+# Test set size =         212
+# Collapsed Faults =       2492
+# Detected Faults =       1422
+# 
+# coverage = 0.570626
+# 
+# Test set size =         213
+# Collapsed Faults =       2492
+# Detected Faults =       1422
+# 
+# coverage = 0.570626
+# 
+# Test set size =         214
+# Collapsed Faults =       2492
+# Detected Faults =       1422
+# 
+# coverage = 0.570626
+# 
+# Test set size =         215
+# Collapsed Faults =       2492
+# Detected Faults =       1422
+# 
+# coverage = 0.570626
+# 
+# Test set size =         216
+# Collapsed Faults =       2492
+# Detected Faults =       1422
+# 
+# coverage = 0.570626
+# 
+# Test set size =         217
+# Collapsed Faults =       2492
+# Detected Faults =       1422
+# 
+# coverage = 0.570626
+# 
+# Test set size =         218
+# Collapsed Faults =       2492
+# Detected Faults =       1422
+# 
+# coverage = 0.570626
+# 
+# Test set size =         219
+# Collapsed Faults =       2492
+# Detected Faults =       1422
+# 
+# coverage = 0.570626
+# 
+# Test set size =         220
+# Collapsed Faults =       2492
+# Detected Faults =       1422
+# 
+# coverage = 0.570626
+# 
+# Test set size =         221
+# Collapsed Faults =       2492
+# Detected Faults =       1422
+# 
+# coverage = 0.570626
+# 
+# Test set size =         222
+# Collapsed Faults =       2492
+# Detected Faults =       1422
+# 
+# coverage = 0.570626
+# 
+# Test set size =         223
+# Collapsed Faults =       2492
+# Detected Faults =       1422
+# 
+# coverage = 0.570626
+# 
+# Test set size =         224
+# Collapsed Faults =       2492
+# Detected Faults =       1422
+# 
+# coverage = 0.570626
+# 
+# Test set size =         225
+# Collapsed Faults =       2492
+# Detected Faults =       1422
+# 
+# coverage = 0.570626
+# 
+# Test set size =         226
+# Collapsed Faults =       2492
+# Detected Faults =       1422
+# 
+# coverage = 0.570626
+# 
+# Test set size =         227
+# Collapsed Faults =       2492
+# Detected Faults =       1422
+# 
+# coverage = 0.570626
+# 
+# Test set size =         228
+# Collapsed Faults =       2492
+# Detected Faults =       1422
+# 
+# coverage = 0.570626
+# 
+# Test set size =         229
+# Collapsed Faults =       2492
+# Detected Faults =       1422
+# 
+# coverage = 0.570626
+# 
+# Test set size =         230
+# Collapsed Faults =       2492
+# Detected Faults =       1422
+# 
+# coverage = 0.570626
+# 
+# Test set size =         231
+# Collapsed Faults =       2492
+# Detected Faults =       1422
+# 
+# coverage = 0.570626
+# 
+# Test set size =         232
+# Collapsed Faults =       2492
+# Detected Faults =       1422
+# 
+# coverage = 0.570626
+# 
+# Test set size =         233
+# Collapsed Faults =       2492
+# Detected Faults =       1422
+# 
+# coverage = 0.570626
+# 
+# Test set size =         234
+# Collapsed Faults =       2492
+# Detected Faults =       1422
+# 
+# coverage = 0.570626
+# 
+# Test set size =         235
+# Collapsed Faults =       2492
+# Detected Faults =       1422
+# 
+# coverage = 0.570626
+# 
+# Test set size =         236
+# Collapsed Faults =       2492
+# Detected Faults =       1422
+# 
+# coverage = 0.570626
+# 
+# Test set size =         237
+# Collapsed Faults =       2492
+# Detected Faults =       1422
+# 
+# coverage = 0.570626
+# 
+# Test set size =         238
+# Collapsed Faults =       2492
+# Detected Faults =       1422
+# 
+# coverage = 0.570626
+# 
+# Test set size =         239
+# Collapsed Faults =       2492
+# Detected Faults =       1422
+# 
+# coverage = 0.570626
+# 
+# Test set size =         240
+# Collapsed Faults =       2492
+# Detected Faults =       1422
+# 
+# coverage = 0.570626
+# 
+# Test set size =         241
+# Collapsed Faults =       2492
+# Detected Faults =       1422
+# 
+# coverage = 0.570626
+# 
+# Test set size =         242
+# Collapsed Faults =       2492
+# Detected Faults =       1422
+# 
+# coverage = 0.570626
+# 
+# Test set size =         243
+# Collapsed Faults =       2492
+# Detected Faults =       1422
+# 
+# coverage = 0.570626
+# 
+# Test set size =         244
+# Collapsed Faults =       2492
+# Detected Faults =       1422
+# 
+# coverage = 0.570626
+# 
+# Test set size =         245
+# Collapsed Faults =       2492
+# Detected Faults =       1422
+# 
+# coverage = 0.570626
+# 
+# Test set size =         246
+# Collapsed Faults =       2492
+# Detected Faults =       1422
+# 
+# coverage = 0.570626
+# 
+# Test set size =         247
+# Collapsed Faults =       2492
+# Detected Faults =       1422
+# 
+# coverage = 0.570626
+# 
+# Test set size =         248
+# Collapsed Faults =       2492
+# Detected Faults =       1422
+# 
+# coverage = 0.570626
+# 
+# Test set size =         249
+# Collapsed Faults =       2492
+# Detected Faults =       1422
+# 
+# coverage = 0.570626
+# 
+# Test set size =         250
+# Collapsed Faults =       2492
+# Detected Faults =       1422
+# 
+# coverage = 0.570626
+# 
+# Test set size =         251
+# Collapsed Faults =       2492
+# Detected Faults =       1422
+# 
+# coverage = 0.570626
+# 
+# Test set size =         252
+# Collapsed Faults =       2492
+# Detected Faults =       1422
+# 
+# coverage = 0.570626
+# 
+# Test set size =         253
+# Collapsed Faults =       2492
+# Detected Faults =       1422
+# 
+# coverage = 0.570626
+# 
+# Test set size =         254
+# Collapsed Faults =       2492
+# Detected Faults =       1422
+# 
+# coverage = 0.570626
+# 
+# Test set size =         255
+# Collapsed Faults =       2492
+# Detected Faults =       1422
+# 
+# coverage = 0.570626
+# 
+# Test set size =         256
+# Collapsed Faults =       2492
+# Detected Faults =       1422
+# 
+# coverage = 0.570626
+# 
+# Test set size =         257
+# Collapsed Faults =       2492
+# Detected Faults =       1422
+# 
+# coverage = 0.570626
+# 
+# Test set size =         258
+# Collapsed Faults =       2492
+# Detected Faults =       1422
+# 
+# coverage = 0.570626
+# 
+# Test set size =         259
+# Collapsed Faults =       2492
+# Detected Faults =       1422
+# 
+# coverage = 0.570626
+# 
+# Test set size =         260
+# Collapsed Faults =       2492
+# Detected Faults =       1422
+# 
+# coverage = 0.570626
+# 
+# Test set size =         261
+# Collapsed Faults =       2492
+# Detected Faults =       1422
+# 
+# coverage = 0.570626
+# 
+# Test set size =         262
+# Collapsed Faults =       2492
+# Detected Faults =       1422
+# 
+# coverage = 0.570626
+# 
+# Test set size =         263
+# Collapsed Faults =       2492
+# Detected Faults =       1422
+# 
+# coverage = 0.570626
+# 
+# Test set size =         264
+# Collapsed Faults =       2492
+# Detected Faults =       1422
+# 
+# coverage = 0.570626
+# 
+# Test set size =         265
+# Collapsed Faults =       2492
+# Detected Faults =       1422
+# 
+# coverage = 0.570626
+# 
+# Test set size =         266
+# Collapsed Faults =       2492
+# Detected Faults =       1422
+# 
+# coverage = 0.570626
+# 
+# Test set size =         267
+# Collapsed Faults =       2492
+# Detected Faults =       1422
+# 
+# coverage = 0.570626
+# 
+# Test set size =         268
+# Collapsed Faults =       2492
+# Detected Faults =       1422
+# 
+# coverage = 0.570626
+# 
+# Test set size =         269
+# Collapsed Faults =       2492
+# Detected Faults =       1422
+# 
+# coverage = 0.570626
+# 
+# Test set size =         270
+# Collapsed Faults =       2492
+# Detected Faults =       1422
+# 
+# coverage = 0.570626
+# 
+# Test set size =         271
+# Collapsed Faults =       2492
+# Detected Faults =       1422
+# 
+# coverage = 0.570626
+# 
+# Test set size =         272
+# Collapsed Faults =       2492
+# Detected Faults =       1422
+# 
+# coverage = 0.570626
+# 
+# Test set size =         273
+# Collapsed Faults =       2492
+# Detected Faults =       1422
+# 
+# coverage = 0.570626
+# 
+# Test set size =         274
+# Collapsed Faults =       2492
+# Detected Faults =       1422
+# 
+# coverage = 0.570626
+# 
+# Test set size =         275
+# Collapsed Faults =       2492
+# Detected Faults =       1422
+# 
+# coverage = 0.570626
+# 
+# Test set size =         276
+# Collapsed Faults =       2492
+# Detected Faults =       1422
+# 
+# coverage = 0.570626
+# 
+# Test set size =         277
+# Collapsed Faults =       2492
+# Detected Faults =       1422
+# 
+# coverage = 0.570626
+# 
+# Test set size =         278
+# Collapsed Faults =       2492
+# Detected Faults =       1422
+# 
+# coverage = 0.570626
+# 
+# Test set size =         279
+# Collapsed Faults =       2492
+# Detected Faults =       1422
+# 
+# coverage = 0.570626
+# 
+# Test set size =         280
+# Collapsed Faults =       2492
+# Detected Faults =       1422
+# 
+# coverage = 0.570626
+# 
+# Test set size =         281
+# Collapsed Faults =       2492
+# Detected Faults =       1422
+# 
+# coverage = 0.570626
+# 
+# Test set size =         282
+# Collapsed Faults =       2492
+# Detected Faults =       1422
+# 
+# coverage = 0.570626
+# 
+# Test set size =         283
+# Collapsed Faults =       2492
+# Detected Faults =       1422
+# 
+# coverage = 0.570626
+# 
+# Test set size =         284
+# Collapsed Faults =       2492
+# Detected Faults =       1422
+# 
+# coverage = 0.570626
+# 
+# Test set size =         285
+# Collapsed Faults =       2492
+# Detected Faults =       1422
+# 
+# coverage = 0.570626
+# 
+# Test set size =         286
+# Collapsed Faults =       2492
+# Detected Faults =       1422
+# 
+# coverage = 0.570626
+# 
+# Test set size =         287
+# Collapsed Faults =       2492
+# Detected Faults =       1422
+# 
+# coverage = 0.570626
+# 
+# Test set size =         288
+# Collapsed Faults =       2492
+# Detected Faults =       1422
+# 
+# coverage = 0.570626
+# 
+# Test set size =         289
+# Collapsed Faults =       2492
+# Detected Faults =       1422
+# 
+# coverage = 0.570626
+# 
+# Test set size =         290
+# Collapsed Faults =       2492
+# Detected Faults =       1422
+# 
+# coverage = 0.570626
+# 
+# Test set size =         291
+# Collapsed Faults =       2492
+# Detected Faults =       1422
+# 
+# coverage = 0.570626
+# 
+# Test set size =         292
+# Collapsed Faults =       2492
+# Detected Faults =       1422
+# 
+# coverage = 0.570626
+# 
+# Test set size =         293
+# Collapsed Faults =       2492
+# Detected Faults =       1422
+# 
+# coverage = 0.570626
+# 
+# Test set size =         294
+# Collapsed Faults =       2492
+# Detected Faults =       1422
+# 
+# coverage = 0.570626
+# 
+# Test set size =         295
+# Collapsed Faults =       2492
+# Detected Faults =       1422
+# 
+# coverage = 0.570626
+# 
+# Test set size =         296
+# Collapsed Faults =       2492
+# Detected Faults =       1422
+# 
+# coverage = 0.570626
+# 
+# Test set size =         297
+# Collapsed Faults =       2492
+# Detected Faults =       1422
+# 
+# coverage = 0.570626
+# 
+# Test set size =         298
+# Collapsed Faults =       2492
+# Detected Faults =       1422
+# 
+# coverage = 0.570626
+# 
+# Test set size =         299
+# Collapsed Faults =       2492
+# Detected Faults =       1422
+# 
+# coverage = 0.570626
+# 
+# Test set size =         300
+# Collapsed Faults =       2492
+# Detected Faults =       1422
+# 
+# coverage = 0.570626
+# 
+# Simulation stop requested.
+quit -sim
+# End time: 23:18:56 on Aug 06,2024, Elapsed time: 5:30:58
+# Errors: 0, Warnings: 1
+# reading C:/intelFPGA/20.1/modelsim_ase/win32aloem/../modelsim.ini
+# Loading project c1355
+# Compile of c1355_netlist.v was successful.
+# Compile of mycells.v was successful.
+# Compile of SerialFS_TB.sv failed with 2 errors.
+# 3 compiles, 1 failed with 2 errors.
+# Compile of SerialFS_TB.sv was successful.
+do mydo.do SerialFS_TB
+# Compile of c1355_netlist.v was successful.
+# Compile of mycells.v was successful.
+# Compile of SerialFS_TB.sv was successful.
+# 3 compiles, 0 failed with no errors.
+# vsim work.SerialFS_TB 
+# Start time: 23:20:20 on Aug 06,2024
+# Loading sv_std.std
+# Loading work.SerialFS_TB
+# Loading work.c1355
+# Loading work.NOT
+# Loading work.NAND
+# Loading work.NOR
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Test set size =           1
+# Collapsed Faults =       4276
+# Detected Faults =        673
+# 
+# coverage = 0.157390
+# 
+# Test set size =           2
+# Collapsed Faults =       4276
+# Detected Faults =        887
+# 
+# coverage = 0.207437
+# 
+# Test set size =           3
+# Collapsed Faults =       4276
+# Detected Faults =       1012
+# 
+# coverage = 0.236670
+# 
+# Test set size =           4
+# Collapsed Faults =       4276
+# Detected Faults =       1330
+# 
+# coverage = 0.311038
+# 
+# Test set size =           5
+# Collapsed Faults =       4276
+# Detected Faults =       1348
+# 
+# coverage = 0.315248
+# 
+# Test set size =           6
+# Collapsed Faults =       4276
+# Detected Faults =       2129
+# 
+# coverage = 0.497895
+# 
+# Test set size =           7
+# Collapsed Faults =       4276
+# Detected Faults =       2155
+# 
+# coverage = 0.503976
+# 
+# Test set size =           8
+# Collapsed Faults =       4276
+# Detected Faults =       2239
+# 
+# coverage = 0.523620
+# 
+# Test set size =           9
+# Collapsed Faults =       4276
+# Detected Faults =       2289
+# 
+# coverage = 0.535313
+# 
+# Test set size =          10
+# Collapsed Faults =       4276
+# Detected Faults =       2310
+# 
+# coverage = 0.540225
+# 
+# Test set size =          11
+# Collapsed Faults =       4276
+# Detected Faults =       2332
+# 
+# coverage = 0.545370
+# 
+# Test set size =          12
+# Collapsed Faults =       4276
+# Detected Faults =       2338
+# 
+# coverage = 0.546773
+# 
+# Test set size =          13
+# Collapsed Faults =       4276
+# Detected Faults =       2338
+# 
+# coverage = 0.546773
+# 
+# Test set size =          14
+# Collapsed Faults =       4276
+# Detected Faults =       2728
+# 
+# coverage = 0.637979
+# 
+# Test set size =          15
+# Collapsed Faults =       4276
+# Detected Faults =       2790
+# 
+# coverage = 0.652479
+# 
+# Test set size =          16
+# Collapsed Faults =       4276
+# Detected Faults =       2838
+# 
+# coverage = 0.663704
+# 
+# Test set size =          17
+# Collapsed Faults =       4276
+# Detected Faults =       2859
+# 
+# coverage = 0.668616
+# 
+# Test set size =          18
+# Collapsed Faults =       4276
+# Detected Faults =       3015
+# 
+# coverage = 0.705098
+# 
+# Test set size =          19
+# Collapsed Faults =       4276
+# Detected Faults =       3080
+# 
+# coverage = 0.720299
+# 
+# Test set size =          20
+# Collapsed Faults =       4276
+# Detected Faults =       3080
+# 
+# coverage = 0.720299
+# 
+# Test set size =          21
+# Collapsed Faults =       4276
+# Detected Faults =       3179
+# 
+# coverage = 0.743452
+# 
+# Test set size =          22
+# Collapsed Faults =       4276
+# Detected Faults =       3179
+# 
+# coverage = 0.743452
+# 
+# Test set size =          23
+# Collapsed Faults =       4276
+# Detected Faults =       3179
+# 
+# coverage = 0.743452
+# 
+# Test set size =          24
+# Collapsed Faults =       4276
+# Detected Faults =       3179
+# 
+# coverage = 0.743452
+# 
+# Test set size =          25
+# Collapsed Faults =       4276
+# Detected Faults =       3260
+# 
+# coverage = 0.762395
+# 
+# Test set size =          26
+# Collapsed Faults =       4276
+# Detected Faults =       3301
+# 
+# coverage = 0.771983
+# 
+# Test set size =          27
+# Collapsed Faults =       4276
+# Detected Faults =       3301
+# 
+# coverage = 0.771983
+# 
+# Test set size =          28
+# Collapsed Faults =       4276
+# Detected Faults =       3306
+# 
+# coverage = 0.773152
+# 
+# Test set size =          29
+# Collapsed Faults =       4276
+# Detected Faults =       3495
+# 
+# coverage = 0.817353
+# 
+# Test set size =          30
+# Collapsed Faults =       4276
+# Detected Faults =       3495
+# 
+# coverage = 0.817353
+# 
+# Test set size =          31
+# Collapsed Faults =       4276
+# Detected Faults =       3516
+# 
+# coverage = 0.822264
+# 
+# Test set size =          32
+# Collapsed Faults =       4276
+# Detected Faults =       3526
+# 
+# coverage = 0.824602
+# 
+# Test set size =          33
+# Collapsed Faults =       4276
+# Detected Faults =       3526
+# 
+# coverage = 0.824602
+# 
+# Test set size =          34
+# Collapsed Faults =       4276
+# Detected Faults =       3528
+# 
+# coverage = 0.825070
+# 
+# Test set size =          35
+# Collapsed Faults =       4276
+# Detected Faults =       3528
+# 
+# coverage = 0.825070
+# 
+# Test set size =          36
+# Collapsed Faults =       4276
+# Detected Faults =       3625
+# 
+# coverage = 0.847755
+# 
+# Test set size =          37
+# Collapsed Faults =       4276
+# Detected Faults =       3625
+# 
+# coverage = 0.847755
+# 
+# Test set size =          38
+# Collapsed Faults =       4276
+# Detected Faults =       3644
+# 
+# coverage = 0.852198
+# 
+# Test set size =          39
+# Collapsed Faults =       4276
+# Detected Faults =       3644
+# 
+# coverage = 0.852198
+# 
+# Test set size =          40
+# Collapsed Faults =       4276
+# Detected Faults =       3644
+# 
+# coverage = 0.852198
+# 
+# Test set size =          41
+# Collapsed Faults =       4276
+# Detected Faults =       3644
+# 
+# coverage = 0.852198
+# 
+# Test set size =          42
+# Collapsed Faults =       4276
+# Detected Faults =       3644
+# 
+# coverage = 0.852198
+# 
+# Test set size =          43
+# Collapsed Faults =       4276
+# Detected Faults =       3715
+# 
+# coverage = 0.868803
+# 
+# Test set size =          44
+# Collapsed Faults =       4276
+# Detected Faults =       3715
+# 
+# coverage = 0.868803
+# 
+# Test set size =          45
+# Collapsed Faults =       4276
+# Detected Faults =       3715
+# 
+# coverage = 0.868803
+# 
+# Test set size =          46
+# Collapsed Faults =       4276
+# Detected Faults =       3741
+# 
+# coverage = 0.874883
+# 
+# Test set size =          47
+# Collapsed Faults =       4276
+# Detected Faults =       3741
+# 
+# coverage = 0.874883
+# 
+# Test set size =          48
+# Collapsed Faults =       4276
+# Detected Faults =       3741
+# 
+# coverage = 0.874883
+# 
+# Test set size =          49
+# Collapsed Faults =       4276
+# Detected Faults =       3741
+# 
+# coverage = 0.874883
+# 
+# Test set size =          50
+# Collapsed Faults =       4276
+# Detected Faults =       3741
+# 
+# coverage = 0.874883
+# 
+# Test set size =          51
+# Collapsed Faults =       4276
+# Detected Faults =       3741
+# 
+# coverage = 0.874883
+# 
+# Test set size =          52
+# Collapsed Faults =       4276
+# Detected Faults =       3741
+# 
+# coverage = 0.874883
+# 
+# Test set size =          53
+# Collapsed Faults =       4276
+# Detected Faults =       3741
+# 
+# coverage = 0.874883
+# 
+# Test set size =          54
+# Collapsed Faults =       4276
+# Detected Faults =       3741
+# 
+# coverage = 0.874883
+# 
+# Test set size =          55
+# Collapsed Faults =       4276
+# Detected Faults =       3741
+# 
+# coverage = 0.874883
+# 
+# Test set size =          56
+# Collapsed Faults =       4276
+# Detected Faults =       3741
+# 
+# coverage = 0.874883
+# 
+# Test set size =          57
+# Collapsed Faults =       4276
+# Detected Faults =       3741
+# 
+# coverage = 0.874883
+# 
+# Test set size =          58
+# Collapsed Faults =       4276
+# Detected Faults =       3753
+# 
+# coverage = 0.877689
+# 
+# Test set size =          59
+# Collapsed Faults =       4276
+# Detected Faults =       3780
+# 
+# coverage = 0.884004
+# 
+# Test set size =          60
+# Collapsed Faults =       4276
+# Detected Faults =       3793
+# 
+# coverage = 0.887044
+# 
+# Test set size =          61
+# Collapsed Faults =       4276
+# Detected Faults =       3815
+# 
+# coverage = 0.892189
+# 
+# Test set size =          62
+# Collapsed Faults =       4276
+# Detected Faults =       3847
+# 
+# coverage = 0.899673
+# 
+# Test set size =          63
+# Collapsed Faults =       4276
+# Detected Faults =       3847
+# 
+# coverage = 0.899673
+# 
+# Test set size =          64
+# Collapsed Faults =       4276
+# Detected Faults =       3847
+# 
+# coverage = 0.899673
+# 
+# Test set size =          65
+# Collapsed Faults =       4276
+# Detected Faults =       3862
+# 
+# coverage = 0.903181
+# 
+# Test set size =          66
+# Collapsed Faults =       4276
+# Detected Faults =       3862
+# 
+# coverage = 0.903181
+# 
+# Test set size =          67
+# Collapsed Faults =       4276
+# Detected Faults =       3862
+# 
+# coverage = 0.903181
+# 
+# Test set size =          68
+# Collapsed Faults =       4276
+# Detected Faults =       3862
+# 
+# coverage = 0.903181
+# 
+# Test set size =          69
+# Collapsed Faults =       4276
+# Detected Faults =       3880
+# 
+# coverage = 0.907390
+# 
+# Test set size =          70
+# Collapsed Faults =       4276
+# Detected Faults =       3880
+# 
+# coverage = 0.907390
+# 
+# Test set size =          71
+# Collapsed Faults =       4276
+# Detected Faults =       3880
+# 
+# coverage = 0.907390
+# 
+# Test set size =          72
+# Collapsed Faults =       4276
+# Detected Faults =       3880
+# 
+# coverage = 0.907390
+# 
+# Test set size =          73
+# Collapsed Faults =       4276
+# Detected Faults =       3880
+# 
+# coverage = 0.907390
+# 
+# Test set size =          74
+# Collapsed Faults =       4276
+# Detected Faults =       3880
+# 
+# coverage = 0.907390
+# 
+# Test set size =          75
+# Collapsed Faults =       4276
+# Detected Faults =       3880
+# 
+# coverage = 0.907390
+# 
+# Test set size =          76
+# Collapsed Faults =       4276
+# Detected Faults =       3886
+# 
+# coverage = 0.908793
+# 
+# Test set size =          77
+# Collapsed Faults =       4276
+# Detected Faults =       3897
+# 
+# coverage = 0.911366
+# 
+# Test set size =          78
+# Collapsed Faults =       4276
+# Detected Faults =       3899
+# 
+# coverage = 0.911833
+# 
+# Test set size =          79
+# Collapsed Faults =       4276
+# Detected Faults =       3899
+# 
+# coverage = 0.911833
+# 
+# Test set size =          80
+# Collapsed Faults =       4276
+# Detected Faults =       3899
+# 
+# coverage = 0.911833
+# 
+# Test set size =          81
+# Collapsed Faults =       4276
+# Detected Faults =       3901
+# 
+# coverage = 0.912301
+# 
+# Test set size =          82
+# Collapsed Faults =       4276
+# Detected Faults =       3901
+# 
+# coverage = 0.912301
+# 
+# Test set size =          83
+# Collapsed Faults =       4276
+# Detected Faults =       3901
+# 
+# coverage = 0.912301
+# 
+# Test set size =          84
+# Collapsed Faults =       4276
+# Detected Faults =       3901
+# 
+# coverage = 0.912301
+# 
+# Test set size =          85
+# Collapsed Faults =       4276
+# Detected Faults =       3901
+# 
+# coverage = 0.912301
+# 
+# Test set size =          86
+# Collapsed Faults =       4276
+# Detected Faults =       3904
+# 
+# coverage = 0.913003
+# 
+# Test set size =          87
+# Collapsed Faults =       4276
+# Detected Faults =       3906
+# 
+# coverage = 0.913471
+# 
+# Test set size =          88
+# Collapsed Faults =       4276
+# Detected Faults =       3906
+# 
+# coverage = 0.913471
+# 
+# Test set size =          89
+# Collapsed Faults =       4276
+# Detected Faults =       3906
+# 
+# coverage = 0.913471
+# 
+# Test set size =          90
+# Collapsed Faults =       4276
+# Detected Faults =       3906
+# 
+# coverage = 0.913471
+# 
+# Test set size =          91
+# Collapsed Faults =       4276
+# Detected Faults =       3906
+# 
+# coverage = 0.913471
+# 
+# Test set size =          92
+# Collapsed Faults =       4276
+# Detected Faults =       3906
+# 
+# coverage = 0.913471
+# 
+# Test set size =          93
+# Collapsed Faults =       4276
+# Detected Faults =       3906
+# 
+# coverage = 0.913471
+# 
+# Test set size =          94
+# Collapsed Faults =       4276
+# Detected Faults =       3906
+# 
+# coverage = 0.913471
+# 
+# Test set size =          95
+# Collapsed Faults =       4276
+# Detected Faults =       3906
+# 
+# coverage = 0.913471
+# 
+# Test set size =          96
+# Collapsed Faults =       4276
+# Detected Faults =       3908
+# 
+# coverage = 0.913938
+# 
+# Test set size =          97
+# Collapsed Faults =       4276
+# Detected Faults =       3908
+# 
+# coverage = 0.913938
+# 
+# Test set size =          98
+# Collapsed Faults =       4276
+# Detected Faults =       3908
+# 
+# coverage = 0.913938
+# 
+# Test set size =          99
+# Collapsed Faults =       4276
+# Detected Faults =       3908
+# 
+# coverage = 0.913938
+# 
+# Test set size =         100
+# Collapsed Faults =       4276
+# Detected Faults =       3908
+# 
+# coverage = 0.913938
+# 
+# Test set size =         101
+# Collapsed Faults =       4276
+# Detected Faults =       3908
+# 
+# coverage = 0.913938
+# 
+# Test set size =         102
+# Collapsed Faults =       4276
+# Detected Faults =       3910
+# 
+# coverage = 0.914406
+# 
+# Test set size =         103
+# Collapsed Faults =       4276
+# Detected Faults =       3910
+# 
+# coverage = 0.914406
+# 
+# Test set size =         104
+# Collapsed Faults =       4276
+# Detected Faults =       3910
+# 
+# coverage = 0.914406
+# 
+# Test set size =         105
+# Collapsed Faults =       4276
+# Detected Faults =       3910
+# 
+# coverage = 0.914406
+# 
+# Test set size =         106
+# Collapsed Faults =       4276
+# Detected Faults =       3910
+# 
+# coverage = 0.914406
+# 
+# Test set size =         107
+# Collapsed Faults =       4276
+# Detected Faults =       3910
+# 
+# coverage = 0.914406
+# 
+# Test set size =         108
+# Collapsed Faults =       4276
+# Detected Faults =       3916
+# 
+# coverage = 0.915809
+# 
+# Test set size =         109
+# Collapsed Faults =       4276
+# Detected Faults =       3916
+# 
+# coverage = 0.915809
+# 
+# Test set size =         110
+# Collapsed Faults =       4276
+# Detected Faults =       3916
+# 
+# coverage = 0.915809
+# 
+# Test set size =         111
+# Collapsed Faults =       4276
+# Detected Faults =       3925
+# 
+# coverage = 0.917914
+# 
+# Test set size =         112
+# Collapsed Faults =       4276
+# Detected Faults =       3944
+# 
+# coverage = 0.922357
+# 
+# Test set size =         113
+# Collapsed Faults =       4276
+# Detected Faults =       3944
+# 
+# coverage = 0.922357
+# 
+# Test set size =         114
+# Collapsed Faults =       4276
+# Detected Faults =       3944
+# 
+# coverage = 0.922357
+# 
+# Test set size =         115
+# Collapsed Faults =       4276
+# Detected Faults =       3953
+# 
+# coverage = 0.924462
+# 
+# Test set size =         116
+# Collapsed Faults =       4276
+# Detected Faults =       3955
+# 
+# coverage = 0.924930
+# 
+# Test set size =         117
+# Collapsed Faults =       4276
+# Detected Faults =       3955
+# 
+# coverage = 0.924930
+# 
+# Test set size =         118
+# Collapsed Faults =       4276
+# Detected Faults =       3955
+# 
+# coverage = 0.924930
+# 
+# Test set size =         119
+# Collapsed Faults =       4276
+# Detected Faults =       3960
+# 
+# coverage = 0.926099
+# 
+# Test set size =         120
+# Collapsed Faults =       4276
+# Detected Faults =       3966
+# 
+# coverage = 0.927502
+# 
+# Test set size =         121
+# Collapsed Faults =       4276
+# Detected Faults =       3966
+# 
+# coverage = 0.927502
+# 
+# Test set size =         122
+# Collapsed Faults =       4276
+# Detected Faults =       3966
+# 
+# coverage = 0.927502
+# 
+# Test set size =         123
+# Collapsed Faults =       4276
+# Detected Faults =       3966
+# 
+# coverage = 0.927502
+# 
+# Test set size =         124
+# Collapsed Faults =       4276
+# Detected Faults =       3966
+# 
+# coverage = 0.927502
+# 
+# Test set size =         125
+# Collapsed Faults =       4276
+# Detected Faults =       3966
+# 
+# coverage = 0.927502
+# 
+# Test set size =         126
+# Collapsed Faults =       4276
+# Detected Faults =       3966
+# 
+# coverage = 0.927502
+# 
+# Test set size =         127
+# Collapsed Faults =       4276
+# Detected Faults =       3966
+# 
+# coverage = 0.927502
+# 
+# Test set size =         128
+# Collapsed Faults =       4276
+# Detected Faults =       3966
+# 
+# coverage = 0.927502
+# 
+# Test set size =         129
+# Collapsed Faults =       4276
+# Detected Faults =       3966
+# 
+# coverage = 0.927502
+# 
+# Test set size =         130
+# Collapsed Faults =       4276
+# Detected Faults =       3966
+# 
+# coverage = 0.927502
+# 
+# Test set size =         131
+# Collapsed Faults =       4276
+# Detected Faults =       3966
+# 
+# coverage = 0.927502
+# 
+# Test set size =         132
+# Collapsed Faults =       4276
+# Detected Faults =       3966
+# 
+# coverage = 0.927502
+# 
+# Test set size =         133
+# Collapsed Faults =       4276
+# Detected Faults =       3966
+# 
+# coverage = 0.927502
+# 
+# Test set size =         134
+# Collapsed Faults =       4276
+# Detected Faults =       3966
+# 
+# coverage = 0.927502
+# 
+# Test set size =         135
+# Collapsed Faults =       4276
+# Detected Faults =       3966
+# 
+# coverage = 0.927502
+# 
+# Test set size =         136
+# Collapsed Faults =       4276
+# Detected Faults =       3966
+# 
+# coverage = 0.927502
+# 
+# Test set size =         137
+# Collapsed Faults =       4276
+# Detected Faults =       3966
+# 
+# coverage = 0.927502
+# 
+# Test set size =         138
+# Collapsed Faults =       4276
+# Detected Faults =       3966
+# 
+# coverage = 0.927502
+# 
+# Test set size =         139
+# Collapsed Faults =       4276
+# Detected Faults =       3966
+# 
+# coverage = 0.927502
+# 
+# Test set size =         140
+# Collapsed Faults =       4276
+# Detected Faults =       3966
+# 
+# coverage = 0.927502
+# 
+# Test set size =         141
+# Collapsed Faults =       4276
+# Detected Faults =       3966
+# 
+# coverage = 0.927502
+# 
+# Test set size =         142
+# Collapsed Faults =       4276
+# Detected Faults =       3966
+# 
+# coverage = 0.927502
+# 
+# Test set size =         143
+# Collapsed Faults =       4276
+# Detected Faults =       3966
+# 
+# coverage = 0.927502
+# 
+# Test set size =         144
+# Collapsed Faults =       4276
+# Detected Faults =       3966
+# 
+# coverage = 0.927502
+# 
+# Test set size =         145
+# Collapsed Faults =       4276
+# Detected Faults =       3976
+# 
+# coverage = 0.929841
+# 
+# Test set size =         146
+# Collapsed Faults =       4276
+# Detected Faults =       3976
+# 
+# coverage = 0.929841
+# 
+# Test set size =         147
+# Collapsed Faults =       4276
+# Detected Faults =       3976
+# 
+# coverage = 0.929841
+# 
+# Test set size =         148
+# Collapsed Faults =       4276
+# Detected Faults =       3976
+# 
+# coverage = 0.929841
+# 
+# Test set size =         149
+# Collapsed Faults =       4276
+# Detected Faults =       3976
+# 
+# coverage = 0.929841
+# 
+# Test set size =         150
+# Collapsed Faults =       4276
+# Detected Faults =       3976
+# 
+# coverage = 0.929841
+# 
+# Test set size =         151
+# Collapsed Faults =       4276
+# Detected Faults =       3976
+# 
+# coverage = 0.929841
+# 
+# Test set size =         152
+# Collapsed Faults =       4276
+# Detected Faults =       3976
+# 
+# coverage = 0.929841
+# 
+# Test set size =         153
+# Collapsed Faults =       4276
+# Detected Faults =       3976
+# 
+# coverage = 0.929841
+# 
+# Test set size =         154
+# Collapsed Faults =       4276
+# Detected Faults =       3976
+# 
+# coverage = 0.929841
+# 
+# Test set size =         155
+# Collapsed Faults =       4276
+# Detected Faults =       3976
+# 
+# coverage = 0.929841
+# 
+# Test set size =         156
+# Collapsed Faults =       4276
+# Detected Faults =       3976
+# 
+# coverage = 0.929841
+# 
+# Test set size =         157
+# Collapsed Faults =       4276
+# Detected Faults =       3976
+# 
+# coverage = 0.929841
+# 
+# Test set size =         158
+# Collapsed Faults =       4276
+# Detected Faults =       3976
+# 
+# coverage = 0.929841
+# 
+# Test set size =         159
+# Collapsed Faults =       4276
+# Detected Faults =       3976
+# 
+# coverage = 0.929841
+# 
+# Test set size =         160
+# Collapsed Faults =       4276
+# Detected Faults =       3976
+# 
+# coverage = 0.929841
+# 
+# Test set size =         161
+# Collapsed Faults =       4276
+# Detected Faults =       3976
+# 
+# coverage = 0.929841
+# 
+# Test set size =         162
+# Collapsed Faults =       4276
+# Detected Faults =       3976
+# 
+# coverage = 0.929841
+# 
+# Test set size =         163
+# Collapsed Faults =       4276
+# Detected Faults =       3976
+# 
+# coverage = 0.929841
+# 
+# Test set size =         164
+# Collapsed Faults =       4276
+# Detected Faults =       3976
+# 
+# coverage = 0.929841
+# 
+# Test set size =         165
+# Collapsed Faults =       4276
+# Detected Faults =       3976
+# 
+# coverage = 0.929841
+# 
+# Test set size =         166
+# Collapsed Faults =       4276
+# Detected Faults =       3976
+# 
+# coverage = 0.929841
+# 
+# Test set size =         167
+# Collapsed Faults =       4276
+# Detected Faults =       3976
+# 
+# coverage = 0.929841
+# 
+# Test set size =         168
+# Collapsed Faults =       4276
+# Detected Faults =       3976
+# 
+# coverage = 0.929841
+# 
+# Test set size =         169
+# Collapsed Faults =       4276
+# Detected Faults =       3976
+# 
+# coverage = 0.929841
+# 
+# Test set size =         170
+# Collapsed Faults =       4276
+# Detected Faults =       3976
+# 
+# coverage = 0.929841
+# 
+# Test set size =         171
+# Collapsed Faults =       4276
+# Detected Faults =       3976
+# 
+# coverage = 0.929841
+# 
+# Test set size =         172
+# Collapsed Faults =       4276
+# Detected Faults =       3976
+# 
+# coverage = 0.929841
+# 
+# Test set size =         173
+# Collapsed Faults =       4276
+# Detected Faults =       3976
+# 
+# coverage = 0.929841
+# 
+# Test set size =         174
+# Collapsed Faults =       4276
+# Detected Faults =       3976
+# 
+# coverage = 0.929841
+# 
+# Test set size =         175
+# Collapsed Faults =       4276
+# Detected Faults =       3976
+# 
+# coverage = 0.929841
+# 
+# Test set size =         176
+# Collapsed Faults =       4276
+# Detected Faults =       3976
+# 
+# coverage = 0.929841
+# 
+# Test set size =         177
+# Collapsed Faults =       4276
+# Detected Faults =       3976
+# 
+# coverage = 0.929841
+# 
+# Test set size =         178
+# Collapsed Faults =       4276
+# Detected Faults =       3976
+# 
+# coverage = 0.929841
+# 
+# Test set size =         179
+# Collapsed Faults =       4276
+# Detected Faults =       3976
+# 
+# coverage = 0.929841
+# 
+# Test set size =         180
+# Collapsed Faults =       4276
+# Detected Faults =       3976
+# 
+# coverage = 0.929841
+# 
+# Test set size =         181
+# Collapsed Faults =       4276
+# Detected Faults =       3976
+# 
+# coverage = 0.929841
+# 
+# Test set size =         182
+# Collapsed Faults =       4276
+# Detected Faults =       3976
+# 
+# coverage = 0.929841
+# 
+# Test set size =         183
+# Collapsed Faults =       4276
+# Detected Faults =       3976
+# 
+# coverage = 0.929841
+# 
+# Test set size =         184
+# Collapsed Faults =       4276
+# Detected Faults =       3976
+# 
+# coverage = 0.929841
+# 
+# Test set size =         185
+# Collapsed Faults =       4276
+# Detected Faults =       3976
+# 
+# coverage = 0.929841
+# 
+# Test set size =         186
+# Collapsed Faults =       4276
+# Detected Faults =       3976
+# 
+# coverage = 0.929841
+# 
+# Test set size =         187
+# Collapsed Faults =       4276
+# Detected Faults =       3976
+# 
+# coverage = 0.929841
+# 
+# Test set size =         188
+# Collapsed Faults =       4276
+# Detected Faults =       3976
+# 
+# coverage = 0.929841
+# 
+# Test set size =         189
+# Collapsed Faults =       4276
+# Detected Faults =       3976
+# 
+# coverage = 0.929841
+# 
+# Test set size =         190
+# Collapsed Faults =       4276
+# Detected Faults =       3976
+# 
+# coverage = 0.929841
+# 
+# Test set size =         191
+# Collapsed Faults =       4276
+# Detected Faults =       3976
+# 
+# coverage = 0.929841
+# 
+# Test set size =         192
+# Collapsed Faults =       4276
+# Detected Faults =       3976
+# 
+# coverage = 0.929841
+# 
+# Test set size =         193
+# Collapsed Faults =       4276
+# Detected Faults =       3976
+# 
+# coverage = 0.929841
+# 
+# Test set size =         194
+# Collapsed Faults =       4276
+# Detected Faults =       3976
+# 
+# coverage = 0.929841
+# 
+# Test set size =         195
+# Collapsed Faults =       4276
+# Detected Faults =       3976
+# 
+# coverage = 0.929841
+# 
+# Test set size =         196
+# Collapsed Faults =       4276
+# Detected Faults =       3976
+# 
+# coverage = 0.929841
+# 
+# Test set size =         197
+# Collapsed Faults =       4276
+# Detected Faults =       3976
+# 
+# coverage = 0.929841
+# 
+# Test set size =         198
+# Collapsed Faults =       4276
+# Detected Faults =       3976
+# 
+# coverage = 0.929841
+# 
+# Test set size =         199
+# Collapsed Faults =       4276
+# Detected Faults =       3976
+# 
+# coverage = 0.929841
+# 
+# Test set size =         200
+# Collapsed Faults =       4276
+# Detected Faults =       3976
+# 
+# coverage = 0.929841
+# 
+# Test set size =         201
+# Collapsed Faults =       4276
+# Detected Faults =       3976
+# 
+# coverage = 0.929841
+# 
+# Test set size =         202
+# Collapsed Faults =       4276
+# Detected Faults =       3976
+# 
+# coverage = 0.929841
+# 
+# Test set size =         203
+# Collapsed Faults =       4276
+# Detected Faults =       3976
+# 
+# coverage = 0.929841
+# 
+# Test set size =         204
+# Collapsed Faults =       4276
+# Detected Faults =       3976
+# 
+# coverage = 0.929841
+# 
+# Test set size =         205
+# Collapsed Faults =       4276
+# Detected Faults =       3976
+# 
+# coverage = 0.929841
+# 
+# Test set size =         206
+# Collapsed Faults =       4276
+# Detected Faults =       3976
+# 
+# coverage = 0.929841
+# 
+# Test set size =         207
+# Collapsed Faults =       4276
+# Detected Faults =       3982
+# 
+# coverage = 0.931244
+# 
+# Test set size =         208
+# Collapsed Faults =       4276
+# Detected Faults =       3982
+# 
+# coverage = 0.931244
+# 
+# Test set size =         209
+# Collapsed Faults =       4276
+# Detected Faults =       3984
+# 
+# coverage = 0.931712
+# 
+# Test set size =         210
+# Collapsed Faults =       4276
+# Detected Faults =       3986
+# 
+# coverage = 0.932180
+# 
+# Test set size =         211
+# Collapsed Faults =       4276
+# Detected Faults =       3986
+# 
+# coverage = 0.932180
+# 
+# Test set size =         212
+# Collapsed Faults =       4276
+# Detected Faults =       3986
+# 
+# coverage = 0.932180
+# 
+# Test set size =         213
+# Collapsed Faults =       4276
+# Detected Faults =       3988
+# 
+# coverage = 0.932647
+# 
+# Test set size =         214
+# Collapsed Faults =       4276
+# Detected Faults =       3988
+# 
+# coverage = 0.932647
+# 
+# Test set size =         215
+# Collapsed Faults =       4276
+# Detected Faults =       3988
+# 
+# coverage = 0.932647
+# 
+# Test set size =         216
+# Collapsed Faults =       4276
+# Detected Faults =       3988
+# 
+# coverage = 0.932647
+# 
+# Test set size =         217
+# Collapsed Faults =       4276
+# Detected Faults =       3988
+# 
+# coverage = 0.932647
+# 
+# Test set size =         218
+# Collapsed Faults =       4276
+# Detected Faults =       3988
+# 
+# coverage = 0.932647
+# 
+# Test set size =         219
+# Collapsed Faults =       4276
+# Detected Faults =       3988
+# 
+# coverage = 0.932647
+# 
+# Test set size =         220
+# Collapsed Faults =       4276
+# Detected Faults =       3988
+# 
+# coverage = 0.932647
+# 
+# Test set size =         221
+# Collapsed Faults =       4276
+# Detected Faults =       3988
+# 
+# coverage = 0.932647
+# 
+# Test set size =         222
+# Collapsed Faults =       4276
+# Detected Faults =       3988
+# 
+# coverage = 0.932647
+# 
+# Test set size =         223
+# Collapsed Faults =       4276
+# Detected Faults =       3988
+# 
+# coverage = 0.932647
+# 
+# Test set size =         224
+# Collapsed Faults =       4276
+# Detected Faults =       3988
+# 
+# coverage = 0.932647
+# 
+# Test set size =         225
+# Collapsed Faults =       4276
+# Detected Faults =       3988
+# 
+# coverage = 0.932647
+# 
+# Test set size =         226
+# Collapsed Faults =       4276
+# Detected Faults =       3988
+# 
+# coverage = 0.932647
+# 
+# Test set size =         227
+# Collapsed Faults =       4276
+# Detected Faults =       3988
+# 
+# coverage = 0.932647
+# 
+# Test set size =         228
+# Collapsed Faults =       4276
+# Detected Faults =       3988
+# 
+# coverage = 0.932647
+# 
+# Test set size =         229
+# Collapsed Faults =       4276
+# Detected Faults =       3988
+# 
+# coverage = 0.932647
+# 
+# Test set size =         230
+# Collapsed Faults =       4276
+# Detected Faults =       3988
+# 
+# coverage = 0.932647
+# 
+# Test set size =         231
+# Collapsed Faults =       4276
+# Detected Faults =       3988
+# 
+# coverage = 0.932647
+# 
+# Test set size =         232
+# Collapsed Faults =       4276
+# Detected Faults =       3988
+# 
+# coverage = 0.932647
+# 
+# Test set size =         233
+# Collapsed Faults =       4276
+# Detected Faults =       3988
+# 
+# coverage = 0.932647
+# 
+# Test set size =         234
+# Collapsed Faults =       4276
+# Detected Faults =       3988
+# 
+# coverage = 0.932647
+# 
+# Test set size =         235
+# Collapsed Faults =       4276
+# Detected Faults =       3988
+# 
+# coverage = 0.932647
+# 
+# Test set size =         236
+# Collapsed Faults =       4276
+# Detected Faults =       3988
+# 
+# coverage = 0.932647
+# 
+# Test set size =         237
+# Collapsed Faults =       4276
+# Detected Faults =       3988
+# 
+# coverage = 0.932647
+# 
+# Test set size =         238
+# Collapsed Faults =       4276
+# Detected Faults =       3988
+# 
+# coverage = 0.932647
+# 
+# Test set size =         239
+# Collapsed Faults =       4276
+# Detected Faults =       3988
+# 
+# coverage = 0.932647
+# 
+# Test set size =         240
+# Collapsed Faults =       4276
+# Detected Faults =       3988
+# 
+# coverage = 0.932647
+# 
+# Test set size =         241
+# Collapsed Faults =       4276
+# Detected Faults =       3988
+# 
+# coverage = 0.932647
+# 
+# Test set size =         242
+# Collapsed Faults =       4276
+# Detected Faults =       3988
+# 
+# coverage = 0.932647
+# 
+# Test set size =         243
+# Collapsed Faults =       4276
+# Detected Faults =       3988
+# 
+# coverage = 0.932647
+# 
+# Test set size =         244
+# Collapsed Faults =       4276
+# Detected Faults =       3988
+# 
+# coverage = 0.932647
+# 
+# Test set size =         245
+# Collapsed Faults =       4276
+# Detected Faults =       3988
+# 
+# coverage = 0.932647
+# 
+# Test set size =         246
+# Collapsed Faults =       4276
+# Detected Faults =       3988
+# 
+# coverage = 0.932647
+# 
+# Test set size =         247
+# Collapsed Faults =       4276
+# Detected Faults =       3988
+# 
+# coverage = 0.932647
+# 
+# Test set size =         248
+# Collapsed Faults =       4276
+# Detected Faults =       3988
+# 
+# coverage = 0.932647
+# 
+# Test set size =         249
+# Collapsed Faults =       4276
+# Detected Faults =       3988
+# 
+# coverage = 0.932647
+# 
+# Test set size =         250
+# Collapsed Faults =       4276
+# Detected Faults =       3988
+# 
+# coverage = 0.932647
+# 
+# Test set size =         251
+# Collapsed Faults =       4276
+# Detected Faults =       3988
+# 
+# coverage = 0.932647
+# 
+# Test set size =         252
+# Collapsed Faults =       4276
+# Detected Faults =       3988
+# 
+# coverage = 0.932647
+# 
+# Test set size =         253
+# Collapsed Faults =       4276
+# Detected Faults =       3992
+# 
+# coverage = 0.933583
+# 
+# Test set size =         254
+# Collapsed Faults =       4276
+# Detected Faults =       3992
+# 
+# coverage = 0.933583
+# 
+# Test set size =         255
+# Collapsed Faults =       4276
+# Detected Faults =       4007
+# 
+# coverage = 0.937091
+# 
+# Test set size =         256
+# Collapsed Faults =       4276
+# Detected Faults =       4007
+# 
+# coverage = 0.937091
+# 
+# Test set size =         257
+# Collapsed Faults =       4276
+# Detected Faults =       4007
+# 
+# coverage = 0.937091
+# 
+# Test set size =         258
+# Collapsed Faults =       4276
+# Detected Faults =       4007
+# 
+# coverage = 0.937091
+# 
+# Test set size =         259
+# Collapsed Faults =       4276
+# Detected Faults =       4007
+# 
+# coverage = 0.937091
+# 
+# Test set size =         260
+# Collapsed Faults =       4276
+# Detected Faults =       4007
+# 
+# coverage = 0.937091
+# 
+# Test set size =         261
+# Collapsed Faults =       4276
+# Detected Faults =       4007
+# 
+# coverage = 0.937091
+# 
+# Test set size =         262
+# Collapsed Faults =       4276
+# Detected Faults =       4007
+# 
+# coverage = 0.937091
+# 
+# Test set size =         263
+# Collapsed Faults =       4276
+# Detected Faults =       4007
+# 
+# coverage = 0.937091
+# 
+# Test set size =         264
+# Collapsed Faults =       4276
+# Detected Faults =       4013
+# 
+# coverage = 0.938494
+# 
+# Test set size =         265
+# Collapsed Faults =       4276
+# Detected Faults =       4013
+# 
+# coverage = 0.938494
+# 
+# Test set size =         266
+# Collapsed Faults =       4276
+# Detected Faults =       4013
+# 
+# coverage = 0.938494
+# 
+# Test set size =         267
+# Collapsed Faults =       4276
+# Detected Faults =       4020
+# 
+# coverage = 0.940131
+# 
+# Test set size =         268
+# Collapsed Faults =       4276
+# Detected Faults =       4020
+# 
+# coverage = 0.940131
+# 
+# Test set size =         269
+# Collapsed Faults =       4276
+# Detected Faults =       4020
+# 
+# coverage = 0.940131
+# 
+# Test set size =         270
+# Collapsed Faults =       4276
+# Detected Faults =       4020
+# 
+# coverage = 0.940131
+# 
+# Test set size =         271
+# Collapsed Faults =       4276
+# Detected Faults =       4020
+# 
+# coverage = 0.940131
+# 
+# Test set size =         272
+# Collapsed Faults =       4276
+# Detected Faults =       4020
+# 
+# coverage = 0.940131
+# 
+# Test set size =         273
+# Collapsed Faults =       4276
+# Detected Faults =       4020
+# 
+# coverage = 0.940131
+# 
+# Test set size =         274
+# Collapsed Faults =       4276
+# Detected Faults =       4020
+# 
+# coverage = 0.940131
+# 
+# Test set size =         275
+# Collapsed Faults =       4276
+# Detected Faults =       4020
+# 
+# coverage = 0.940131
+# 
+# Test set size =         276
+# Collapsed Faults =       4276
+# Detected Faults =       4020
+# 
+# coverage = 0.940131
+# 
+# Test set size =         277
+# Collapsed Faults =       4276
+# Detected Faults =       4020
+# 
+# coverage = 0.940131
+# 
+# Test set size =         278
+# Collapsed Faults =       4276
+# Detected Faults =       4020
+# 
+# coverage = 0.940131
+# 
+# Test set size =         279
+# Collapsed Faults =       4276
+# Detected Faults =       4020
+# 
+# coverage = 0.940131
+# 
+# Test set size =         280
+# Collapsed Faults =       4276
+# Detected Faults =       4020
+# 
+# coverage = 0.940131
+# 
+# Test set size =         281
+# Collapsed Faults =       4276
+# Detected Faults =       4020
+# 
+# coverage = 0.940131
+# 
+# Test set size =         282
+# Collapsed Faults =       4276
+# Detected Faults =       4020
+# 
+# coverage = 0.940131
+# 
+# Test set size =         283
+# Collapsed Faults =       4276
+# Detected Faults =       4020
+# 
+# coverage = 0.940131
+# 
+# Test set size =         284
+# Collapsed Faults =       4276
+# Detected Faults =       4020
+# 
+# coverage = 0.940131
+# 
+# Test set size =         285
+# Collapsed Faults =       4276
+# Detected Faults =       4020
+# 
+# coverage = 0.940131
+# 
+# Test set size =         286
+# Collapsed Faults =       4276
+# Detected Faults =       4020
+# 
+# coverage = 0.940131
+# 
+# Test set size =         287
+# Collapsed Faults =       4276
+# Detected Faults =       4020
+# 
+# coverage = 0.940131
+# 
+# Test set size =         288
+# Collapsed Faults =       4276
+# Detected Faults =       4020
+# 
+# coverage = 0.940131
+# 
+# Test set size =         289
+# Collapsed Faults =       4276
+# Detected Faults =       4020
+# 
+# coverage = 0.940131
+# 
+# Test set size =         290
+# Collapsed Faults =       4276
+# Detected Faults =       4020
+# 
+# coverage = 0.940131
+# 
+# Test set size =         291
+# Collapsed Faults =       4276
+# Detected Faults =       4020
+# 
+# coverage = 0.940131
+# 
+# Test set size =         292
+# Collapsed Faults =       4276
+# Detected Faults =       4022
+# 
+# coverage = 0.940599
+# 
+# Test set size =         293
+# Collapsed Faults =       4276
+# Detected Faults =       4022
+# 
+# coverage = 0.940599
+# 
+# Test set size =         294
+# Collapsed Faults =       4276
+# Detected Faults =       4022
+# 
+# coverage = 0.940599
+# 
+# Test set size =         295
+# Collapsed Faults =       4276
+# Detected Faults =       4031
+# 
+# coverage = 0.942703
+# 
+# Test set size =         296
+# Collapsed Faults =       4276
+# Detected Faults =       4031
+# 
+# coverage = 0.942703
+# 
+# Test set size =         297
+# Collapsed Faults =       4276
+# Detected Faults =       4031
+# 
+# coverage = 0.942703
+# 
+# Test set size =         298
+# Collapsed Faults =       4276
+# Detected Faults =       4031
+# 
+# coverage = 0.942703
+# 
+# Test set size =         299
+# Collapsed Faults =       4276
+# Detected Faults =       4031
+# 
+# coverage = 0.942703
+# 
+# Test set size =         300
+# Collapsed Faults =       4276
+# Detected Faults =       4031
+# 
+# coverage = 0.942703
+# 
+# Test set size =         301
+# Collapsed Faults =       4276
+# Detected Faults =       4031
+# 
+# coverage = 0.942703
+# 
+# Test set size =         302
+# Collapsed Faults =       4276
+# Detected Faults =       4031
+# 
+# coverage = 0.942703
+# 
+# Test set size =         303
+# Collapsed Faults =       4276
+# Detected Faults =       4031
+# 
+# coverage = 0.942703
+# 
+# Test set size =         304
+# Collapsed Faults =       4276
+# Detected Faults =       4031
+# 
+# coverage = 0.942703
+# 
+# Test set size =         305
+# Collapsed Faults =       4276
+# Detected Faults =       4031
+# 
+# coverage = 0.942703
+# 
+# Test set size =         306
+# Collapsed Faults =       4276
+# Detected Faults =       4031
+# 
+# coverage = 0.942703
+# 
+# Test set size =         307
+# Collapsed Faults =       4276
+# Detected Faults =       4031
+# 
+# coverage = 0.942703
+# 
+# Test set size =         308
+# Collapsed Faults =       4276
+# Detected Faults =       4031
+# 
+# coverage = 0.942703
+# 
+# Test set size =         309
+# Collapsed Faults =       4276
+# Detected Faults =       4031
+# 
+# coverage = 0.942703
+# 
+# Test set size =         310
+# Collapsed Faults =       4276
+# Detected Faults =       4031
+# 
+# coverage = 0.942703
+# 
+# Test set size =         311
+# Collapsed Faults =       4276
+# Detected Faults =       4031
+# 
+# coverage = 0.942703
+# 
+# Test set size =         312
+# Collapsed Faults =       4276
+# Detected Faults =       4031
+# 
+# coverage = 0.942703
+# 
+# Test set size =         313
+# Collapsed Faults =       4276
+# Detected Faults =       4031
+# 
+# coverage = 0.942703
+# 
+# Test set size =         314
+# Collapsed Faults =       4276
+# Detected Faults =       4031
+# 
+# coverage = 0.942703
+# 
+# Test set size =         315
+# Collapsed Faults =       4276
+# Detected Faults =       4031
+# 
+# coverage = 0.942703
+# 
+# Test set size =         316
+# Collapsed Faults =       4276
+# Detected Faults =       4031
+# 
+# coverage = 0.942703
+# 
+# Test set size =         317
+# Collapsed Faults =       4276
+# Detected Faults =       4031
+# 
+# coverage = 0.942703
+# 
+# Test set size =         318
+# Collapsed Faults =       4276
+# Detected Faults =       4031
+# 
+# coverage = 0.942703
+# 
+# Test set size =         319
+# Collapsed Faults =       4276
+# Detected Faults =       4035
+# 
+# coverage = 0.943639
+# 
+# Test set size =         320
+# Collapsed Faults =       4276
+# Detected Faults =       4035
+# 
+# coverage = 0.943639
+# 
+# Test set size =         321
+# Collapsed Faults =       4276
+# Detected Faults =       4035
+# 
+# coverage = 0.943639
+# 
+# Test set size =         322
+# Collapsed Faults =       4276
+# Detected Faults =       4035
+# 
+# coverage = 0.943639
+# 
+# Test set size =         323
+# Collapsed Faults =       4276
+# Detected Faults =       4035
+# 
+# coverage = 0.943639
+# 
+# Test set size =         324
+# Collapsed Faults =       4276
+# Detected Faults =       4035
+# 
+# coverage = 0.943639
+# 
+# Test set size =         325
+# Collapsed Faults =       4276
+# Detected Faults =       4035
+# 
+# coverage = 0.943639
+# 
+# Test set size =         326
+# Collapsed Faults =       4276
+# Detected Faults =       4035
+# 
+# coverage = 0.943639
+# 
+# Test set size =         327
+# Collapsed Faults =       4276
+# Detected Faults =       4035
+# 
+# coverage = 0.943639
+# 
+# Test set size =         328
+# Collapsed Faults =       4276
+# Detected Faults =       4039
+# 
+# coverage = 0.944574
+# 
+# Test set size =         329
+# Collapsed Faults =       4276
+# Detected Faults =       4039
+# 
+# coverage = 0.944574
+# 
+# Test set size =         330
+# Collapsed Faults =       4276
+# Detected Faults =       4039
+# 
+# coverage = 0.944574
+# 
+# Test set size =         331
+# Collapsed Faults =       4276
+# Detected Faults =       4039
+# 
+# coverage = 0.944574
+# 
+# Test set size =         332
+# Collapsed Faults =       4276
+# Detected Faults =       4039
+# 
+# coverage = 0.944574
+# 
+# Test set size =         333
+# Collapsed Faults =       4276
+# Detected Faults =       4039
+# 
+# coverage = 0.944574
+# 
+# Test set size =         334
+# Collapsed Faults =       4276
+# Detected Faults =       4039
+# 
+# coverage = 0.944574
+# 
+# Test set size =         335
+# Collapsed Faults =       4276
+# Detected Faults =       4039
+# 
+# coverage = 0.944574
+# 
+# Test set size =         336
+# Collapsed Faults =       4276
+# Detected Faults =       4039
+# 
+# coverage = 0.944574
+# 
+# Test set size =         337
+# Collapsed Faults =       4276
+# Detected Faults =       4039
+# 
+# coverage = 0.944574
+# 
+# Test set size =         338
+# Collapsed Faults =       4276
+# Detected Faults =       4041
+# 
+# coverage = 0.945042
+# 
+# Test set size =         339
+# Collapsed Faults =       4276
+# Detected Faults =       4041
+# 
+# coverage = 0.945042
+# 
+# Test set size =         340
+# Collapsed Faults =       4276
+# Detected Faults =       4041
+# 
+# coverage = 0.945042
+# 
+# Test set size =         341
+# Collapsed Faults =       4276
+# Detected Faults =       4041
+# 
+# coverage = 0.945042
+# 
+# Test set size =         342
+# Collapsed Faults =       4276
+# Detected Faults =       4041
+# 
+# coverage = 0.945042
+# 
+# Test set size =         343
+# Collapsed Faults =       4276
+# Detected Faults =       4041
+# 
+# coverage = 0.945042
+# 
+# Test set size =         344
+# Collapsed Faults =       4276
+# Detected Faults =       4041
+# 
+# coverage = 0.945042
+# 
+# Test set size =         345
+# Collapsed Faults =       4276
+# Detected Faults =       4041
+# 
+# coverage = 0.945042
+# 
+# Test set size =         346
+# Collapsed Faults =       4276
+# Detected Faults =       4041
+# 
+# coverage = 0.945042
+# 
+# Test set size =         347
+# Collapsed Faults =       4276
+# Detected Faults =       4041
+# 
+# coverage = 0.945042
+# 
+# Test set size =         348
+# Collapsed Faults =       4276
+# Detected Faults =       4041
+# 
+# coverage = 0.945042
+# 
+# Test set size =         349
+# Collapsed Faults =       4276
+# Detected Faults =       4041
+# 
+# coverage = 0.945042
+# 
+# Test set size =         350
+# Collapsed Faults =       4276
+# Detected Faults =       4041
+# 
+# coverage = 0.945042
+# 
+# Test set size =         351
+# Collapsed Faults =       4276
+# Detected Faults =       4041
+# 
+# coverage = 0.945042
+# 
+# Test set size =         352
+# Collapsed Faults =       4276
+# Detected Faults =       4041
+# 
+# coverage = 0.945042
+# 
+# Test set size =         353
+# Collapsed Faults =       4276
+# Detected Faults =       4041
+# 
+# coverage = 0.945042
+# 
+# Test set size =         354
+# Collapsed Faults =       4276
+# Detected Faults =       4041
+# 
+# coverage = 0.945042
+# 
+# Test set size =         355
+# Collapsed Faults =       4276
+# Detected Faults =       4045
+# 
+# coverage = 0.945978
+# 
+# Test set size =         356
+# Collapsed Faults =       4276
+# Detected Faults =       4045
+# 
+# coverage = 0.945978
+# 
+# Test set size =         357
+# Collapsed Faults =       4276
+# Detected Faults =       4045
+# 
+# coverage = 0.945978
+# 
+# Test set size =         358
+# Collapsed Faults =       4276
+# Detected Faults =       4045
+# 
+# coverage = 0.945978
+# 
+# Test set size =         359
+# Collapsed Faults =       4276
+# Detected Faults =       4045
+# 
+# coverage = 0.945978
+# 
+# Test set size =         360
+# Collapsed Faults =       4276
+# Detected Faults =       4045
+# 
+# coverage = 0.945978
+# 
+# Test set size =         361
+# Collapsed Faults =       4276
+# Detected Faults =       4045
+# 
+# coverage = 0.945978
+# 
+# Test set size =         362
+# Collapsed Faults =       4276
+# Detected Faults =       4045
+# 
+# coverage = 0.945978
+# 
+# Test set size =         363
+# Collapsed Faults =       4276
+# Detected Faults =       4045
+# 
+# coverage = 0.945978
+# 
+# Test set size =         364
+# Collapsed Faults =       4276
+# Detected Faults =       4045
+# 
+# coverage = 0.945978
+# 
+# Test set size =         365
+# Collapsed Faults =       4276
+# Detected Faults =       4045
+# 
+# coverage = 0.945978
+# 
+# Test set size =         366
+# Collapsed Faults =       4276
+# Detected Faults =       4045
+# 
+# coverage = 0.945978
+# 
+# Test set size =         367
+# Collapsed Faults =       4276
+# Detected Faults =       4045
+# 
+# coverage = 0.945978
+# 
+# Test set size =         368
+# Collapsed Faults =       4276
+# Detected Faults =       4045
+# 
+# coverage = 0.945978
+# 
+# Test set size =         369
+# Collapsed Faults =       4276
+# Detected Faults =       4045
+# 
+# coverage = 0.945978
+# 
+# Test set size =         370
+# Collapsed Faults =       4276
+# Detected Faults =       4045
+# 
+# coverage = 0.945978
+# 
+# Test set size =         371
+# Collapsed Faults =       4276
+# Detected Faults =       4045
+# 
+# coverage = 0.945978
+# 
+# Test set size =         372
+# Collapsed Faults =       4276
+# Detected Faults =       4045
+# 
+# coverage = 0.945978
+# 
+# Test set size =         373
+# Collapsed Faults =       4276
+# Detected Faults =       4052
+# 
+# coverage = 0.947615
+# 
+# Test set size =         374
+# Collapsed Faults =       4276
+# Detected Faults =       4052
+# 
+# coverage = 0.947615
+# 
+# Test set size =         375
+# Collapsed Faults =       4276
+# Detected Faults =       4052
+# 
+# coverage = 0.947615
+# 
+# Test set size =         376
+# Collapsed Faults =       4276
+# Detected Faults =       4052
+# 
+# coverage = 0.947615
+# 
+# Test set size =         377
+# Collapsed Faults =       4276
+# Detected Faults =       4052
+# 
+# coverage = 0.947615
+# 
+# Test set size =         378
+# Collapsed Faults =       4276
+# Detected Faults =       4052
+# 
+# coverage = 0.947615
+# 
+# Test set size =         379
+# Collapsed Faults =       4276
+# Detected Faults =       4052
+# 
+# coverage = 0.947615
+# 
+# Test set size =         380
+# Collapsed Faults =       4276
+# Detected Faults =       4052
+# 
+# coverage = 0.947615
+# 
+# Test set size =         381
+# Collapsed Faults =       4276
+# Detected Faults =       4052
+# 
+# coverage = 0.947615
+# 
+# Test set size =         382
+# Collapsed Faults =       4276
+# Detected Faults =       4052
+# 
+# coverage = 0.947615
+# 
+# Test set size =         383
+# Collapsed Faults =       4276
+# Detected Faults =       4052
+# 
+# coverage = 0.947615
+# 
+# Test set size =         384
+# Collapsed Faults =       4276
+# Detected Faults =       4052
+# 
+# coverage = 0.947615
+# 
+# Test set size =         385
+# Collapsed Faults =       4276
+# Detected Faults =       4052
+# 
+# coverage = 0.947615
+# 
+# Test set size =         386
+# Collapsed Faults =       4276
+# Detected Faults =       4052
+# 
+# coverage = 0.947615
+# 
+# Test set size =         387
+# Collapsed Faults =       4276
+# Detected Faults =       4052
+# 
+# coverage = 0.947615
+# 
+# Test set size =         388
+# Collapsed Faults =       4276
+# Detected Faults =       4052
+# 
+# coverage = 0.947615
+# 
+# Test set size =         389
+# Collapsed Faults =       4276
+# Detected Faults =       4052
+# 
+# coverage = 0.947615
+# 
+# Test set size =         390
+# Collapsed Faults =       4276
+# Detected Faults =       4052
+# 
+# coverage = 0.947615
+# 
+# Test set size =         391
+# Collapsed Faults =       4276
+# Detected Faults =       4052
+# 
+# coverage = 0.947615
+# 
+# Test set size =         392
+# Collapsed Faults =       4276
+# Detected Faults =       4052
+# 
+# coverage = 0.947615
+# 
+# Test set size =         393
+# Collapsed Faults =       4276
+# Detected Faults =       4052
+# 
+# coverage = 0.947615
+# 
+# Test set size =         394
+# Collapsed Faults =       4276
+# Detected Faults =       4056
+# 
+# coverage = 0.948550
+# 
+# Test set size =         395
+# Collapsed Faults =       4276
+# Detected Faults =       4056
+# 
+# coverage = 0.948550
+# 
+# Test set size =         396
+# Collapsed Faults =       4276
+# Detected Faults =       4056
+# 
+# coverage = 0.948550
+# 
+# Test set size =         397
+# Collapsed Faults =       4276
+# Detected Faults =       4056
+# 
+# coverage = 0.948550
+# 
+# Test set size =         398
+# Collapsed Faults =       4276
+# Detected Faults =       4056
+# 
+# coverage = 0.948550
+# 
+# Test set size =         399
+# Collapsed Faults =       4276
+# Detected Faults =       4056
+# 
+# coverage = 0.948550
+# 
+# Test set size =         400
+# Collapsed Faults =       4276
+# Detected Faults =       4056
+# 
+# coverage = 0.948550
+# 
+# Simulation stop requested.
+quit -sim
+# End time: 16:34:08 on Aug 07,2024, Elapsed time: 17:13:48
+# Errors: 0, Warnings: 1

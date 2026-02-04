@@ -1,0 +1,5 @@
+xst -intstyle ise -ifn "C:/Users/apple/Documents/UT/Master Thesis/c432/c432_ise/c432.xst" -ofn "C:/Users/apple/Documents/UT/Master Thesis/c432/c432_ise/c432.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc7k410t-fbg900-3 "c432.ngc" c432.ngd  
+map -intstyle ise -p xc7k410t-fbg900-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o c432_map.ncd c432.ngd c432.pcf 
+par -w -intstyle ise -ol high -mt off c432_map.ncd c432.ncd c432.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml c432.twx c432.ncd -o c432.twr c432.pcf 

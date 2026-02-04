@@ -1,0 +1,637 @@
+# Reading pref.tcl
+# OpenFile {C:/Users/apple/Documents/UT/Master Thesis/Reconfigurable BIST/s820_BIST/Typical/simulation/s820_Typical.mpf}
+# Loading project s820_Typical
+do mydo.do BIST_TB
+# Compile of BIST_CTRL.v was successful.
+# Compile of LFSR.v was successful.
+# Compile of MISR.v was successful.
+# Compile of mycells.v was successful.
+# Compile of s820_netlist_scanInserted.v was successful.
+# Compile of s820_testable.v was successful.
+# Compile of sigROM.v was successful.
+# Compile of SISA.v was successful.
+# Compile of SRSG.v was successful.
+# Compile of STCR.v was successful.
+# Compile of TB.sv was successful.
+# 11 compiles, 0 failed with no errors.
+# vsim work.BIST_TB 
+# Start time: 11:35:54 on Sep 13,2024
+# Loading sv_std.std
+# Loading work.BIST_TB
+# Loading work.STCR
+# Loading work.s820_testable
+# Loading work.s820_scanInserted
+# Loading work.NOT
+# Loading work.NOR
+# Loading work.NAND
+# Loading work.dff
+# Loading work.LFSR
+# Loading work.SRSG
+# Loading work.MISR
+# Loading work.SISA
+# Loading work.BIST_CTRL
+# Loading work.counter
+# Loading work.sigROM
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'PRPG_inst'.  Expected 7, found 6.
+#    Time: 0 ps  Iteration: 0  Instance: /BIST_TB/DUT/PRPG_inst File: C:/Users/apple/Documents/UT/Master Thesis/Reconfigurable BIST/s820_BIST/Typical/s820_testable.v Line: 91
+# ** Warning: (vsim-3722) C:/Users/apple/Documents/UT/Master Thesis/Reconfigurable BIST/s820_BIST/Typical/s820_testable.v(91): [TFMPC] - Missing connection for port 'ld'.
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'PRPG_inst'.  Expected 7, found 6.
+#    Time: 0 ps  Iteration: 0  Instance: /BIST_TB/DUT/PRPG_inst File: C:/Users/apple/Documents/UT/Master Thesis/Reconfigurable BIST/s820_BIST/Typical/s820_testable.v Line: 91
+# ** Warning: (vsim-3722) C:/Users/apple/Documents/UT/Master Thesis/Reconfigurable BIST/s820_BIST/Typical/s820_testable.v(91): [TFMPC] - Missing connection for port 'ld'.
+# Starting Golden Signature Generation ... 
+# 
+# Starting Golden Signaturs Stored at             13575000 
+# 
+# ===> Fault Simulation Starting ...
+# 
+# ** Note: $stop    : C:/Users/apple/Documents/UT/Master Thesis/Reconfigurable BIST/s820_BIST/Typical/TB.sv(193)
+#    Time: 4086635 ns  Iteration: 0  Instance: /BIST_TB
+# Break in Module BIST_TB at C:/Users/apple/Documents/UT/Master Thesis/Reconfigurable BIST/s820_BIST/Typical/TB.sv line 193
+do mydo.do BIST_TB
+# Compile of BIST_CTRL.v was successful.
+# Compile of LFSR.v was successful.
+# Compile of MISR.v was successful.
+# Compile of mycells.v was successful.
+# Compile of s820_netlist_scanInserted.v was successful.
+# Compile of s820_testable.v was successful.
+# Compile of sigROM.v was successful.
+# Compile of SISA.v was successful.
+# Compile of SRSG.v was successful.
+# Compile of STCR.v was successful.
+# Compile of TB.sv was successful.
+# 11 compiles, 0 failed with no errors.
+# End time: 11:41:01 on Sep 13,2024, Elapsed time: 0:05:07
+# Errors: 0, Warnings: 4
+# vsim work.BIST_TB 
+# Start time: 11:41:01 on Sep 13,2024
+# Loading sv_std.std
+# Loading work.BIST_TB
+# Loading work.STCR
+# Loading work.s820_testable
+# Loading work.s820_scanInserted
+# Loading work.NOT
+# Loading work.NOR
+# Loading work.NAND
+# Loading work.dff
+# Loading work.LFSR
+# Loading work.SRSG
+# Loading work.MISR
+# Loading work.SISA
+# Loading work.BIST_CTRL
+# Loading work.counter
+# Loading work.sigROM
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'PRPG_inst'.  Expected 7, found 6.
+#    Time: 0 ps  Iteration: 0  Instance: /BIST_TB/DUT/PRPG_inst File: C:/Users/apple/Documents/UT/Master Thesis/Reconfigurable BIST/s820_BIST/Typical/s820_testable.v Line: 91
+# ** Warning: (vsim-3722) C:/Users/apple/Documents/UT/Master Thesis/Reconfigurable BIST/s820_BIST/Typical/s820_testable.v(91): [TFMPC] - Missing connection for port 'ld'.
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'PRPG_inst'.  Expected 7, found 6.
+#    Time: 0 ps  Iteration: 0  Instance: /BIST_TB/DUT/PRPG_inst File: C:/Users/apple/Documents/UT/Master Thesis/Reconfigurable BIST/s820_BIST/Typical/s820_testable.v Line: 91
+# ** Warning: (vsim-3722) C:/Users/apple/Documents/UT/Master Thesis/Reconfigurable BIST/s820_BIST/Typical/s820_testable.v(91): [TFMPC] - Missing connection for port 'ld'.
+# Starting Golden Signature Generation ... 
+# 
+# Starting Golden Signaturs Stored at             14275000 
+# 
+# ===> Fault Simulation Starting ...
+# 
+# ** Note: $stop    : C:/Users/apple/Documents/UT/Master Thesis/Reconfigurable BIST/s820_BIST/Typical/TB.sv(193)
+#    Time: 4301535 ns  Iteration: 0  Instance: /BIST_TB
+# Break in Module BIST_TB at C:/Users/apple/Documents/UT/Master Thesis/Reconfigurable BIST/s820_BIST/Typical/TB.sv line 193
+do mydo.do BIST_TB
+# Compile of BIST_CTRL.v was successful.
+# Compile of LFSR.v was successful.
+# Compile of MISR.v was successful.
+# Compile of mycells.v was successful.
+# Compile of s820_netlist_scanInserted.v was successful.
+# Compile of s820_testable.v was successful.
+# Compile of sigROM.v was successful.
+# Compile of SISA.v was successful.
+# Compile of SRSG.v was successful.
+# Compile of STCR.v was successful.
+# Compile of TB.sv was successful.
+# 11 compiles, 0 failed with no errors.
+# End time: 11:43:48 on Sep 13,2024, Elapsed time: 0:02:47
+# Errors: 0, Warnings: 4
+# vsim work.BIST_TB 
+# Start time: 11:43:48 on Sep 13,2024
+# Loading sv_std.std
+# Loading work.BIST_TB
+# Loading work.STCR
+# Loading work.s820_testable
+# Loading work.s820_scanInserted
+# Loading work.NOT
+# Loading work.NOR
+# Loading work.NAND
+# Loading work.dff
+# Loading work.LFSR
+# Loading work.SRSG
+# Loading work.MISR
+# Loading work.SISA
+# Loading work.BIST_CTRL
+# Loading work.counter
+# Loading work.sigROM
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'PRPG_inst'.  Expected 7, found 6.
+#    Time: 0 ps  Iteration: 0  Instance: /BIST_TB/DUT/PRPG_inst File: C:/Users/apple/Documents/UT/Master Thesis/Reconfigurable BIST/s820_BIST/Typical/s820_testable.v Line: 91
+# ** Warning: (vsim-3722) C:/Users/apple/Documents/UT/Master Thesis/Reconfigurable BIST/s820_BIST/Typical/s820_testable.v(91): [TFMPC] - Missing connection for port 'ld'.
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'PRPG_inst'.  Expected 7, found 6.
+#    Time: 0 ps  Iteration: 0  Instance: /BIST_TB/DUT/PRPG_inst File: C:/Users/apple/Documents/UT/Master Thesis/Reconfigurable BIST/s820_BIST/Typical/s820_testable.v Line: 91
+# ** Warning: (vsim-3722) C:/Users/apple/Documents/UT/Master Thesis/Reconfigurable BIST/s820_BIST/Typical/s820_testable.v(91): [TFMPC] - Missing connection for port 'ld'.
+# Starting Golden Signature Generation ... 
+# 
+# Starting Golden Signaturs Stored at             14975000 
+# 
+# ===> Fault Simulation Starting ...
+# 
+# ** Note: $stop    : C:/Users/apple/Documents/UT/Master Thesis/Reconfigurable BIST/s820_BIST/Typical/TB.sv(193)
+#    Time: 4516435 ns  Iteration: 0  Instance: /BIST_TB
+# Break in Module BIST_TB at C:/Users/apple/Documents/UT/Master Thesis/Reconfigurable BIST/s820_BIST/Typical/TB.sv line 193
+do mydo.do BIST_TB
+# Compile of BIST_CTRL.v was successful.
+# Compile of LFSR.v was successful.
+# Compile of MISR.v was successful.
+# Compile of mycells.v was successful.
+# Compile of s820_netlist_scanInserted.v was successful.
+# Compile of s820_testable.v was successful.
+# Compile of sigROM.v was successful.
+# Compile of SISA.v was successful.
+# Compile of SRSG.v was successful.
+# Compile of STCR.v was successful.
+# Compile of TB.sv was successful.
+# 11 compiles, 0 failed with no errors.
+# End time: 11:46:21 on Sep 13,2024, Elapsed time: 0:02:33
+# Errors: 0, Warnings: 4
+# vsim work.BIST_TB 
+# Start time: 11:46:22 on Sep 13,2024
+# Loading sv_std.std
+# Loading work.BIST_TB
+# Loading work.STCR
+# Loading work.s820_testable
+# Loading work.s820_scanInserted
+# Loading work.NOT
+# Loading work.NOR
+# Loading work.NAND
+# Loading work.dff
+# Loading work.LFSR
+# Loading work.SRSG
+# Loading work.MISR
+# Loading work.SISA
+# Loading work.BIST_CTRL
+# Loading work.counter
+# Loading work.sigROM
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'PRPG_inst'.  Expected 7, found 6.
+#    Time: 0 ps  Iteration: 0  Instance: /BIST_TB/DUT/PRPG_inst File: C:/Users/apple/Documents/UT/Master Thesis/Reconfigurable BIST/s820_BIST/Typical/s820_testable.v Line: 91
+# ** Warning: (vsim-3722) C:/Users/apple/Documents/UT/Master Thesis/Reconfigurable BIST/s820_BIST/Typical/s820_testable.v(91): [TFMPC] - Missing connection for port 'ld'.
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'PRPG_inst'.  Expected 7, found 6.
+#    Time: 0 ps  Iteration: 0  Instance: /BIST_TB/DUT/PRPG_inst File: C:/Users/apple/Documents/UT/Master Thesis/Reconfigurable BIST/s820_BIST/Typical/s820_testable.v Line: 91
+# ** Warning: (vsim-3722) C:/Users/apple/Documents/UT/Master Thesis/Reconfigurable BIST/s820_BIST/Typical/s820_testable.v(91): [TFMPC] - Missing connection for port 'ld'.
+# Starting Golden Signature Generation ... 
+# 
+# Starting Golden Signaturs Stored at             14975000 
+# 
+# ===> Fault Simulation Starting ...
+# 
+# ** Note: $stop    : C:/Users/apple/Documents/UT/Master Thesis/Reconfigurable BIST/s820_BIST/Typical/TB.sv(193)
+#    Time: 4516435 ns  Iteration: 0  Instance: /BIST_TB
+# Break in Module BIST_TB at C:/Users/apple/Documents/UT/Master Thesis/Reconfigurable BIST/s820_BIST/Typical/TB.sv line 193
+do mydo.do BIST_TB
+# Compile of BIST_CTRL.v was successful.
+# Compile of LFSR.v was successful.
+# Compile of MISR.v was successful.
+# Compile of mycells.v was successful.
+# Compile of s820_netlist_scanInserted.v was successful.
+# Compile of s820_testable.v was successful.
+# Compile of sigROM.v was successful.
+# Compile of SISA.v was successful.
+# Compile of SRSG.v was successful.
+# Compile of STCR.v was successful.
+# Compile of TB.sv was successful.
+# 11 compiles, 0 failed with no errors.
+# End time: 11:47:51 on Sep 13,2024, Elapsed time: 0:01:29
+# Errors: 0, Warnings: 4
+# vsim work.BIST_TB 
+# Start time: 11:47:51 on Sep 13,2024
+# Loading sv_std.std
+# Loading work.BIST_TB
+# Loading work.STCR
+# Loading work.s820_testable
+# Loading work.s820_scanInserted
+# Loading work.NOT
+# Loading work.NOR
+# Loading work.NAND
+# Loading work.dff
+# Loading work.LFSR
+# Loading work.SRSG
+# Loading work.MISR
+# Loading work.SISA
+# Loading work.BIST_CTRL
+# Loading work.counter
+# Loading work.sigROM
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'PRPG_inst'.  Expected 7, found 6.
+#    Time: 0 ps  Iteration: 0  Instance: /BIST_TB/DUT/PRPG_inst File: C:/Users/apple/Documents/UT/Master Thesis/Reconfigurable BIST/s820_BIST/Typical/s820_testable.v Line: 91
+# ** Warning: (vsim-3722) C:/Users/apple/Documents/UT/Master Thesis/Reconfigurable BIST/s820_BIST/Typical/s820_testable.v(91): [TFMPC] - Missing connection for port 'ld'.
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'PRPG_inst'.  Expected 7, found 6.
+#    Time: 0 ps  Iteration: 0  Instance: /BIST_TB/DUT/PRPG_inst File: C:/Users/apple/Documents/UT/Master Thesis/Reconfigurable BIST/s820_BIST/Typical/s820_testable.v Line: 91
+# ** Warning: (vsim-3722) C:/Users/apple/Documents/UT/Master Thesis/Reconfigurable BIST/s820_BIST/Typical/s820_testable.v(91): [TFMPC] - Missing connection for port 'ld'.
+# Starting Golden Signature Generation ... 
+# 
+# Starting Golden Signaturs Stored at             15675000 
+# 
+# ===> Fault Simulation Starting ...
+# 
+# ** Note: $stop    : C:/Users/apple/Documents/UT/Master Thesis/Reconfigurable BIST/s820_BIST/Typical/TB.sv(193)
+#    Time: 4731335 ns  Iteration: 0  Instance: /BIST_TB
+# Break in Module BIST_TB at C:/Users/apple/Documents/UT/Master Thesis/Reconfigurable BIST/s820_BIST/Typical/TB.sv line 193
+do mydo.do BIST_TB
+# Compile of BIST_CTRL.v was successful.
+# Compile of LFSR.v was successful.
+# Compile of MISR.v was successful.
+# Compile of mycells.v was successful.
+# Compile of s820_netlist_scanInserted.v was successful.
+# Compile of s820_testable.v was successful.
+# Compile of sigROM.v was successful.
+# Compile of SISA.v was successful.
+# Compile of SRSG.v was successful.
+# Compile of STCR.v was successful.
+# Compile of TB.sv was successful.
+# 11 compiles, 0 failed with no errors.
+# End time: 11:49:55 on Sep 13,2024, Elapsed time: 0:02:04
+# Errors: 0, Warnings: 4
+# vsim work.BIST_TB 
+# Start time: 11:49:55 on Sep 13,2024
+# Loading sv_std.std
+# Loading work.BIST_TB
+# Loading work.STCR
+# Loading work.s820_testable
+# Loading work.s820_scanInserted
+# Loading work.NOT
+# Loading work.NOR
+# Loading work.NAND
+# Loading work.dff
+# Loading work.LFSR
+# Loading work.SRSG
+# Loading work.MISR
+# Loading work.SISA
+# Loading work.BIST_CTRL
+# Loading work.counter
+# Loading work.sigROM
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'PRPG_inst'.  Expected 7, found 6.
+#    Time: 0 ps  Iteration: 0  Instance: /BIST_TB/DUT/PRPG_inst File: C:/Users/apple/Documents/UT/Master Thesis/Reconfigurable BIST/s820_BIST/Typical/s820_testable.v Line: 91
+# ** Warning: (vsim-3722) C:/Users/apple/Documents/UT/Master Thesis/Reconfigurable BIST/s820_BIST/Typical/s820_testable.v(91): [TFMPC] - Missing connection for port 'ld'.
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'PRPG_inst'.  Expected 7, found 6.
+#    Time: 0 ps  Iteration: 0  Instance: /BIST_TB/DUT/PRPG_inst File: C:/Users/apple/Documents/UT/Master Thesis/Reconfigurable BIST/s820_BIST/Typical/s820_testable.v Line: 91
+# ** Warning: (vsim-3722) C:/Users/apple/Documents/UT/Master Thesis/Reconfigurable BIST/s820_BIST/Typical/s820_testable.v(91): [TFMPC] - Missing connection for port 'ld'.
+# Starting Golden Signature Generation ... 
+# 
+# Starting Golden Signaturs Stored at             15675000 
+# 
+# ===> Fault Simulation Starting ...
+# 
+# ** Note: $stop    : C:/Users/apple/Documents/UT/Master Thesis/Reconfigurable BIST/s820_BIST/Typical/TB.sv(193)
+#    Time: 4731335 ns  Iteration: 0  Instance: /BIST_TB
+# Break in Module BIST_TB at C:/Users/apple/Documents/UT/Master Thesis/Reconfigurable BIST/s820_BIST/Typical/TB.sv line 193
+do mydo.do BIST_TB
+# Compile of BIST_CTRL.v was successful.
+# Compile of LFSR.v was successful.
+# Compile of MISR.v was successful.
+# Compile of mycells.v was successful.
+# Compile of s820_netlist_scanInserted.v was successful.
+# Compile of s820_testable.v was successful.
+# Compile of sigROM.v was successful.
+# Compile of SISA.v was successful.
+# Compile of SRSG.v was successful.
+# Compile of STCR.v was successful.
+# Compile of TB.sv was successful.
+# 11 compiles, 0 failed with no errors.
+# End time: 11:51:21 on Sep 13,2024, Elapsed time: 0:01:26
+# Errors: 0, Warnings: 4
+# vsim work.BIST_TB 
+# Start time: 11:51:21 on Sep 13,2024
+# Loading sv_std.std
+# Loading work.BIST_TB
+# Loading work.STCR
+# Loading work.s820_testable
+# Loading work.s820_scanInserted
+# Loading work.NOT
+# Loading work.NOR
+# Loading work.NAND
+# Loading work.dff
+# Loading work.LFSR
+# Loading work.SRSG
+# Loading work.MISR
+# Loading work.SISA
+# Loading work.BIST_CTRL
+# Loading work.counter
+# Loading work.sigROM
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'PRPG_inst'.  Expected 7, found 6.
+#    Time: 0 ps  Iteration: 0  Instance: /BIST_TB/DUT/PRPG_inst File: C:/Users/apple/Documents/UT/Master Thesis/Reconfigurable BIST/s820_BIST/Typical/s820_testable.v Line: 91
+# ** Warning: (vsim-3722) C:/Users/apple/Documents/UT/Master Thesis/Reconfigurable BIST/s820_BIST/Typical/s820_testable.v(91): [TFMPC] - Missing connection for port 'ld'.
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'PRPG_inst'.  Expected 7, found 6.
+#    Time: 0 ps  Iteration: 0  Instance: /BIST_TB/DUT/PRPG_inst File: C:/Users/apple/Documents/UT/Master Thesis/Reconfigurable BIST/s820_BIST/Typical/s820_testable.v Line: 91
+# ** Warning: (vsim-3722) C:/Users/apple/Documents/UT/Master Thesis/Reconfigurable BIST/s820_BIST/Typical/s820_testable.v(91): [TFMPC] - Missing connection for port 'ld'.
+# Starting Golden Signature Generation ... 
+# 
+# Starting Golden Signaturs Stored at             16375000 
+# 
+# ===> Fault Simulation Starting ...
+# 
+# ** Note: $stop    : C:/Users/apple/Documents/UT/Master Thesis/Reconfigurable BIST/s820_BIST/Typical/TB.sv(193)
+#    Time: 4946235 ns  Iteration: 0  Instance: /BIST_TB
+# Break in Module BIST_TB at C:/Users/apple/Documents/UT/Master Thesis/Reconfigurable BIST/s820_BIST/Typical/TB.sv line 193
+do mydo.do BIST_TB
+# Compile of BIST_CTRL.v was successful.
+# Compile of LFSR.v was successful.
+# Compile of MISR.v was successful.
+# Compile of mycells.v was successful.
+# Compile of s820_netlist_scanInserted.v was successful.
+# Compile of s820_testable.v was successful.
+# Compile of sigROM.v was successful.
+# Compile of SISA.v was successful.
+# Compile of SRSG.v was successful.
+# Compile of STCR.v was successful.
+# Compile of TB.sv was successful.
+# 11 compiles, 0 failed with no errors.
+# End time: 11:52:47 on Sep 13,2024, Elapsed time: 0:01:26
+# Errors: 0, Warnings: 4
+# vsim work.BIST_TB 
+# Start time: 11:52:47 on Sep 13,2024
+# Loading sv_std.std
+# Loading work.BIST_TB
+# Loading work.STCR
+# Loading work.s820_testable
+# Loading work.s820_scanInserted
+# Loading work.NOT
+# Loading work.NOR
+# Loading work.NAND
+# Loading work.dff
+# Loading work.LFSR
+# Loading work.SRSG
+# Loading work.MISR
+# Loading work.SISA
+# Loading work.BIST_CTRL
+# Loading work.counter
+# Loading work.sigROM
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'PRPG_inst'.  Expected 7, found 6.
+#    Time: 0 ps  Iteration: 0  Instance: /BIST_TB/DUT/PRPG_inst File: C:/Users/apple/Documents/UT/Master Thesis/Reconfigurable BIST/s820_BIST/Typical/s820_testable.v Line: 91
+# ** Warning: (vsim-3722) C:/Users/apple/Documents/UT/Master Thesis/Reconfigurable BIST/s820_BIST/Typical/s820_testable.v(91): [TFMPC] - Missing connection for port 'ld'.
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'PRPG_inst'.  Expected 7, found 6.
+#    Time: 0 ps  Iteration: 0  Instance: /BIST_TB/DUT/PRPG_inst File: C:/Users/apple/Documents/UT/Master Thesis/Reconfigurable BIST/s820_BIST/Typical/s820_testable.v Line: 91
+# ** Warning: (vsim-3722) C:/Users/apple/Documents/UT/Master Thesis/Reconfigurable BIST/s820_BIST/Typical/s820_testable.v(91): [TFMPC] - Missing connection for port 'ld'.
+# Starting Golden Signature Generation ... 
+# 
+# Starting Golden Signaturs Stored at             17075000 
+# 
+# ===> Fault Simulation Starting ...
+# 
+# ** Note: $stop    : C:/Users/apple/Documents/UT/Master Thesis/Reconfigurable BIST/s820_BIST/Typical/TB.sv(193)
+#    Time: 5161135 ns  Iteration: 0  Instance: /BIST_TB
+# Break in Module BIST_TB at C:/Users/apple/Documents/UT/Master Thesis/Reconfigurable BIST/s820_BIST/Typical/TB.sv line 193
+do mydo.do BIST_TB
+# Compile of BIST_CTRL.v was successful.
+# Compile of LFSR.v was successful.
+# Compile of MISR.v was successful.
+# Compile of mycells.v was successful.
+# Compile of s820_netlist_scanInserted.v was successful.
+# Compile of s820_testable.v was successful.
+# Compile of sigROM.v was successful.
+# Compile of SISA.v was successful.
+# Compile of SRSG.v was successful.
+# Compile of STCR.v was successful.
+# Compile of TB.sv was successful.
+# 11 compiles, 0 failed with no errors.
+# End time: 11:55:52 on Sep 13,2024, Elapsed time: 0:03:05
+# Errors: 0, Warnings: 4
+# vsim work.BIST_TB 
+# Start time: 11:55:52 on Sep 13,2024
+# Loading sv_std.std
+# Loading work.BIST_TB
+# Loading work.STCR
+# Loading work.s820_testable
+# Loading work.s820_scanInserted
+# Loading work.NOT
+# Loading work.NOR
+# Loading work.NAND
+# Loading work.dff
+# Loading work.LFSR
+# Loading work.SRSG
+# Loading work.MISR
+# Loading work.SISA
+# Loading work.BIST_CTRL
+# Loading work.counter
+# Loading work.sigROM
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'PRPG_inst'.  Expected 7, found 6.
+#    Time: 0 ps  Iteration: 0  Instance: /BIST_TB/DUT/PRPG_inst File: C:/Users/apple/Documents/UT/Master Thesis/Reconfigurable BIST/s820_BIST/Typical/s820_testable.v Line: 91
+# ** Warning: (vsim-3722) C:/Users/apple/Documents/UT/Master Thesis/Reconfigurable BIST/s820_BIST/Typical/s820_testable.v(91): [TFMPC] - Missing connection for port 'ld'.
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'PRPG_inst'.  Expected 7, found 6.
+#    Time: 0 ps  Iteration: 0  Instance: /BIST_TB/DUT/PRPG_inst File: C:/Users/apple/Documents/UT/Master Thesis/Reconfigurable BIST/s820_BIST/Typical/s820_testable.v Line: 91
+# ** Warning: (vsim-3722) C:/Users/apple/Documents/UT/Master Thesis/Reconfigurable BIST/s820_BIST/Typical/s820_testable.v(91): [TFMPC] - Missing connection for port 'ld'.
+# Starting Golden Signature Generation ... 
+# 
+# Starting Golden Signaturs Stored at             17775000 
+# 
+# ===> Fault Simulation Starting ...
+# 
+# ** Note: $stop    : C:/Users/apple/Documents/UT/Master Thesis/Reconfigurable BIST/s820_BIST/Typical/TB.sv(193)
+#    Time: 5376035 ns  Iteration: 0  Instance: /BIST_TB
+# Break in Module BIST_TB at C:/Users/apple/Documents/UT/Master Thesis/Reconfigurable BIST/s820_BIST/Typical/TB.sv line 193
+do mydo.do BIST_TB
+# Compile of BIST_CTRL.v was successful.
+# Compile of LFSR.v was successful.
+# Compile of MISR.v was successful.
+# Compile of mycells.v was successful.
+# Compile of s820_netlist_scanInserted.v was successful.
+# Compile of s820_testable.v was successful.
+# Compile of sigROM.v was successful.
+# Compile of SISA.v was successful.
+# Compile of SRSG.v was successful.
+# Compile of STCR.v was successful.
+# Compile of TB.sv was successful.
+# 11 compiles, 0 failed with no errors.
+# End time: 11:57:37 on Sep 13,2024, Elapsed time: 0:01:45
+# Errors: 0, Warnings: 4
+# vsim work.BIST_TB 
+# Start time: 11:57:37 on Sep 13,2024
+# Loading sv_std.std
+# Loading work.BIST_TB
+# Loading work.STCR
+# Loading work.s820_testable
+# Loading work.s820_scanInserted
+# Loading work.NOT
+# Loading work.NOR
+# Loading work.NAND
+# Loading work.dff
+# Loading work.LFSR
+# Loading work.SRSG
+# Loading work.MISR
+# Loading work.SISA
+# Loading work.BIST_CTRL
+# Loading work.counter
+# Loading work.sigROM
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'PRPG_inst'.  Expected 7, found 6.
+#    Time: 0 ps  Iteration: 0  Instance: /BIST_TB/DUT/PRPG_inst File: C:/Users/apple/Documents/UT/Master Thesis/Reconfigurable BIST/s820_BIST/Typical/s820_testable.v Line: 91
+# ** Warning: (vsim-3722) C:/Users/apple/Documents/UT/Master Thesis/Reconfigurable BIST/s820_BIST/Typical/s820_testable.v(91): [TFMPC] - Missing connection for port 'ld'.
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'PRPG_inst'.  Expected 7, found 6.
+#    Time: 0 ps  Iteration: 0  Instance: /BIST_TB/DUT/PRPG_inst File: C:/Users/apple/Documents/UT/Master Thesis/Reconfigurable BIST/s820_BIST/Typical/s820_testable.v Line: 91
+# ** Warning: (vsim-3722) C:/Users/apple/Documents/UT/Master Thesis/Reconfigurable BIST/s820_BIST/Typical/s820_testable.v(91): [TFMPC] - Missing connection for port 'ld'.
+# Starting Golden Signature Generation ... 
+# 
+# Starting Golden Signaturs Stored at             21275000 
+# 
+# ===> Fault Simulation Starting ...
+# 
+# ** Note: $stop    : C:/Users/apple/Documents/UT/Master Thesis/Reconfigurable BIST/s820_BIST/Typical/TB.sv(193)
+#    Time: 6450535 ns  Iteration: 0  Instance: /BIST_TB
+# Break in Module BIST_TB at C:/Users/apple/Documents/UT/Master Thesis/Reconfigurable BIST/s820_BIST/Typical/TB.sv line 193
+do mydo.do BIST_TB
+# Compile of BIST_CTRL.v was successful.
+# Compile of LFSR.v was successful.
+# Compile of MISR.v was successful.
+# Compile of mycells.v was successful.
+# Compile of s820_netlist_scanInserted.v was successful.
+# Compile of s820_testable.v was successful.
+# Compile of sigROM.v was successful.
+# Compile of SISA.v was successful.
+# Compile of SRSG.v was successful.
+# Compile of STCR.v was successful.
+# Compile of TB.sv was successful.
+# 11 compiles, 0 failed with no errors.
+# End time: 11:59:26 on Sep 13,2024, Elapsed time: 0:01:49
+# Errors: 0, Warnings: 4
+# vsim work.BIST_TB 
+# Start time: 11:59:26 on Sep 13,2024
+# Loading sv_std.std
+# Loading work.BIST_TB
+# Loading work.STCR
+# Loading work.s820_testable
+# Loading work.s820_scanInserted
+# Loading work.NOT
+# Loading work.NOR
+# Loading work.NAND
+# Loading work.dff
+# Loading work.LFSR
+# Loading work.SRSG
+# Loading work.MISR
+# Loading work.SISA
+# Loading work.BIST_CTRL
+# Loading work.counter
+# Loading work.sigROM
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'PRPG_inst'.  Expected 7, found 6.
+#    Time: 0 ps  Iteration: 0  Instance: /BIST_TB/DUT/PRPG_inst File: C:/Users/apple/Documents/UT/Master Thesis/Reconfigurable BIST/s820_BIST/Typical/s820_testable.v Line: 91
+# ** Warning: (vsim-3722) C:/Users/apple/Documents/UT/Master Thesis/Reconfigurable BIST/s820_BIST/Typical/s820_testable.v(91): [TFMPC] - Missing connection for port 'ld'.
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'PRPG_inst'.  Expected 7, found 6.
+#    Time: 0 ps  Iteration: 0  Instance: /BIST_TB/DUT/PRPG_inst File: C:/Users/apple/Documents/UT/Master Thesis/Reconfigurable BIST/s820_BIST/Typical/s820_testable.v Line: 91
+# ** Warning: (vsim-3722) C:/Users/apple/Documents/UT/Master Thesis/Reconfigurable BIST/s820_BIST/Typical/s820_testable.v(91): [TFMPC] - Missing connection for port 'ld'.
+# Starting Golden Signature Generation ... 
+# 
+# Starting Golden Signaturs Stored at             28275000 
+# 
+# ===> Fault Simulation Starting ...
+# 
+# ** Note: $stop    : C:/Users/apple/Documents/UT/Master Thesis/Reconfigurable BIST/s820_BIST/Typical/TB.sv(193)
+#    Time: 8599535 ns  Iteration: 0  Instance: /BIST_TB
+# Break in Module BIST_TB at C:/Users/apple/Documents/UT/Master Thesis/Reconfigurable BIST/s820_BIST/Typical/TB.sv line 193
+do mydo.do BIST_TB
+# Compile of BIST_CTRL.v was successful.
+# Compile of LFSR.v was successful.
+# Compile of MISR.v was successful.
+# Compile of mycells.v was successful.
+# Compile of s820_netlist_scanInserted.v was successful.
+# Compile of s820_testable.v was successful.
+# Compile of sigROM.v was successful.
+# Compile of SISA.v was successful.
+# Compile of SRSG.v was successful.
+# Compile of STCR.v was successful.
+# Compile of TB.sv was successful.
+# 11 compiles, 0 failed with no errors.
+# End time: 12:05:55 on Sep 13,2024, Elapsed time: 0:06:29
+# Errors: 0, Warnings: 4
+# vsim work.BIST_TB 
+# Start time: 12:05:55 on Sep 13,2024
+# Loading sv_std.std
+# Loading work.BIST_TB
+# Loading work.STCR
+# Loading work.s820_testable
+# Loading work.s820_scanInserted
+# Loading work.NOT
+# Loading work.NOR
+# Loading work.NAND
+# Loading work.dff
+# Loading work.LFSR
+# Loading work.SRSG
+# Loading work.MISR
+# Loading work.SISA
+# Loading work.BIST_CTRL
+# Loading work.counter
+# Loading work.sigROM
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'PRPG_inst'.  Expected 7, found 6.
+#    Time: 0 ps  Iteration: 0  Instance: /BIST_TB/DUT/PRPG_inst File: C:/Users/apple/Documents/UT/Master Thesis/Reconfigurable BIST/s820_BIST/Typical/s820_testable.v Line: 91
+# ** Warning: (vsim-3722) C:/Users/apple/Documents/UT/Master Thesis/Reconfigurable BIST/s820_BIST/Typical/s820_testable.v(91): [TFMPC] - Missing connection for port 'ld'.
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'PRPG_inst'.  Expected 7, found 6.
+#    Time: 0 ps  Iteration: 0  Instance: /BIST_TB/DUT/PRPG_inst File: C:/Users/apple/Documents/UT/Master Thesis/Reconfigurable BIST/s820_BIST/Typical/s820_testable.v Line: 91
+# ** Warning: (vsim-3722) C:/Users/apple/Documents/UT/Master Thesis/Reconfigurable BIST/s820_BIST/Typical/s820_testable.v(91): [TFMPC] - Missing connection for port 'ld'.
+# Starting Golden Signature Generation ... 
+# 
+# Starting Golden Signaturs Stored at             31775000 
+# 
+# ===> Fault Simulation Starting ...
+# 
+# Simulation stop requested.
+do mydo.do BIST_TB
+# Compile of BIST_CTRL.v was successful.
+# Compile of LFSR.v was successful.
+# Compile of MISR.v was successful.
+# Compile of mycells.v was successful.
+# Compile of s820_netlist_scanInserted.v was successful.
+# Compile of s820_testable.v was successful.
+# Compile of sigROM.v was successful.
+# Compile of SISA.v was successful.
+# Compile of SRSG.v was successful.
+# Compile of STCR.v was successful.
+# Compile of TB.sv was successful.
+# 11 compiles, 0 failed with no errors.
+# End time: 12:11:00 on Sep 13,2024, Elapsed time: 0:05:05
+# Errors: 0, Warnings: 4
+# vsim work.BIST_TB 
+# Start time: 12:11:00 on Sep 13,2024
+# Loading sv_std.std
+# Loading work.BIST_TB
+# Loading work.STCR
+# Loading work.s820_testable
+# Loading work.s820_scanInserted
+# Loading work.NOT
+# Loading work.NOR
+# Loading work.NAND
+# Loading work.dff
+# Loading work.LFSR
+# Loading work.SRSG
+# Loading work.MISR
+# Loading work.SISA
+# Loading work.BIST_CTRL
+# Loading work.counter
+# Loading work.sigROM
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'PRPG_inst'.  Expected 7, found 6.
+#    Time: 0 ps  Iteration: 0  Instance: /BIST_TB/DUT/PRPG_inst File: C:/Users/apple/Documents/UT/Master Thesis/Reconfigurable BIST/s820_BIST/Typical/s820_testable.v Line: 91
+# ** Warning: (vsim-3722) C:/Users/apple/Documents/UT/Master Thesis/Reconfigurable BIST/s820_BIST/Typical/s820_testable.v(91): [TFMPC] - Missing connection for port 'ld'.
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'PRPG_inst'.  Expected 7, found 6.
+#    Time: 0 ps  Iteration: 0  Instance: /BIST_TB/DUT/PRPG_inst File: C:/Users/apple/Documents/UT/Master Thesis/Reconfigurable BIST/s820_BIST/Typical/s820_testable.v Line: 91
+# ** Warning: (vsim-3722) C:/Users/apple/Documents/UT/Master Thesis/Reconfigurable BIST/s820_BIST/Typical/s820_testable.v(91): [TFMPC] - Missing connection for port 'ld'.
+# Starting Golden Signature Generation ... 
+# 
+# Starting Golden Signaturs Stored at             42275000 
+# 
+# ===> Fault Simulation Starting ...
+# 
+# Simulation stop requested.
+do mydo.do BIST_TB
+# End time: 16:40:37 on Sep 13,2024, Elapsed time: 4:29:37
+# Errors: 0, Warnings: 3

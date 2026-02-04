@@ -1,0 +1,86 @@
+{C:/Users/apple/Documents/UT/Master Thesis/Reconfigurable BIST/s1238_BIST/Typical/SRSG.v} {1 {vlog -work work -stats=none {C:/Users/apple/Documents/UT/Master Thesis/Reconfigurable BIST/s1238_BIST/Typical/SRSG.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module SRSG
+
+Top level modules:
+	SRSG
+
+} {} {}} {C:/Users/apple/Documents/UT/Master Thesis/Reconfigurable BIST/s1238_BIST/Typical/MISR.v} {1 {vlog -work work -stats=none {C:/Users/apple/Documents/UT/Master Thesis/Reconfigurable BIST/s1238_BIST/Typical/MISR.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module MISR
+
+Top level modules:
+	MISR
+
+} {} {}} {C:/Users/apple/Documents/UT/Master Thesis/Reconfigurable BIST/s1238_BIST/Typical/LFSR.v} {1 {vlog -work work -stats=none {C:/Users/apple/Documents/UT/Master Thesis/Reconfigurable BIST/s1238_BIST/Typical/LFSR.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module LFSR
+
+Top level modules:
+	LFSR
+
+} {} {}} {C:/Users/apple/Documents/UT/Master Thesis/Reconfigurable BIST/s1238_BIST/Typical/s1238_testable.v} {1 {vlog -work work -stats=none {C:/Users/apple/Documents/UT/Master Thesis/Reconfigurable BIST/s1238_BIST/Typical/s1238_testable.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module s1238_testable
+
+Top level modules:
+	s1238_testable
+
+} {} {}} {C:/Users/apple/Documents/UT/Master Thesis/Reconfigurable BIST/s1238_BIST/Typical/STCR.v} {1 {vlog -work work -stats=none {C:/Users/apple/Documents/UT/Master Thesis/Reconfigurable BIST/s1238_BIST/Typical/STCR.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module STCR
+
+Top level modules:
+	STCR
+
+} {} {}} {C:/Users/apple/Documents/UT/Master Thesis/Reconfigurable BIST/s1238_BIST/Typical/SISA.v} {1 {vlog -work work -stats=none {C:/Users/apple/Documents/UT/Master Thesis/Reconfigurable BIST/s1238_BIST/Typical/SISA.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module SISA
+
+Top level modules:
+	SISA
+
+} {} {}} {C:/Users/apple/Documents/UT/Master Thesis/Reconfigurable BIST/s1238_BIST/Typical/TB.sv} {1 {vlog -work work -sv -stats=none {C:/Users/apple/Documents/UT/Master Thesis/Reconfigurable BIST/s1238_BIST/Typical/TB.sv}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module BIST_TB
+
+Top level modules:
+	BIST_TB
+
+} {} {}} {C:/Users/apple/Documents/UT/Master Thesis/Reconfigurable BIST/s1238_BIST/Typical/sigROM.v} {1 {vlog -work work -stats=none {C:/Users/apple/Documents/UT/Master Thesis/Reconfigurable BIST/s1238_BIST/Typical/sigROM.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module sigROM
+
+Top level modules:
+	sigROM
+
+} {} {}} {C:/Users/apple/Documents/UT/Master Thesis/Reconfigurable BIST/s1238_BIST/Typical/s1238_netlist_scanInserted.v} {1 {vlog -work work -stats=none {C:/Users/apple/Documents/UT/Master Thesis/Reconfigurable BIST/s1238_BIST/Typical/s1238_netlist_scanInserted.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module dff
+-- Compiling module s1238_scanInserted
+
+Top level modules:
+	s1238_scanInserted
+
+} {} {}} {C:/Users/apple/Documents/UT/Master Thesis/Reconfigurable BIST/s1238_BIST/Typical/mycells.v} {1 {vlog -work work -stats=none {C:/Users/apple/Documents/UT/Master Thesis/Reconfigurable BIST/s1238_BIST/Typical/mycells.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module NOT
+-- Compiling module NAND
+-- Compiling module NOR
+-- Compiling module DFF
+
+Top level modules:
+	NOT
+	NAND
+	NOR
+	DFF
+
+} {} {}} {C:/Users/apple/Documents/UT/Master Thesis/Reconfigurable BIST/s1238_BIST/Typical/BIST_CTRL.v} {1 {vlog -work work -stats=none {C:/Users/apple/Documents/UT/Master Thesis/Reconfigurable BIST/s1238_BIST/Typical/BIST_CTRL.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module counter
+-- Compiling module BIST_CTRL
+
+Top level modules:
+	BIST_CTRL
+
+} {} {}}

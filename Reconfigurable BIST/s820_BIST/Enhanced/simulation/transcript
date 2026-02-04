@@ -1,0 +1,1251 @@
+# Reading pref.tcl
+# OpenFile {C:/Users/apple/Documents/UT/Master Thesis/Reconfigurable BIST/s820_BIST/Enhanced/simulation/s820_Enhanced.mpf}
+# Loading project s820_Enhanced
+do mydo.do BIST_TB
+# Compile of BIST_CTRL.v was successful.
+# Compile of FlipDemux.v was successful.
+# Compile of LFSR.v was successful.
+# Compile of MISR.v was successful.
+# Compile of mycells.v was successful.
+# Compile of s820_netlist_scanInserted.v was successful.
+# Compile of s820_testable.v was successful.
+# Compile of SFM.v was successful.
+# Compile of sigROM.v was successful.
+# Compile of SISA.v was successful.
+# Compile of SRSG.v was successful.
+# Compile of STCR.v was successful.
+# Compile of TB.sv was successful.
+# 13 compiles, 0 failed with no errors.
+# vsim work.BIST_TB 
+# Start time: 16:42:16 on Sep 13,2024
+# Loading sv_std.std
+# Loading work.BIST_TB
+# Loading work.STCR
+# Loading work.s820_testable
+# Loading work.s820_scanInserted
+# Loading work.NOT
+# Loading work.NOR
+# Loading work.NAND
+# Loading work.dff
+# Loading work.LFSR
+# Loading work.SRSG
+# Loading work.MISR
+# Loading work.SISA
+# Loading work.BIST_CTRL
+# Loading work.counter
+# Loading work.sigROM
+# Loading work.SFM
+# Loading work.flipDemux
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Starting Golden Signature Generation ... 
+# 
+# Starting Golden Signaturs Stored at               975000 
+# 
+# ===> Fault Simulation Starting ...
+# 
+# ** Note: $stop    : C:/Users/apple/Documents/UT/Master Thesis/Reconfigurable BIST/s820_BIST/Enhanced/TB.sv(285)
+#    Time: 258035 ns  Iteration: 0  Instance: /BIST_TB
+# Break in Module BIST_TB at C:/Users/apple/Documents/UT/Master Thesis/Reconfigurable BIST/s820_BIST/Enhanced/TB.sv line 285
+do mydo.do BIST_TB
+# Compile of BIST_CTRL.v was successful.
+# Compile of FlipDemux.v was successful.
+# Compile of LFSR.v was successful.
+# Compile of MISR.v was successful.
+# Compile of mycells.v was successful.
+# Compile of s820_netlist_scanInserted.v was successful.
+# Compile of s820_testable.v was successful.
+# Compile of SFM.v was successful.
+# Compile of sigROM.v was successful.
+# Compile of SISA.v was successful.
+# Compile of SRSG.v was successful.
+# Compile of STCR.v was successful.
+# Compile of TB.sv was successful.
+# 13 compiles, 0 failed with no errors.
+# End time: 16:45:49 on Sep 13,2024, Elapsed time: 0:03:33
+# Errors: 0, Warnings: 2
+# vsim work.BIST_TB 
+# Start time: 16:45:50 on Sep 13,2024
+# Loading sv_std.std
+# Loading work.BIST_TB
+# Loading work.STCR
+# Loading work.s820_testable
+# Loading work.s820_scanInserted
+# Loading work.NOT
+# Loading work.NOR
+# Loading work.NAND
+# Loading work.dff
+# Loading work.LFSR
+# Loading work.SRSG
+# Loading work.MISR
+# Loading work.SISA
+# Loading work.BIST_CTRL
+# Loading work.counter
+# Loading work.sigROM
+# Loading work.SFM
+# Loading work.flipDemux
+# Starting Golden Signature Generation ... 
+# 
+# Starting Golden Signaturs Stored at              1675000 
+# 
+# ===> Fault Simulation Starting ...
+# 
+# ** Note: $stop    : C:/Users/apple/Documents/UT/Master Thesis/Reconfigurable BIST/s820_BIST/Enhanced/TB.sv(285)
+#    Time: 472935 ns  Iteration: 0  Instance: /BIST_TB
+# Break in Module BIST_TB at C:/Users/apple/Documents/UT/Master Thesis/Reconfigurable BIST/s820_BIST/Enhanced/TB.sv line 285
+do mydo.do BIST_TB
+# Compile of BIST_CTRL.v was successful.
+# Compile of FlipDemux.v was successful.
+# Compile of LFSR.v was successful.
+# Compile of MISR.v was successful.
+# Compile of mycells.v was successful.
+# Compile of s820_netlist_scanInserted.v was successful.
+# Compile of s820_testable.v was successful.
+# Compile of SFM.v was successful.
+# Compile of sigROM.v was successful.
+# Compile of SISA.v was successful.
+# Compile of SRSG.v was successful.
+# Compile of STCR.v was successful.
+# Compile of TB.sv was successful.
+# 13 compiles, 0 failed with no errors.
+# End time: 16:47:50 on Sep 13,2024, Elapsed time: 0:02:00
+# Errors: 0, Warnings: 2
+# vsim work.BIST_TB 
+# Start time: 16:47:50 on Sep 13,2024
+# Loading sv_std.std
+# Loading work.BIST_TB
+# Loading work.STCR
+# Loading work.s820_testable
+# Loading work.s820_scanInserted
+# Loading work.NOT
+# Loading work.NOR
+# Loading work.NAND
+# Loading work.dff
+# Loading work.LFSR
+# Loading work.SRSG
+# Loading work.MISR
+# Loading work.SISA
+# Loading work.BIST_CTRL
+# Loading work.counter
+# Loading work.sigROM
+# Loading work.SFM
+# Loading work.flipDemux
+# Starting Golden Signature Generation ... 
+# 
+# Starting Golden Signaturs Stored at              1675000 
+# 
+# ===> Fault Simulation Starting ...
+# 
+# ** Note: $stop    : C:/Users/apple/Documents/UT/Master Thesis/Reconfigurable BIST/s820_BIST/Enhanced/TB.sv(285)
+#    Time: 472935 ns  Iteration: 0  Instance: /BIST_TB
+# Break in Module BIST_TB at C:/Users/apple/Documents/UT/Master Thesis/Reconfigurable BIST/s820_BIST/Enhanced/TB.sv line 285
+do mydo.do BIST_TB
+# Compile of BIST_CTRL.v was successful.
+# Compile of FlipDemux.v was successful.
+# Compile of LFSR.v was successful.
+# Compile of MISR.v was successful.
+# Compile of mycells.v was successful.
+# Compile of s820_netlist_scanInserted.v was successful.
+# Compile of s820_testable.v was successful.
+# Compile of SFM.v was successful.
+# Compile of sigROM.v was successful.
+# Compile of SISA.v was successful.
+# Compile of SRSG.v was successful.
+# Compile of STCR.v was successful.
+# Compile of TB.sv was successful.
+# 13 compiles, 0 failed with no errors.
+# End time: 16:48:59 on Sep 13,2024, Elapsed time: 0:01:09
+# Errors: 0, Warnings: 2
+# vsim work.BIST_TB 
+# Start time: 16:49:00 on Sep 13,2024
+# Loading sv_std.std
+# Loading work.BIST_TB
+# Loading work.STCR
+# Loading work.s820_testable
+# Loading work.s820_scanInserted
+# Loading work.NOT
+# Loading work.NOR
+# Loading work.NAND
+# Loading work.dff
+# Loading work.LFSR
+# Loading work.SRSG
+# Loading work.MISR
+# Loading work.SISA
+# Loading work.BIST_CTRL
+# Loading work.counter
+# Loading work.sigROM
+# Loading work.SFM
+# Loading work.flipDemux
+# Starting Golden Signature Generation ... 
+# 
+# Starting Golden Signaturs Stored at              2375000 
+# 
+# ===> Fault Simulation Starting ...
+# 
+# ** Note: $stop    : C:/Users/apple/Documents/UT/Master Thesis/Reconfigurable BIST/s820_BIST/Enhanced/TB.sv(285)
+#    Time: 687835 ns  Iteration: 0  Instance: /BIST_TB
+# Break in Module BIST_TB at C:/Users/apple/Documents/UT/Master Thesis/Reconfigurable BIST/s820_BIST/Enhanced/TB.sv line 285
+do mydo.do BIST_TB
+# Compile of BIST_CTRL.v was successful.
+# Compile of FlipDemux.v was successful.
+# Compile of LFSR.v was successful.
+# Compile of MISR.v was successful.
+# Compile of mycells.v was successful.
+# Compile of s820_netlist_scanInserted.v was successful.
+# Compile of s820_testable.v was successful.
+# Compile of SFM.v was successful.
+# Compile of sigROM.v was successful.
+# Compile of SISA.v was successful.
+# Compile of SRSG.v was successful.
+# Compile of STCR.v was successful.
+# Compile of TB.sv was successful.
+# 13 compiles, 0 failed with no errors.
+# End time: 16:50:21 on Sep 13,2024, Elapsed time: 0:01:21
+# Errors: 0, Warnings: 2
+# vsim work.BIST_TB 
+# Start time: 16:50:22 on Sep 13,2024
+# Loading sv_std.std
+# Loading work.BIST_TB
+# Loading work.STCR
+# Loading work.s820_testable
+# Loading work.s820_scanInserted
+# Loading work.NOT
+# Loading work.NOR
+# Loading work.NAND
+# Loading work.dff
+# Loading work.LFSR
+# Loading work.SRSG
+# Loading work.MISR
+# Loading work.SISA
+# Loading work.BIST_CTRL
+# Loading work.counter
+# Loading work.sigROM
+# Loading work.SFM
+# Loading work.flipDemux
+# Starting Golden Signature Generation ... 
+# 
+# Starting Golden Signaturs Stored at              3075000 
+# 
+# ===> Fault Simulation Starting ...
+# 
+# ** Note: $stop    : C:/Users/apple/Documents/UT/Master Thesis/Reconfigurable BIST/s820_BIST/Enhanced/TB.sv(285)
+#    Time: 902735 ns  Iteration: 0  Instance: /BIST_TB
+# Break in Module BIST_TB at C:/Users/apple/Documents/UT/Master Thesis/Reconfigurable BIST/s820_BIST/Enhanced/TB.sv line 285
+do mydo.do BIST_TB
+# Compile of BIST_CTRL.v was successful.
+# Compile of FlipDemux.v was successful.
+# Compile of LFSR.v was successful.
+# Compile of MISR.v was successful.
+# Compile of mycells.v was successful.
+# Compile of s820_netlist_scanInserted.v was successful.
+# Compile of s820_testable.v was successful.
+# Compile of SFM.v was successful.
+# Compile of sigROM.v was successful.
+# Compile of SISA.v was successful.
+# Compile of SRSG.v was successful.
+# Compile of STCR.v was successful.
+# Compile of TB.sv was successful.
+# 13 compiles, 0 failed with no errors.
+# End time: 16:52:37 on Sep 13,2024, Elapsed time: 0:02:15
+# Errors: 0, Warnings: 2
+# vsim work.BIST_TB 
+# Start time: 16:52:37 on Sep 13,2024
+# Loading sv_std.std
+# Loading work.BIST_TB
+# Loading work.STCR
+# Loading work.s820_testable
+# Loading work.s820_scanInserted
+# Loading work.NOT
+# Loading work.NOR
+# Loading work.NAND
+# Loading work.dff
+# Loading work.LFSR
+# Loading work.SRSG
+# Loading work.MISR
+# Loading work.SISA
+# Loading work.BIST_CTRL
+# Loading work.counter
+# Loading work.sigROM
+# Loading work.SFM
+# Loading work.flipDemux
+# Starting Golden Signature Generation ... 
+# 
+# Starting Golden Signaturs Stored at              3775000 
+# 
+# ===> Fault Simulation Starting ...
+# 
+# ** Note: $stop    : C:/Users/apple/Documents/UT/Master Thesis/Reconfigurable BIST/s820_BIST/Enhanced/TB.sv(285)
+#    Time: 1117635 ns  Iteration: 0  Instance: /BIST_TB
+# Break in Module BIST_TB at C:/Users/apple/Documents/UT/Master Thesis/Reconfigurable BIST/s820_BIST/Enhanced/TB.sv line 285
+do mydo.do BIST_TB
+# Compile of BIST_CTRL.v was successful.
+# Compile of FlipDemux.v was successful.
+# Compile of LFSR.v was successful.
+# Compile of MISR.v was successful.
+# Compile of mycells.v was successful.
+# Compile of s820_netlist_scanInserted.v was successful.
+# Compile of s820_testable.v was successful.
+# Compile of SFM.v was successful.
+# Compile of sigROM.v was successful.
+# Compile of SISA.v was successful.
+# Compile of SRSG.v was successful.
+# Compile of STCR.v was successful.
+# Compile of TB.sv was successful.
+# 13 compiles, 0 failed with no errors.
+# End time: 16:54:08 on Sep 13,2024, Elapsed time: 0:01:31
+# Errors: 0, Warnings: 2
+# vsim work.BIST_TB 
+# Start time: 16:54:08 on Sep 13,2024
+# Loading sv_std.std
+# Loading work.BIST_TB
+# Loading work.STCR
+# Loading work.s820_testable
+# Loading work.s820_scanInserted
+# Loading work.NOT
+# Loading work.NOR
+# Loading work.NAND
+# Loading work.dff
+# Loading work.LFSR
+# Loading work.SRSG
+# Loading work.MISR
+# Loading work.SISA
+# Loading work.BIST_CTRL
+# Loading work.counter
+# Loading work.sigROM
+# Loading work.SFM
+# Loading work.flipDemux
+# Starting Golden Signature Generation ... 
+# 
+# Starting Golden Signaturs Stored at              4475000 
+# 
+# ===> Fault Simulation Starting ...
+# 
+# ** Note: $stop    : C:/Users/apple/Documents/UT/Master Thesis/Reconfigurable BIST/s820_BIST/Enhanced/TB.sv(285)
+#    Time: 1332535 ns  Iteration: 0  Instance: /BIST_TB
+# Break in Module BIST_TB at C:/Users/apple/Documents/UT/Master Thesis/Reconfigurable BIST/s820_BIST/Enhanced/TB.sv line 285
+do mydo.do BIST_TB
+# Compile of BIST_CTRL.v was successful.
+# Compile of FlipDemux.v was successful.
+# Compile of LFSR.v was successful.
+# Compile of MISR.v was successful.
+# Compile of mycells.v was successful.
+# Compile of s820_netlist_scanInserted.v was successful.
+# Compile of s820_testable.v was successful.
+# Compile of SFM.v was successful.
+# Compile of sigROM.v was successful.
+# Compile of SISA.v was successful.
+# Compile of SRSG.v was successful.
+# Compile of STCR.v was successful.
+# Compile of TB.sv was successful.
+# 13 compiles, 0 failed with no errors.
+# End time: 16:55:22 on Sep 13,2024, Elapsed time: 0:01:14
+# Errors: 0, Warnings: 2
+# vsim work.BIST_TB 
+# Start time: 16:55:23 on Sep 13,2024
+# Loading sv_std.std
+# Loading work.BIST_TB
+# Loading work.STCR
+# Loading work.s820_testable
+# Loading work.s820_scanInserted
+# Loading work.NOT
+# Loading work.NOR
+# Loading work.NAND
+# Loading work.dff
+# Loading work.LFSR
+# Loading work.SRSG
+# Loading work.MISR
+# Loading work.SISA
+# Loading work.BIST_CTRL
+# Loading work.counter
+# Loading work.sigROM
+# Loading work.SFM
+# Loading work.flipDemux
+# Starting Golden Signature Generation ... 
+# 
+# Starting Golden Signaturs Stored at              5175000 
+# 
+# ===> Fault Simulation Starting ...
+# 
+# ** Note: $stop    : C:/Users/apple/Documents/UT/Master Thesis/Reconfigurable BIST/s820_BIST/Enhanced/TB.sv(285)
+#    Time: 1547435 ns  Iteration: 0  Instance: /BIST_TB
+# Break in Module BIST_TB at C:/Users/apple/Documents/UT/Master Thesis/Reconfigurable BIST/s820_BIST/Enhanced/TB.sv line 285
+OpenFile {C:/Users/apple/Documents/UT/Master Thesis/Reconfigurable BIST/s820_BIST/Enhanced/simulation/s820_Enhanced.mpf}
+# End time: 16:57:45 on Sep 13,2024, Elapsed time: 0:02:22
+# Errors: 0, Warnings: 1
+# Closing project C:/Users/apple/Documents/UT/Master Thesis/Reconfigurable BIST/s820_BIST/Enhanced/simulation/s820_Enhanced.mpf
+# reading C:/intelFPGA/20.1/modelsim_ase/win32aloem/../modelsim.ini
+# Loading project s820_Enhanced
+do mydo.do BIST_TB
+# Compile of BIST_CTRL.v was successful.
+# Compile of FlipDemux.v was successful.
+# Compile of LFSR.v was successful.
+# Compile of MISR.v was successful.
+# Compile of mycells.v was successful.
+# Compile of s820_netlist_scanInserted.v was successful.
+# Compile of s820_testable.v was successful.
+# Compile of SFM.v was successful.
+# Compile of sigROM.v was successful.
+# Compile of SISA.v was successful.
+# Compile of SRSG.v was successful.
+# Compile of STCR.v was successful.
+# Compile of TB.sv was successful.
+# 13 compiles, 0 failed with no errors.
+# vsim work.BIST_TB 
+# Start time: 16:58:00 on Sep 13,2024
+# Loading sv_std.std
+# Loading work.BIST_TB
+# Loading work.STCR
+# Loading work.s820_testable
+# Loading work.s820_scanInserted
+# Loading work.NOT
+# Loading work.NOR
+# Loading work.NAND
+# Loading work.dff
+# Loading work.LFSR
+# Loading work.SRSG
+# Loading work.MISR
+# Loading work.SISA
+# Loading work.BIST_CTRL
+# Loading work.counter
+# Loading work.sigROM
+# Loading work.SFM
+# Loading work.flipDemux
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Starting Golden Signature Generation ... 
+# 
+# Starting Golden Signaturs Stored at              5875000 
+# 
+# ===> Fault Simulation Starting ...
+# 
+# ** Note: $stop    : C:/Users/apple/Documents/UT/Master Thesis/Reconfigurable BIST/s820_BIST/Enhanced/TB.sv(285)
+#    Time: 1762335 ns  Iteration: 0  Instance: /BIST_TB
+# Break in Module BIST_TB at C:/Users/apple/Documents/UT/Master Thesis/Reconfigurable BIST/s820_BIST/Enhanced/TB.sv line 285
+do mydo.do BIST_TB
+# Compile of BIST_CTRL.v was successful.
+# Compile of FlipDemux.v was successful.
+# Compile of LFSR.v was successful.
+# Compile of MISR.v was successful.
+# Compile of mycells.v was successful.
+# Compile of s820_netlist_scanInserted.v was successful.
+# Compile of s820_testable.v was successful.
+# Compile of SFM.v was successful.
+# Compile of sigROM.v was successful.
+# Compile of SISA.v was successful.
+# Compile of SRSG.v was successful.
+# Compile of STCR.v was successful.
+# Compile of TB.sv was successful.
+# 13 compiles, 0 failed with no errors.
+# End time: 16:59:12 on Sep 13,2024, Elapsed time: 0:01:12
+# Errors: 0, Warnings: 2
+# vsim work.BIST_TB 
+# Start time: 16:59:12 on Sep 13,2024
+# Loading sv_std.std
+# Loading work.BIST_TB
+# Loading work.STCR
+# Loading work.s820_testable
+# Loading work.s820_scanInserted
+# Loading work.NOT
+# Loading work.NOR
+# Loading work.NAND
+# Loading work.dff
+# Loading work.LFSR
+# Loading work.SRSG
+# Loading work.MISR
+# Loading work.SISA
+# Loading work.BIST_CTRL
+# Loading work.counter
+# Loading work.sigROM
+# Loading work.SFM
+# Loading work.flipDemux
+# Starting Golden Signature Generation ... 
+# 
+# Starting Golden Signaturs Stored at              6575000 
+# 
+# ===> Fault Simulation Starting ...
+# 
+# ** Note: $stop    : C:/Users/apple/Documents/UT/Master Thesis/Reconfigurable BIST/s820_BIST/Enhanced/TB.sv(285)
+#    Time: 1977235 ns  Iteration: 0  Instance: /BIST_TB
+# Break in Module BIST_TB at C:/Users/apple/Documents/UT/Master Thesis/Reconfigurable BIST/s820_BIST/Enhanced/TB.sv line 285
+do mydo.do BIST_TB
+# Compile of BIST_CTRL.v was successful.
+# Compile of FlipDemux.v was successful.
+# Compile of LFSR.v was successful.
+# Compile of MISR.v was successful.
+# Compile of mycells.v was successful.
+# Compile of s820_netlist_scanInserted.v was successful.
+# Compile of s820_testable.v was successful.
+# Compile of SFM.v was successful.
+# Compile of sigROM.v was successful.
+# Compile of SISA.v was successful.
+# Compile of SRSG.v was successful.
+# Compile of STCR.v was successful.
+# Compile of TB.sv was successful.
+# 13 compiles, 0 failed with no errors.
+# End time: 17:01:43 on Sep 13,2024, Elapsed time: 0:02:31
+# Errors: 0, Warnings: 2
+# vsim work.BIST_TB 
+# Start time: 17:01:44 on Sep 13,2024
+# Loading sv_std.std
+# Loading work.BIST_TB
+# Loading work.STCR
+# Loading work.s820_testable
+# Loading work.s820_scanInserted
+# Loading work.NOT
+# Loading work.NOR
+# Loading work.NAND
+# Loading work.dff
+# Loading work.LFSR
+# Loading work.SRSG
+# Loading work.MISR
+# Loading work.SISA
+# Loading work.BIST_CTRL
+# Loading work.counter
+# Loading work.sigROM
+# Loading work.SFM
+# Loading work.flipDemux
+# Starting Golden Signature Generation ... 
+# 
+# Starting Golden Signaturs Stored at             21975000 
+# 
+# ===> Fault Simulation Starting ...
+# 
+# ** Note: $stop    : C:/Users/apple/Documents/UT/Master Thesis/Reconfigurable BIST/s820_BIST/Enhanced/TB.sv(285)
+#    Time: 6705035 ns  Iteration: 0  Instance: /BIST_TB
+# Break in Module BIST_TB at C:/Users/apple/Documents/UT/Master Thesis/Reconfigurable BIST/s820_BIST/Enhanced/TB.sv line 285
+do mydo.do BIST_TB
+# Compile of BIST_CTRL.v was successful.
+# Compile of FlipDemux.v was successful.
+# Compile of LFSR.v was successful.
+# Compile of MISR.v was successful.
+# Compile of mycells.v was successful.
+# Compile of s820_netlist_scanInserted.v was successful.
+# Compile of s820_testable.v was successful.
+# Compile of SFM.v was successful.
+# Compile of sigROM.v was successful.
+# Compile of SISA.v was successful.
+# Compile of SRSG.v was successful.
+# Compile of STCR.v was successful.
+# Compile of TB.sv was successful.
+# 13 compiles, 0 failed with no errors.
+# End time: 17:03:32 on Sep 13,2024, Elapsed time: 0:01:48
+# Errors: 0, Warnings: 2
+# vsim work.BIST_TB 
+# Start time: 17:03:33 on Sep 13,2024
+# Loading sv_std.std
+# Loading work.BIST_TB
+# Loading work.STCR
+# Loading work.s820_testable
+# Loading work.s820_scanInserted
+# Loading work.NOT
+# Loading work.NOR
+# Loading work.NAND
+# Loading work.dff
+# Loading work.LFSR
+# Loading work.SRSG
+# Loading work.MISR
+# Loading work.SISA
+# Loading work.BIST_CTRL
+# Loading work.counter
+# Loading work.sigROM
+# Loading work.SFM
+# Loading work.flipDemux
+# Starting Golden Signature Generation ... 
+# 
+# Starting Golden Signaturs Stored at             21275000 
+# 
+# ===> Fault Simulation Starting ...
+# 
+# ** Note: $stop    : C:/Users/apple/Documents/UT/Master Thesis/Reconfigurable BIST/s820_BIST/Enhanced/TB.sv(285)
+#    Time: 6490135 ns  Iteration: 0  Instance: /BIST_TB
+# Break in Module BIST_TB at C:/Users/apple/Documents/UT/Master Thesis/Reconfigurable BIST/s820_BIST/Enhanced/TB.sv line 285
+do mydo.do BIST_TB
+# Compile of BIST_CTRL.v was successful.
+# Compile of FlipDemux.v was successful.
+# Compile of LFSR.v was successful.
+# Compile of MISR.v was successful.
+# Compile of mycells.v was successful.
+# Compile of s820_netlist_scanInserted.v was successful.
+# Compile of s820_testable.v was successful.
+# Compile of SFM.v was successful.
+# Compile of sigROM.v was successful.
+# Compile of SISA.v was successful.
+# Compile of SRSG.v was successful.
+# Compile of STCR.v was successful.
+# Compile of TB.sv was successful.
+# 13 compiles, 0 failed with no errors.
+# End time: 17:06:53 on Sep 13,2024, Elapsed time: 0:03:20
+# Errors: 0, Warnings: 2
+# vsim work.BIST_TB 
+# Start time: 17:06:53 on Sep 13,2024
+# Loading sv_std.std
+# Loading work.BIST_TB
+# Loading work.STCR
+# Loading work.s820_testable
+# Loading work.s820_scanInserted
+# Loading work.NOT
+# Loading work.NOR
+# Loading work.NAND
+# Loading work.dff
+# Loading work.LFSR
+# Loading work.SRSG
+# Loading work.MISR
+# Loading work.SISA
+# Loading work.BIST_CTRL
+# Loading work.counter
+# Loading work.sigROM
+# Loading work.SFM
+# Loading work.flipDemux
+# Starting Golden Signature Generation ... 
+# 
+# Starting Golden Signaturs Stored at             14275000 
+# 
+# ===> Fault Simulation Starting ...
+# 
+# ** Note: $stop    : C:/Users/apple/Documents/UT/Master Thesis/Reconfigurable BIST/s820_BIST/Enhanced/TB.sv(285)
+#    Time: 4341135 ns  Iteration: 0  Instance: /BIST_TB
+# Break in Module BIST_TB at C:/Users/apple/Documents/UT/Master Thesis/Reconfigurable BIST/s820_BIST/Enhanced/TB.sv line 285
+do mydo.do BIST_TB
+# Compile of BIST_CTRL.v was successful.
+# Compile of FlipDemux.v was successful.
+# Compile of LFSR.v was successful.
+# Compile of MISR.v was successful.
+# Compile of mycells.v was successful.
+# Compile of s820_netlist_scanInserted.v was successful.
+# Compile of s820_testable.v was successful.
+# Compile of SFM.v was successful.
+# Compile of sigROM.v was successful.
+# Compile of SISA.v was successful.
+# Compile of SRSG.v was successful.
+# Compile of STCR.v was successful.
+# Compile of TB.sv was successful.
+# 13 compiles, 0 failed with no errors.
+# End time: 17:08:04 on Sep 13,2024, Elapsed time: 0:01:11
+# Errors: 0, Warnings: 2
+# vsim work.BIST_TB 
+# Start time: 17:08:04 on Sep 13,2024
+# Loading sv_std.std
+# Loading work.BIST_TB
+# Loading work.STCR
+# Loading work.s820_testable
+# Loading work.s820_scanInserted
+# Loading work.NOT
+# Loading work.NOR
+# Loading work.NAND
+# Loading work.dff
+# Loading work.LFSR
+# Loading work.SRSG
+# Loading work.MISR
+# Loading work.SISA
+# Loading work.BIST_CTRL
+# Loading work.counter
+# Loading work.sigROM
+# Loading work.SFM
+# Loading work.flipDemux
+# Starting Golden Signature Generation ... 
+# 
+# Starting Golden Signaturs Stored at             14975000 
+# 
+# ===> Fault Simulation Starting ...
+# 
+# ** Note: $stop    : C:/Users/apple/Documents/UT/Master Thesis/Reconfigurable BIST/s820_BIST/Enhanced/TB.sv(285)
+#    Time: 4556035 ns  Iteration: 0  Instance: /BIST_TB
+# Break in Module BIST_TB at C:/Users/apple/Documents/UT/Master Thesis/Reconfigurable BIST/s820_BIST/Enhanced/TB.sv line 285
+do mydo.do BIST_TB
+# Compile of BIST_CTRL.v was successful.
+# Compile of FlipDemux.v was successful.
+# Compile of LFSR.v was successful.
+# Compile of MISR.v was successful.
+# Compile of mycells.v was successful.
+# Compile of s820_netlist_scanInserted.v was successful.
+# Compile of s820_testable.v was successful.
+# Compile of SFM.v was successful.
+# Compile of sigROM.v was successful.
+# Compile of SISA.v was successful.
+# Compile of SRSG.v was successful.
+# Compile of STCR.v was successful.
+# Compile of TB.sv was successful.
+# 13 compiles, 0 failed with no errors.
+# End time: 17:09:28 on Sep 13,2024, Elapsed time: 0:01:24
+# Errors: 0, Warnings: 2
+# vsim work.BIST_TB 
+# Start time: 17:09:29 on Sep 13,2024
+# Loading sv_std.std
+# Loading work.BIST_TB
+# Loading work.STCR
+# Loading work.s820_testable
+# Loading work.s820_scanInserted
+# Loading work.NOT
+# Loading work.NOR
+# Loading work.NAND
+# Loading work.dff
+# Loading work.LFSR
+# Loading work.SRSG
+# Loading work.MISR
+# Loading work.SISA
+# Loading work.BIST_CTRL
+# Loading work.counter
+# Loading work.sigROM
+# Loading work.SFM
+# Loading work.flipDemux
+# Starting Golden Signature Generation ... 
+# 
+# Starting Golden Signaturs Stored at             15675000 
+# 
+# ===> Fault Simulation Starting ...
+# 
+# ** Note: $stop    : C:/Users/apple/Documents/UT/Master Thesis/Reconfigurable BIST/s820_BIST/Enhanced/TB.sv(285)
+#    Time: 4770935 ns  Iteration: 0  Instance: /BIST_TB
+# Break in Module BIST_TB at C:/Users/apple/Documents/UT/Master Thesis/Reconfigurable BIST/s820_BIST/Enhanced/TB.sv line 285
+do mydo.do BIST_TB
+# Compile of BIST_CTRL.v was successful.
+# Compile of FlipDemux.v was successful.
+# Compile of LFSR.v was successful.
+# Compile of MISR.v was successful.
+# Compile of mycells.v was successful.
+# Compile of s820_netlist_scanInserted.v was successful.
+# Compile of s820_testable.v was successful.
+# Compile of SFM.v was successful.
+# Compile of sigROM.v was successful.
+# Compile of SISA.v was successful.
+# Compile of SRSG.v was successful.
+# Compile of STCR.v was successful.
+# Compile of TB.sv was successful.
+# 13 compiles, 0 failed with no errors.
+# End time: 17:10:48 on Sep 13,2024, Elapsed time: 0:01:19
+# Errors: 0, Warnings: 2
+# vsim work.BIST_TB 
+# Start time: 17:10:49 on Sep 13,2024
+# Loading sv_std.std
+# Loading work.BIST_TB
+# Loading work.STCR
+# Loading work.s820_testable
+# Loading work.s820_scanInserted
+# Loading work.NOT
+# Loading work.NOR
+# Loading work.NAND
+# Loading work.dff
+# Loading work.LFSR
+# Loading work.SRSG
+# Loading work.MISR
+# Loading work.SISA
+# Loading work.BIST_CTRL
+# Loading work.counter
+# Loading work.sigROM
+# Loading work.SFM
+# Loading work.flipDemux
+# Starting Golden Signature Generation ... 
+# 
+# Starting Golden Signaturs Stored at             16375000 
+# 
+# ===> Fault Simulation Starting ...
+# 
+# ** Note: $stop    : C:/Users/apple/Documents/UT/Master Thesis/Reconfigurable BIST/s820_BIST/Enhanced/TB.sv(285)
+#    Time: 4985835 ns  Iteration: 0  Instance: /BIST_TB
+# Break in Module BIST_TB at C:/Users/apple/Documents/UT/Master Thesis/Reconfigurable BIST/s820_BIST/Enhanced/TB.sv line 285
+do mydo.do BIST_TB
+# Compile of BIST_CTRL.v was successful.
+# Compile of FlipDemux.v was successful.
+# Compile of LFSR.v was successful.
+# Compile of MISR.v was successful.
+# Compile of mycells.v was successful.
+# Compile of s820_netlist_scanInserted.v was successful.
+# Compile of s820_testable.v was successful.
+# Compile of SFM.v was successful.
+# Compile of sigROM.v was successful.
+# Compile of SISA.v was successful.
+# Compile of SRSG.v was successful.
+# Compile of STCR.v was successful.
+# Compile of TB.sv was successful.
+# 13 compiles, 0 failed with no errors.
+# End time: 17:11:43 on Sep 13,2024, Elapsed time: 0:00:54
+# Errors: 0, Warnings: 2
+# vsim work.BIST_TB 
+# Start time: 17:11:44 on Sep 13,2024
+# Loading sv_std.std
+# Loading work.BIST_TB
+# Loading work.STCR
+# Loading work.s820_testable
+# Loading work.s820_scanInserted
+# Loading work.NOT
+# Loading work.NOR
+# Loading work.NAND
+# Loading work.dff
+# Loading work.LFSR
+# Loading work.SRSG
+# Loading work.MISR
+# Loading work.SISA
+# Loading work.BIST_CTRL
+# Loading work.counter
+# Loading work.sigROM
+# Loading work.SFM
+# Loading work.flipDemux
+# Starting Golden Signature Generation ... 
+# 
+# Starting Golden Signaturs Stored at             17075000 
+# 
+# ===> Fault Simulation Starting ...
+# 
+# ** Note: $stop    : C:/Users/apple/Documents/UT/Master Thesis/Reconfigurable BIST/s820_BIST/Enhanced/TB.sv(285)
+#    Time: 5200735 ns  Iteration: 0  Instance: /BIST_TB
+# Break in Module BIST_TB at C:/Users/apple/Documents/UT/Master Thesis/Reconfigurable BIST/s820_BIST/Enhanced/TB.sv line 285
+do mydo.do BIST_TB
+# Compile of BIST_CTRL.v was successful.
+# Compile of FlipDemux.v was successful.
+# Compile of LFSR.v was successful.
+# Compile of MISR.v was successful.
+# Compile of mycells.v was successful.
+# Compile of s820_netlist_scanInserted.v was successful.
+# Compile of s820_testable.v was successful.
+# Compile of SFM.v was successful.
+# Compile of sigROM.v was successful.
+# Compile of SISA.v was successful.
+# Compile of SRSG.v was successful.
+# Compile of STCR.v was successful.
+# Compile of TB.sv was successful.
+# 13 compiles, 0 failed with no errors.
+# End time: 17:13:04 on Sep 13,2024, Elapsed time: 0:01:20
+# Errors: 0, Warnings: 2
+# vsim work.BIST_TB 
+# Start time: 17:13:04 on Sep 13,2024
+# Loading sv_std.std
+# Loading work.BIST_TB
+# Loading work.STCR
+# Loading work.s820_testable
+# Loading work.s820_scanInserted
+# Loading work.NOT
+# Loading work.NOR
+# Loading work.NAND
+# Loading work.dff
+# Loading work.LFSR
+# Loading work.SRSG
+# Loading work.MISR
+# Loading work.SISA
+# Loading work.BIST_CTRL
+# Loading work.counter
+# Loading work.sigROM
+# Loading work.SFM
+# Loading work.flipDemux
+# Starting Golden Signature Generation ... 
+# 
+# Starting Golden Signaturs Stored at             17775000 
+# 
+# ===> Fault Simulation Starting ...
+# 
+# ** Note: $stop    : C:/Users/apple/Documents/UT/Master Thesis/Reconfigurable BIST/s820_BIST/Enhanced/TB.sv(285)
+#    Time: 5415635 ns  Iteration: 0  Instance: /BIST_TB
+# Break in Module BIST_TB at C:/Users/apple/Documents/UT/Master Thesis/Reconfigurable BIST/s820_BIST/Enhanced/TB.sv line 285
+do mydo.do BIST_TB
+# Compile of BIST_CTRL.v was successful.
+# Compile of FlipDemux.v was successful.
+# Compile of LFSR.v was successful.
+# Compile of MISR.v was successful.
+# Compile of mycells.v was successful.
+# Compile of s820_netlist_scanInserted.v was successful.
+# Compile of s820_testable.v was successful.
+# Compile of SFM.v was successful.
+# Compile of sigROM.v was successful.
+# Compile of SISA.v was successful.
+# Compile of SRSG.v was successful.
+# Compile of STCR.v was successful.
+# Compile of TB.sv was successful.
+# 13 compiles, 0 failed with no errors.
+# End time: 17:13:57 on Sep 13,2024, Elapsed time: 0:00:53
+# Errors: 0, Warnings: 2
+# vsim work.BIST_TB 
+# Start time: 17:13:57 on Sep 13,2024
+# Loading sv_std.std
+# Loading work.BIST_TB
+# Loading work.STCR
+# Loading work.s820_testable
+# Loading work.s820_scanInserted
+# Loading work.NOT
+# Loading work.NOR
+# Loading work.NAND
+# Loading work.dff
+# Loading work.LFSR
+# Loading work.SRSG
+# Loading work.MISR
+# Loading work.SISA
+# Loading work.BIST_CTRL
+# Loading work.counter
+# Loading work.sigROM
+# Loading work.SFM
+# Loading work.flipDemux
+# Starting Golden Signature Generation ... 
+# 
+# Starting Golden Signaturs Stored at             18475000 
+# 
+# ===> Fault Simulation Starting ...
+# 
+# ** Note: $stop    : C:/Users/apple/Documents/UT/Master Thesis/Reconfigurable BIST/s820_BIST/Enhanced/TB.sv(285)
+#    Time: 5630535 ns  Iteration: 0  Instance: /BIST_TB
+# Break in Module BIST_TB at C:/Users/apple/Documents/UT/Master Thesis/Reconfigurable BIST/s820_BIST/Enhanced/TB.sv line 285
+do mydo.do BIST_TB
+# Compile of BIST_CTRL.v was successful.
+# Compile of FlipDemux.v was successful.
+# Compile of LFSR.v was successful.
+# Compile of MISR.v was successful.
+# Compile of mycells.v was successful.
+# Compile of s820_netlist_scanInserted.v was successful.
+# Compile of s820_testable.v was successful.
+# Compile of SFM.v was successful.
+# Compile of sigROM.v was successful.
+# Compile of SISA.v was successful.
+# Compile of SRSG.v was successful.
+# Compile of STCR.v was successful.
+# Compile of TB.sv was successful.
+# 13 compiles, 0 failed with no errors.
+# End time: 17:15:04 on Sep 13,2024, Elapsed time: 0:01:07
+# Errors: 0, Warnings: 2
+# vsim work.BIST_TB 
+# Start time: 17:15:04 on Sep 13,2024
+# Loading sv_std.std
+# Loading work.BIST_TB
+# Loading work.STCR
+# Loading work.s820_testable
+# Loading work.s820_scanInserted
+# Loading work.NOT
+# Loading work.NOR
+# Loading work.NAND
+# Loading work.dff
+# Loading work.LFSR
+# Loading work.SRSG
+# Loading work.MISR
+# Loading work.SISA
+# Loading work.BIST_CTRL
+# Loading work.counter
+# Loading work.sigROM
+# Loading work.SFM
+# Loading work.flipDemux
+# Starting Golden Signature Generation ... 
+# 
+# Starting Golden Signaturs Stored at             19175000 
+# 
+# ===> Fault Simulation Starting ...
+# 
+# ** Note: $stop    : C:/Users/apple/Documents/UT/Master Thesis/Reconfigurable BIST/s820_BIST/Enhanced/TB.sv(285)
+#    Time: 5845435 ns  Iteration: 0  Instance: /BIST_TB
+# Break in Module BIST_TB at C:/Users/apple/Documents/UT/Master Thesis/Reconfigurable BIST/s820_BIST/Enhanced/TB.sv line 285
+do mydo.do BIST_TB
+# Compile of BIST_CTRL.v was successful.
+# Compile of FlipDemux.v was successful.
+# Compile of LFSR.v was successful.
+# Compile of MISR.v was successful.
+# Compile of mycells.v was successful.
+# Compile of s820_netlist_scanInserted.v was successful.
+# Compile of s820_testable.v was successful.
+# Compile of SFM.v was successful.
+# Compile of sigROM.v was successful.
+# Compile of SISA.v was successful.
+# Compile of SRSG.v was successful.
+# Compile of STCR.v was successful.
+# Compile of TB.sv was successful.
+# 13 compiles, 0 failed with no errors.
+# End time: 17:16:03 on Sep 13,2024, Elapsed time: 0:00:59
+# Errors: 0, Warnings: 2
+# vsim work.BIST_TB 
+# Start time: 17:16:03 on Sep 13,2024
+# Loading sv_std.std
+# Loading work.BIST_TB
+# Loading work.STCR
+# Loading work.s820_testable
+# Loading work.s820_scanInserted
+# Loading work.NOT
+# Loading work.NOR
+# Loading work.NAND
+# Loading work.dff
+# Loading work.LFSR
+# Loading work.SRSG
+# Loading work.MISR
+# Loading work.SISA
+# Loading work.BIST_CTRL
+# Loading work.counter
+# Loading work.sigROM
+# Loading work.SFM
+# Loading work.flipDemux
+# Starting Golden Signature Generation ... 
+# 
+# Starting Golden Signaturs Stored at             19875000 
+# 
+# ===> Fault Simulation Starting ...
+# 
+# ** Note: $stop    : C:/Users/apple/Documents/UT/Master Thesis/Reconfigurable BIST/s820_BIST/Enhanced/TB.sv(285)
+#    Time: 6060335 ns  Iteration: 0  Instance: /BIST_TB
+# Break in Module BIST_TB at C:/Users/apple/Documents/UT/Master Thesis/Reconfigurable BIST/s820_BIST/Enhanced/TB.sv line 285
+do mydo.do BIST_TB
+# Compile of BIST_CTRL.v was successful.
+# Compile of FlipDemux.v was successful.
+# Compile of LFSR.v was successful.
+# Compile of MISR.v was successful.
+# Compile of mycells.v was successful.
+# Compile of s820_netlist_scanInserted.v was successful.
+# Compile of s820_testable.v was successful.
+# Compile of SFM.v was successful.
+# Compile of sigROM.v was successful.
+# Compile of SISA.v was successful.
+# Compile of SRSG.v was successful.
+# Compile of STCR.v was successful.
+# Compile of TB.sv was successful.
+# 13 compiles, 0 failed with no errors.
+# End time: 17:17:02 on Sep 13,2024, Elapsed time: 0:00:59
+# Errors: 0, Warnings: 2
+# vsim work.BIST_TB 
+# Start time: 17:17:02 on Sep 13,2024
+# Loading sv_std.std
+# Loading work.BIST_TB
+# Loading work.STCR
+# Loading work.s820_testable
+# Loading work.s820_scanInserted
+# Loading work.NOT
+# Loading work.NOR
+# Loading work.NAND
+# Loading work.dff
+# Loading work.LFSR
+# Loading work.SRSG
+# Loading work.MISR
+# Loading work.SISA
+# Loading work.BIST_CTRL
+# Loading work.counter
+# Loading work.sigROM
+# Loading work.SFM
+# Loading work.flipDemux
+# Starting Golden Signature Generation ... 
+# 
+# Starting Golden Signaturs Stored at             20575000 
+# 
+# ===> Fault Simulation Starting ...
+# 
+# ** Note: $stop    : C:/Users/apple/Documents/UT/Master Thesis/Reconfigurable BIST/s820_BIST/Enhanced/TB.sv(285)
+#    Time: 6275235 ns  Iteration: 0  Instance: /BIST_TB
+# Break in Module BIST_TB at C:/Users/apple/Documents/UT/Master Thesis/Reconfigurable BIST/s820_BIST/Enhanced/TB.sv line 285
+do mydo.do BIST_TB
+# Compile of BIST_CTRL.v was successful.
+# Compile of FlipDemux.v was successful.
+# Compile of LFSR.v was successful.
+# Compile of MISR.v was successful.
+# Compile of mycells.v was successful.
+# Compile of s820_netlist_scanInserted.v was successful.
+# Compile of s820_testable.v was successful.
+# Compile of SFM.v was successful.
+# Compile of sigROM.v was successful.
+# Compile of SISA.v was successful.
+# Compile of SRSG.v was successful.
+# Compile of STCR.v was successful.
+# Compile of TB.sv was successful.
+# 13 compiles, 0 failed with no errors.
+# End time: 17:18:00 on Sep 13,2024, Elapsed time: 0:00:58
+# Errors: 0, Warnings: 2
+# vsim work.BIST_TB 
+# Start time: 17:18:00 on Sep 13,2024
+# Loading sv_std.std
+# Loading work.BIST_TB
+# Loading work.STCR
+# Loading work.s820_testable
+# Loading work.s820_scanInserted
+# Loading work.NOT
+# Loading work.NOR
+# Loading work.NAND
+# Loading work.dff
+# Loading work.LFSR
+# Loading work.SRSG
+# Loading work.MISR
+# Loading work.SISA
+# Loading work.BIST_CTRL
+# Loading work.counter
+# Loading work.sigROM
+# Loading work.SFM
+# Loading work.flipDemux
+# Starting Golden Signature Generation ... 
+# 
+# Starting Golden Signaturs Stored at             21275000 
+# 
+# ===> Fault Simulation Starting ...
+# 
+# ** Note: $stop    : C:/Users/apple/Documents/UT/Master Thesis/Reconfigurable BIST/s820_BIST/Enhanced/TB.sv(285)
+#    Time: 6490135 ns  Iteration: 0  Instance: /BIST_TB
+# Break in Module BIST_TB at C:/Users/apple/Documents/UT/Master Thesis/Reconfigurable BIST/s820_BIST/Enhanced/TB.sv line 285
+do mydo.do BIST_TB
+# Compile of BIST_CTRL.v was successful.
+# Compile of FlipDemux.v was successful.
+# Compile of LFSR.v was successful.
+# Compile of MISR.v was successful.
+# Compile of mycells.v was successful.
+# Compile of s820_netlist_scanInserted.v was successful.
+# Compile of s820_testable.v was successful.
+# Compile of SFM.v was successful.
+# Compile of sigROM.v was successful.
+# Compile of SISA.v was successful.
+# Compile of SRSG.v was successful.
+# Compile of STCR.v was successful.
+# Compile of TB.sv was successful.
+# 13 compiles, 0 failed with no errors.
+# End time: 17:19:13 on Sep 13,2024, Elapsed time: 0:01:13
+# Errors: 0, Warnings: 2
+# vsim work.BIST_TB 
+# Start time: 17:19:13 on Sep 13,2024
+# Loading sv_std.std
+# Loading work.BIST_TB
+# Loading work.STCR
+# Loading work.s820_testable
+# Loading work.s820_scanInserted
+# Loading work.NOT
+# Loading work.NOR
+# Loading work.NAND
+# Loading work.dff
+# Loading work.LFSR
+# Loading work.SRSG
+# Loading work.MISR
+# Loading work.SISA
+# Loading work.BIST_CTRL
+# Loading work.counter
+# Loading work.sigROM
+# Loading work.SFM
+# Loading work.flipDemux
+# Starting Golden Signature Generation ... 
+# 
+# Starting Golden Signaturs Stored at              7275000 
+# 
+# ===> Fault Simulation Starting ...
+# 
+# ** Note: $stop    : C:/Users/apple/Documents/UT/Master Thesis/Reconfigurable BIST/s820_BIST/Enhanced/TB.sv(285)
+#    Time: 2192135 ns  Iteration: 0  Instance: /BIST_TB
+# Break in Module BIST_TB at C:/Users/apple/Documents/UT/Master Thesis/Reconfigurable BIST/s820_BIST/Enhanced/TB.sv line 285
+do mydo.do BIST_TB
+# Compile of BIST_CTRL.v was successful.
+# Compile of FlipDemux.v was successful.
+# Compile of LFSR.v was successful.
+# Compile of MISR.v was successful.
+# Compile of mycells.v was successful.
+# Compile of s820_netlist_scanInserted.v was successful.
+# Compile of s820_testable.v was successful.
+# Compile of SFM.v was successful.
+# Compile of sigROM.v was successful.
+# Compile of SISA.v was successful.
+# Compile of SRSG.v was successful.
+# Compile of STCR.v was successful.
+# Compile of TB.sv was successful.
+# 13 compiles, 0 failed with no errors.
+# End time: 17:20:15 on Sep 13,2024, Elapsed time: 0:01:02
+# Errors: 0, Warnings: 2
+# vsim work.BIST_TB 
+# Start time: 17:20:15 on Sep 13,2024
+# Loading sv_std.std
+# Loading work.BIST_TB
+# Loading work.STCR
+# Loading work.s820_testable
+# Loading work.s820_scanInserted
+# Loading work.NOT
+# Loading work.NOR
+# Loading work.NAND
+# Loading work.dff
+# Loading work.LFSR
+# Loading work.SRSG
+# Loading work.MISR
+# Loading work.SISA
+# Loading work.BIST_CTRL
+# Loading work.counter
+# Loading work.sigROM
+# Loading work.SFM
+# Loading work.flipDemux
+# Starting Golden Signature Generation ... 
+# 
+# Starting Golden Signaturs Stored at              7975000 
+# 
+# ===> Fault Simulation Starting ...
+# 
+# ** Note: $stop    : C:/Users/apple/Documents/UT/Master Thesis/Reconfigurable BIST/s820_BIST/Enhanced/TB.sv(285)
+#    Time: 2407035 ns  Iteration: 0  Instance: /BIST_TB
+# Break in Module BIST_TB at C:/Users/apple/Documents/UT/Master Thesis/Reconfigurable BIST/s820_BIST/Enhanced/TB.sv line 285
+do mydo.do BIST_TB
+# Compile of BIST_CTRL.v was successful.
+# Compile of FlipDemux.v was successful.
+# Compile of LFSR.v was successful.
+# Compile of MISR.v was successful.
+# Compile of mycells.v was successful.
+# Compile of s820_netlist_scanInserted.v was successful.
+# Compile of s820_testable.v was successful.
+# Compile of SFM.v was successful.
+# Compile of sigROM.v was successful.
+# Compile of SISA.v was successful.
+# Compile of SRSG.v was successful.
+# Compile of STCR.v was successful.
+# Compile of TB.sv was successful.
+# 13 compiles, 0 failed with no errors.
+# End time: 17:21:13 on Sep 13,2024, Elapsed time: 0:00:58
+# Errors: 0, Warnings: 2
+# vsim work.BIST_TB 
+# Start time: 17:21:13 on Sep 13,2024
+# Loading sv_std.std
+# Loading work.BIST_TB
+# Loading work.STCR
+# Loading work.s820_testable
+# Loading work.s820_scanInserted
+# Loading work.NOT
+# Loading work.NOR
+# Loading work.NAND
+# Loading work.dff
+# Loading work.LFSR
+# Loading work.SRSG
+# Loading work.MISR
+# Loading work.SISA
+# Loading work.BIST_CTRL
+# Loading work.counter
+# Loading work.sigROM
+# Loading work.SFM
+# Loading work.flipDemux
+# Starting Golden Signature Generation ... 
+# 
+# Starting Golden Signaturs Stored at              8675000 
+# 
+# ===> Fault Simulation Starting ...
+# 
+# ** Note: $stop    : C:/Users/apple/Documents/UT/Master Thesis/Reconfigurable BIST/s820_BIST/Enhanced/TB.sv(285)
+#    Time: 2621935 ns  Iteration: 0  Instance: /BIST_TB
+# Break in Module BIST_TB at C:/Users/apple/Documents/UT/Master Thesis/Reconfigurable BIST/s820_BIST/Enhanced/TB.sv line 285
+do mydo.do BIST_TB
+# Compile of BIST_CTRL.v was successful.
+# Compile of FlipDemux.v was successful.
+# Compile of LFSR.v was successful.
+# Compile of MISR.v was successful.
+# Compile of mycells.v was successful.
+# Compile of s820_netlist_scanInserted.v was successful.
+# Compile of s820_testable.v was successful.
+# Compile of SFM.v was successful.
+# Compile of sigROM.v was successful.
+# Compile of SISA.v was successful.
+# Compile of SRSG.v was successful.
+# Compile of STCR.v was successful.
+# Compile of TB.sv was successful.
+# 13 compiles, 0 failed with no errors.
+# End time: 17:23:21 on Sep 13,2024, Elapsed time: 0:02:08
+# Errors: 0, Warnings: 2
+# vsim work.BIST_TB 
+# Start time: 17:23:21 on Sep 13,2024
+# Loading sv_std.std
+# Loading work.BIST_TB
+# Loading work.STCR
+# Loading work.s820_testable
+# Loading work.s820_scanInserted
+# Loading work.NOT
+# Loading work.NOR
+# Loading work.NAND
+# Loading work.dff
+# Loading work.LFSR
+# Loading work.SRSG
+# Loading work.MISR
+# Loading work.SISA
+# Loading work.BIST_CTRL
+# Loading work.counter
+# Loading work.sigROM
+# Loading work.SFM
+# Loading work.flipDemux
+# Starting Golden Signature Generation ... 
+# 
+# Starting Golden Signaturs Stored at              9375000 
+# 
+# ===> Fault Simulation Starting ...
+# 
+# ** Note: $stop    : C:/Users/apple/Documents/UT/Master Thesis/Reconfigurable BIST/s820_BIST/Enhanced/TB.sv(285)
+#    Time: 2836835 ns  Iteration: 0  Instance: /BIST_TB
+# Break in Module BIST_TB at C:/Users/apple/Documents/UT/Master Thesis/Reconfigurable BIST/s820_BIST/Enhanced/TB.sv line 285
+# End time: 20:46:41 on Sep 13,2024, Elapsed time: 3:23:20
+# Errors: 0, Warnings: 1

@@ -1,0 +1,180 @@
+m255
+K4
+z2
+!s11f vlog 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dC:/Users/apple/Documents/UT/Master Thesis/s298/Simulation
+vc17
+Z0 !s110 1720698262
+!i10b 1
+!s100 N`LI[2VMe@o4=1?PQ<DWW0
+Z1 !s11b Dg1SIo80bB@j0V0VzS_@n1
+IT9kT?n^mLOA=[5LJfkAC03
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+Z3 dC:/Users/apple/Documents/UT/Master Thesis/c17/sim
+w1720600455
+8C:/Users/apple/Documents/UT/Master Thesis/c17/c17_netlist.v
+FC:/Users/apple/Documents/UT/Master Thesis/c17/c17_netlist.v
+!i122 295
+L0 2 61
+Z4 OV;L;2020.1;71
+r1
+!s85 0
+31
+Z5 !s108 1720698262.000000
+!s107 C:/Users/apple/Documents/UT/Master Thesis/c17/c17_netlist.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/apple/Documents/UT/Master Thesis/c17/c17_netlist.v|
+!i113 1
+Z6 o-work work
+Z7 tCvgOpt 0
+vDFF
+R0
+!i10b 1
+!s100 TcOT6lXmf28fW[^`=Q=Gj0
+R1
+IGbKW5f>bP>ClD9lKI>JjS0
+R2
+R3
+Z8 w1609697604
+Z9 8C:/Users/apple/Documents/UT/Master Thesis/c17/mycells.v
+Z10 FC:/Users/apple/Documents/UT/Master Thesis/c17/mycells.v
+!i122 296
+L0 20 6
+R4
+r1
+!s85 0
+31
+R5
+Z11 !s107 C:/Users/apple/Documents/UT/Master Thesis/c17/mycells.v|
+Z12 !s90 -reportprogress|300|-work|work|-stats=none|C:/Users/apple/Documents/UT/Master Thesis/c17/mycells.v|
+!i113 1
+R6
+R7
+n@d@f@f
+vNAND
+R0
+!i10b 1
+!s100 `Y:1XfRB[P7D@kUkB^zYo0
+R1
+IYckMRB65bnSR_>o0Ci2Sz1
+R2
+R3
+R8
+R9
+R10
+!i122 296
+L0 8 5
+R4
+r1
+!s85 0
+31
+R5
+R11
+R12
+!i113 1
+R6
+R7
+n@n@a@n@d
+vNOR
+R0
+!i10b 1
+!s100 [^mN^cH<5@4Ch59ec@GFN3
+R1
+I1Qo:SfTdeS]6T@_MhEe4o3
+R2
+R3
+R8
+R9
+R10
+!i122 296
+L0 14 5
+R4
+r1
+!s85 0
+31
+R5
+R11
+R12
+!i113 1
+R6
+R7
+n@n@o@r
+vNOT
+R0
+!i10b 1
+!s100 6imPiVbaJg0f_oC;Un^in0
+R1
+IhXYfnzjkAAKKh@<_[_YBk0
+R2
+R3
+R8
+R9
+R10
+!i122 296
+L0 2 5
+R4
+r1
+!s85 0
+31
+R5
+R11
+R12
+!i113 1
+R6
+R7
+n@n@o@t
+vSerialFS_TB
+DXx6 sv_std 3 std 0 22 VYECXdT12H8WgbUP_5Y6:3
+!s110 1720698263
+!i10b 1
+!s100 OBQb;@LNWJ^FHAo;WBL440
+R1
+ILR5NAXJe>Eo<TM=CS>4zW1
+R2
+S1
+R3
+w1720698254
+8C:/Users/apple/Documents/UT/Master Thesis/c17/SerialFS_TB.sv
+FC:/Users/apple/Documents/UT/Master Thesis/c17/SerialFS_TB.sv
+!i122 297
+L0 2 73
+R4
+r1
+!s85 0
+31
+R5
+!s107 C:/Users/apple/Documents/UT/Master Thesis/c17/SerialFS_TB.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/apple/Documents/UT/Master Thesis/c17/SerialFS_TB.sv|
+!i113 1
+o-work work -sv
+R7
+n@serial@f@s_@t@b
+vVirtualTester
+!s110 1720248882
+!i10b 1
+!s100 XUff5kEC6oBQUd:[oa06^2
+R1
+I:WdeFRF<hPULn;DnTA;SW0
+R2
+R3
+w1720248878
+8C:/Users/apple/Documents/UT/Master Thesis/c17/SerialFS_TB.v
+FC:/Users/apple/Documents/UT/Master Thesis/c17/SerialFS_TB.v
+!i122 11
+L0 2 70
+R4
+r1
+!s85 0
+31
+!s108 1720248881.000000
+!s107 C:/Users/apple/Documents/UT/Master Thesis/c17/SerialFS_TB.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/apple/Documents/UT/Master Thesis/c17/SerialFS_TB.v|
+!i113 1
+R6
+R7
+n@virtual@tester

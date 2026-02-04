@@ -1,0 +1,257 @@
+# Reading pref.tcl
+# OpenFile {C:/Users/apple/Documents/UT/Master Thesis/Reconfigurable BIST/s5378_BIST_v2/simulation/s5378_BIST_v2.mpf}
+# Loading project s5378_BIST_v2
+do mydo.do TB
+# Compile of BIST_CTRL.v was successful.
+# Compile of FlipDemux.v was successful.
+# Compile of LFSR.v was successful.
+# Compile of LFSR_v2.v was successful.
+# Compile of MISR.v was successful.
+# Compile of mycells.v was successful.
+# Compile of s5378_netlist.v was successful.
+# Compile of s5378_netlist_scanInserted.v was successful.
+# Compile of s5378_testable.v was successful.
+# Compile of SFM.v was successful.
+# Compile of sigROM.v was successful.
+# Compile of SISA.v was successful.
+# Compile of SRSG.v was successful.
+# Compile of STCR.v was successful.
+# Compile of TB.sv was successful.
+# 15 compiles, 0 failed with no errors.
+# vsim work.TB 
+# Start time: 17:57:20 on Aug 05,2024
+# Loading sv_std.std
+# Loading work.TB
+# Loading work.STCR
+# Loading work.s344_testable
+# Loading work.s5378_scanInserted
+# Loading work.NOT
+# Loading work.NOR
+# Loading work.NAND
+# Loading work.dff
+# Loading work.LFSR
+# Loading work.SRSG
+# Loading work.MISR
+# Loading work.SISA
+# Loading work.BIST_CTRL
+# Loading work.counter
+# Loading work.sigROM
+# Loading work.SFM
+# Loading work.flipDemux
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Starting Golden Signature Generation ... 
+# 
+# Starting Golden Signaturs Stored at             58055000 
+# 
+# ** Note: $stop    : C:/Users/apple/Documents/UT/Master Thesis/Reconfigurable BIST/s5378_BIST_v2/TB.sv(396)
+#    Time: 58055 ns  Iteration: 0  Instance: /TB
+# Break in Module TB at C:/Users/apple/Documents/UT/Master Thesis/Reconfigurable BIST/s5378_BIST_v2/TB.sv line 396
+run
+do wave.do
+add wave -position insertpoint  \
+sim:/TB/DUT/done
+add wave -position insertpoint  \
+sim:/TB/DUT/clk \
+sim:/TB/DUT/NbarT \
+sim:/TB/DUT/sigOut \
+sim:/TB/DUT/goldenSig \
+sim:/TB/DUT/PRPG_seed_local \
+sim:/TB/DUT/flipped_seed \
+sim:/TB/DUT/testPI \
+sim:/TB/DUT/sigAddrOut \
+sim:/TB/DUT/sigAddr \
+sim:/TB/DUT/groupVal \
+sim:/TB/DUT/LFSR_internalRst \
+sim:/TB/DUT/flippingVal \
+sim:/TB/DUT/compare \
+sim:/TB/DUT/seed_ld \
+sim:/TB/DUT/internalRst
+add wave -position insertpoint  \
+sim:/TB/DUT/CTRL_inst/group_cnt_out \
+sim:/TB/DUT/CTRL_inst/ld_seed \
+sim:/TB/DUT/CTRL_inst/group_cnt_rst \
+sim:/TB/DUT/CTRL_inst/group_cnt_en \
+sim:/TB/DUT/CTRL_inst/group_eq
+restart
+run
+# GetModuleFileName: The specified module could not be found.
+# 
+# 
+# Starting Golden Signature Generation ... 
+# 
+run
+run
+run
+run
+run
+# Starting Golden Signaturs Stored at             58055000 
+# 
+# ** Note: $stop    : C:/Users/apple/Documents/UT/Master Thesis/Reconfigurable BIST/s5378_BIST_v2/TB.sv(396)
+#    Time: 58055 ns  Iteration: 0  Instance: /TB
+# Break in Module TB at C:/Users/apple/Documents/UT/Master Thesis/Reconfigurable BIST/s5378_BIST_v2/TB.sv line 396
+# Compile of BIST_CTRL.v was successful.
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.BIST_CTRL
+# Loading work.counter
+run
+# GetModuleFileName: The specified module could not be found.
+# 
+# 
+# Starting Golden Signature Generation ... 
+# 
+run
+# Compile of BIST_CTRL.v was successful.
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.BIST_CTRL
+# Loading work.counter
+run
+# GetModuleFileName: The specified module could not be found.
+# 
+# 
+# Starting Golden Signature Generation ... 
+# 
+run
+run
+run
+run
+run
+# Starting Golden Signaturs Stored at             58055000 
+# 
+# ** Note: $stop    : C:/Users/apple/Documents/UT/Master Thesis/Reconfigurable BIST/s5378_BIST_v2/TB.sv(396)
+#    Time: 58055 ns  Iteration: 0  Instance: /TB
+# Break in Module TB at C:/Users/apple/Documents/UT/Master Thesis/Reconfigurable BIST/s5378_BIST_v2/TB.sv line 396
+run
+add wave -position insertpoint  \
+sim:/TB/DUT/PRPG_inst/ld \
+sim:/TB/DUT/PRPG_inst/seed \
+sim:/TB/DUT/PRPG_inst/d_out
+restart
+run
+# GetModuleFileName: The specified module could not be found.
+# 
+# 
+# Starting Golden Signature Generation ... 
+# 
+run
+run
+run
+run
+run
+# Starting Golden Signaturs Stored at             58055000 
+# 
+# ** Note: $stop    : C:/Users/apple/Documents/UT/Master Thesis/Reconfigurable BIST/s5378_BIST_v2/TB.sv(396)
+#    Time: 58055 ns  Iteration: 0  Instance: /TB
+# Break in Module TB at C:/Users/apple/Documents/UT/Master Thesis/Reconfigurable BIST/s5378_BIST_v2/TB.sv line 396
+# Compile of s5378_testable.v was successful.
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.s344_testable
+run
+# GetModuleFileName: The specified module could not be found.
+# 
+# 
+# Starting Golden Signature Generation ... 
+# 
+run
+run
+run
+run
+run
+# Starting Golden Signaturs Stored at             58055000 
+# 
+# ** Note: $stop    : C:/Users/apple/Documents/UT/Master Thesis/Reconfigurable BIST/s5378_BIST_v2/TB.sv(396)
+#    Time: 58055 ns  Iteration: 0  Instance: /TB
+# Break in Module TB at C:/Users/apple/Documents/UT/Master Thesis/Reconfigurable BIST/s5378_BIST_v2/TB.sv line 396
+# Compile of FlipDemux.v was successful.
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.flipDemux
+run
+# GetModuleFileName: The specified module could not be found.
+# 
+# 
+# Starting Golden Signature Generation ... 
+# 
+run
+run
+run
+run
+run
+# Starting Golden Signaturs Stored at             58055000 
+# 
+# ** Note: $stop    : C:/Users/apple/Documents/UT/Master Thesis/Reconfigurable BIST/s5378_BIST_v2/TB.sv(396)
+#    Time: 58055 ns  Iteration: 0  Instance: /TB
+# Break in Module TB at C:/Users/apple/Documents/UT/Master Thesis/Reconfigurable BIST/s5378_BIST_v2/TB.sv line 396
+# Compile of s5378_testable.v failed with 1 errors.
+# Compile of s5378_testable.v was successful.
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.s344_testable
+run
+# GetModuleFileName: The specified module could not be found.
+# 
+# 
+# Starting Golden Signature Generation ... 
+# 
+run
+run
+add wave -position insertpoint  \
+sim:/TB/DUT/addr_groupVal
+restart
+run
+# GetModuleFileName: The specified module could not be found.
+# 
+# 
+# Starting Golden Signature Generation ... 
+# 
+run
+run
+run
+# Compile of s5378_testable.v failed with 1 errors.
+# Compile of s5378_testable.v was successful.
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.s344_testable
+run
+# GetModuleFileName: The specified module could not be found.
+# 
+# 
+# Starting Golden Signature Generation ... 
+# 
+run
+run
+run
+run
+run
+# Starting Golden Signaturs Stored at             58055000 
+# 
+# ** Note: $stop    : C:/Users/apple/Documents/UT/Master Thesis/Reconfigurable BIST/s5378_BIST_v2/TB.sv(396)
+#    Time: 58055 ns  Iteration: 0  Instance: /TB
+# Break in Module TB at C:/Users/apple/Documents/UT/Master Thesis/Reconfigurable BIST/s5378_BIST_v2/TB.sv line 396
+# Compile of BIST_CTRL.v was successful.
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.BIST_CTRL
+# Loading work.counter
+run
+# GetModuleFileName: The specified module could not be found.
+# 
+# 
+# Starting Golden Signature Generation ... 
+# 
+run
+run
+run
+run
+run
+# Starting Golden Signaturs Stored at             58035000 
+# 
+# ** Note: $stop    : C:/Users/apple/Documents/UT/Master Thesis/Reconfigurable BIST/s5378_BIST_v2/TB.sv(396)
+#    Time: 58035 ns  Iteration: 0  Instance: /TB
+# Break in Module TB at C:/Users/apple/Documents/UT/Master Thesis/Reconfigurable BIST/s5378_BIST_v2/TB.sv line 396
+run
+run
+# End time: 20:14:27 on Aug 05,2024, Elapsed time: 2:17:07
+# Errors: 0, Warnings: 2

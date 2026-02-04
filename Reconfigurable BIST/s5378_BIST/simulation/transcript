@@ -1,0 +1,100 @@
+# Reading pref.tcl
+# OpenFile {C:/Users/apple/Documents/UT/Master Thesis/Reconfigurable BIST/s5378_BIST/simulation/s5378_BIST.mpf}
+# Loading project s5378_BIST
+do mydo.doTB
+# Cannot open macro file: mydo.doTB
+do mydo.do TB
+# Compile of BIST_CTRL.v was successful.
+# Compile of LFSR.v was successful.
+# Compile of MISR.v was successful.
+# Compile of mycells.v was successful.
+# Compile of s5378_netlist_scanInserted.v was successful.
+# Compile of s5378_testable.v was successful.
+# Compile of sigROM.v was successful.
+# Compile of SISA.v was successful.
+# Compile of SRSG.v was successful.
+# Compile of STCR.v was successful.
+# Compile of TB.sv was successful.
+# 11 compiles, 0 failed with no errors.
+# vsim work.TB 
+# Start time: 18:13:22 on Aug 05,2024
+# Loading sv_std.std
+# Loading work.TB
+# Loading work.STCR
+# Loading work.s344_testable
+# Loading work.s5378_scanInserted
+# Loading work.NOT
+# Loading work.NOR
+# Loading work.NAND
+# Loading work.dff
+# Loading work.LFSR
+# Loading work.SRSG
+# Loading work.MISR
+# Loading work.SISA
+# Loading work.BIST_CTRL
+# Loading work.counter
+# Loading work.sigROM
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Starting Golden Signature Generation ... 
+# 
+# Starting Golden Signaturs Stored at             14695000 
+# 
+# Starting Golden Signature Generation ... 
+# 
+# Starting Golden Signaturs Stored at             29235000 
+# 
+# Starting Golden Signature Generation ... 
+# 
+# Starting Golden Signaturs Stored at             43775000 
+# 
+# Starting Golden Signature Generation ... 
+# 
+# Starting Golden Signaturs Stored at             58315000 
+# 
+# ** Note: $stop    : C:/Users/apple/Documents/UT/Master Thesis/Reconfigurable BIST/s5378_BIST/TB.sv(392)
+#    Time: 58325 ns  Iteration: 0  Instance: /TB
+# Break in Module TB at C:/Users/apple/Documents/UT/Master Thesis/Reconfigurable BIST/s5378_BIST/TB.sv line 392
+add wave -position insertpoint  \
+sim:/TB/DUT/PRPG_inst/ld \
+sim:/TB/DUT/PRPG_inst/seed \
+sim:/TB/DUT/PRPG_inst/d_out
+add wave -position insertpoint  \
+sim:/TB/DUT/PRPG_inst/clk
+add wave -position insertpoint  \
+sim:/TB/DUT/rst
+add wave -position insertpoint  \
+sim:/TB/DUT/seed_ld \
+sim:/TB/DUT/session \
+sim:/TB/DUT/sigOut \
+sim:/TB/DUT/goldenSig \
+sim:/TB/DUT/testPI \
+sim:/TB/DUT/sigAddr \
+sim:/TB/DUT/flipIdx
+restart
+run
+# Starting Golden Signature Generation ... 
+# 
+run
+# Starting Golden Signaturs Stored at             14695000 
+# 
+# Starting Golden Signature Generation ... 
+# 
+run
+# Starting Golden Signaturs Stored at             29235000 
+# 
+# Starting Golden Signature Generation ... 
+# 
+run
+run
+# Starting Golden Signaturs Stored at             43775000 
+# 
+# Starting Golden Signature Generation ... 
+# 
+run
+# Starting Golden Signaturs Stored at             58315000 
+# 
+# ** Note: $stop    : C:/Users/apple/Documents/UT/Master Thesis/Reconfigurable BIST/s5378_BIST/TB.sv(392)
+#    Time: 58325 ns  Iteration: 0  Instance: /TB
+# Break in Module TB at C:/Users/apple/Documents/UT/Master Thesis/Reconfigurable BIST/s5378_BIST/TB.sv line 392
+# End time: 20:14:35 on Aug 05,2024, Elapsed time: 2:01:13
+# Errors: 0, Warnings: 1

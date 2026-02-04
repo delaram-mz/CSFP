@@ -1,0 +1,22 @@
+==========> Fault Simulation Begins at                    0 
+Test Vector number           0 is:  000000000000000000000000000000011111 
+Detected fault : s@1  SerialFS_TB.FUT._15_.Y
+Detected fault : s@0  SerialFS_TB.FUT._18_.Y
+Detected fault : s@1  SerialFS_TB.FUT._17_.A
+Detected fault : s@0  SerialFS_TB.FUT._17_.Y
+Detected fault : s@1  SerialFS_TB.FUT._16_.Y
+Detected fault : s@1  SerialFS_TB.FUT._19_.A
+Detected fault : s@1  SerialFS_TB.FUT._20_.Y
+Detected fault : s@1  SerialFS_TB.FUT._20_.Y
+Test Vector number           1 is:  000000000000000000000000000000011000 
+Detected fault : s@1  SerialFS_TB.FUT._18_.A
+Detected fault : s@1  SerialFS_TB.FUT._17_.Y
+Detected fault : s@0  SerialFS_TB.FUT._16_.Y
+Detected fault : s@1  SerialFS_TB.FUT._20_.B
+Detected fault : s@0  SerialFS_TB.FUT._20_.Y
+Detected fault : s@0  SerialFS_TB.FUT._20_.Y
+Test Vector number           2 is:  000000000000000000000000000000010110 
+Test Vector number           3 is:  000000000000000000000000000000000001 
+Detected fault : s@1  SerialFS_TB.FUT._18_.Y
+Detected fault : s@1  SerialFS_TB.FUT._19_.Y
+Detected fault : s@1  SerialFS_TB.FUT._19_.Y

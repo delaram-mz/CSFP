@@ -1,0 +1,53 @@
+==========> Fault Simulation Begins at                    0 
+Test Vector number           0 is:  000000000000000000000000000000000111 
+Detected fault : s@1  SerialFS_TB.FUT._23_.Y
+Detected fault : s@1  SerialFS_TB.FUT._24_.Y
+Detected fault : s@1  SerialFS_TB.FUT._26_.Y
+Detected fault : s@1  SerialFS_TB.FUT._28_.A
+Detected fault : s@1  SerialFS_TB.FUT._28_.B
+Detected fault : s@1  SerialFS_TB.FUT._29_.Y
+Detected fault : s@1  SerialFS_TB.FUT._30_.Y
+Test Vector number           1 is:  000000000000000000000000000000011110 
+Detected fault : s@1  SerialFS_TB.FUT._22_.Y
+Detected fault : s@0  SerialFS_TB.FUT._26_.Y
+Detected fault : s@0  SerialFS_TB.FUT._27_.A
+Detected fault : s@0  SerialFS_TB.FUT._27_.B
+Detected fault : s@0  SerialFS_TB.FUT._28_.Y
+Detected fault : s@0  SerialFS_TB.FUT._30_.Y
+Test Vector number           2 is:  000000000000000000000000000000001011 
+Detected fault : s@0  SerialFS_TB.FUT._23_.Y
+Detected fault : s@1  SerialFS_TB.FUT._25_.Y
+Detected fault : s@0  SerialFS_TB.FUT._25_.B
+Test Vector number           3 is:  000000000000000000000000000000010100 
+Detected fault : s@0  SerialFS_TB.FUT._24_.Y
+Detected fault : s@0  SerialFS_TB.FUT._25_.A
+Test Vector number           4 is:  000000000000000000000000000000011011 
+Test Vector number           5 is:  000000000000000000000000000000001100 
+Test Vector number           6 is:  000000000000000000000000000000010010 
+Test Vector number           7 is:  000000000000000000000000000000001110 
+Detected fault : s@1  SerialFS_TB.FUT._22_.B
+Test Vector number           8 is:  000000000000000000000000000000010110 
+Detected fault : s@1  SerialFS_TB.FUT._22_.A
+Test Vector number           9 is:  000000000000000000000000000000010000 
+Detected fault : s@0  SerialFS_TB.FUT._29_.Y
+Test Vector number          10 is:  000000000000000000000000000000010110 
+Test Vector number          11 is:  000000000000000000000000000000011111 
+Test Vector number          12 is:  000000000000000000000000000000000000 
+Detected fault : s@0  SerialFS_TB.FUT._27_.Y
+Test Vector number          13 is:  000000000000000000000000000000010010 
+Test Vector number          14 is:  000000000000000000000000000000011101 
+Test Vector number          15 is:  000000000000000000000000000000011100 
+Test Vector number          16 is:  000000000000000000000000000000011111 
+Test Vector number          17 is:  000000000000000000000000000000010000 
+Test Vector number          18 is:  000000000000000000000000000000011011 
+Test Vector number          19 is:  000000000000000000000000000000011100 
+Test Vector number          20 is:  000000000000000000000000000000011101 
+Test Vector number          21 is:  000000000000000000000000000000000010 
+Test Vector number          22 is:  000000000000000000000000000000010000 
+Test Vector number          23 is:  000000000000000000000000000000010000 
+Test Vector number          24 is:  000000000000000000000000000000011101 
+Test Vector number          25 is:  000000000000000000000000000000001000 
+Test Vector number          26 is:  000000000000000000000000000000011010 
+Test Vector number          27 is:  000000000000000000000000000000011110 
+Test Vector number          28 is:  000000000000000000000000000000010010 
+Test Vector number          29 is:  000000000000000000000000000000010001 

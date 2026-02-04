@@ -1,0 +1,178 @@
+Net to be faulty => TB.DUT.DUT.G17 to 1 
+#### LBIST Run is done
+FAULT DETECTED
+Net to be faulty => TB.DUT.DUT._40_/Y to 1 
+#### LBIST Run is done
+FAULT DETECTED
+Net to be faulty => TB.DUT.DUT._40_/A to 0 
+#### LBIST Run is done
+FAULT DETECTED
+Net to be faulty => TB.DUT.DUT._40_/B to 0 
+#### LBIST Run is done
+FAULT DETECTED
+Net to be faulty => TB.DUT.DUT._39_/Y to 0 
+#### LBIST Run is done
+FAULT DETECTED
+Net to be faulty => TB.DUT.DUT._35_/Y to 0 
+#### LBIST Run is done
+FAULT DETECTED
+Net to be faulty => TB.DUT.DUT._35_/A to 1 
+#### LBIST Run is done
+FAULT DETECTED
+Net to be faulty => TB.DUT.DUT.DFF_0/Q to 1 
+#### LBIST Run is done
+FAULT DETECTED
+Net to be faulty => TB.DUT.DUT.G17 to 0 
+#### LBIST Run is done
+Net to be faulty => TB.DUT.DUT._40_/Y to 0 
+#### LBIST Run is done
+Net to be faulty => TB.DUT.DUT._37_/B to 0 
+#### LBIST Run is done
+Net to be faulty => TB.DUT.DUT._37_/Y to 1 
+#### LBIST Run is done
+FAULT DETECTED
+Net to be faulty => TB.DUT.DUT._38_/A to 1 
+#### LBIST Run is done
+FAULT DETECTED
+Net to be faulty => TB.DUT.DUT._39_/Y to 1 
+#### LBIST Run is done
+FAULT DETECTED
+Net to be faulty => TB.DUT.DUT._39_/A to 0 
+#### LBIST Run is done
+FAULT DETECTED
+Net to be faulty => TB.DUT.DUT._39_/B to 0 
+#### LBIST Run is done
+FAULT DETECTED
+Net to be faulty => TB.DUT.DUT._38_/Y to 0 
+#### LBIST Run is done
+FAULT DETECTED
+Net to be faulty => TB.DUT.DUT._36_/Y to 0 
+#### LBIST Run is done
+FAULT DETECTED
+Net to be faulty => TB.DUT.DUT._36_/A to 1 
+#### LBIST Run is done
+FAULT DETECTED
+Net to be faulty => TB.DUT.DUT._44_/Y to 1 
+#### LBIST Run is done
+FAULT DETECTED
+Net to be faulty => TB.DUT.DUT._40_/A to 1 
+#### LBIST Run is done
+FAULT DETECTED
+Net to be faulty => TB.DUT.DUT.DFF_2/Q to 0 
+#### LBIST Run is done
+Net to be faulty => TB.DUT.DUT.DFF_2/Q to 1 
+#### LBIST Run is done
+FAULT DETECTED
+Net to be faulty => TB.DUT.DUT.So to 0 
+#### LBIST Run is done
+Net to be faulty => TB.DUT.DUT.So to 1 
+#### LBIST Run is done
+FAULT DETECTED
+Net to be faulty => TB.DUT.DUT.G0 to 0 
+#### LBIST Run is done
+FAULT DETECTED
+Net to be faulty => TB.DUT.DUT._44_/B to 0 
+#### LBIST Run is done
+FAULT DETECTED
+Net to be faulty => TB.DUT.DUT._43_/Y to 0 
+#### LBIST Run is done
+Net to be faulty => TB.DUT.DUT._43_/A to 1 
+#### LBIST Run is done
+Net to be faulty => TB.DUT.DUT.DFF_1/Q to 1 
+#### LBIST Run is done
+Net to be faulty => TB.DUT.DUT._44_/A to 0 
+#### LBIST Run is done
+Net to be faulty => TB.DUT.DUT._35_/Y to 1 
+#### LBIST Run is done
+FAULT DETECTED
+Net to be faulty => TB.DUT.DUT._35_/A to 0 
+#### LBIST Run is done
+FAULT DETECTED
+Net to be faulty => TB.DUT.DUT.DFF_0/Q to 0 
+#### LBIST Run is done
+FAULT DETECTED
+Net to be faulty => TB.DUT.DUT._40_/B to 1 
+#### LBIST Run is done
+FAULT DETECTED
+Net to be faulty => TB.DUT.DUT.G3 to 1 
+#### LBIST Run is done
+Net to be faulty => TB.DUT.DUT._38_/B to 1 
+#### LBIST Run is done
+Net to be faulty => TB.DUT.DUT._38_/Y to 1 
+#### LBIST Run is done
+Net to be faulty => TB.DUT.DUT._38_/A to 0 
+#### LBIST Run is done
+FAULT DETECTED
+Net to be faulty => TB.DUT.DUT._38_/B to 0 
+#### LBIST Run is done
+Net to be faulty => TB.DUT.DUT._37_/Y to 0 
+#### LBIST Run is done
+FAULT DETECTED
+Net to be faulty => TB.DUT.DUT._37_/A to 1 
+#### LBIST Run is done
+FAULT DETECTED
+Net to be faulty => TB.DUT.DUT._37_/B to 1 
+#### LBIST Run is done
+FAULT DETECTED
+Net to be faulty => TB.DUT.DUT.G3 to 0 
+#### LBIST Run is done
+Net to be faulty => TB.DUT.DUT.G1 to 1 
+#### LBIST Run is done
+FAULT DETECTED
+Net to be faulty => TB.DUT.DUT._39_/A to 1 
+#### LBIST Run is done
+Net to be faulty => TB.DUT.DUT.G1 to 0 
+#### LBIST Run is done
+Net to be faulty => TB.DUT.DUT._37_/A to 0 
+#### LBIST Run is done
+Net to be faulty => TB.DUT.DUT._36_/Y to 1 
+#### LBIST Run is done
+FAULT DETECTED
+Net to be faulty => TB.DUT.DUT._36_/A to 0 
+#### LBIST Run is done
+FAULT DETECTED
+Net to be faulty => TB.DUT.DUT._44_/Y to 0 
+#### LBIST Run is done
+FAULT DETECTED
+Net to be faulty => TB.DUT.DUT._44_/B to 1 
+#### LBIST Run is done
+FAULT DETECTED
+Net to be faulty => TB.DUT.DUT._44_/A to 1 
+#### LBIST Run is done
+FAULT DETECTED
+Net to be faulty => TB.DUT.DUT.G0 to 1 
+#### LBIST Run is done
+FAULT DETECTED
+Net to be faulty => TB.DUT.DUT._43_/Y to 1 
+#### LBIST Run is done
+FAULT DETECTED
+Net to be faulty => TB.DUT.DUT._43_/A to 0 
+#### LBIST Run is done
+FAULT DETECTED
+Net to be faulty => TB.DUT.DUT.DFF_1/Q to 0 
+#### LBIST Run is done
+Net to be faulty => TB.DUT.DUT._39_/B to 1 
+#### LBIST Run is done
+FAULT DETECTED
+Net to be faulty => TB.DUT.DUT.G2 to 0 
+#### LBIST Run is done
+Net to be faulty => TB.DUT.DUT.G2 to 1 
+#### LBIST Run is done
+FAULT DETECTED
+Net to be faulty => TB.DUT.DUT.Si to 0 
+#### LBIST Run is done
+FAULT DETECTED
+Net to be faulty => TB.DUT.DUT.Si to 1 
+#### LBIST Run is done
+FAULT DETECTED
+Net to be faulty => TB.DUT.DUT.PbarS to 0 
+#### LBIST Run is done
+FAULT DETECTED
+Net to be faulty => TB.DUT.DUT.PbarS to 1 
+#### LBIST Run is done
+FAULT DETECTED
+
+
+==========> Fault Coverage: 0.703125 
+==========> Fault Simulation Time:             97930000 
+==========> BIST Run Time:              1520000 

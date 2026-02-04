@@ -1,0 +1,56 @@
+==========> Fault Simulation Begins at                    0 
+Test Vector number           0 is:  000000000000000000000000000000011111 
+Detected fault : s@1  SerialFS_TB.FUT._15_.Y
+Detected fault : s@1  SerialFS_TB.FUT._16_.Y
+Detected fault : s@0  SerialFS_TB.FUT._17_.Y
+Detected fault : s@1  SerialFS_TB.FUT._17_.A
+Detected fault : s@0  SerialFS_TB.FUT._18_.Y
+Detected fault : s@1  SerialFS_TB.FUT._19_.A
+Detected fault : s@1  SerialFS_TB.FUT._20_.Y
+Test Vector number           1 is:  000000000000000000000000000000011000 
+Detected fault : s@0  SerialFS_TB.FUT._16_.Y
+Detected fault : s@1  SerialFS_TB.FUT._17_.Y
+Detected fault : s@1  SerialFS_TB.FUT._18_.A
+Detected fault : s@0  SerialFS_TB.FUT._20_.Y
+Detected fault : s@1  SerialFS_TB.FUT._20_.B
+Test Vector number           2 is:  000000000000000000000000000000010110 
+Test Vector number           3 is:  000000000000000000000000000000000001 
+Detected fault : s@1  SerialFS_TB.FUT._18_.Y
+Detected fault : s@1  SerialFS_TB.FUT._19_.Y
+Test Vector number           4 is:  000000000000000000000000000000011010 
+Detected fault : s@1  SerialFS_TB.FUT._16_.B
+Test Vector number           5 is:  000000000000000000000000000000010011 
+Test Vector number           6 is:  000000000000000000000000000000001000 
+Test Vector number           7 is:  000000000000000000000000000000010001 
+Test Vector number           8 is:  000000000000000000000000000000010111 
+Test Vector number           9 is:  000000000000000000000000000000010011 
+Test Vector number          10 is:  000000000000000000000000000000000001 
+Test Vector number          11 is:  000000000000000000000000000000011111 
+Test Vector number          12 is:  000000000000000000000000000000011100 
+Test Vector number          13 is:  000000000000000000000000000000000100 
+Test Vector number          14 is:  000000000000000000000000000000001011 
+Test Vector number          15 is:  000000000000000000000000000000011100 
+Test Vector number          16 is:  000000000000000000000000000000011101 
+Test Vector number          17 is:  000000000000000000000000000000010000 
+Test Vector number          18 is:  000000000000000000000000000000001001 
+Test Vector number          19 is:  000000000000000000000000000000000110 
+Test Vector number          20 is:  000000000000000000000000000000011111 
+Test Vector number          21 is:  000000000000000000000000000000011000 
+Test Vector number          22 is:  000000000000000000000000000000010110 
+Test Vector number          23 is:  000000000000000000000000000000000001 
+Test Vector number          24 is:  000000000000000000000000000000011010 
+Test Vector number          25 is:  000000000000000000000000000000010011 
+Test Vector number          26 is:  000000000000000000000000000000001000 
+Test Vector number          27 is:  000000000000000000000000000000010001 
+Test Vector number          28 is:  000000000000000000000000000000010111 
+Test Vector number          29 is:  000000000000000000000000000000010011 
+Test Vector number          30 is:  000000000000000000000000000000000001 
+Test Vector number          31 is:  000000000000000000000000000000011111 
+Test Vector number          32 is:  000000000000000000000000000000011100 
+Test Vector number          33 is:  000000000000000000000000000000000100 
+Test Vector number          34 is:  000000000000000000000000000000001011 
+Test Vector number          35 is:  000000000000000000000000000000011100 
+Test Vector number          36 is:  000000000000000000000000000000011101 
+Test Vector number          37 is:  000000000000000000000000000000010000 
+Test Vector number          38 is:  000000000000000000000000000000001001 
+Test Vector number          39 is:  000000000000000000000000000000000110 

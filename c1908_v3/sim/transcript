@@ -1,0 +1,34 @@
+# Reading pref.tcl
+# OpenFile {C:/Users/apple/Documents/UT/Master Thesis/c1908_v3/sim/c1908_v3.mpf}
+# Loading project c1908_v3
+do mydo.do BIST_TB
+# Compile of c1908_netlist.v was successful.
+# Compile of mycells.v was successful.
+# Compile of SerialFS_TB.sv was successful.
+# 3 compiles, 0 failed with no errors.
+# vsim work.BIST_TB 
+# Start time: 03:16:20 on Sep 12,2024
+# ** Error: (vsim-3170) Could not find 'BIST_TB'.
+#         Searched libraries:
+#             C:/Users/apple/Documents/UT/Master Thesis/c1908_v3/sim/work
+# Error loading design
+# Error: Error loading design
+#        Pausing macro execution
+# MACRO ./mydo.do PAUSED at line 67
+ do mydo.do SerialFS_TB
+# Compile of c1908_netlist.v was successful.
+# Compile of mycells.v was successful.
+# Compile of SerialFS_TB.sv was successful.
+# 3 compiles, 0 failed with no errors.
+# vsim work.SerialFS_TB 
+# Start time: 03:16:20 on Sep 12,2024
+# Loading sv_std.std
+# Loading work.SerialFS_TB
+# Loading work.c1908
+# Loading work.NOT
+# Loading work.NOR
+# Loading work.NAND
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Simulation stop requested.
+# End time: 03:36:12 on Sep 12,2024, Elapsed time: 0:19:52
+# Errors: 0, Warnings: 1

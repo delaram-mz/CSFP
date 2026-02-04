@@ -1,0 +1,394 @@
+m255
+K4
+z2
+!s11f vlog 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dC:/Users/apple/Documents/UT/Master Thesis/Reconfigurable BIST/s344_Typical/simulation
+vBIST_CTRL
+Z0 !s110 1726233033
+!i10b 1
+!s100 01X?<>PZUe@0H4Sh1eU841
+Z1 !s11b Dg1SIo80bB@j0V0VzS_@n1
+IPNEodJgj4o3BH5R3gd0TK1
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+Z3 dC:/Users/apple/Documents/UT/Master Thesis/Reconfigurable BIST/s820_BIST/Typical/simulation
+Z4 w1726215364
+Z5 8C:/Users/apple/Documents/UT/Master Thesis/Reconfigurable BIST/s820_BIST/Typical/BIST_CTRL.v
+Z6 FC:/Users/apple/Documents/UT/Master Thesis/Reconfigurable BIST/s820_BIST/Typical/BIST_CTRL.v
+!i122 1039
+L0 17 194
+Z7 OV;L;2020.1;71
+r1
+!s85 0
+31
+Z8 !s108 1726233018.000000
+!s107 C:/Users/apple/Documents/UT/Master Thesis/Reconfigurable BIST/s820_BIST/Typical/BIST_CTRL.v|
+Z9 !s90 -reportprogress|300|-work|work|-stats=none|C:/Users/apple/Documents/UT/Master Thesis/Reconfigurable BIST/s820_BIST/Typical/BIST_CTRL.v|
+!i113 1
+Z10 o-work work
+Z11 tCvgOpt 0
+n@b@i@s@t_@c@t@r@l
+vBIST_TB
+DXx6 sv_std 3 std 0 22 VYECXdT12H8WgbUP_5Y6:3
+!s110 1726216857
+!i10b 1
+!s100 ZeJS5OE40:W67hPChzc;f1
+R1
+IL??>3]MFg1kI22`g08e>I0
+R2
+S1
+R3
+w1726216847
+8C:/Users/apple/Documents/UT/Master Thesis/Reconfigurable BIST/s820_BIST/Typical/TB.sv
+FC:/Users/apple/Documents/UT/Master Thesis/Reconfigurable BIST/s820_BIST/Typical/TB.sv
+!i122 1038
+L0 2 258
+R7
+r1
+!s85 0
+31
+Z12 !s108 1726216856.000000
+!s107 C:/Users/apple/Documents/UT/Master Thesis/Reconfigurable BIST/s820_BIST/Typical/TB.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/apple/Documents/UT/Master Thesis/Reconfigurable BIST/s820_BIST/Typical/TB.sv|
+!i113 1
+o-work work -sv
+R11
+n@b@i@s@t_@t@b
+vcounter
+R0
+!i10b 1
+!s100 ?kNNYAGkY;HU1k<HiFeRN2
+R1
+IO_1_d?0glAR@e?0]oKf8I0
+R2
+R3
+R4
+R5
+R6
+!i122 1039
+L0 2 14
+R7
+r1
+!s85 0
+31
+R8
+Z13 !s107 C:/Users/apple/Documents/UT/Master Thesis/Reconfigurable BIST/s820_BIST/Typical/BIST_CTRL.v|
+R9
+!i113 1
+R10
+R11
+vdff
+Z14 !s110 1726216854
+!i10b 1
+!s100 E[JH^oj?I9mVYkDE`o>hG2
+R1
+I`d3`aLB=Z15gJODni8E`_2
+R2
+R3
+Z15 w1725691484
+Z16 8C:/Users/apple/Documents/UT/Master Thesis/Reconfigurable BIST/s820_BIST/Typical/s820_netlist_scanInserted.v
+Z17 FC:/Users/apple/Documents/UT/Master Thesis/Reconfigurable BIST/s820_BIST/Typical/s820_netlist_scanInserted.v
+!i122 1032
+L0 3 22
+R7
+r1
+!s85 0
+31
+Z18 !s108 1726216853.000000
+Z19 !s107 C:/Users/apple/Documents/UT/Master Thesis/Reconfigurable BIST/s820_BIST/Typical/s820_netlist_scanInserted.v|
+Z20 !s90 -reportprogress|300|-work|work|-stats=none|C:/Users/apple/Documents/UT/Master Thesis/Reconfigurable BIST/s820_BIST/Typical/s820_netlist_scanInserted.v|
+!i113 1
+R10
+R11
+vDFF
+Z21 !s110 1726216853
+!i10b 1
+!s100 TcOT6lXmf28fW[^`=Q=Gj0
+R1
+IC:EGe8kU<Y@TCb_m7MFVH1
+R2
+R3
+Z22 w1609697604
+Z23 8C:/Users/apple/Documents/UT/Master Thesis/Reconfigurable BIST/s820_BIST/Typical/mycells.v
+Z24 FC:/Users/apple/Documents/UT/Master Thesis/Reconfigurable BIST/s820_BIST/Typical/mycells.v
+!i122 1031
+L0 20 6
+R7
+r1
+!s85 0
+31
+R18
+Z25 !s107 C:/Users/apple/Documents/UT/Master Thesis/Reconfigurable BIST/s820_BIST/Typical/mycells.v|
+Z26 !s90 -reportprogress|300|-work|work|-stats=none|C:/Users/apple/Documents/UT/Master Thesis/Reconfigurable BIST/s820_BIST/Typical/mycells.v|
+!i113 1
+R10
+R11
+n@d@f@f
+vLFSR
+!s110 1726216852
+!i10b 1
+!s100 29Z`J:gVW3jKzV[GaT:Zg0
+R1
+I<fiTSZl;9^A2AX^MC1JgA2
+R2
+R3
+w1722751581
+8C:/Users/apple/Documents/UT/Master Thesis/Reconfigurable BIST/s820_BIST/Typical/LFSR.v
+FC:/Users/apple/Documents/UT/Master Thesis/Reconfigurable BIST/s820_BIST/Typical/LFSR.v
+!i122 1029
+L0 2 36
+R7
+r1
+!s85 0
+31
+Z27 !s108 1726216852.000000
+!s107 C:/Users/apple/Documents/UT/Master Thesis/Reconfigurable BIST/s820_BIST/Typical/LFSR.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/apple/Documents/UT/Master Thesis/Reconfigurable BIST/s820_BIST/Typical/LFSR.v|
+!i113 1
+R10
+R11
+n@l@f@s@r
+vMISR
+R21
+!i10b 1
+!s100 kRHO`3PZLW]Db4gJij>@M1
+R1
+I>J[97lBd@3JX0X<LjD>W;1
+R2
+R3
+w1656311864
+8C:/Users/apple/Documents/UT/Master Thesis/Reconfigurable BIST/s820_BIST/Typical/MISR.v
+FC:/Users/apple/Documents/UT/Master Thesis/Reconfigurable BIST/s820_BIST/Typical/MISR.v
+!i122 1030
+L0 2 27
+R7
+r1
+!s85 0
+31
+R27
+!s107 C:/Users/apple/Documents/UT/Master Thesis/Reconfigurable BIST/s820_BIST/Typical/MISR.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/apple/Documents/UT/Master Thesis/Reconfigurable BIST/s820_BIST/Typical/MISR.v|
+!i113 1
+R10
+R11
+n@m@i@s@r
+vNAND
+R21
+!i10b 1
+!s100 `Y:1XfRB[P7D@kUkB^zYo0
+R1
+IC@[7cVi6:eaCXLcNK?hSX0
+R2
+R3
+R22
+R23
+R24
+!i122 1031
+L0 8 5
+R7
+r1
+!s85 0
+31
+R18
+R25
+R26
+!i113 1
+R10
+R11
+n@n@a@n@d
+vNOR
+R21
+!i10b 1
+!s100 [^mN^cH<5@4Ch59ec@GFN3
+R1
+ILo2c0D<:AnJO=I3Hm:PMB1
+R2
+R3
+R22
+R23
+R24
+!i122 1031
+L0 14 5
+R7
+r1
+!s85 0
+31
+R18
+R25
+R26
+!i113 1
+R10
+R11
+n@n@o@r
+vNOT
+R21
+!i10b 1
+!s100 6imPiVbaJg0f_oC;Un^in0
+R1
+I=0iaQ@V2AN`0ETZRimk8C2
+R2
+R3
+R22
+R23
+R24
+!i122 1031
+L0 2 5
+R7
+r1
+!s85 0
+31
+R18
+R25
+R26
+!i113 1
+R10
+R11
+n@n@o@t
+vs820_scanInserted
+R14
+!i10b 1
+!s100 eXVP1mAHegz493LDhc0LJ1
+R1
+I;5GEDnoMR3ReoB]?Q3@^[3
+R2
+R3
+R15
+R16
+R17
+!i122 1032
+L0 27 2076
+R7
+r1
+!s85 0
+31
+R18
+R19
+R20
+!i113 1
+R10
+R11
+ns820_scan@inserted
+vs820_testable
+R14
+!i10b 1
+!s100 FE7dBG3`J2Q2<IIzC9QGW1
+R1
+I>ihY=Q7C;z^<ON37a^Y883
+R2
+R3
+w1726215330
+8C:/Users/apple/Documents/UT/Master Thesis/Reconfigurable BIST/s820_BIST/Typical/s820_testable.v
+FC:/Users/apple/Documents/UT/Master Thesis/Reconfigurable BIST/s820_BIST/Typical/s820_testable.v
+!i122 1033
+L0 1 181
+R7
+r1
+!s85 0
+31
+Z28 !s108 1726216854.000000
+!s107 C:/Users/apple/Documents/UT/Master Thesis/Reconfigurable BIST/s820_BIST/Typical/s820_testable.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/apple/Documents/UT/Master Thesis/Reconfigurable BIST/s820_BIST/Typical/s820_testable.v|
+!i113 1
+R10
+R11
+vsigROM
+Z29 !s110 1726216855
+!i10b 1
+!s100 =XHQ;7I:n?9QcY9d2Lm?R0
+R1
+IO1aofNFQ?KAnaI:YR6GK12
+R2
+R3
+w1726216810
+8C:/Users/apple/Documents/UT/Master Thesis/Reconfigurable BIST/s820_BIST/Typical/sigROM.v
+FC:/Users/apple/Documents/UT/Master Thesis/Reconfigurable BIST/s820_BIST/Typical/sigROM.v
+!i122 1034
+L0 2 22
+R7
+r1
+!s85 0
+31
+R28
+!s107 C:/Users/apple/Documents/UT/Master Thesis/Reconfigurable BIST/s820_BIST/Typical/sigROM.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/apple/Documents/UT/Master Thesis/Reconfigurable BIST/s820_BIST/Typical/sigROM.v|
+!i113 1
+R10
+R11
+nsig@r@o@m
+vSISA
+R29
+!i10b 1
+!s100 W>07;;f6e90Jj=`MGZ]O_2
+R1
+ISRQ:K^iF9J_>oQ35_NTE?2
+R2
+R3
+w1656319544
+8C:/Users/apple/Documents/UT/Master Thesis/Reconfigurable BIST/s820_BIST/Typical/SISA.v
+FC:/Users/apple/Documents/UT/Master Thesis/Reconfigurable BIST/s820_BIST/Typical/SISA.v
+!i122 1035
+L0 2 44
+R7
+r1
+!s85 0
+31
+Z30 !s108 1726216855.000000
+!s107 C:/Users/apple/Documents/UT/Master Thesis/Reconfigurable BIST/s820_BIST/Typical/SISA.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/apple/Documents/UT/Master Thesis/Reconfigurable BIST/s820_BIST/Typical/SISA.v|
+!i113 1
+R10
+R11
+n@s@i@s@a
+vSRSG
+Z31 !s110 1726216856
+!i10b 1
+!s100 kD9Lb92XSbcNo?3T8@dKZ2
+R1
+IKJ3`Y=i7>>UY^daCe9<EB2
+R2
+R3
+w1656319592
+8C:/Users/apple/Documents/UT/Master Thesis/Reconfigurable BIST/s820_BIST/Typical/SRSG.v
+FC:/Users/apple/Documents/UT/Master Thesis/Reconfigurable BIST/s820_BIST/Typical/SRSG.v
+!i122 1036
+L0 2 30
+R7
+r1
+!s85 0
+31
+R30
+!s107 C:/Users/apple/Documents/UT/Master Thesis/Reconfigurable BIST/s820_BIST/Typical/SRSG.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/apple/Documents/UT/Master Thesis/Reconfigurable BIST/s820_BIST/Typical/SRSG.v|
+!i113 1
+R10
+R11
+n@s@r@s@g
+vSTCR
+R31
+!i10b 1
+!s100 7e4GWcWlhH1>d=T0iZ4:11
+R1
+IU0=<^5PoNP3aPFFC^EXSK1
+R2
+R3
+w1725691968
+8C:/Users/apple/Documents/UT/Master Thesis/Reconfigurable BIST/s820_BIST/Typical/STCR.v
+FC:/Users/apple/Documents/UT/Master Thesis/Reconfigurable BIST/s820_BIST/Typical/STCR.v
+!i122 1037
+L0 2 21
+R7
+r1
+!s85 0
+31
+R12
+!s107 C:/Users/apple/Documents/UT/Master Thesis/Reconfigurable BIST/s820_BIST/Typical/STCR.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/apple/Documents/UT/Master Thesis/Reconfigurable BIST/s820_BIST/Typical/STCR.v|
+!i113 1
+R10
+R11
+n@s@t@c@r

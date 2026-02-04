@@ -1,0 +1,5 @@
+Test set Size =           1;	Fault Coverage : 0.533333 
+Test set Size =           2;	Fault Coverage : 0.933333 
+Test set Size =           3;	Fault Coverage : 0.933333 
+Test set Size =           4;	Fault Coverage : 1.133333 
+Simulation Time:                  495 
