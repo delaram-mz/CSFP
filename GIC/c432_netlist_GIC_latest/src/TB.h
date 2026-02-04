@@ -1,5 +1,8 @@
 #include "netlist.h"
 #include <fstream>
+#define SC_DISABLE_COPY_CHECK   // only if you need
+#include <systemc>
+
 
 SC_MODULE(c432_netlist_TB)
 {
@@ -14,7 +17,7 @@ SC_MODULE(c432_netlist_TB)
 	std::vector<std::string> testVecs;
 	SC_CTOR(c432_netlist_TB)
 	{
-
+		
 		testVecs = read_testPtr ("testPatterns150.txt");
 		UUT = new c432_netlist("c432_netlist_instance");
 		UUT->N1(testData1);
@@ -62,6 +65,9 @@ SC_MODULE(c432_netlist_TB)
 		UUT->N432(testRes7);
 		UUT->endSim(end);
 		UUT->newTV(newTV);
+
+		std::cerr << "After instantiation" << std::endl;	
+
 
 		SC_THREAD(testPtr);
 		SC_THREAD(endOfSim);

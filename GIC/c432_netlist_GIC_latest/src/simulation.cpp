@@ -4,6 +4,14 @@
 
 int sc_main(int argc, char** argv)
 {
+	sc_report_handler::set_actions(SC_ERROR, SC_DISPLAY | SC_ABORT);
+	sc_report_handler::set_actions(SC_FATAL, SC_DISPLAY | SC_ABORT);
+	sc_report_handler::set_actions(SC_WARNING, SC_DISPLAY);
+
+	// Optional: enable debug messages
+    sc_report_handler::set_verbosity_level(SC_DEBUG);
+	
+
 	//Save the original stream buffer for cout
 	std::streambuf* original_cout_buf = std::cout.rdbuf();
 	//Open the output file for writing
@@ -57,8 +65,9 @@ int sc_main(int argc, char** argv)
 
 
 
+		std::cerr << "File is open, reading is done" << std::endl;	
 
-	sc_start(40000000, SC_NS);
+	sc_start(400000, SC_NS);
 
 	//Restore the original cout stream buffer
 	std::cout.rdbuf(original_cout_buf);

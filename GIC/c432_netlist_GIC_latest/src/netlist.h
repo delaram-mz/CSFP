@@ -13,7 +13,7 @@
 extern std::map<int, gates*> module_map;
 
 SC_MODULE(c432_netlist)
-{
+{	
 	std::map<int, gates*> module_map;
 	
 	sc_in <sc_logic> N1, N102, N105, N108, N11, N112, N115, N14, N17, N21, N24, N27, N30, N34, N37, N4, N40, N43, N47, N50, N53, N56, N60, N63, N66, N69, N73, N76, N79, N8, N82, N86, N89, N92, N95, N99;
@@ -294,6 +294,7 @@ SC_MODULE(c432_netlist)
 		_447__Gate1->A2(_308_);
 		_447__Gate1->ZN(_312_);
 		module_map[1] = _447__Gate1;
+		std::cerr << "File is open, reading is done" << std::endl;	
 
 		_448__Gate2 = new NAND2_X1("_448__instance2");
 		_448__Gate2->id = 2;
@@ -2047,6 +2048,8 @@ SC_MODULE(c432_netlist)
 		_703__Gate257->A2(_309_);
 		_703__Gate257->ZN(_311_);
 		module_map[257] = _703__Gate257;
+
+
  
 		
 		cout << "all gates are instantiated " << numOfGates << "\n";
