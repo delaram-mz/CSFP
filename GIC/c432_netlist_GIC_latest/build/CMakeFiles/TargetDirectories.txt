@@ -1,0 +1,3 @@
+/home/fmohammadzad/CSFP/GIC/c432_netlist_GIC_latest/build/CMakeFiles/simulation.dir
+/home/fmohammadzad/CSFP/GIC/c432_netlist_GIC_latest/build/CMakeFiles/edit_cache.dir
+/home/fmohammadzad/CSFP/GIC/c432_netlist_GIC_latest/build/CMakeFiles/rebuild_cache.dir

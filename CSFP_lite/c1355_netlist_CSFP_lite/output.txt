@@ -1,0 +1,3 @@
+all gates are instantiated 777
+Simulation time: 401 ns
+Real time elapsed: 47.328 seconds

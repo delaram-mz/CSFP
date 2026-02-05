@@ -1,0 +1,26 @@
+read_verilog -sv /home/fmohammadzad/CSFP/benchmarks/verilog/c17/c17.v;
+read_liberty -lib mycells.lib;
+
+hierarchy -top c17;
+## proc;
+## opt;
+synth -top c17;
+
+# Set all hide_name to 0 before writing JSON
+#for cell $c in [all_cells] chparam $c hide_name 0;
+
+# Iterate over all modules
+
+# Go into the context of module c17
+select -module c17;
+select -C;
+chparam -set hide_name 0 [all_cells];
+
+
+dfflibmap -liberty mycells.lib;
+abc -liberty mycells.lib;
+opt_clean;
+
+stat > /home/fmohammadzad/CSFP/benchmarks/synth/c17/report.txt
+write_verilog -noattr /home/fmohammadzad/CSFP/benchmarks/synth/c17/c17_netlist.v
+write_json /home/fmohammadzad/CSFP/benchmarks/synth/c17/c17.json
