@@ -7,18 +7,18 @@ import re
 # -------------------------------
 FAULT_MODELS = {
     "NAND": lambda inst: [
-        f"s@0 {inst}.A",
-        f"s@0 {inst}.B",
-        f"s@1 {inst}.Y",
+        f"{inst}.A s@0",
+        f"{inst}.B s@0",
+        f"{inst}.Y s@1",
     ],
     "NOR": lambda inst: [
-        f"s@1 {inst}.A",
-        f"s@1 {inst}.B",
-        f"s@0 {inst}.Y",
+        f"{inst}.A s@1",
+        f"{inst}.B s@1",
+        f"{inst}.Y s@0",
     ],
     "NOT": lambda inst: [
-        f"s@0 {inst}.A",
-        f"s@1 {inst}.A",
+        f"{inst}.A s@0",
+        f"{inst}.A s@1",
     ],
 }
 

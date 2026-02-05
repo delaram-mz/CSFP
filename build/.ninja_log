@@ -1,0 +1,24 @@
+# ninja log v5
+1666	1788	1770334031526748347	gate_lib/libsc_gates.a	54fd8fb7da2a319d
+3	1558	1770334031298723672	gate_lib/CMakeFiles/sc_gates.dir/NAND2_X1.cpp.o	baeb6057b4138986
+3	1666	1770334031406301349	gate_lib/CMakeFiles/sc_gates.dir/NOR2_X1.cpp.o	5640a7695df0b15e
+2	8	0	clean	a31eedcededa8236
+3	1259	1770334030999171371	gate_lib/CMakeFiles/sc_gates.dir/PIN1_X1.cpp.o	2fba6ddddf0d3e56
+1871	1946	1770334031686296834	generated/c17/c17_sc	a384e844bb483213
+3	1590	1770334031331412473	gate_lib/CMakeFiles/sc_gates.dir/POUT1_X1.cpp.o	7f76398ecbaf7f38
+4	1871	1770334031610853234	generated/c17/CMakeFiles/c17_sc.dir/simulation.cpp.o	cd8e0f26c2affa24
+2	1657	1770334031397236403	gate_lib/CMakeFiles/sc_gates.dir/INV1_X1.cpp.o	f13d7665525d1589
+4	1666	1770334031406301349	generated/c17/CMakeFiles/c17_sc.dir/netlist.cpp.o	ed23b7cdd12be3fc
+4	1305	1770334031046074191	generated/c17/CMakeFiles/c17_sc.dir/TB.cpp.o	8f47c190f012a8ea
+1	26	1770332585356434740	build.ninja	2f974b73732db830
+2	10	0	clean	a31eedcededa8236
+2	1378	1770334129030461149	generated/c17/CMakeFiles/c17_sc.dir/netlist.cpp.o	ed23b7cdd12be3fc
+2	1401	1770334129054256225	gate_lib/CMakeFiles/sc_gates.dir/POUT1_X1.cpp.o	7f76398ecbaf7f38
+2	1499	1770334129151661082	generated/c17/CMakeFiles/c17_sc.dir/TB.cpp.o	8f47c190f012a8ea
+2	1535	1770334129188343483	gate_lib/CMakeFiles/sc_gates.dir/PIN1_X1.cpp.o	2fba6ddddf0d3e56
+1	1631	1770334129284214446	gate_lib/CMakeFiles/sc_gates.dir/INV1_X1.cpp.o	f13d7665525d1589
+2	1716	1770334129369468023	gate_lib/CMakeFiles/sc_gates.dir/NAND2_X1.cpp.o	baeb6057b4138986
+3	1755	1770334129407391317	generated/c17/CMakeFiles/c17_sc.dir/simulation.cpp.o	cd8e0f26c2affa24
+2	1823	1770334129476527806	gate_lib/CMakeFiles/sc_gates.dir/NOR2_X1.cpp.o	5640a7695df0b15e
+1823	1936	1770334129587981483	gate_lib/libsc_gates.a	54fd8fb7da2a319d
+1937	2014	1770334129665852818	generated/c17/c17_sc	a384e844bb483213

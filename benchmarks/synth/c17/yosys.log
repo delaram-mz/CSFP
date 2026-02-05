@@ -496,7 +496,7 @@ ABC: UC Berkeley, ABC 1.01 (compiled Feb  5 2026 16:47:41)
 ABC: abc 01> empty
 ABC: abc 01> source <abc-temp-dir>/abc.script
 ABC: + read_blif <abc-temp-dir>/input.blif 
-ABC: + read_library /tmp/yosys-abc-mMsMrC/stdcells.genlib 
+ABC: + read_library /tmp/yosys-abc-dpOyb5/stdcells.genlib 
 ABC: + strash 
 ABC: + dretime 
 ABC: + map 
@@ -658,6 +658,6 @@ Dumping module `\c17'.
 12. Executing JSON backend.
 
 Warnings: 4 unique messages, 4 total
-End of script. Logfile hash: 2bf03cf86a, CPU: user 0.03s system 0.01s, MEM: 20.91 MB peak
+End of script. Logfile hash: 6be10f703c, CPU: user 0.03s system 0.00s, MEM: 21.39 MB peak
 Yosys 0.62+9 (git sha1 1717fa018, g++ 13.3.0-6ubuntu2~24.04 -fPIC -O3)
-Time spent: 62% 2x abc (0 sec), 9% 3x read_verilog (0 sec), ...
+Time spent: 61% 2x abc (0 sec), 10% 17x opt_expr (0 sec), ...

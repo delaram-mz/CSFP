@@ -1,0 +1,12 @@
+/home/fmohammadzad/CSFP/build/CMakeFiles/edit_cache.dir
+/home/fmohammadzad/CSFP/build/CMakeFiles/rebuild_cache.dir
+/home/fmohammadzad/CSFP/build/common/CMakeFiles/edit_cache.dir
+/home/fmohammadzad/CSFP/build/common/CMakeFiles/rebuild_cache.dir
+/home/fmohammadzad/CSFP/build/gate_lib/CMakeFiles/sc_gates.dir
+/home/fmohammadzad/CSFP/build/gate_lib/CMakeFiles/edit_cache.dir
+/home/fmohammadzad/CSFP/build/gate_lib/CMakeFiles/rebuild_cache.dir
+/home/fmohammadzad/CSFP/build/generated/CMakeFiles/edit_cache.dir
+/home/fmohammadzad/CSFP/build/generated/CMakeFiles/rebuild_cache.dir
+/home/fmohammadzad/CSFP/build/generated/c17/CMakeFiles/c17_sc.dir
+/home/fmohammadzad/CSFP/build/generated/c17/CMakeFiles/edit_cache.dir
+/home/fmohammadzad/CSFP/build/generated/c17/CMakeFiles/rebuild_cache.dir

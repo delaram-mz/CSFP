@@ -11,8 +11,8 @@ public:
 	sc_in<bool> NbarT;
 
 	sc_uint<32> instance_id;
-	sc_vector<sc_lv<1>> possibleCombs{"constant_vector", 2};
- 	sc_vector<sc_lv<1>> observedCombs{"observedCombs", 2};
+	std::vector<sc_lv<2>> possibleCombs{2};  // vector of 2 elements
+	std::vector<sc_lv<2>> observedCombs{2};
 	sc_lv<1> curr_lv;
 	sc_lv<1> prev_lv;
 	sc_signal<sc_logic> prevZN;
@@ -33,7 +33,8 @@ public:
 
 	// Static counter to keep track of IDs
     SC_CTOR(INV1_X1): id(0) {
-		// fault_Detected.resize(4);
+		possibleCombs.resize(2);
+	    observedCombs.resize(2);
 		possibleCombs[0] = "0";
 		possibleCombs[1] = "1";
         // SC_METHOD(eval);
