@@ -1,0 +1,135 @@
+$date
+	Sat Feb  7 00:28:08 2026
+$end
+$version
+	ModelSim Version 2020.1
+$end
+$timescale
+	1ns
+$end
+
+$scope module SerialFS_TB $end
+$var reg 1 ! N1 $end
+$var reg 1 " N2 $end
+$var reg 1 # N3 $end
+$var reg 1 $ N6 $end
+$var reg 1 % N7 $end
+$var wire 1 & N22_Fout $end
+$var wire 1 ' N23_Fout $end
+$var wire 1 ( N22_Gout $end
+$var wire 1 ) N23_Gout $end
+$var reg 1 * detected $end
+$var integer 32 + logFile $end
+$var integer 32 , testFile $end
+$var integer 32 - faultFile $end
+$var integer 32 . status $end
+$var integer 32 / FCFile $end
+$var integer 32 0 faultsF $end
+$var integer 32 1 newfaultFile $end
+$var integer 32 2 i $end
+$var real 64 3 faultCount $end
+$var real 64 4 detectedFault $end
+$var real 64 5 TVnum $end
+$var reg 36 6 testVector [35:0] $end
+$var reg 1 7 stuckAtVal $end
+$var reg 1 8 stuckAtVal_prev $end
+$var reg 1 9 stopSimulation $end
+$var reg 1 : faultInjection $end
+
+$scope module FUT $end
+$var wire 1 ; N1 $end
+$var wire 1 < N2 $end
+$var wire 1 = N3 $end
+$var wire 1 > N6 $end
+$var wire 1 ? N7 $end
+$var wire 1 & N22 $end
+$var wire 1 ' N23 $end
+$var wire 1 @ _0_ $end
+$var wire 1 A _1_ $end
+$var wire 1 B _2_ $end
+$var wire 1 C _3_ $end
+
+$scope module _4_ $end
+$var wire 1 > A $end
+$var wire 1 = B $end
+$var wire 1 B Y $end
+$upscope $end
+
+$scope module _5_ $end
+$var wire 1 < A $end
+$var wire 1 B B $end
+$var wire 1 C Y $end
+$upscope $end
+
+$scope module _6_ $end
+$var wire 1 ? A $end
+$var wire 1 B B $end
+$var wire 1 @ Y $end
+$upscope $end
+
+$scope module _7_ $end
+$var wire 1 C A $end
+$var wire 1 @ B $end
+$var wire 1 ' Y $end
+$upscope $end
+
+$scope module _8_ $end
+$var wire 1 = A $end
+$var wire 1 ; B $end
+$var wire 1 A Y $end
+$upscope $end
+
+$scope module _9_ $end
+$var wire 1 C A $end
+$var wire 1 A B $end
+$var wire 1 & Y $end
+$upscope $end
+$upscope $end
+
+$scope module GUT $end
+$var wire 1 D N1 $end
+$var wire 1 E N2 $end
+$var wire 1 F N3 $end
+$var wire 1 G N6 $end
+$var wire 1 H N7 $end
+$var wire 1 ( N22 $end
+$var wire 1 ) N23 $end
+$var wire 1 I _0_ $end
+$var wire 1 J _1_ $end
+$var wire 1 K _2_ $end
+$var wire 1 L _3_ $end
+
+$scope module _4_ $end
+$var wire 1 G A $end
+$var wire 1 F B $end
+$var wire 1 K Y $end
+$upscope $end
+
+$scope module _5_ $end
+$var wire 1 E A $end
+$var wire 1 K B $end
+$var wire 1 L Y $end
+$upscope $end
+
+$scope module _6_ $end
+$var wire 1 H A $end
+$var wire 1 K B $end
+$var wire 1 I Y $end
+$upscope $end
+
+$scope module _7_ $end
+$var wire 1 L A $end
+$var wire 1 I B $end
+$var wire 1 ) Y $end
+$upscope $end
+
+$scope module _8_ $end
+$var wire 1 F A $end
+$var wire 1 D B $end
+$var wire 1 J Y $end
+$upscope $end
+
+$scope module _9_ $end
+$var wire 1 L A $end
+$var wire 1 J B $end
+$var wire 1 ( Y $end

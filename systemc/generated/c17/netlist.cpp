@@ -46,6 +46,7 @@ void c17::faultCollection()
 			if (!(std::find(ALL_DET.begin(), ALL_DET.end(), RX_FAULTS[j]) != ALL_DET.end())) 
 			{
 				ALL_DET.push_back(RX_FAULTS[j]);
+				cout << "Fault detected: " << RX_FAULTS[j][0] << " in gate " << RX_FAULTS[j][1] << "\n";
 				det +=1;
 			}
 		}

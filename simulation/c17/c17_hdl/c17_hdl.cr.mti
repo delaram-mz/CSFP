@@ -1,0 +1,21 @@
+/home/fmohammadzad/CSFP/simulation/c17/mycells.v {1 {vlog -work work -stats=none /home/fmohammadzad/CSFP/simulation/c17/mycells.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module NOT
+-- Compiling module NAND
+-- Compiling module NOR
+-- Compiling module DFF
+
+Top level modules:
+	NOT
+	NAND
+	NOR
+	DFF
+
+} {} {}} /home/fmohammadzad/CSFP/simulation/c17/c17_netlist.v {1 {vlog -work work -stats=none /home/fmohammadzad/CSFP/simulation/c17/c17_netlist.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module c17
+
+Top level modules:
+	c17
+
+} {} {}}

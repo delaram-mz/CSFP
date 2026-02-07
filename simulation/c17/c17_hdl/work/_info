@@ -1,0 +1,155 @@
+m255
+K4
+z2
+!s11f vlog 2020.1 2020.02, Feb 28 2020
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 d/home/fmohammadzad/CSFP/simulation/c17/c17_hdl
+vc17
+Z1 !s110 1770421469
+!i10b 1
+!s100 ^d>G3J1A?Bb=9NAk=@dc73
+Z2 !s11b Dg1SIo80bB@j0V0VzS_@n1
+I=YzBCKEK3V1H5M<10Uo0i2
+Z3 VDg1SIo80bB@j0V0VzS_@n1
+R0
+w1770420245
+8/home/fmohammadzad/CSFP/simulation/c17/c17_netlist.v
+F/home/fmohammadzad/CSFP/simulation/c17/c17_netlist.v
+!i122 26
+L0 3 50
+Z4 OV;L;2020.1;71
+r1
+!s85 0
+31
+Z5 !s108 1770421469.000000
+!s107 /home/fmohammadzad/CSFP/simulation/c17/c17_netlist.v|
+!s90 -reportprogress|300|-work|work|-stats=none|/home/fmohammadzad/CSFP/simulation/c17/c17_netlist.v|
+!i113 1
+Z6 o-work work
+Z7 tCvgOpt 0
+vDFF
+R1
+!i10b 1
+!s100 TcOT6lXmf28fW[^`=Q=Gj0
+R2
+I]734`_9l3U_AU9g0K3Q0?3
+R3
+R0
+Z8 w1770420095
+Z9 8/home/fmohammadzad/CSFP/simulation/c17/mycells.v
+Z10 F/home/fmohammadzad/CSFP/simulation/c17/mycells.v
+!i122 27
+L0 20 6
+R4
+r1
+!s85 0
+31
+R5
+Z11 !s107 /home/fmohammadzad/CSFP/simulation/c17/mycells.v|
+Z12 !s90 -reportprogress|300|-work|work|-stats=none|/home/fmohammadzad/CSFP/simulation/c17/mycells.v|
+!i113 1
+R6
+R7
+n@d@f@f
+vNAND
+R1
+!i10b 1
+!s100 `Y:1XfRB[P7D@kUkB^zYo0
+R2
+ID;nLL8@O:2AdE`VgRSb<J2
+R3
+R0
+R8
+R9
+R10
+!i122 27
+L0 8 5
+R4
+r1
+!s85 0
+31
+R5
+R11
+R12
+!i113 1
+R6
+R7
+n@n@a@n@d
+vNOR
+R1
+!i10b 1
+!s100 [^mN^cH<5@4Ch59ec@GFN3
+R2
+IX[9oTOhBQYEA>ha0^>5YE3
+R3
+R0
+R8
+R9
+R10
+!i122 27
+L0 14 5
+R4
+r1
+!s85 0
+31
+R5
+R11
+R12
+!i113 1
+R6
+R7
+n@n@o@r
+vNOT
+R1
+!i10b 1
+!s100 6imPiVbaJg0f_oC;Un^in0
+R2
+IN7jPE>2QFTh8^dkCReLiN0
+R3
+R0
+R8
+R9
+R10
+!i122 27
+L0 2 5
+R4
+r1
+!s85 0
+31
+R5
+R11
+R12
+!i113 1
+R6
+R7
+n@n@o@t
+vSerialFS_TB
+DXx6 sv_std 3 std 0 22 VYECXdT12H8WgbUP_5Y6:3
+R1
+!i10b 1
+!s100 IjSHT[[e`90?PBO9zVfC40
+R2
+IJXhXNzzMWB::FB>gflC<>1
+R3
+S1
+R0
+w1770421326
+8/home/fmohammadzad/CSFP/simulation/c17/SerialFS_TB.sv
+F/home/fmohammadzad/CSFP/simulation/c17/SerialFS_TB.sv
+!i122 28
+L0 2 151
+R4
+r1
+!s85 0
+31
+R5
+!s107 /home/fmohammadzad/CSFP/simulation/c17/SerialFS_TB.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|/home/fmohammadzad/CSFP/simulation/c17/SerialFS_TB.sv|
+!i113 1
+o-work work -sv
+R7
+n@serial@f@s_@t@b

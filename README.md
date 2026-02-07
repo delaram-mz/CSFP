@@ -39,6 +39,7 @@ The following scripts run sequentially:
 
 [TO_FIX]
 - we should currently run the `tools/v2sc_comb.ipynb` script manually to generate all the systemC files required for the simulation. 
+- cmake files for each benchmark (what is the correct way?)
 
 Having all the files availble in the correct direcory, we proceed to run thesystemC simulation, run the following command:
 

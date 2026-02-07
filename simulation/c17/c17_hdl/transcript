@@ -1,0 +1,853 @@
+# Loading project c17_hdl
+# Compile of c17_netlist.v was successful.
+# Compile of c17_netlist.v was successful.
+# Compile of c17_netlist.v was successful.
+# Compile of mycells.v was successful.
+# Compile of SerialFS_TB.sv was successful.
+# 3 compiles, 0 failed with no errors.
+vsim work.SerialFS_TB
+# vsim work.SerialFS_TB 
+# Start time: 00:33:55 on Feb 07,2026
+# Loading sv_std.std
+# Loading work.SerialFS_TB
+# Loading work.c17
+# Loading work.NAND
+add wave -position insertpoint  \
+sim:/SerialFS_TB/N1 \
+sim:/SerialFS_TB/N2 \
+sim:/SerialFS_TB/N3 \
+sim:/SerialFS_TB/N6 \
+sim:/SerialFS_TB/N7 \
+sim:/SerialFS_TB/N22_Fout \
+sim:/SerialFS_TB/N23_Fout \
+sim:/SerialFS_TB/N22_Gout \
+sim:/SerialFS_TB/N23_Gout \
+sim:/SerialFS_TB/detected \
+sim:/SerialFS_TB/logFile \
+sim:/SerialFS_TB/testFile \
+sim:/SerialFS_TB/faultFile \
+sim:/SerialFS_TB/status \
+sim:/SerialFS_TB/FCFile \
+sim:/SerialFS_TB/faultsF \
+sim:/SerialFS_TB/newfaultFile \
+sim:/SerialFS_TB/i \
+sim:/SerialFS_TB/faultCount \
+sim:/SerialFS_TB/detectedFault \
+sim:/SerialFS_TB/TVnum \
+sim:/SerialFS_TB/testVector \
+sim:/SerialFS_TB/wireName \
+sim:/SerialFS_TB/wireName_prev \
+sim:/SerialFS_TB/faultsPath \
+sim:/SerialFS_TB/newfaultsPath \
+sim:/SerialFS_TB/readIdx \
+sim:/SerialFS_TB/writeIdx \
+sim:/SerialFS_TB/stuckAtVal \
+sim:/SerialFS_TB/stuckAtVal_prev \
+sim:/SerialFS_TB/stopSimulation \
+sim:/SerialFS_TB/faultInjection
+do mydo.do
+do mydo.do SerialFS_TB
+# Compile of c17_netlist.v was successful.
+# Compile of mycells.v was successful.
+# Compile of SerialFS_TB.sv was successful.
+# 3 compiles, 0 failed with no errors.
+# End time: 00:34:26 on Feb 07,2026, Elapsed time: 0:00:31
+# Errors: 0, Warnings: 9
+# vsim work.SerialFS_TB 
+# Start time: 00:34:26 on Feb 07,2026
+# Loading sv_std.std
+# Loading work.SerialFS_TB
+# Loading work.c17
+# Loading work.NAND
+# ** Warning: (vsim-3533) [FOFIW] - Failed to open file "faults/faultSet_1.flt" for writing.
+# No such file or directory. (errno = ENOENT)    : /home/fmohammadzad/CSFP/simulation/c17/SerialFS_TB.sv(50)
+#    Time: 0 ns  Iteration: 0  Instance: /SerialFS_TB
+# when execution error: (faultInjectionwhen) ** UI-Msg (suppressible): (vsim-4008) Object 'sim:' not found.
+# 
+# Simulation stop requested.
+
+add wave -position insertpoint  \
+sim:/SerialFS_TB/N1 \
+sim:/SerialFS_TB/N2 \
+sim:/SerialFS_TB/N3 \
+sim:/SerialFS_TB/N6 \
+sim:/SerialFS_TB/N7 \
+sim:/SerialFS_TB/N22_Fout \
+sim:/SerialFS_TB/N23_Fout \
+sim:/SerialFS_TB/N22_Gout \
+sim:/SerialFS_TB/N23_Gout \
+sim:/SerialFS_TB/detected \
+sim:/SerialFS_TB/logFile \
+sim:/SerialFS_TB/testFile \
+sim:/SerialFS_TB/faultFile \
+sim:/SerialFS_TB/status \
+sim:/SerialFS_TB/FCFile \
+sim:/SerialFS_TB/faultsF \
+sim:/SerialFS_TB/newfaultFile \
+sim:/SerialFS_TB/i \
+sim:/SerialFS_TB/faultCount \
+sim:/SerialFS_TB/detectedFault \
+sim:/SerialFS_TB/TVnum \
+sim:/SerialFS_TB/testVector \
+sim:/SerialFS_TB/wireName \
+sim:/SerialFS_TB/wireName_prev \
+sim:/SerialFS_TB/faultsPath \
+sim:/SerialFS_TB/newfaultsPath \
+sim:/SerialFS_TB/readIdx \
+sim:/SerialFS_TB/writeIdx \
+sim:/SerialFS_TB/stuckAtVal \
+sim:/SerialFS_TB/stuckAtVal_prev \
+sim:/SerialFS_TB/stopSimulation \
+sim:/SerialFS_TB/faultInjection
+write format wave -window .main_pane.wave.interior.cs.body.pw.wf /home/fmohammadzad/CSFP/simulation/c17/c17_hdl/wave.do
+do mydo.do SerialFS_TB
+# Compile of c17_netlist.v was successful.
+# Compile of mycells.v was successful.
+# Compile of SerialFS_TB.sv was successful.
+# 3 compiles, 0 failed with no errors.
+# End time: 00:35:07 on Feb 07,2026, Elapsed time: 0:00:41
+# Errors: 0, Warnings: 3
+# vsim work.SerialFS_TB 
+# Start time: 00:35:07 on Feb 07,2026
+# Loading sv_std.std
+# Loading work.SerialFS_TB
+# Loading work.c17
+# Loading work.NAND
+# ** Warning: (vsim-3533) [FOFIW] - Failed to open file "faults/faultSet_1.flt" for writing.
+# No such file or directory. (errno = ENOENT)    : /home/fmohammadzad/CSFP/simulation/c17/SerialFS_TB.sv(50)
+#    Time: 0 ns  Iteration: 0  Instance: /SerialFS_TB
+# when execution error: (faultInjectionwhen) ** UI-Msg (suppressible): (vsim-4008) Object 'sim:' not found.
+# 
+# Simulation stop requested.
+do mydo.do SerialFS_TB
+# Compile of c17_netlist.v was successful.
+# Compile of mycells.v was successful.
+# Compile of SerialFS_TB.sv was successful.
+# 3 compiles, 0 failed with no errors.
+# End time: 00:36:33 on Feb 07,2026, Elapsed time: 0:01:26
+# Errors: 0, Warnings: 3
+# vsim work.SerialFS_TB 
+# Start time: 00:36:33 on Feb 07,2026
+# Loading sv_std.std
+# Loading work.SerialFS_TB
+# Loading work.c17
+# Loading work.NAND
+# when execution error: (faultInjectionwhen) ** UI-Msg (suppressible): (vsim-4008) Object 'sim:' not found.
+# 
+# Simulation stop requested.
+do mydo.do SerialFS_TB
+# Compile of c17_netlist.v was successful.
+# Compile of mycells.v was successful.
+# Compile of SerialFS_TB.sv was successful.
+# 3 compiles, 0 failed with no errors.
+# End time: 00:38:54 on Feb 07,2026, Elapsed time: 0:02:21
+# Errors: 0, Warnings: 2
+# vsim work.SerialFS_TB 
+# Start time: 00:38:54 on Feb 07,2026
+# Loading sv_std.std
+# Loading work.SerialFS_TB
+# Loading work.c17
+# Loading work.NAND
+# when execution error: (faultInjectionwhen) ** UI-Msg (suppressible): (vsim-4008) Object 'sim:' not found.
+# 
+# Simulation stop requested.
+add wave -position insertpoint  \
+sim:/SerialFS_TB/FUT/_4_/A
+add wave -position insertpoint  \
+sim:/SerialFS_TB/FUT/_4_/A
+do mydo.do SerialFS_TB
+# Compile of c17_netlist.v was successful.
+# Compile of mycells.v was successful.
+# Compile of SerialFS_TB.sv was successful.
+# 3 compiles, 0 failed with no errors.
+# End time: 00:40:55 on Feb 07,2026, Elapsed time: 0:02:01
+# Errors: 0, Warnings: 2
+# vsim work.SerialFS_TB 
+# Start time: 00:40:55 on Feb 07,2026
+# Loading sv_std.std
+# Loading work.SerialFS_TB
+# Loading work.c17
+# Loading work.NAND
+# Test set size =           1
+# Collapsed Faults =         15
+# Detected Faults =         10
+# 
+# coverage = 0.666667
+# 
+# Test set size =           2
+# Collapsed Faults =         15
+# Detected Faults =         14
+# 
+# coverage = 0.933333
+# 
+# Test set size =           3
+# Collapsed Faults =         15
+# Detected Faults =         14
+# 
+# coverage = 0.933333
+# 
+# Test set size =           4
+# Collapsed Faults =         15
+# Detected Faults =         18
+# 
+# coverage = 1.200000
+# 
+# Test set size =           5
+# Collapsed Faults =         15
+# Detected Faults =         18
+# 
+# coverage = 1.200000
+# 
+# Test set size =           6
+# Collapsed Faults =         15
+# Detected Faults =         18
+# 
+# coverage = 1.200000
+# 
+# Test set size =           7
+# Collapsed Faults =         15
+# Detected Faults =         18
+# 
+# coverage = 1.200000
+# 
+# Test set size =           8
+# Collapsed Faults =         15
+# Detected Faults =         18
+# 
+# coverage = 1.200000
+# 
+# Test set size =           9
+# Collapsed Faults =         15
+# Detected Faults =         18
+# 
+# coverage = 1.200000
+# 
+# Test set size =          10
+# Collapsed Faults =         15
+# Detected Faults =         18
+# 
+# coverage = 1.200000
+# 
+# Test set size =          11
+# Collapsed Faults =         15
+# Detected Faults =         18
+# 
+# coverage = 1.200000
+# 
+# Test set size =          12
+# Collapsed Faults =         15
+# Detected Faults =         18
+# 
+# coverage = 1.200000
+# 
+# Test set size =          13
+# Collapsed Faults =         15
+# Detected Faults =         18
+# 
+# coverage = 1.200000
+# 
+# Test set size =          14
+# Collapsed Faults =         15
+# Detected Faults =         18
+# 
+# coverage = 1.200000
+# 
+# Test set size =          15
+# Collapsed Faults =         15
+# Detected Faults =         18
+# 
+# coverage = 1.200000
+# 
+# Test set size =          16
+# Collapsed Faults =         15
+# Detected Faults =         18
+# 
+# coverage = 1.200000
+# 
+# Test set size =          17
+# Collapsed Faults =         15
+# Detected Faults =         18
+# 
+# coverage = 1.200000
+# 
+# Test set size =          18
+# Collapsed Faults =         15
+# Detected Faults =         18
+# 
+# coverage = 1.200000
+# 
+# Test set size =          19
+# Collapsed Faults =         15
+# Detected Faults =         18
+# 
+# coverage = 1.200000
+# 
+# Test set size =          20
+# Collapsed Faults =         15
+# Detected Faults =         18
+# 
+# coverage = 1.200000
+# 
+# Test set size =          21
+# Collapsed Faults =         15
+# Detected Faults =         18
+# 
+# coverage = 1.200000
+# 
+# Test set size =          22
+# Collapsed Faults =         15
+# Detected Faults =         18
+# 
+# coverage = 1.200000
+# 
+# Test set size =          23
+# Collapsed Faults =         15
+# Detected Faults =         18
+# 
+# coverage = 1.200000
+# 
+# Test set size =          24
+# Collapsed Faults =         15
+# Detected Faults =         18
+# 
+# coverage = 1.200000
+# 
+# Test set size =          25
+# Collapsed Faults =         15
+# Detected Faults =         18
+# 
+# coverage = 1.200000
+# 
+# Test set size =          26
+# Collapsed Faults =         15
+# Detected Faults =         18
+# 
+# coverage = 1.200000
+# 
+# Test set size =          27
+# Collapsed Faults =         15
+# Detected Faults =         18
+# 
+# coverage = 1.200000
+# 
+# Test set size =          28
+# Collapsed Faults =         15
+# Detected Faults =         18
+# 
+# coverage = 1.200000
+# 
+# Test set size =          29
+# Collapsed Faults =         15
+# Detected Faults =         18
+# 
+# coverage = 1.200000
+# 
+# Test set size =          30
+# Collapsed Faults =         15
+# Detected Faults =         18
+# 
+# coverage = 1.200000
+# 
+# Test set size =          31
+# Collapsed Faults =         15
+# Detected Faults =         18
+# 
+# coverage = 1.200000
+# 
+# Test set size =          32
+# Collapsed Faults =         15
+# Detected Faults =         18
+# 
+# coverage = 1.200000
+# 
+# Test set size =          33
+# Collapsed Faults =         15
+# Detected Faults =         18
+# 
+# coverage = 1.200000
+# 
+# Test set size =          34
+# Collapsed Faults =         15
+# Detected Faults =         18
+# 
+# coverage = 1.200000
+# 
+# Test set size =          35
+# Collapsed Faults =         15
+# Detected Faults =         18
+# 
+# coverage = 1.200000
+# 
+# Test set size =          36
+# Collapsed Faults =         15
+# Detected Faults =         18
+# 
+# coverage = 1.200000
+# 
+# Test set size =          37
+# Collapsed Faults =         15
+# Detected Faults =         18
+# 
+# coverage = 1.200000
+# 
+# Test set size =          38
+# Collapsed Faults =         15
+# Detected Faults =         18
+# 
+# coverage = 1.200000
+# 
+# Test set size =          39
+# Collapsed Faults =         15
+# Detected Faults =         18
+# 
+# coverage = 1.200000
+# 
+# Test set size =          40
+# Collapsed Faults =         15
+# Detected Faults =         18
+# 
+# coverage = 1.200000
+# 
+# Simulation stop requested.
+do mydo.do SerialFS_TB
+# Compile of c17_netlist.v was successful.
+# Compile of mycells.v was successful.
+# Compile of SerialFS_TB.sv was successful.
+# 3 compiles, 0 failed with no errors.
+# End time: 00:42:12 on Feb 07,2026, Elapsed time: 0:01:17
+# Errors: 0, Warnings: 2
+# vsim work.SerialFS_TB 
+# Start time: 00:42:12 on Feb 07,2026
+# Loading sv_std.std
+# Loading work.SerialFS_TB
+# Loading work.c17
+# Loading work.NAND
+# Test set size =           1
+# Collapsed Faults =         18
+# Detected Faults =         10
+# 
+# coverage = 0.555556
+# 
+# Test set size =           2
+# Collapsed Faults =         18
+# Detected Faults =         14
+# 
+# coverage = 0.777778
+# 
+# Test set size =           3
+# Collapsed Faults =         18
+# Detected Faults =         14
+# 
+# coverage = 0.777778
+# 
+# Test set size =           4
+# Collapsed Faults =         18
+# Detected Faults =         18
+# 
+# coverage = 1.000000
+# 
+# Test set size =           5
+# Collapsed Faults =         18
+# Detected Faults =         18
+# 
+# coverage = 1.000000
+# 
+# Test set size =           6
+# Collapsed Faults =         18
+# Detected Faults =         18
+# 
+# coverage = 1.000000
+# 
+# Test set size =           7
+# Collapsed Faults =         18
+# Detected Faults =         18
+# 
+# coverage = 1.000000
+# 
+# Test set size =           8
+# Collapsed Faults =         18
+# Detected Faults =         18
+# 
+# coverage = 1.000000
+# 
+# Test set size =           9
+# Collapsed Faults =         18
+# Detected Faults =         18
+# 
+# coverage = 1.000000
+# 
+# Test set size =          10
+# Collapsed Faults =         18
+# Detected Faults =         18
+# 
+# coverage = 1.000000
+# 
+# Test set size =          11
+# Collapsed Faults =         18
+# Detected Faults =         18
+# 
+# coverage = 1.000000
+# 
+# Test set size =          12
+# Collapsed Faults =         18
+# Detected Faults =         18
+# 
+# coverage = 1.000000
+# 
+# Test set size =          13
+# Collapsed Faults =         18
+# Detected Faults =         18
+# 
+# coverage = 1.000000
+# 
+# Test set size =          14
+# Collapsed Faults =         18
+# Detected Faults =         18
+# 
+# coverage = 1.000000
+# 
+# Test set size =          15
+# Collapsed Faults =         18
+# Detected Faults =         18
+# 
+# coverage = 1.000000
+# 
+# Test set size =          16
+# Collapsed Faults =         18
+# Detected Faults =         18
+# 
+# coverage = 1.000000
+# 
+# Test set size =          17
+# Collapsed Faults =         18
+# Detected Faults =         18
+# 
+# coverage = 1.000000
+# 
+# Test set size =          18
+# Collapsed Faults =         18
+# Detected Faults =         18
+# 
+# coverage = 1.000000
+# 
+# Test set size =          19
+# Collapsed Faults =         18
+# Detected Faults =         18
+# 
+# coverage = 1.000000
+# 
+# Test set size =          20
+# Collapsed Faults =         18
+# Detected Faults =         18
+# 
+# coverage = 1.000000
+# 
+# Test set size =          21
+# Collapsed Faults =         18
+# Detected Faults =         18
+# 
+# coverage = 1.000000
+# 
+# Test set size =          22
+# Collapsed Faults =         18
+# Detected Faults =         18
+# 
+# coverage = 1.000000
+# 
+# Test set size =          23
+# Collapsed Faults =         18
+# Detected Faults =         18
+# 
+# coverage = 1.000000
+# 
+# Test set size =          24
+# Collapsed Faults =         18
+# Detected Faults =         18
+# 
+# coverage = 1.000000
+# 
+# Test set size =          25
+# Collapsed Faults =         18
+# Detected Faults =         18
+# 
+# coverage = 1.000000
+# 
+# Test set size =          26
+# Collapsed Faults =         18
+# Detected Faults =         18
+# 
+# coverage = 1.000000
+# 
+# Test set size =          27
+# Collapsed Faults =         18
+# Detected Faults =         18
+# 
+# coverage = 1.000000
+# 
+# Test set size =          28
+# Collapsed Faults =         18
+# Detected Faults =         18
+# 
+# coverage = 1.000000
+# 
+# Test set size =          29
+# Collapsed Faults =         18
+# Detected Faults =         18
+# 
+# coverage = 1.000000
+# 
+# Test set size =          30
+# Collapsed Faults =         18
+# Detected Faults =         18
+# 
+# coverage = 1.000000
+# 
+# Test set size =          31
+# Collapsed Faults =         18
+# Detected Faults =         18
+# 
+# coverage = 1.000000
+# 
+# Test set size =          32
+# Collapsed Faults =         18
+# Detected Faults =         18
+# 
+# coverage = 1.000000
+# 
+# Test set size =          33
+# Collapsed Faults =         18
+# Detected Faults =         18
+# 
+# coverage = 1.000000
+# 
+# Test set size =          34
+# Collapsed Faults =         18
+# Detected Faults =         18
+# 
+# coverage = 1.000000
+# 
+# Test set size =          35
+# Collapsed Faults =         18
+# Detected Faults =         18
+# 
+# coverage = 1.000000
+# 
+# Test set size =          36
+# Collapsed Faults =         18
+# Detected Faults =         18
+# 
+# coverage = 1.000000
+# 
+# Test set size =          37
+# Collapsed Faults =         18
+# Detected Faults =         18
+# 
+# coverage = 1.000000
+# 
+# Test set size =          38
+# Collapsed Faults =         18
+# Detected Faults =         18
+# 
+# coverage = 1.000000
+# 
+# Test set size =          39
+# Collapsed Faults =         18
+# Detected Faults =         18
+# 
+# coverage = 1.000000
+# 
+# Test set size =          40
+# Collapsed Faults =         18
+# Detected Faults =         18
+# 
+# coverage = 1.000000
+# 
+# Simulation stop requested.
+do mydo.do SerialFS_TB
+# Compile of c17_netlist.v was successful.
+# Compile of mycells.v was successful.
+# Compile of SerialFS_TB.sv was successful.
+# 3 compiles, 0 failed with no errors.
+# End time: 00:44:30 on Feb 07,2026, Elapsed time: 0:02:18
+# Errors: 0, Warnings: 2
+# vsim work.SerialFS_TB 
+# Start time: 00:44:30 on Feb 07,2026
+# Loading sv_std.std
+# Loading work.SerialFS_TB
+# Loading work.c17
+# Loading work.NAND
+# Test set size =           1
+# Collapsed Faults =         18
+# Detected Faults =          4
+# 
+# coverage = 0.222222
+# 
+# Test set size =           2
+# Collapsed Faults =         18
+# Detected Faults =          4
+# 
+# coverage = 0.222222
+# 
+# Test set size =           3
+# Collapsed Faults =         18
+# Detected Faults =          4
+# 
+# coverage = 0.222222
+# 
+# Test set size =           4
+# Collapsed Faults =         18
+# Detected Faults =          4
+# 
+# coverage = 0.222222
+# 
+# Test set size =           5
+# Collapsed Faults =         18
+# Detected Faults =          4
+# 
+# coverage = 0.222222
+# 
+# Test set size =           6
+# Collapsed Faults =         18
+# Detected Faults =          4
+# 
+# coverage = 0.222222
+# 
+# Test set size =           7
+# Collapsed Faults =         18
+# Detected Faults =         12
+# 
+# coverage = 0.666667
+# 
+# Test set size =           8
+# Collapsed Faults =         18
+# Detected Faults =         12
+# 
+# coverage = 0.666667
+# 
+# Test set size =           9
+# Collapsed Faults =         18
+# Detected Faults =         12
+# 
+# coverage = 0.666667
+# 
+# Test set size =          10
+# Collapsed Faults =         18
+# Detected Faults =         12
+# 
+# coverage = 0.666667
+# 
+# Test set size =          11
+# Collapsed Faults =         18
+# Detected Faults =         12
+# 
+# coverage = 0.666667
+# 
+# Test set size =          12
+# Collapsed Faults =         18
+# Detected Faults =         12
+# 
+# coverage = 0.666667
+# 
+# Test set size =          13
+# Collapsed Faults =         18
+# Detected Faults =         12
+# 
+# coverage = 0.666667
+# 
+# Test set size =          14
+# Collapsed Faults =         18
+# Detected Faults =         12
+# 
+# coverage = 0.666667
+# 
+# Test set size =          15
+# Collapsed Faults =         18
+# Detected Faults =         12
+# 
+# coverage = 0.666667
+# 
+# Test set size =          16
+# Collapsed Faults =         18
+# Detected Faults =         12
+# 
+# coverage = 0.666667
+# 
+# Test set size =          17
+# Collapsed Faults =         18
+# Detected Faults =         12
+# 
+# coverage = 0.666667
+# 
+# Test set size =          18
+# Collapsed Faults =         18
+# Detected Faults =         12
+# 
+# coverage = 0.666667
+# 
+# Test set size =          19
+# Collapsed Faults =         18
+# Detected Faults =         12
+# 
+# coverage = 0.666667
+# 
+# Test set size =          20
+# Collapsed Faults =         18
+# Detected Faults =         12
+# 
+# coverage = 0.666667
+# 
+# Test set size =          21
+# Collapsed Faults =         18
+# Detected Faults =         12
+# 
+# coverage = 0.666667
+# 
+# Test set size =          22
+# Collapsed Faults =         18
+# Detected Faults =         12
+# 
+# coverage = 0.666667
+# 
+# Test set size =          23
+# Collapsed Faults =         18
+# Detected Faults =         14
+# 
+# coverage = 0.777778
+# 
+# Test set size =          24
+# Collapsed Faults =         18
+# Detected Faults =         16
+# 
+# coverage = 0.888889
+# 
+# Test set size =          25
+# Collapsed Faults =         18
+# Detected Faults =         16
+# 
+# coverage = 0.888889
+# 
+# Test set size =          26
+# Collapsed Faults =         18
+# Detected Faults =         16
+# 
+# coverage = 0.888889
+# 
+# Test set size =          27
+# Collapsed Faults =         18
+# Detected Faults =         16
+# 
+# coverage = 0.888889
+# 
+# Test set size =          28
+# Collapsed Faults =         18
+# Detected Faults =         16
+# 
+# coverage = 0.888889
+# 
+# Test set size =          29
+# Collapsed Faults =         18
+# Detected Faults =         16
+# 
+# coverage = 0.888889
+# 
+# Simulation stop requested.
