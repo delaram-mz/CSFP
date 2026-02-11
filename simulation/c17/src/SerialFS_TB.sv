@@ -91,6 +91,17 @@ initial begin
 	stopSimulation = 1'b1;
 	#10;
 	$stop;
+	$display("Simulation done!");
+
+	$info("NORMAL EXIT (note: failure is to force the simulator to stop)");
+
+	$fatal(0, "Forcing simulator stop");
+
+	$error("Forcing simulator stop");
+
+	$display("Simulation done!");
+	$display("NORMAL EXIT (note: failure is to force the simulator to stop)");
+	$finish;        // or $fatal(0, "Stopping simulation");
 end
 
 

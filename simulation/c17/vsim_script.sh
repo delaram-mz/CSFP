@@ -1,65 +1,110 @@
-#!/bin/bash
+#!/usr/bin/env bash
+set -e
 
-# ---- Arguments ----
-PROJECT_NAME=$1
-SRC_DIR=$2
-TOP_MODULE=$3
+####################################
+# Usage:
+# ./run_sim_project.sh <project_name> <top_module> <src_dir1> [src_dir2 ...] [--gui]
+####################################
 
-## ---- ModelSim paths ----
-## Update this if modelsim binary is not in PATH
-#MODELSIM_BIN=~/intelFPGA/18.1/modelsim_ase/linuxaloem
-
-# ---- Check arguments ----
-if [ -z "$PROJECT_NAME" ] || [ -z "$SRC_DIR" ] || [ -z "$TOP_MODULE" ]; then
-  echo "Usage: $0 <project_name> <source_dir> <top_module>"
-  exit 1
+if [ "$#" -lt 3 ]; then
+    echo "Usage:"
+    echo "  $0 <project_name> <top_module> <src_dir1> [src_dir2 ...] [--gui]"
+    exit 1
 fi
 
-# ---- Create project directory if not exists ----
-mkdir -p $PROJECT_NAME/work
-cd $PROJECT_NAME
+# Parameters
+PROJECT_NAME="$1"
+TOP="$2"
+shift 2
 
-# ---- Initialize ModelSim project (only if not existing) ----
-if [ ! -f "$PROJECT_NAME.mpf" ]; then
-  echo "Creating new ModelSim project: $PROJECT_NAME"
-  vsim -do "
-    project new $PROJECT_NAME;
-    project open $PROJECT_NAME;
-    project save;
-    quit -f;
-  " > /dev/null 2>&1
-fi
+MODE="batch"
+SRC_DIRS=()
 
-# ---- Compile source files ----
-echo "Compiling source files from $SRC_DIR ..."
-for file in $SRC_DIR/*; do
-  ext="${file##*.}"
-  if [ "$ext" = "vhd" ] || [ "$ext" = "vhdl" ]; then
-    vcom -work work $file || exit 1
-  elif [ "$ext" = "v" ] || [ "$ext" = "sv" ]; then
-    vlog -work work $file || exit 1
-  fi
+for arg in "$@"; do
+    if [ "$arg" == "--gui" ]; then
+        MODE="gui"
+    else
+        SRC_DIRS+=("$arg")
+    fi
 done
 
-# ---- Generate DO script for simulation ----
-DO_FILE=run_sim.do
-cat <<EOF > $DO_FILE
-# ModelSim DO file - auto-generated
-vcd file $TOP_MODULE.vcd
-vcd add -r /*
-run -all
-vcd flush
+# Absolute paths
+ROOT_DIR=$(pwd)
+PROJ_DIR="$ROOT_DIR/$PROJECT_NAME"
+SIF_FILES_DIR="$ROOT_DIR/sim_files"
+
+TCL_SCRIPT="$PROJ_DIR/run.tcl"
+
+# Reset simulation directory
+rm -rf "$PROJ_DIR" && mkdir -p "$PROJ_DIR"
+
+mkdir -p "$PROJ_DIR"
+
+cp "$ROOT_DIR/resources/modelsim.ini" "$PROJ_DIR/"
+
+# copy simulation files to the simulation directory
+cp "$SIF_FILES_DIR/c17_faultlist.flt" "$PROJ_DIR/"
+cp "$SIF_FILES_DIR/faultInjection.tcl" "$PROJ_DIR/"
+cp "$SIF_FILES_DIR/mydo.do" "$PROJ_DIR/"
+cp "$SIF_FILES_DIR/testPatterns.txt" "$PROJ_DIR/"
+
+mkdir -p "$PROJ_DIR/faults"
+
+
+####################################
+# Generate TCL script
+####################################
+cat > "$TCL_SCRIPT" <<EOF
+# Auto-generated ModelSim project script
+# Project: $PROJECT_NAME
+# Top: $TOP
+# VHDL standard: 2008
+
+set TOP $TOP
+
+# Source directories (absolute paths)
+set SRC_DIRS [list \
+$(for d in "${SRC_DIRS[@]}"; do printf "    {%s} \\\n" "$d"; done)
+]
+
+# Create/open project
+file mkdir "$PROJ_DIR"
+vlib work
+vmap work work
+project new . simulation work modelsim.ini 0
+project open simulation
+
+# Add HDL files from directories
+foreach dir \$SRC_DIRS {
+    if {[file isdirectory \$dir]} {
+        foreach f [glob -nocomplain "\$dir/*.{v,sv,vhd,vhdl}"] {
+            project addfile \$f
+        }
+    } else {
+        puts "Warning: directory \$dir does not exist"
+    }
+}
+
+# Compile all files
+project calculateorder
+project compileall
+
+do mydo.do SerialFS_TB
+
+# # Run simulation
+# vsim work.\$TOP
+# add wave -r /*
+# run -all
 quit
 EOF
 
-# ---- Run simulation ----
-echo "Running simulation for top module: $TOP_MODULE"
-vsim -c work.$TOP_MODULE -do $DO_FILE
+####################################
+# Run ModelSim
+####################################
+cd "$PROJ_DIR"
 
-# ---- Post-simulation message ----
-if [ -f "$TOP_MODULE.vcd" ]; then
-  echo "Simulation completed successfully."
-  echo "Waveform dumped to: $(pwd)/$TOP_MODULE.vcd"
+if [ "$MODE" == "gui" ]; then
+    vsim -do run.tcl
 else
-  echo "Simulation finished, but no VCD file was generated."
+    vsim -c -do run.tcl
 fi
